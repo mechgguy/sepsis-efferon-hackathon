@@ -7,6 +7,14 @@ from docling.datamodel.base_models import InputFormat
 from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling.datamodel.accelerator_options import AcceleratorDevice, AcceleratorOptions
 import json
+import base64
+import fitz  # PyMuPDF
+@dataclass
+class ParsedFigure:
+    index: int
+    caption: str
+    page_start: int = 1
+    image_path: str = ""   # stored artifact path
 
 @dataclass
 class ParsedSection:
@@ -26,6 +34,7 @@ class ParsedPaper:
     paper_id: str
     sections: list[ParsedSection]
     tables: list[ParsedTable]
+    figures: list[ParsedFigure]   # NEW
     full_markdown: str
 
 def build_converter() -> DocumentConverter:
@@ -44,6 +53,8 @@ _converter = build_converter()
 
 PARSED_CACHE_DIR = Path("data/parsed_papers")
 PARSED_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+FIGURE_DIR = PARSED_CACHE_DIR / "figures"
+FIGURE_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def _page_of(item) -> int:
@@ -57,7 +68,7 @@ def _page_of(item) -> int:
 def parse_pdf(pdf_path: str | Path) -> ParsedPaper:
     pdf_path = Path(pdf_path)
     cache_path = PARSED_CACHE_DIR / f"{pdf_path.stem}.json"
-
+    pdf_doc = fitz.open(str(pdf_path))
     if cache_path.exists():
         print(f"  ⚡ Using cached parse for {pdf_path.name}")
         with open(cache_path, "r") as f:
@@ -66,7 +77,8 @@ def parse_pdf(pdf_path: str | Path) -> ParsedPaper:
                 paper_id=data['paper_id'],
                 sections=[ParsedSection(**s) for s in data['sections']],
                 tables=[ParsedTable(**t) for t in data['tables']],
-                full_markdown=data['full_markdown']
+                full_markdown=data['full_markdown'],
+                figures=[ParsedFigure(**f) for f in data.get("figures", [])],
             )
 
     print(f"  ⚙️  First-time parse for {pdf_path.name} (Loading weights...)")
@@ -127,15 +139,69 @@ def parse_pdf(pdf_path: str | Path) -> ParsedPaper:
             page_start=page,
         ))
 
+    figures = []
+    figure_idx = 0
+
+    for item, _ in doc.iterate_items():
+        t = type(item).__name__
+
+        if t in ("PictureItem", "ImageItem"):
+            page = _page_of(item) - 1
+
+            caption = ""
+
+            bbox = None
+            try:
+                bbox = item.prov[0].bbox
+            except Exception:
+                bbox = None
+
+            image_path = ""
+
+            if bbox:
+                page_obj = pdf_doc.load_page(page)
+
+                x0, y0, x1, y1 = bbox.l, bbox.t, bbox.r, bbox.b
+
+                if x1 < x0:
+                    x0, x1 = x1, x0
+                if y1 < y0:
+                    y0, y1 = y1, y0
+
+                if str(getattr(bbox, "coord_origin", "")).endswith("BOTTOMLEFT"):
+                    h = page_obj.rect.height
+                    y0, y1 = h - bbox.b, h - bbox.t
+
+                rect = fitz.Rect(x0, y0, x1, y1)
+
+                if rect.width <= 1 or rect.height <= 1:
+                    rect = page_obj.rect
+
+                pix = page_obj.get_pixmap(clip=rect, dpi=200)
+
+                image_path = str(FIGURE_DIR / f"{pdf_path.stem}_fig{figure_idx}.png")
+                pix.save(image_path)
+
+            figures.append(ParsedFigure(
+                index=figure_idx,
+                caption=caption,
+                page_start=page + 1,
+                image_path=image_path
+            ))
+
+            figure_idx += 1
+
+
     parsed_paper = ParsedPaper(
         paper_id=pdf_path.stem,
         sections=sections,
         tables=tables,
-        full_markdown=doc.export_to_markdown()
+        full_markdown=doc.export_to_markdown(),
+        figures=figures
     )
     with open(cache_path, "w") as f:
         json.dump(asdict(parsed_paper), f)
-
+    pdf_doc.close()
     return parsed_paper
 
 
