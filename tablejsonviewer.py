@@ -8,25 +8,7 @@ st.set_page_config(page_title="Sepsis Evidence Explorer", layout="wide")
 
 # --- PATH CONFIG ---
 # Directory where your table-heavy JSON files are stored
-TABLES_DIR = os.path.join(os.getcwd(), "./data/tables/")
-
-# def parse_markdown_table(md_string):
-#     """Basic parser to convert markdown table string to a DataFrame."""
-#     try:
-#         lines = [line for line in md_string.split('\n') if '|' in line]
-#         if len(lines) < 3: return None
-        
-#         # Clean headers and data
-#         headers = [cell.strip() for cell in lines[0].split('|') if cell.strip()]
-#         data = []
-#         for line in lines[2:]:  # Skip header and separator line
-#             cells = [cell.strip() for cell in line.split('|') if cell.strip()]
-#             if len(cells) == len(headers):
-#                 data.append(cells)
-        
-#         return pd.DataFrame(data, columns=headers)
-#     except:
-#         return None
+TABLES_DIR = os.path.join(os.getcwd(), "./data/parsed_papers/")
 
 def parse_markdown_table(md_string):
     """Parses markdown table and handles duplicate column names."""

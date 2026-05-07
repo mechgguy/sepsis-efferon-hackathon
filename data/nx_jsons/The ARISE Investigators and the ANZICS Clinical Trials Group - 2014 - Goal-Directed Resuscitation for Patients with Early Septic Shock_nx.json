@@ -1,0 +1,102 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "EGDT",
+      "type": "Intervention",
+      "value": "Early Goal-Directed Therapy"
+    },
+    {
+      "id": "Usual Care",
+      "type": "Intervention",
+      "value": "Standard care as determined by treating clinical team"
+    },
+    {
+      "id": "90-day mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "In-hospital mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "ICU mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Survival Time",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "APACHE II",
+      "type": "Scoring System"
+    },
+    {
+      "id": "Age",
+      "type": "Demographic"
+    },
+    {
+      "id": "Lactate Level",
+      "type": "Biomarker"
+    },
+    {
+      "id": "Mechanical Ventilation",
+      "type": "Treatment",
+      "value": "Invasive Mechanical Ventilation"
+    },
+    {
+      "id": "Refractory Hypotension",
+      "type": "Clinical Sign"
+    },
+    {
+      "id": "Risk Difference (-0.3%)",
+      "type": "Statistical Metric",
+      "value": "Absolute risk difference"
+    },
+    {
+      "id": "P = 0.90",
+      "type": "Statistical Metric",
+      "value": "P value for 90 day mortality difference between groups"
+    }
+  ],
+  "links": [
+    {
+      "source": "EGDT",
+      "target": "90-day mortality",
+      "relation": "Did not reduce",
+      "p_value": "0.90"
+    },
+    {
+      "source": "EGDT",
+      "target": "Usual Care",
+      "relation": "Absolute risk difference",
+      "p_value": "-0.3"
+    },
+    {
+      "source": "APACHE II",
+      "target": "90-day mortality",
+      "relation": "Correlates with"
+    },
+    {
+      "source": "Age",
+      "target": "90-day mortality",
+      "relation": "Correlates with"
+    },
+    {
+      "source": "Mechanical Ventilation",
+      "target": "90-day mortality",
+      "relation": "Correlates with"
+    },
+    {
+      "source": "Refractory Hypotension",
+      "target": "90-day mortality",
+      "relation": "Correlates with"
+    },
+    {
+      "source": "Lactate Level",
+      "target": "90-day mortality",
+      "relation": "Correlates with"
+    }
+  ]
+}

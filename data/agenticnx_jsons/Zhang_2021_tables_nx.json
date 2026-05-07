@@ -1,0 +1,110 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "67.0 (54.0-80.0)",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "calculated from survivors and non-survivors",
+      "label": "Mortality (Hospital)",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "5443",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "5 (3-7)",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "2,638 (48.5)",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "variable",
+      "value": "39 (31-50)",
+      "label": "SAPS II Score",
+      "id": "sap_3_score"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Besen_2016"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "associated_with",
+      "strength": "positive",
+      "source": "age",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "positive",
+      "source": "sofa_score",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "positive",
+      "source": "mechanical_ventilation",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "positive",
+      "source": "sap_3_score",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mechanical_ventilation"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sap_3_score"
+    }
+  ]
+}

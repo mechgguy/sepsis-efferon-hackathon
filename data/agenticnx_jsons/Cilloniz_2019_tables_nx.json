@@ -1,0 +1,98 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "86.6 (5.0) vs 85.9 (4.5) years",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "358",
+      "label": "Sample Size (No Sepsis)",
+      "id": "sample_size_sepsis_no"
+    },
+    {
+      "type": "variable",
+      "value": "880",
+      "label": "Sample Size (Sepsis)",
+      "id": "sample_size_sepsis_yes"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Besen_2016"
+    },
+    {
+      "type": "variable",
+      "value": "0 (0) vs 61 (7) %",
+      "label": "Septic Shock at Admission",
+      "id": "septic_shock_at_admission"
+    },
+    {
+      "type": "variable",
+      "value": "64 (19) vs 295 (34) %",
+      "label": "Altered Mental Status",
+      "id": "altered_mental_status"
+    },
+    {
+      "type": "variable",
+      "value": "70 (20) vs 241 (28) %",
+      "label": "Diabetes Mellitus",
+      "id": "diabetes_mellitus"
+    },
+    {
+      "type": "variable",
+      "value": "22 (6) vs 113 (13) %",
+      "label": "Chronic Renal Disease",
+      "id": "chronic_renal_disease"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size_sepsis_no"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size_sepsis_yes"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "septic_shock_at_admission"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "altered_mental_status"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "diabetes_mellitus"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "chronic_renal_disease"
+    }
+  ]
+}

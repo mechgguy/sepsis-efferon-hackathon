@@ -1,0 +1,170 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": null,
+      "label": "ICU Mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "SAP III Score",
+      "id": "sap_3_score"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Sepsis 2 Criteria",
+      "id": "sepsis_2_criteria"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Sepsis 3 Criteria",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "1676",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Vasopressor Use",
+      "id": "vasopressor_use"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Ren_2022"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "predicts",
+      "strength": null,
+      "source": "sofa_score",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": null,
+      "source": "sap_3_score",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": null,
+      "source": "lactate_levels",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": null,
+      "source": "age",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": null,
+      "source": "vasopressor_use",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": null,
+      "source": "mechanical_ventilation",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Ren_2022",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Ren_2022",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Ren_2022",
+      "target": "sap_3_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Ren_2022",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Ren_2022",
+      "target": "sepsis_3_criteria"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Ren_2022",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Ren_2022",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Ren_2022",
+      "target": "vasopressor_use"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Ren_2022",
+      "target": "mechanical_ventilation"
+    }
+  ]
+}

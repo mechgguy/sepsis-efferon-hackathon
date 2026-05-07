@@ -1,0 +1,105 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "label": "ICU Mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "label": "SAP III Score",
+      "id": "sap_3_score"
+    },
+    {
+      "type": "variable",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "label": "Sepsis 2 Criteria",
+      "id": "sepsis_2_criteria"
+    },
+    {
+      "type": "variable",
+      "label": "Sepsis 3 Criteria",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "variable",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "label": "Vasopressor Use",
+      "id": "vasopressor_use"
+    },
+    {
+      "type": "variable",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "paper",
+      "label": "Park_2022 Study",
+      "id": "Park_2022"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "predicts",
+      "strength": "high",
+      "source": "sap_3_score",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "controlled_for",
+      "strength": null,
+      "source": "lactate_levels",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Park_2022",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "investigated",
+      "strength": null,
+      "source": "Park_2022",
+      "target": "sap_3_score"
+    },
+    {
+      "relation": "investigated",
+      "strength": null,
+      "source": "Park_2022",
+      "target": "age"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Park_2022",
+      "target": "sample_size"
+    }
+  ]
+}

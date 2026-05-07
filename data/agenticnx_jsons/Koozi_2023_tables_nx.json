@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "30-day Mortality",
+      "label": "30-day Mortality",
+      "id": "mortality30"
+    },
+    {
+      "type": "variable",
+      "value": "7 (5-10)",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "65 (57-75)",
+      "label": "SAPS-3 Score",
+      "id": "sap_3_score"
+    },
+    {
+      "type": "variable",
+      "value": "2.7 (1.4-5.1) mmol/L",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "1984",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "69 (59-76) years",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "37.6%",
+      "label": "Vasopressor Use",
+      "id": "vasopressor_use"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Besen_2016"
+    },
+    {
+      "type": "variable",
+      "value": "N/A",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "predicts",
+      "strength": "positive correlation",
+      "source": "sofa_score",
+      "target": "mortality30"
+    },
+    {
+      "relation": "predicts",
+      "strength": "positive correlation",
+      "source": "sap_3_score",
+      "target": "mortality30"
+    },
+    {
+      "relation": "predicts",
+      "strength": "positive correlation",
+      "source": "lactate_levels",
+      "target": "mortality30"
+    },
+    {
+      "relation": "predicts",
+      "strength": "positive correlation",
+      "source": "age",
+      "target": "mortality30"
+    },
+    {
+      "relation": "predicts",
+      "strength": "positive correlation",
+      "source": "vasopressor_use",
+      "target": "mortality30"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality30"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sap_3_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "vasopressor_use"
+    }
+  ]
+}

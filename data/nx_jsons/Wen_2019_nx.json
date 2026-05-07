@@ -1,0 +1,152 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "Presepsin",
+      "type": "Biomarker",
+      "value": null
+    },
+    {
+      "id": "In-hospital Mortality",
+      "type": "Clinical Outcome",
+      "value": null
+    },
+    {
+      "id": "SOFA Score",
+      "type": "Scoring System",
+      "value": null
+    },
+    {
+      "id": "Lactate Level",
+      "type": "Laboratory Value",
+      "value": null
+    },
+    {
+      "id": "AUC",
+      "type": "Statistical Metric",
+      "value": null
+    },
+    {
+      "id": "Sensitivity",
+      "type": "Statistical Metric",
+      "value": null
+    },
+    {
+      "id": "Specificity",
+      "type": "Statistical Metric",
+      "value": null
+    },
+    {
+      "id": "APACHE II Score",
+      "type": "Scoring System",
+      "value": null
+    },
+    {
+      "id": "PCT Level",
+      "type": "Laboratory Value",
+      "value": null
+    },
+    {
+      "id": "Age",
+      "type": "Demographic",
+      "value": null
+    }
+  ],
+  "links": [
+    {
+      "source": "Presepsin",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": "0.000"
+    },
+    {
+      "source": "Presepsin",
+      "target": "SOFA Score",
+      "relation": "Correlates with",
+      "p_value": "0.000"
+    },
+    {
+      "source": "Presepsin",
+      "target": "In-hospital Mortality",
+      "relation": "Binary Logistic Regression",
+      "p_value": "0.026"
+    },
+    {
+      "source": "Lactate Level",
+      "target": "In-hospital Mortality",
+      "relation": "Binary Logistic Regression",
+      "p_value": "0.008"
+    },
+    {
+      "source": "SOFA Score",
+      "target": "In-hospital Mortality",
+      "relation": "Binary Logistic Regression",
+      "p_value": "0.000"
+    },
+    {
+      "source": "Presepsin",
+      "target": "In-hospital Mortality",
+      "relation": "Resulted in",
+      "p_value": "0.000",
+      "AUC": "0.703"
+    },
+    {
+      "source": "Lactate Level",
+      "target": "In-hospital Mortality",
+      "relation": "Resulted in",
+      "p_value": "0.000",
+      "AUC": "0.711"
+    },
+    {
+      "source": "SOFA Score",
+      "target": "In-hospital Mortality",
+      "relation": "Resulted in",
+      "p_value": "0.000",
+      "AUC": "0.793"
+    },
+    {
+      "source": "SOFA Score",
+      "target": "Presepsin",
+      "relation": "Combination Resulted in",
+      "p_value": "0.041",
+      "AUC": "0.817"
+    },
+    {
+      "source": "Presepsin",
+      "target": "Sensitivity",
+      "relation": "At Cutoff 2623 pg/mL",
+      "value": "62.71"
+    },
+    {
+      "source": "Presepsin",
+      "target": "Specificity",
+      "relation": "At Cutoff 2623 pg/mL",
+      "value": "72.6"
+    },
+    {
+      "source": "Lactate Level",
+      "target": "SOFA Score",
+      "relation": "Correlates with",
+      "p_value": "0.000"
+    },
+    {
+      "source": "PCT Level",
+      "target": "SOFA Score",
+      "relation": "No Correlation",
+      "p_value": "0.114"
+    },
+    {
+      "source": "APACHE II Score",
+      "target": "In-hospital Mortality",
+      "relation": "No Association",
+      "p_value": "0.403"
+    },
+    {
+      "source": "PCT Level",
+      "target": "In-hospital Mortality",
+      "relation": "No Association",
+      "p_value": "0.527"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "SIC",
+      "type": "Scoring System",
+      "value": "Sepsis-Induced Coagulopathy"
+    },
+    {
+      "id": "SOFA",
+      "type": "Scoring System",
+      "value": "Sequential Organ Failure Assessment"
+    },
+    {
+      "id": "28-day Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "AUC",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Hazard Ratio",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Age",
+      "type": "Demographic"
+    }
+  ],
+  "links": [
+    {
+      "source": "SIC",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SOFA",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SIC",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "p_value": "0.749"
+    },
+    {
+      "source": "SIC",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "p_value": "0.601"
+    },
+    {
+      "source": "SIC",
+      "target": "28-day Mortality",
+      "relation": "Independent Risk Factor",
+      "p_value": null
+    },
+    {
+      "source": "SIC",
+      "target": "Hazard Ratio",
+      "relation": "Resulted in HR of",
+      "p_value": "3.736"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "75 (69-82)",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "5 (4-7)",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "2.9 (2.16-3.93)",
+      "label": "Lactate Levels (mmol/L)",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "Implied by survivors vs non-survivors",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "138",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Besen_2016"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "associated_with",
+      "strength": "positive",
+      "source": "age",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "positive",
+      "source": "sofa_score",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "positive",
+      "source": "lactate_levels",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size"
+    }
+  ]
+}

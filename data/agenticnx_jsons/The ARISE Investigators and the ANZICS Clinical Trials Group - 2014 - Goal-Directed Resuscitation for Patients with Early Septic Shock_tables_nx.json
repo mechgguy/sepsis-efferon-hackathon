@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "62.7 \u00b1 16.4 (EGDT), 63.1 \u00b1 16.5 (Usual Care)",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "71 (9.0%) invasive, 60 (7.6%) noninvasive (EGDT); 64 (8.0%) invasive, 48 (6.0%) noninvasive (Usual Care)",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "variable",
+      "value": "173 (21.8%) (EGDT), 173 (21.7%) (Usual Care)",
+      "label": "Vasopressor Use",
+      "id": "vasopressor_use"
+    },
+    {
+      "type": "variable",
+      "value": "\u22654.0 mmol/liter - 365 (46.0%) (EGDT), 371 (46.5%) (Usual Care); Value at time that criterion was met - 6.7 \u00b1 3.3 mmol/liter (EGDT), 6.6 \u00b1 2.8 mmol/liter (Usual Care)",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "793",
+      "label": "Sample Size (EGDT)",
+      "id": "sample_size_egdt"
+    },
+    {
+      "type": "variable",
+      "value": "798",
+      "label": "Sample Size (Usual Care)",
+      "id": "sample_size_usual_care"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Besen_2016"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mechanical_ventilation"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "vasopressor_use"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size_egdt"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size_usual_care"
+    }
+  ]
+}

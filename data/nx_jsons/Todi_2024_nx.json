@@ -1,0 +1,255 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "p-SOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "PRISM III",
+      "type": "Scoring System"
+    },
+    {
+      "id": "30-day mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Median Age",
+      "type": "Demographic",
+      "value": "65"
+    },
+    {
+      "id": "AUC",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Sensitivity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Specificity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Hospital Mortality",
+      "type": "Clinical Outcome",
+      "value": "36.3%"
+    },
+    {
+      "id": "Septic Shock Mortality",
+      "type": "Clinical Outcome",
+      "value": "50.8%"
+    },
+    {
+      "id": "APACHE II",
+      "type": "Scoring System",
+      "value": "21"
+    },
+    {
+      "id": "SOFA",
+      "type": "Scoring System",
+      "value": "6.7"
+    },
+    {
+      "id": "Source Control",
+      "type": "Treatment"
+    },
+    {
+      "id": "Correct Empiric Antibiotic",
+      "type": "Treatment"
+    },
+    {
+      "id": "Intravenous Thiamine",
+      "type": "Treatment"
+    },
+    {
+      "id": "SOFA Score",
+      "type": "Scoring System"
+    },
+    {
+      "id": "qSOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "SIRS",
+      "type": "Scoring System"
+    },
+    {
+      "id": "Male gender",
+      "type": "Demographic"
+    },
+    {
+      "id": "High BMI",
+      "type": "Demographic"
+    },
+    {
+      "id": "High Charlson comorbidity index",
+      "type": "Demographic"
+    },
+    {
+      "id": "Transfer to ICU from the ward",
+      "type": "Admission Detail"
+    },
+    {
+      "id": "Nosocomial infection",
+      "type": "Infection Type"
+    },
+    {
+      "id": "Septic shock",
+      "type": "Clinical Condition"
+    },
+    {
+      "id": "Hypoperfusion",
+      "type": "Clinical Condition"
+    },
+    {
+      "id": "Low pH",
+      "type": "Laboratory Parameter"
+    },
+    {
+      "id": "Low Bicarbonate",
+      "type": "Laboratory Parameter"
+    },
+    {
+      "id": "Low Platelet Count",
+      "type": "Laboratory Parameter"
+    },
+    {
+      "id": "High Sodium",
+      "type": "Laboratory Parameter"
+    },
+    {
+      "id": "High Creatinine",
+      "type": "Laboratory Parameter"
+    },
+    {
+      "id": "Lower Albumin",
+      "type": "Laboratory Parameter"
+    },
+    {
+      "id": "Low Glucose",
+      "type": "Laboratory Parameter"
+    }
+  ],
+  "links": [
+    {
+      "source": "SOFA Score",
+      "target": "Hospital Mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "qSOFA",
+      "target": "Hospital Mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "SIRS",
+      "target": "Hospital Mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "SOFA Score",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "p_value": "0.768"
+    },
+    {
+      "source": "qSOFA",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "value": "0.70"
+    },
+    {
+      "source": "SIRS",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "value": "0.54"
+    },
+    {
+      "source": "Source Control",
+      "target": "Hospital Mortality",
+      "relation": "Protective"
+    },
+    {
+      "source": "Correct Empiric Antibiotic",
+      "target": "Hospital Mortality",
+      "relation": "Protective"
+    },
+    {
+      "source": "Intravenous Thiamine",
+      "target": "Hospital Mortality",
+      "relation": "Protective"
+    },
+    {
+      "source": "Male gender",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "High BMI",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "High Charlson comorbidity index",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "Transfer to ICU from the ward",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "Nosocomial infection",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "Septic shock",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "Hypoperfusion",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "Low pH",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "Low Bicarbonate",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "Low Platelet Count",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "High Sodium",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "High Creatinine",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "Lower Albumin",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "Low Glucose",
+      "target": "Hospital Mortality",
+      "relation": "Associated with"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "APACHE-II score",
+      "type": "Scoring System"
+    },
+    {
+      "id": "Central Nervous System Dysfunction",
+      "type": "Clinical Finding"
+    },
+    {
+      "id": "Lowest Blood Phosphorus Level",
+      "type": "Lab Value"
+    },
+    {
+      "id": "Highest Lactate Level",
+      "type": "Lab Value"
+    },
+    {
+      "id": "Lung Infection",
+      "type": "Infection Type"
+    },
+    {
+      "id": "Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Age",
+      "type": "Demographic"
+    },
+    {
+      "id": "SOFA score",
+      "type": "Scoring System"
+    },
+    {
+      "id": "Sepsis-3 criteria",
+      "type": "Criteria"
+    },
+    {
+      "id": "Septic shock",
+      "type": "Clinical Finding"
+    },
+    {
+      "id": "Prevalence of Sepsis",
+      "type": "Epidemiological Metric"
+    }
+  ],
+  "links": [
+    {
+      "source": "APACHE-II score",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "0.002"
+    },
+    {
+      "source": "Central Nervous System Dysfunction",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "0.022"
+    },
+    {
+      "source": "Lowest Blood Phosphorus Level",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "0.014"
+    },
+    {
+      "source": "Highest Lactate Level",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "Lung Infection",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "0.007"
+    },
+    {
+      "source": "Sepsis-3 criteria",
+      "target": "Sepsis",
+      "relation": "Diagnostic Method"
+    },
+    {
+      "source": "Sepsis",
+      "target": "Septic shock",
+      "relation": "Complication"
+    },
+    {
+      "source": "Septic shock",
+      "target": "Mortality",
+      "relation": "Contributes to"
+    },
+    {
+      "source": "Prevalence of Sepsis",
+      "target": "ICU patients",
+      "relation": "Describes"
+    }
+  ]
+}

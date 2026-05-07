@@ -1,0 +1,146 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "mortality in ICU",
+      "label": "Mortality in ICU",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "value": "mortality in hospital",
+      "label": "Mortality in Hospital",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "SOFA score",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "SAP III score",
+      "label": "SAP III Score",
+      "id": "sap_3_score"
+    },
+    {
+      "type": "variable",
+      "value": "Lactate Levels",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "Sepsis 2 Criteria",
+      "label": "Sepsis 2 Criteria",
+      "id": "sepsis_2_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "Sepsis 3 Criteria",
+      "label": "Sepsis 3 Criteria",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "Sample Size",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "Age",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "Vasopressor Use",
+      "label": "Vasopressor use",
+      "id": "vasopressor_use"
+    },
+    {
+      "type": "variable",
+      "value": "Mechanical Ventilation",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "paper",
+      "label": "Luo_2022 Study Root",
+      "id": "Luo_2022"
+    },
+    {
+      "type": "variable",
+      "value": "Hematocrit Level",
+      "label": "Hematocrit Level",
+      "id": "hematocrit_level"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Luo_2022",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Luo_2022",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Luo_2022",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Luo_2022",
+      "target": "sap_3_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Luo_2022",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Luo_2022",
+      "target": "sepsis_3_criteria"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Luo_2022",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Luo_2022",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Luo_2022",
+      "target": "mechanical_ventilation"
+    },
+    {
+      "relation": "predicts",
+      "strength": "high",
+      "source": "hematocrit_level",
+      "target": "mortality_hospital"
+    }
+  ]
+}

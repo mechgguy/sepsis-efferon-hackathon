@@ -1,0 +1,62 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "hospital mortality",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "age in months",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "146",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "Prior hospitalization within 6 months",
+      "label": "Prior hospitalization within 6 months",
+      "id": "Prior hospitalizationwithin 6 months"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Study_Data"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "associated_with",
+      "strength": "significant",
+      "source": "Prior hospitalizationwithin 6 months",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Study_Data",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Study_Data",
+      "target": "age"
+    },
+    {
+      "relation": "has_attribute",
+      "strength": null,
+      "source": "Study_Data",
+      "target": "sample_size"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "label": "ICU 28-day mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "label": "Hospital 28-day mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "label": "Lactate levels (mmol/L)",
+      "quartile_1": "1.8 (1.2-2.93)",
+      "quartile_2": "1.8 (1.12-2.9)",
+      "quartile_3": "1.9 (1.2-3.1)",
+      "quartile_4": "1.9 (1.2-3.2)",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "label": "Age (years)",
+      "quartile_1": "62.15",
+      "quartile_2": "65.20",
+      "quartile_3": "67.63",
+      "quartile_4": "67.99",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "label": "Sample Size",
+      "value": "9415",
+      "id": "sample_size"
+    },
+    {
+      "type": "paper",
+      "label": "Besen_2016",
+      "id": "Besen_2016"
+    },
+    {
+      "type": "variable",
+      "label": "APACHE IV score",
+      "quartile_1": "71.55",
+      "quartile_2": "72.20",
+      "quartile_3": "74.67",
+      "quartile_4": "77.32",
+      "id": "apache_iv_score"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "correlates_with",
+      "strength": "increased in higher MCV quartiles",
+      "source": "lactate_levels",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "correlates_with",
+      "strength": "increased in higher MCV quartiles",
+      "source": "lactate_levels",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "correlates_with",
+      "strength": "increased in higher MCV quartiles",
+      "source": "age",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "correlates_with",
+      "strength": "increased in higher MCV quartiles",
+      "source": "age",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "apache_iv_score"
+    },
+    {
+      "relation": "correlates_with",
+      "strength": "increased in higher MCV quartiles",
+      "source": "apache_iv_score",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "correlates_with",
+      "strength": "increased in higher MCV quartiles",
+      "source": "apache_iv_score",
+      "target": "mortality_hospital"
+    }
+  ]
+}

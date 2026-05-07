@@ -1,0 +1,131 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "label": "Mortality in ICU",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "label": "Mortality in Hospital",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "72",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "label": "Vasopressor Use",
+      "id": "vasopressor_use"
+    },
+    {
+      "type": "variable",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "paper",
+      "label": "Gai et al. (2022)",
+      "id": "Gai_2022"
+    },
+    {
+      "type": "variable",
+      "label": "APACHE II Score",
+      "id": "apache_ii_score"
+    },
+    {
+      "type": "variable",
+      "label": "Peak Systolic Velocity (PSV)",
+      "id": "psv"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "predicts",
+      "strength": "positive",
+      "source": "sofa_score",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "predicts",
+      "strength": "positive",
+      "source": "lactate_levels",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Gai_2022",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Gai_2022",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Gai_2022",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Gai_2022",
+      "target": "sample_size"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Gai_2022",
+      "target": "age"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Gai_2022",
+      "target": "vasopressor_use"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Gai_2022",
+      "target": "apache_ii_score"
+    },
+    {
+      "relation": "predicts",
+      "strength": "positive",
+      "source": "apache_ii_score",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "predicts",
+      "strength": "negative",
+      "source": "psv",
+      "target": "mortality_icu"
+    }
+  ]
+}

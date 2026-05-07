@@ -1,0 +1,200 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "30-day mortality",
+      "label": "30-day Mortality",
+      "id": "mortality_30day"
+    },
+    {
+      "type": "variable",
+      "value": "Age, years",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "Mechanical Ventilation",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "variable",
+      "value": "Hypertension",
+      "label": "Hypertension",
+      "id": "hypertension"
+    },
+    {
+      "type": "variable",
+      "value": "COPD",
+      "label": "COPD",
+      "id": "copd"
+    },
+    {
+      "type": "variable",
+      "value": "Diabetes",
+      "label": "Diabetes",
+      "id": "diabetes"
+    },
+    {
+      "type": "variable",
+      "value": "Respiratory failure",
+      "label": "Respiratory Failure",
+      "id": "respiratory_failure"
+    },
+    {
+      "type": "variable",
+      "value": "CHF",
+      "label": "CHF",
+      "id": "chf"
+    },
+    {
+      "type": "variable",
+      "value": "Lactate, mmol/L",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "SOFA",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "SAPSII",
+      "label": "SAPS II Score",
+      "id": "sapsii_score"
+    },
+    {
+      "type": "paper",
+      "label": "Table 1. Characteristics of the patients with sepsis",
+      "id": "Besen_2016"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "associated_with",
+      "strength": "significant",
+      "source": "age",
+      "target": "mortality_30day"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "significant",
+      "source": "mechanical_ventilation",
+      "target": "mortality_30day"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "significant",
+      "source": "hypertension",
+      "target": "mortality_30day"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "significant",
+      "source": "diabetes",
+      "target": "mortality_30day"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "significant",
+      "source": "respiratory_failure",
+      "target": "mortality_30day"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "significant",
+      "source": "chf",
+      "target": "mortality_30day"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "significant",
+      "source": "lactate_levels",
+      "target": "mortality_30day"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "significant",
+      "source": "sofa_score",
+      "target": "mortality_30day"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "significant",
+      "source": "sapsii_score",
+      "target": "mortality_30day"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality_30day"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mechanical_ventilation"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "hypertension"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "copd"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "diabetes"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "respiratory_failure"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "chf"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sapsii_score"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "mortality_icu",
+      "label": "ICU Mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "value": "mortality_hospital",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "sofa_score",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "lactate_levels",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "sepsis_3_criteria",
+      "label": "Sepsis-3 Criteria",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "209",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "age",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "paper",
+      "label": "Li_2024 Study",
+      "id": "Li_2024"
+    },
+    {
+      "type": "variable",
+      "value": "sic_day_4",
+      "label": "SIC score on day 4",
+      "id": "sic_day_4"
+    },
+    {
+      "type": "variable",
+      "value": "sic_day_2",
+      "label": "SIC score on day 2",
+      "id": "sic_day_2"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "predicts",
+      "strength": "strong",
+      "source": "sofa_score",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "predicts",
+      "strength": "strong",
+      "source": "sofa_score",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Li_2024",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Li_2024",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Li_2024",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Li_2024",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Li_2024",
+      "target": "sepsis_3_criteria"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Li_2024",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Li_2024",
+      "target": "age"
+    },
+    {
+      "relation": "predicts",
+      "strength": "moderate",
+      "source": "sic_day_4",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "predicts",
+      "strength": "moderate",
+      "source": "sic_day_4",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "weak",
+      "source": "sic_day_2",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "predicts",
+      "strength": "weak",
+      "source": "sic_day_2",
+      "target": "mortality_hospital"
+    }
+  ]
+}

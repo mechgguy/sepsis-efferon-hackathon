@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "28-day mortality",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "age",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "Venous lactate, mmol/dL",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "550",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "paper",
+      "label": "Besen et al. Study",
+      "id": "Besen_2016"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "associated_with",
+      "strength": null,
+      "source": "age",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "associated_with",
+      "strength": null,
+      "source": "lactate_levels",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size"
+    }
+  ]
+}

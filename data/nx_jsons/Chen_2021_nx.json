@@ -1,0 +1,168 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "Serum Phosphate",
+      "type": "Biomarker"
+    },
+    {
+      "id": "28-day Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "90-day Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "All-cause Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Length of ICU Stay",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Hypophosphataemia",
+      "type": "Condition",
+      "value": "<2.5 mg/L"
+    },
+    {
+      "id": "Hyperphosphataemia",
+      "type": "Condition",
+      "value": ">=4.5 mg/dL"
+    },
+    {
+      "id": "Medical ICU (MICU)",
+      "type": "ICU Type"
+    },
+    {
+      "id": "HR=0.64",
+      "type": "Hazard Ratio"
+    },
+    {
+      "id": "HR=0.72",
+      "type": "Hazard Ratio"
+    },
+    {
+      "id": "p=0.0017",
+      "type": "p-value"
+    },
+    {
+      "id": "p=0.0067",
+      "type": "p-value"
+    },
+    {
+      "id": "Very-high-normal Serum Phosphate",
+      "type": "Condition",
+      "value": ">=4.0 mg/dL and <4.5 mg/dL"
+    }
+  ],
+  "links": [
+    {
+      "source": "Serum Phosphate",
+      "target": "28-day Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "Serum Phosphate",
+      "target": "90-day Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "Serum Phosphate",
+      "target": "All-cause Mortality",
+      "relation": "Associated with"
+    },
+    {
+      "source": "Serum Phosphate",
+      "target": "Length of ICU Stay",
+      "relation": "Associated with"
+    },
+    {
+      "source": "Hypophosphataemia",
+      "target": "28-day Mortality",
+      "relation": "Not significantly associated"
+    },
+    {
+      "source": "Hypophosphataemia",
+      "target": "90-day Mortality",
+      "relation": "Not significantly associated"
+    },
+    {
+      "source": "Hyperphosphataemia",
+      "target": "28-day Mortality",
+      "relation": "Not significantly associated"
+    },
+    {
+      "source": "Hyperphosphataemia",
+      "target": "90-day Mortality",
+      "relation": "Not significantly associated"
+    },
+    {
+      "source": "Hyperphosphataemia",
+      "target": "28-day Mortality",
+      "relation": "Associated in MICU",
+      "p_value": "0.0017"
+    },
+    {
+      "source": "Hyperphosphataemia",
+      "target": "90-day Mortality",
+      "relation": "Associated in MICU",
+      "p_value": "0.0067"
+    },
+    {
+      "source": "Hyperphosphataemia",
+      "target": "Medical ICU (MICU)",
+      "relation": "Observed in",
+      "p_value": "0.0017"
+    },
+    {
+      "source": "Hyperphosphataemia",
+      "target": "Medical ICU (MICU)",
+      "relation": "Observed in",
+      "p_value": "0.0067"
+    },
+    {
+      "source": "Medical ICU (MICU)",
+      "target": "28-day Mortality",
+      "relation": "Increases risk",
+      "p_value": "0.0017"
+    },
+    {
+      "source": "Medical ICU (MICU)",
+      "target": "90-day Mortality",
+      "relation": "Increases risk",
+      "p_value": "0.0067"
+    },
+    {
+      "source": "Hyperphosphataemia",
+      "target": "HR=0.64",
+      "relation": "Hazard Ratio",
+      "p_value": "0.0017"
+    },
+    {
+      "source": "Hyperphosphataemia",
+      "target": "HR=0.72",
+      "relation": "Hazard Ratio",
+      "p_value": "0.0067"
+    },
+    {
+      "source": "HR=0.64",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": "0.0017"
+    },
+    {
+      "source": "HR=0.72",
+      "target": "90-day Mortality",
+      "relation": "Predicts",
+      "p_value": "0.0067"
+    },
+    {
+      "source": "Very-high-normal Serum Phosphate",
+      "target": "mortality",
+      "relation": "Associated with worse outcomes"
+    }
+  ]
+}

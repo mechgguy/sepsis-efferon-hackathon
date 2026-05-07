@@ -1,0 +1,92 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "APACHE II score",
+      "type": "Scoring System",
+      "value": "15.3 \u00b1 6.3"
+    },
+    {
+      "id": "Frailty Clinical Scale",
+      "type": "Scoring System",
+      "value": "7 (IQR 1\u20139)"
+    },
+    {
+      "id": "ASA grade IV",
+      "type": "Scoring System",
+      "value": "50.5%"
+    },
+    {
+      "id": "Mortality",
+      "type": "Clinical Outcome",
+      "value": "43.4%"
+    },
+    {
+      "id": "Mean Age",
+      "type": "Demographic",
+      "value": "68.1 \u00b1 14.3 years"
+    },
+    {
+      "id": "Male gender",
+      "type": "Demographic",
+      "value": "52.2%"
+    },
+    {
+      "id": "Morbidity",
+      "type": "Clinical Outcome",
+      "value": "76.6%"
+    },
+    {
+      "id": "Definitive Fascial Closure",
+      "type": "Clinical Outcome",
+      "value": "97.8%"
+    },
+    {
+      "id": "Mean BMI",
+      "type": "Demographic",
+      "value": "26.4 \u00b1 4.9"
+    },
+    {
+      "id": "Mannheim Peritonitis Index",
+      "type": "Scoring System",
+      "value": "22.6 \u00b1 7.3"
+    },
+    {
+      "id": "30-day reintervention",
+      "type": "Clinical Outcome",
+      "value": "21.5%"
+    }
+  ],
+  "links": [
+    {
+      "source": "APACHE II score",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "0.005"
+    },
+    {
+      "source": "Frailty Clinical Scale",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "<0.0001"
+    },
+    {
+      "source": "ASA grade IV",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "0.002"
+    },
+    {
+      "source": "Mean Age",
+      "target": "Mortality",
+      "relation": "Correlates with",
+      "p_value": "0.05"
+    },
+    {
+      "source": "Mannheim Peritonitis Index",
+      "target": "Mortality",
+      "relation": "Correlates with"
+    }
+  ]
+}

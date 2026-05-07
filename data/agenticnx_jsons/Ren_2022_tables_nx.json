@@ -1,0 +1,92 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "Died in hospital",
+      "label": "Mortality (Hospital)",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "6.00 [4.00, 9.00] (survivors), 8.00 [5.00, 11.00] (non-survivors)",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "40.00 [31.00, 49.00] (survivors), 49.00 [41.00, 59.00] (non-survivors)",
+      "label": "SAP II Score",
+      "id": "sap_3_score"
+    },
+    {
+      "type": "variable",
+      "value": "1191 (survived) and 485 (died)",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "58.84 \u00b1 13.95 (survived), 62.13 \u00b1 12.60 (died)",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Besen_2016"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "correlated_with",
+      "strength": "significant",
+      "source": "sofa_score",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "correlated_with",
+      "strength": "significant",
+      "source": "sap_3_score",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "correlated_with",
+      "strength": "significant",
+      "source": "age",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sap_3_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "p-SOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "PRISM III 24",
+      "type": "Scoring System"
+    },
+    {
+      "id": "30-day mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Median Age",
+      "type": "Demographic",
+      "value": "24 months"
+    },
+    {
+      "id": "AUC",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Sensitivity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Specificity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Accuracy",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "p-value",
+      "type": "Statistical Metric"
+    }
+  ],
+  "links": [
+    {
+      "source": "p-SOFA",
+      "target": "30-day mortality",
+      "relation": "Predicts",
+      "p_value": "0.001"
+    },
+    {
+      "source": "PRISM III 24",
+      "target": "30-day mortality",
+      "relation": "Predicts",
+      "p_value": "0.001"
+    },
+    {
+      "source": "p-SOFA",
+      "target": "AUC",
+      "relation": "Resulted in AUC",
+      "value": "0.81",
+      "p_value": "0.0001"
+    },
+    {
+      "source": "PRISM III 24",
+      "target": "AUC",
+      "relation": "Resulted in AUC",
+      "value": "0.75",
+      "p_value": "0.0001"
+    },
+    {
+      "source": "p-SOFA",
+      "target": "Sensitivity",
+      "relation": "Resulted in Sensitivity",
+      "value": "93.87%"
+    },
+    {
+      "source": "p-SOFA",
+      "target": "Specificity",
+      "relation": "Resulted in Specificity",
+      "value": "38.21%"
+    },
+    {
+      "source": "PRISM III 24",
+      "target": "Sensitivity",
+      "relation": "Resulted in Sensitivity",
+      "value": "55.83%"
+    },
+    {
+      "source": "PRISM III 24",
+      "target": "Specificity",
+      "relation": "Resulted in Specificity",
+      "value": "77.24%"
+    },
+    {
+      "source": "p-SOFA",
+      "target": "Accuracy",
+      "relation": "Resulted in Accuracy",
+      "value": "69.93%"
+    },
+    {
+      "source": "PRISM III 24",
+      "target": "Accuracy",
+      "relation": "Resulted in Accuracy",
+      "value": "65.03%"
+    },
+    {
+      "source": "p-SOFA",
+      "target": "PRISM III 24",
+      "relation": "Correlates with",
+      "p_value": "0.001"
+    }
+  ]
+}

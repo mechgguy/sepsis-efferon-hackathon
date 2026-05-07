@@ -1,0 +1,160 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "label": "ICU Mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "2271",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "label": "Abnormal Heart Rate",
+      "id": "Abnormal_heart_rate"
+    },
+    {
+      "type": "variable",
+      "label": "Increased Respiratory Rate",
+      "id": "Increased_respiratory_rate"
+    },
+    {
+      "type": "variable",
+      "label": "Abnormal Temperature",
+      "id": "Abnormal_temperature"
+    },
+    {
+      "type": "variable",
+      "label": "High Temperature",
+      "id": "High_temperature"
+    },
+    {
+      "type": "variable",
+      "label": "Low Temperature",
+      "id": "Low_temperature"
+    },
+    {
+      "type": "variable",
+      "label": "Abnormal White Cell Count",
+      "id": "Abnormal_white_cell_count"
+    },
+    {
+      "type": "variable",
+      "label": "High White Cell Count",
+      "id": "HighWCC"
+    },
+    {
+      "type": "variable",
+      "label": "Low White Cell Count",
+      "id": "LowWCC"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Besen_2016"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "associated_with",
+      "strength": null,
+      "source": "Abnormal_heart_rate",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "associated_with",
+      "strength": null,
+      "source": "Increased_respiratory_rate",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "associated_with",
+      "strength": null,
+      "source": "Abnormal_temperature",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "associated_with",
+      "strength": null,
+      "source": "Abnormal_white_cell_count",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "Abnormal_heart_rate"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "Increased_respiratory_rate"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "Abnormal_temperature"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "High_temperature"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "Low_temperature"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "Abnormal_white_cell_count"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "HighWCC"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "LowWCC"
+    }
+  ]
+}

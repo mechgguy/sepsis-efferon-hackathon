@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "SIRS Criteria",
+      "type": "Scoring System",
+      "value": null
+    },
+    {
+      "id": "SOFA Criteria",
+      "type": "Scoring System",
+      "value": null
+    },
+    {
+      "id": "In-Hospital Mortality",
+      "type": "Clinical Outcome",
+      "value": null
+    },
+    {
+      "id": "Sepsis-3 Definition",
+      "type": "Definition",
+      "value": null
+    },
+    {
+      "id": "Septic Shock",
+      "type": "Clinical Condition",
+      "value": null
+    },
+    {
+      "id": "AUC",
+      "type": "Statistical Metric",
+      "value": null
+    },
+    {
+      "id": "Age",
+      "type": "Demographic",
+      "value": null
+    },
+    {
+      "id": "APACHE II",
+      "type": "Scoring System",
+      "value": null
+    }
+  ],
+  "links": [
+    {
+      "source": "SIRS Criteria",
+      "target": "In-Hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SOFA Criteria",
+      "target": "In-Hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SIRS Criteria",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "p_value": "0.53"
+    },
+    {
+      "source": "SOFA Criteria",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "p_value": "0.70"
+    },
+    {
+      "source": "SOFA Criteria",
+      "target": "Sepsis-3 Definition",
+      "relation": "Used as basis for",
+      "p_value": null
+    },
+    {
+      "source": "Septic Shock",
+      "target": "In-Hospital Mortality",
+      "relation": "Correlates with",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "Age",
+      "target": "SIRS Criteria",
+      "relation": "Correlates with",
+      "p_value": "0.011"
+    },
+    {
+      "source": "APACHE II",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    }
+  ]
+}

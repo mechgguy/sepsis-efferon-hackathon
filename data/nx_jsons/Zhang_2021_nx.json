@@ -1,0 +1,187 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "Sepsis Mortality Risk Score (SMRS)",
+      "type": "Scoring System"
+    },
+    {
+      "id": "30-day mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "MIMIC III database",
+      "type": "Data Source"
+    },
+    {
+      "id": "eICU database",
+      "type": "Data Source"
+    },
+    {
+      "id": "LASSO",
+      "type": "Statistical Method"
+    },
+    {
+      "id": "AUC",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Calibration Slope",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Brier Value",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Age",
+      "type": "Demographic"
+    },
+    {
+      "id": "Gender",
+      "type": "Demographic"
+    },
+    {
+      "id": "Ethnicity",
+      "type": "Demographic"
+    },
+    {
+      "id": "APACHE II",
+      "type": "Scoring System"
+    },
+    {
+      "id": "SAPS II",
+      "type": "Scoring System"
+    },
+    {
+      "id": "SOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "APS III",
+      "type": "Scoring System"
+    },
+    {
+      "id": "LODS",
+      "type": "Scoring System"
+    },
+    {
+      "id": "OASIS",
+      "type": "Scoring System"
+    },
+    {
+      "id": "SIRS",
+      "type": "Scoring System"
+    },
+    {
+      "id": "qSOFA",
+      "type": "Scoring System"
+    }
+  ],
+  "links": [
+    {
+      "source": "Sepsis Mortality Risk Score (SMRS)",
+      "target": "30-day mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "MIMIC III database",
+      "target": "Sepsis Mortality Risk Score (SMRS)",
+      "relation": "Used for development"
+    },
+    {
+      "source": "eICU database",
+      "target": "Sepsis Mortality Risk Score (SMRS)",
+      "relation": "Used for validation"
+    },
+    {
+      "source": "LASSO",
+      "target": "Sepsis Mortality Risk Score (SMRS)",
+      "relation": "Used for variable selection"
+    },
+    {
+      "source": "Sepsis Mortality Risk Score (SMRS)",
+      "target": "AUC",
+      "relation": "Resulted in",
+      "value": "0.789 (development)",
+      "p_value": null
+    },
+    {
+      "source": "Sepsis Mortality Risk Score (SMRS)",
+      "target": "AUC",
+      "relation": "Resulted in",
+      "value": "0.765 (validation)",
+      "p_value": null
+    },
+    {
+      "source": "Sepsis Mortality Risk Score (SMRS)",
+      "target": "Calibration Slope",
+      "relation": "Resulted in",
+      "value": "0.862",
+      "p_value": null
+    },
+    {
+      "source": "Sepsis Mortality Risk Score (SMRS)",
+      "target": "Brier Value",
+      "relation": "Resulted in",
+      "value": "0.140",
+      "p_value": null
+    },
+    {
+      "source": "Age",
+      "target": "30-day mortality",
+      "relation": "Correlates with"
+    },
+    {
+      "source": "Gender",
+      "target": "30-day mortality",
+      "relation": "Correlates with"
+    },
+    {
+      "source": "Ethnicity",
+      "target": "30-day mortality",
+      "relation": "Correlates with"
+    },
+    {
+      "source": "APACHE II",
+      "target": "30-day mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "SAPS II",
+      "target": "30-day mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "SOFA",
+      "target": "30-day mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "APS III",
+      "target": "30-day mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "LODS",
+      "target": "30-day mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "OASIS",
+      "target": "30-day mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "SIRS",
+      "target": "30-day mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "qSOFA",
+      "target": "30-day mortality",
+      "relation": "Predicts"
+    }
+  ]
+}

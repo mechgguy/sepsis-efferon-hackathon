@@ -1,0 +1,93 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "Sepsis-3 criteria",
+      "type": "Scoring System"
+    },
+    {
+      "id": "30-day mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Male sex",
+      "type": "Demographic"
+    },
+    {
+      "id": "Chronic renal disease",
+      "type": "Comorbidity"
+    },
+    {
+      "id": "Diabetes mellitus",
+      "type": "Comorbidity"
+    },
+    {
+      "id": "Antibiotic therapy before admission",
+      "type": "Treatment"
+    },
+    {
+      "id": "Neurological disease",
+      "type": "Comorbidity"
+    },
+    {
+      "id": "Very old patients (\u226580 years)",
+      "type": "Demographic",
+      "value": "Age >= 80"
+    },
+    {
+      "id": "CAP",
+      "type": "Disease"
+    }
+  ],
+  "links": [
+    {
+      "source": "Male sex",
+      "target": "Sepsis-3 criteria",
+      "relation": "Independent risk factor for",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "Chronic renal disease",
+      "target": "Sepsis-3 criteria",
+      "relation": "Independent risk factor for",
+      "p_value": "0.001"
+    },
+    {
+      "source": "Diabetes mellitus",
+      "target": "Sepsis-3 criteria",
+      "relation": "Independent risk factor for",
+      "p_value": "0.007"
+    },
+    {
+      "source": "Antibiotic therapy before admission",
+      "target": "Sepsis-3 criteria",
+      "relation": "Associated with lower risk of",
+      "p_value": "0.020"
+    },
+    {
+      "source": "Chronic renal disease",
+      "target": "30-day mortality",
+      "relation": "Independent risk factor for",
+      "p_value": null
+    },
+    {
+      "source": "Neurological disease",
+      "target": "30-day mortality",
+      "relation": "Independent risk factor for",
+      "p_value": null
+    },
+    {
+      "source": "Sepsis-3 criteria",
+      "target": "Very old patients (\u226580 years)",
+      "relation": "Occurs in",
+      "p_value": null
+    },
+    {
+      "source": "Sepsis-3 criteria",
+      "target": "CAP",
+      "relation": "Secondary to",
+      "p_value": null
+    }
+  ]
+}

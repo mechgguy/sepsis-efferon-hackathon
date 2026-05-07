@@ -1,0 +1,217 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "Nomogram",
+      "type": "Scoring System",
+      "value": "New nomogram for predicting in-hospital mortality"
+    },
+    {
+      "id": "SOFA",
+      "type": "Scoring System",
+      "value": "Sequential Organ Failure Assessment score"
+    },
+    {
+      "id": "SAPSII",
+      "type": "Scoring System",
+      "value": "Simplified Acute Physiology Score II"
+    },
+    {
+      "id": "In-hospital Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Age",
+      "type": "Demographic"
+    },
+    {
+      "id": "Lactate",
+      "type": "Laboratory Test"
+    },
+    {
+      "id": "Temperature",
+      "type": "Vital Sign"
+    },
+    {
+      "id": "Oxygenation Index",
+      "type": "Clinical Measurement"
+    },
+    {
+      "id": "BUN",
+      "type": "Laboratory Test"
+    },
+    {
+      "id": "Glasgow Coma Score (GCS)",
+      "type": "Scoring System"
+    },
+    {
+      "id": "Liver Disease",
+      "type": "Comorbidity"
+    },
+    {
+      "id": "Cancer",
+      "type": "Comorbidity"
+    },
+    {
+      "id": "Organ Transplantation",
+      "type": "Comorbidity"
+    },
+    {
+      "id": "Troponin T (TnT)",
+      "type": "Laboratory Test"
+    },
+    {
+      "id": "Neutrophil-to-Lymphocyte Ratio (NLR)",
+      "type": "Laboratory Test"
+    },
+    {
+      "id": "CRRT",
+      "type": "Intervention"
+    },
+    {
+      "id": "MV",
+      "type": "Intervention"
+    },
+    {
+      "id": "Vasopressor Use",
+      "type": "Intervention"
+    },
+    {
+      "id": "AUROC",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "DCA",
+      "type": "Statistical Analysis"
+    },
+    {
+      "id": "ICU Patients with Sepsis and Lung Infection",
+      "type": "Patient Population"
+    }
+  ],
+  "links": [
+    {
+      "source": "Nomogram",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Nomogram",
+      "target": "ICU Patients with Sepsis and Lung Infection",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Nomogram",
+      "target": "AUROC",
+      "relation": "Resulted in",
+      "p_value": null,
+      "value": "0.743 (training), 0.746 (validation)"
+    },
+    {
+      "source": "Nomogram",
+      "target": "DCA",
+      "relation": "Demonstrates",
+      "p_value": null,
+      "value": "Net benefits over SOFA and SAPSII"
+    },
+    {
+      "source": "Age",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Lactate",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Temperature",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Oxygenation Index",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "BUN",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Glasgow Coma Score (GCS)",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Liver Disease",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Cancer",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Organ Transplantation",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Troponin T (TnT)",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Neutrophil-to-Lymphocyte Ratio (NLR)",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "CRRT",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "MV",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Vasopressor Use",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SOFA",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SAPSII",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "Age >= 65 years",
+      "type": "Demographic",
+      "value": null
+    },
+    {
+      "id": "BMI <= 18.5 kg/m2",
+      "type": "Demographic",
+      "value": null
+    },
+    {
+      "id": "Hemato-oncologic diseases",
+      "type": "Comorbidity",
+      "value": null
+    },
+    {
+      "id": "Ventilator Care",
+      "type": "Treatment",
+      "value": null
+    },
+    {
+      "id": "180-day mortality",
+      "type": "Clinical Outcome",
+      "value": null
+    },
+    {
+      "id": "365-day mortality",
+      "type": "Clinical Outcome",
+      "value": null
+    },
+    {
+      "id": "AUC (180-day model)",
+      "type": "Statistical Metric",
+      "value": "0.713"
+    },
+    {
+      "id": "AUC (365-day model)",
+      "type": "Statistical Metric",
+      "value": "0.697"
+    },
+    {
+      "id": "APACHE II",
+      "type": "Scoring System",
+      "value": null
+    },
+    {
+      "id": "SOFA",
+      "type": "Scoring System",
+      "value": null
+    }
+  ],
+  "links": [
+    {
+      "source": "Age >= 65 years",
+      "target": "180-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "BMI <= 18.5 kg/m2",
+      "target": "180-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Hemato-oncologic diseases",
+      "target": "180-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Ventilator Care",
+      "target": "180-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Age >= 65 years",
+      "target": "365-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "BMI <= 18.5 kg/m2",
+      "target": "365-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Hemato-oncologic diseases",
+      "target": "365-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Ventilator Care",
+      "target": "365-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "AUC (180-day model)",
+      "target": "180-day mortality",
+      "relation": "Predicts",
+      "p_value": "<.001"
+    },
+    {
+      "source": "AUC (365-day model)",
+      "target": "365-day mortality",
+      "relation": "Predicts",
+      "p_value": "<.001"
+    },
+    {
+      "source": "APACHE II",
+      "target": "180-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "APACHE II",
+      "target": "365-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SOFA",
+      "target": "180-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SOFA",
+      "target": "365-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    }
+  ]
+}

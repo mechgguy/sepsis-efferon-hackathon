@@ -79,7 +79,14 @@ rm data/parsed_papers/{paper_id}_tables.json
 
 ## File Format Details
 
+## Methods and Files
+
+`tablejsonviewer.py` Interactive view of markdown and json (non networkX) files. Gives best visualisation and analysis with `./data/parsed_papers`
+
+`graph_viewer.py` Interactive view of json files stored in networkx format in streamlit
+
 ### `{paper_id}.md`
+
 Sections text only. No tables. Used for text chunking and LLM context.
 
 ```markdown
@@ -91,6 +98,7 @@ Sepsis is defined as life-threatening organ dysfunction...
 ```
 
 ### `{paper_id}_tables.json`
+
 List of table objects. Overwritten when you rotate a table in the UI.
 
 ```json
