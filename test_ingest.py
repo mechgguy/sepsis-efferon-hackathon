@@ -16,6 +16,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 from ingest import parse_pdf, ParsedPaper, ParsedTable, PARSED_CACHE_DIR
+from ingest_parallel import parse_all_parallel
 
 
 # ── Markdown table utils ──────────────────────────────────────────────────────
@@ -149,11 +150,11 @@ st.set_page_config(page_title="Sepsis Atlas — Ingest Viewer", layout="wide")
 st.title("📄 Ingest Viewer")
 st.caption("Sections → .md | Tables → _tables.json. Rotating auto-saves _tables.json.")
 
-papers_dir = Path("papers")
+papers_dir = Path("materials/articles")
 pdfs = sorted(papers_dir.glob("*.pdf")) if papers_dir.exists() else []
 
 if not pdfs:
-    st.error("No PDFs found in ./papers/")
+    st.error("No PDFs found in " + str(papers_dir))
     st.stop()
 
 selected = st.selectbox("Select paper", pdfs, format_func=lambda p: p.name)
@@ -165,6 +166,46 @@ if st.button("Parse / Load", type="primary"):
         write_tables_json(paper)
         st.session_state["paper"] = paper
         st.session_state["table_mode"] = {}
+
+st.divider()
+st.subheader("📦 Batch Ingest All Papers")
+
+cached = [p for p in pdfs if (PARSED_CACHE_DIR / f"{p.stem}.json").exists()]
+uncached = [p for p in pdfs if p not in cached]
+st.caption(f"{len(cached)} cached · {len(uncached)} not yet parsed · {len(pdfs)} total")
+
+workers = st.slider("Parallel workers", min_value=1, max_value=6, value=3,
+                    help="Each worker builds its own Docling converter. Keep ≤4 on CPU-only.")
+
+if st.button("🚀 Parse All Papers", type="primary"):
+    progress_bar = st.progress(0)
+    status_text  = st.empty()
+    results_box  = st.empty()
+    log: list[str] = []
+
+    def on_progress(done, total, filename):
+        progress_bar.progress(done / total)
+        status_text.text(f"[{done}/{total}] {filename}")
+        log.append(f"✅ {filename}")
+        results_box.markdown("\n".join(log[-10:]))  # show last 10
+
+    with st.spinner("Batch parsing in progress..."):
+        successes, failures = parse_all_parallel(
+            papers_dir, max_workers=workers, progress_cb=on_progress
+        )
+        for paper in successes:
+            write_sections_md(paper)
+            write_tables_json(paper)
+
+    progress_bar.progress(1.0)
+    status_text.text("Done.")
+    st.success(f"Parsed {len(successes)} papers.")
+    if failures:
+        st.error(f"{len(failures)} failed:")
+        for path, err in failures:
+            st.code(f"{path.name}: {err}")
+
+st.divider()
 
 paper: ParsedPaper | None = st.session_state.get("paper")
 
