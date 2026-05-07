@@ -1,0 +1,26 @@
+services:
+  weaviate:
+    image: cr.weaviate.io/semitechnologies/weaviate:1.37.2
+    command:
+      - --host
+      - 0.0.0.0
+      - --port
+      - '8080'
+      - --scheme
+      - http
+    ports:
+      - "8080:8080"
+      - "50051:50051"
+    restart: on-failure:0
+    volumes:
+      - weaviate_data:/var/lib/weaviate
+    environment:
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
+      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
+      # Remove these for single-node:
+      # CLUSTER_HOSTNAME: 'node1'
+      # CLUSTER_GOSSIP_BIND_PORT: "7946"
+      # CLUSTER_DATA_BIND_PORT: "7947"
+      # CLUSTER_JOIN: ""
+volumes:
+  weaviate_data:
