@@ -72,18 +72,6 @@ Rules:
 """
 
 
-CHAT_SYSTEM_PROMPT = """You are a clinical research assistant helping clinicians and researchers explore sepsis literature.
-
-You are given retrieved passages from published sepsis studies. Use them to answer the user's question accurately and concisely.
-
-Guidelines:
-- Answer in plain, readable prose (not JSON).
-- Cite the study (Author Year) when you state a finding.
-- If the passages don't contain enough information, say so honestly.
-- Do not invent data that isn't in the passages.
-"""
-
-
 # ── Prompt builder ─────────────────────────────────────────────────────────────
 
 def build_user_prompt(query: str, chunks: list[dict]) -> str:
@@ -162,29 +150,6 @@ def extract_records(query: str, chunks: list[dict]) -> list[dict]:
     except json.JSONDecodeError as e:
         print(f"[WARN] JSON parse failed: {e}\nRaw:\n{raw}", file=sys.stderr)
         return []
-
-
-def chat_answer(query: str, chunks: list[dict]) -> str:
-    """Call LLM to produce a conversational answer from retrieved chunks."""
-    client, model = _get_client_and_model()
-    parts = []
-    for i, chunk in enumerate(chunks, 1):
-        parts.append(
-            f"[{i}] {chunk.get('title', '?')} (p.{chunk.get('page_number', '?')})\n"
-            f"{chunk.get('compressedContent', '')}"
-        )
-    context = "\n\n---\n\n".join(parts)
-    user_msg = f"Question: {query}\n\nPassages:\n{context}"
-    completion = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": CHAT_SYSTEM_PROMPT},
-            {"role": "user",   "content": user_msg},
-        ],
-        temperature=0.2,
-        max_tokens=1024,
-    )
-    return (completion.choices[0].message.content or "").strip()
 
 
 # ── Output formatters ─────────────────────────────────────────────────────────
