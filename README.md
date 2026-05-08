@@ -6,11 +6,11 @@ End-to-end pipeline for ingesting clinical sepsis research papers, building a ve
 
 ## 📺 Product Demo
 
-![Sepsis Atlas Demo](demo/frontendToken_burners.gif)
+![Sepsis Atlas Demo](demo/frontToken_burners.gif)
 
 <details>
   <summary>▶ Click to expand Video Demo</summary>
-  <video src="demo/frontendToken_burners.gif" width="100%" controls title="Fronend Dashboard Walkthrough"></video>
+  <video src="demo/frontToken_burners.gif" width="100%" controls title="Fronend Dashboard Walkthrough"></video>
 </details>
 
 ## Table of Contents
