@@ -101,15 +101,55 @@ else:
     ])
 
     with tab_viz:
-        col1, col2 = st.columns(2)
-        with col1:
-            st.subheader("Clinical Attribute Coverage")
-            fig_sun = px.sunburst(f_attr, path=['Domain', 'Attribute', 'paper_id'], color='Domain')
+            # --- 1. FULL WIDTH SUNBURST (TOP) ---
+            st.subheader("🎯 Clinical Attribute Coverage")
+            st.markdown("Global distribution of variables across clinical domains and papers.")
+            
+            fig_sun = px.sunburst(
+                f_attr, 
+                path=['Domain', 'Attribute', 'paper_id'],
+                color='Domain', 
+                color_discrete_sequence=px.colors.qualitative.Pastel,
+                template="plotly_dark"
+            )
+            
+            # Increase height significantly to make it "Bigger"
+            fig_sun.update_layout(
+                height=800, 
+                margin=dict(t=10, l=10, r=10, b=10)
+            )
+            
             st.plotly_chart(fig_sun, width='stretch')
-        with col2:
-            st.subheader("Information Density")
+
+            st.divider() # Visual break
+
+            # --- 2. FULL WIDTH BAR CHART (BOTTOM) ---
+            st.subheader("📊 Information Density")
+            st.markdown("Volume of clinical mentions extracted per study.")
+            
             density = f_attr.groupby(['paper_id', 'Domain']).size().reset_index(name='Mention Count')
-            fig_bar = px.bar(density, x='Mention Count', y='paper_id', color='Domain', orientation='h')
+            
+            fig_bar = px.bar(
+                density, 
+                x='Mention Count', 
+                y='paper_id', 
+                color='Domain',
+                orientation='h', 
+                template="plotly_dark",
+                category_orders={"paper_id": sorted(f_attr['paper_id'].unique())}
+            )
+            
+            # Dynamic height based on number of papers so it doesn't look squashed
+            bar_height = max(400, len(selected_papers) * 25)
+            
+            fig_bar.update_layout(
+                height=bar_height,
+                xaxis_title="Total Mentions (Attribute Frequency)",
+                yaxis_title="",
+                legend_title="Clinical Domain",
+                margin=dict(t=20, l=10, r=10, b=20)
+            )
+            
             st.plotly_chart(fig_bar, width='stretch')
 
     with tab_search:
@@ -267,7 +307,8 @@ else:
             text='Attribute',
             color_continuous_scale='Viridis',
             size_max=80,  # Adjust this to make bubbles bigger/smaller
-            labels={'Total_Mentions': 'Evidence Weight'}
+            labels={'Total_Mentions': 'Evidence Weight'},
+            hover_data=['Study_Count']
         )
 
         # 4. Styling to match your screenshot (Dark theme, hidden axes)
