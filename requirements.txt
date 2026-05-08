@@ -1,8 +1,19 @@
+# OCR / parsing
 docling==2.92.0
+PyMuPDF==1.27.2.3
+
+# Streamlit apps
 streamlit==1.57.0
 pandas==2.3.3
 pyarrow==24.0.0
-PyMuPDF==1.27.2.3
+plotly>=5.0
+
+# LLM extraction (use-case extraction scripts)
 openai==2.33.0
 instructor==1.15.1
 pydantic==2.13.2
+
+# RAG / Weaviate
+weaviate-client>=4.6.0
+sentence-transformers==3.3.1
+torch>=2.0
