@@ -27,8 +27,7 @@ Sepsis Atlas ingests PDF research papers, parses them with layout-aware OCR, spl
 The system has two Streamlit frontends:
 
 - **`apps/ingest_app.py`** — parse papers, manage Weaviate ingestion, query via chat
-- **`apps/dashboard.py`** — attribute analytics and full-text traceability across all papers
-- **`dashboard_viewer_graph.py`** - SEPSIS ATLAS DASHBOARD and viewer.
+- **`frontend/dashboard_viewer_graph.py`** — SEPSIS ATLAS DASHBOARD and viewer for attribute analytics and full-text traceability across all papers
 
 ---
 
@@ -44,73 +43,73 @@ The system has two Streamlit frontends:
                          │
                          ▼
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  STAGE 1 — OCR + PARSING          pipeline/ocr.py                      │
+│  STAGE 1 — OCR + PARSING          pipeline/ocr.py                       │
 │                                                                         │
 │  Docling layout-aware PDF parser                                        │
 │  ├─ Extracts section headings + body text with page numbers             │
 │  ├─ Extracts tables as Markdown with preceding heading                  │
 │  └─ Extracts figures as cropped PNG images (PyMuPDF)                    │
 │                                                                         │
-│  Output → data/parsed_papers/{paper_id}.json   (full parse cache)      │
+│  Output → data/parsed_papers/{paper_id}.json   (full parse cache)       │
 └────────────────────────┬────────────────────────────────────────────────┘
                          │
                          ▼
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  STAGE 2 — MARKDOWN + TABLE EXPORT    pipeline/chunking.py             │
+│  STAGE 2 — MARKDOWN + TABLE EXPORT    pipeline/chunking.py              │
 │                                                                         │
 │  ├─ Sections exported as .md (no tables)                                │
 │  └─ Tables exported as JSON list                                        │
-│     └─ Manual rotation correction available in UI                      │
+│     └─ Manual rotation correction available in UI                       │
 │                                                                         │
-│  Output → data/parsed_papers/{paper_id}.md                             │
-│           data/parsed_papers/{paper_id}_tables.json                    │
+│  Output → data/parsed_papers/{paper_id}.md                              │
+│           data/parsed_papers/{paper_id}_tables.json                     │
 └────────────────────────┬────────────────────────────────────────────────┘
                          │
                          ▼
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  STAGE 3 — CHUNKING + METADATA ENRICHMENT    pipeline/chunking.py      │
+│  STAGE 3 — CHUNKING + METADATA ENRICHMENT    pipeline/chunking.py       │
 │                                                                         │
 │  Structure-aware splitting strategy:                                    │
 │  ├─ heading  → section fits in one chunk                                │
-│  ├─ paragraph → split by blank lines, pack into max_chars              │
+│  ├─ paragraph → split by blank lines, pack into max_chars               │
 │  ├─ sentence  → split by sentence boundary                              │
 │  └─ char      → hard split fallback                                     │
 │                                                                         │
 │  Each chunk carries:                                                    │
-│  id, text, section, section_index, part_index, page_number, year       │
+│  id, text, section, section_index, part_index, page_number, year        │
 │                                                                         │
-│  Output → data/parsed_papers/{paper_id}_chunks.json                    │
+│  Output → data/parsed_papers/{paper_id}_chunks.json                     │
 └────────────────────────┬────────────────────────────────────────────────┘
                          │
                          ▼
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  STAGE 4 — EMBEDDING + WEAVIATE INGESTION    pipeline/weaviate/        │
+│  STAGE 4 — EMBEDDING + WEAVIATE INGESTION    pipeline/weaviate/         │
 │                                                                         │
-│  Embedder (sentence-transformers/all-MiniLM-L6-v2 by default)          │
+│  Embedder (sentence-transformers/all-MiniLM-L6-v2 by default)           │
 │  ├─ Encodes all chunk texts in batches                                  │
 │  └─ L2-normalised float vectors                                         │
 │                                                                         │
 │  Weaviate (localhost:8080 via Docker)                                   │
 │  └─ Collection: RagDocumentChunk                                        │
-│     Fields: chunkId, title, chunkIndex, chapterIndex,                  │
-│             compressedContent, pageNumber, shortSummary, fullSummary   │
+│     Fields: chunkId, title, chunkIndex, chapterIndex,                   │
+│             compressedContent, pageNumber, shortSummary, fullSummary    │
 │                                                                         │
-│  Output → Weaviate persistent volume (weaviate_data)                   │
+│  Output → Weaviate persistent volume (weaviate_data)                    │
 └────────────────────────┬────────────────────────────────────────────────┘
                          │
                          ▼
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  STAGE 5 — RETRIEVAL    pipeline/weaviate/retrieve.py                  │
+│  STAGE 5 — RETRIEVAL    pipeline/weaviate/retrieve.py                   │
 │                                                                         │
-│  Step 1 — Fetch candidates from Weaviate                               │
+│  Step 1 — Fetch candidates from Weaviate                                │
 │  ├─ bm25    → keyword match (inverted index)                            │
-│  ├─ vector  → nearest neighbour by cosine similarity                   │
-│  └─ hybrid  → Weaviate fusion of BM25 + vector scores                  │
+│  ├─ vector  → nearest neighbour by cosine similarity                    │
+│  └─ hybrid  → Weaviate fusion of BM25 + vector scores                   │
 │                                                                         │
 │  Step 2 — Rerank (optional)                                             │
-│  └─ BAAI/bge-reranker-v2-m3 cross-encoder scores each (query, chunk)  │
+│  └─ BAAI/bge-reranker-v2-m3 cross-encoder scores each (query, chunk)    │
 │                                                                         │
-│  Returns → list[dict] of top-K chunks with scores                      │
+│  Returns → list[dict] of top-K chunks with scores                       │
 └────────────────────────┬────────────────────────────────────────────────┘
                          │
                          ▼
@@ -118,14 +117,12 @@ The system has two Streamlit frontends:
 │  STAGE 6 — FRONTEND    apps/                                            │
 │                                                                         │
 │  apps/ingest_app.py                                                     │
-│  ├─ Ingest tab      → parse, rotate tables, chunk papers               │
-│  ├─ Documents tab   → ingest chunks to Weaviate                        │
+│  ├─ Ingest tab      → parse, rotate tables, chunk papers                │
+│  ├─ Documents tab   → ingest chunks to Weaviate                         │
 │  └─ Chat tab        → hybrid RAG query interface                        │
 │                                                                         │
-│  apps/dashboard.py                                                      │
-│  └─ Attribute analytics, traceability search, paper browser
-│  
-│  apps/dashboard_viewer_graph.py
+│                                                                         │
+│  frontend/dashboard_viewer_graph.py                                     │
 │  └─ Attribute analytics, traceability search, paper browser             │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
@@ -422,50 +419,50 @@ Opens at `http://localhost:8501`
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
 │  [Ingest tab]                                           │
-│  ┌─────────────────────────────────────────────────┐   │
-│  │ Select paper: [ Baloch_2022.pdf          ▾ ]    │   │
-│  │ [ Parse / Load ]                                │   │
-│  └─────────────────────────────────────────────────┘   │
-│  ┌─────────────────────────────────────────────────┐   │
-│  │ 📦 Batch Parse All Papers                       │   │
-│  │ Parallel workers: [──●──────] 3                 │   │
-│  │ [ 🚀 Parse All Papers ]                         │   │
-│  └─────────────────────────────────────────────────┘   │
-│  ┌─────────────────────────────────────────────────┐   │
-│  │ 📦 Chunk All Parsed Papers                      │   │
-│  │ [ 🔪 Chunk All Papers ]                         │   │
-│  └─────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────┐    │
+│  │ Select paper: [ Baloch_2022.pdf          ▾ ]    │    │
+│  │ [ Parse / Load ]                                │    │
+│  └─────────────────────────────────────────────────┘    │
+│  ┌─────────────────────────────────────────────────┐    │
+│  │ 📦 Batch Parse All Papers                       │    │
+│  │ Parallel workers: [──●──────] 3                 │    │
+│  │ [ 🚀 Parse All Papers ]                         │    │
+│  └─────────────────────────────────────────────────┘    │
+│  ┌─────────────────────────────────────────────────┐    │
+│  │ 📦 Chunk All Parsed Papers                      │    │
+│  │ [ 🔪 Chunk All Papers ]                         │    │
+│  └─────────────────────────────────────────────────┘    │
 │                                                         │
 │  ── Paper Viewer ───────────────────────────────────    │
 │  Sections | Tables | Figures | Chunks | Full Markdown   │
 │                                                         │
 ├─────────────────────────────────────────────────────────┤
 │  [Documents tab]                                        │
-│  ┌─────────────────────────────────────────────────┐   │
-│  │ 📄 Baloch_2022_chunks.json    22 chunks          │   │
-│  │                            [ Ingest ]           │   │
-│  ├─────────────────────────────────────────────────┤   │
-│  │ 📄 Seymour_2016_chunks.json   31 chunks          │   │
-│  │                            [ Ingest ]           │   │
-│  └─────────────────────────────────────────────────┘   │
-│  [ ⬆ Ingest All to Weaviate ]                          │
+│  ┌─────────────────────────────────────────────────┐    │
+│  │ 📄 Baloch_2022_chunks.json    22 chunks         │    │
+│  │                            [ Ingest ]           │    │
+│  ├─────────────────────────────────────────────────┤    │
+│  │ 📄 Seymour_2016_chunks.json   31 chunks         │    │
+│  │                            [ Ingest ]           │    │
+│  └─────────────────────────────────────────────────┘    │
+│  [ ⬆ Ingest All to Weaviate ]                           │
 │                                                         │
 ├─────────────────────────────────────────────────────────┤
 │  [Chat tab]                                             │
-│  ⚙ Settings  ▾                                         │
-│  Mode: ● hybrid  ○ bm25  ○ vector                      │
-│  Candidates: [──●──] 20    Top-K: [──●──] 5            │
+│  ⚙ Settings  ▾                                          │
+│  Mode: ● hybrid  ○ bm25  ○ vector                       │
+│  Candidates: [──●──] 20    Top-K: [──●──] 5             │
 │  Rerank: [●]                                            │
 │                                                         │
-│  ┌── assistant ─────────────────────────────────────┐  │
-│  │  **Results (hybrid · reranked)**                 │  │
-│  │  [1] Introduction  ·  score 0.94                 │  │
-│  │  > The pediatric intensive care unit plays...    │  │
-│  └──────────────────────────────────────────────────┘  │
+│  ┌── assistant ─────────────────────────────────────┐   │
+│  │  **Results (hybrid · reranked)**                 │   │
+│  │  [1] Introduction  ·  score 0.94                 │   │
+│  │  > The pediatric intensive care unit plays...    │   │
+│  └──────────────────────────────────────────────────┘   │
 │                                                         │
 ├─────────────────────────────────────────────────────────┤
-│  ⚙ hybrid · rerank on · top-5 of 20 candidates         │
-│  [ Ask something about the documents...     ] [send]   │
+│  ⚙ hybrid · rerank on · top-5 of 20 candidates          │
+│  [ Ask something about the documents...     ] [send]    │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -482,28 +479,28 @@ streamlit run apps/dashboard.py
 ```
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  🌐 Sepsis Global Attribute Atlas                       │
-├────────────────┬────────────────────────────────────────┤
-│  ⚙️ Sidebar    │  📊 Analytics  🔍 Traceability  📖 Atlas│
-│  Active Papers │                                        │
+┌─────────────────────────────────────────────────────────────┐
+│  🌐 Sepsis Global Attribute Atlas                           │
+├────────────────┬────────────────────────────────────────────┤
+│  ⚙️ Sidebar    │  📊 Analytics  🔍 Traceability  📖 Atlas    │
+│  Active Papers │                                            │
 │  [✓] Baloch   │  ┌── Clinical Coverage ──┐  ┌── Density ──┐ │
 │  [✓] Seymour  │  │ Sunburst: Domain →    │  │ Horizontal  │ │
 │  [✓] ...      │  │ Attribute → paper_id  │  │ bar by paper│ │
 │               │  └───────────────────────┘  └─────────────┘ │
-│               │                                        │
-│               │  [Traceability tab]                    │
-│               │  Search: [ lactate          ]          │
-│               │  Found 12 mentions                     │
-│               │  ▸ Baloch_2022 | Results               │
-│               │  ▸ Seymour_2016 | Methods              │
-│               │                                        │
-│               │  [Atlas tab]                           │
-│               │  Paper: [ Baloch_2022 ▾ ]              │
-│               │  ● Abstract   ### Abstract             │
-│               │  ○ Methods    Objective: To assess...  │
-│               │  ○ Results                             │
-└────────────────┴────────────────────────────────────────┘
+│               │                                             │
+│               │  [Traceability tab]                         │
+│               │  Search: [ lactate          ]               │
+│               │  Found 12 mentions                          │
+│               │  ▸ Baloch_2022 | Results                    │
+│               │  ▸ Seymour_2016 | Methods                   │
+│               │                                             │
+│               │  [Atlas tab]                                │
+│               │  Paper: [ Baloch_2022 ▾ ]                   │
+│               │  ● Abstract   ### Abstract                  │
+│               │  ○ Methods    Objective: To assess...       │
+│               │  ○ Results                                  │
+└────────────────┴────────────────────────────────────────────┘
 ```
 
 Discovers clinical attributes (severity scores, biomarkers, demographics, treatments, outcomes) by keyword scan of all parsed paper sections.
