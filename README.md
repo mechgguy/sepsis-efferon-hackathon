@@ -85,6 +85,9 @@ rm data/parsed_papers/{paper_id}_tables.json
 
 `graph_viewer.py` Interactive view of json files stored in networkx format in streamlit
 
+`dashboard_viewer_graph.py` Sepsis Global Attribute Atlas
+![alt text](image.png)
+
 ### `{paper_id}.md`
 
 Sections text only. No tables. Used for text chunking and LLM context.
