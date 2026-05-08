@@ -445,16 +445,25 @@ if query:
                 if llm_available and chunks:
                     records = extract_records(query, chunks)
                     if records:
-                        lines = [f"**Found {len(records)} evidence record(s):**\n"]
-                        for r in records:
-                            lines.append(
-                                f"**{r.get('study', '?')}** — {r.get('predictor', '?')} → "
-                                f"{r.get('outcome', '?')}\n"
-                                f"> Effect: {r.get('effect_size', 'not reported')}  "
-                                f"| Method: {r.get('method', 'not reported')}\n"
-                                f"> {r.get('source_anchor', '')}"
-                            )
-                        answer = "\n\n".join(lines)
+                        cols = [
+                            "study", "population", "sample_size", "predictor",
+                            "outcome", "timing", "method", "effect_size",
+                            "performance", "cohort_details", "notes",
+                            "source_anchor", "page",
+                        ]
+                        header = "| " + " | ".join(c.replace("_", " ").title() for c in cols) + " |"
+                        sep    = "| " + " | ".join("---" for _ in cols) + " |"
+                        rows   = [
+                            "| " + " | ".join(
+                                str(r.get(c, "not reported")).replace("|", "\\|")
+                                for c in cols
+                            ) + " |"
+                            for r in records
+                        ]
+                        answer = (
+                            f"**{len(records)} evidence record(s):**\n\n"
+                            + "\n".join([header, sep] + rows)
+                        )
                     else:
                         answer = _format_chunks(chunks)
                 else:
