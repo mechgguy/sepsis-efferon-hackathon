@@ -34,9 +34,14 @@ def ingest_chunks(chunks: list[dict]) -> None:
         ensure_collection(client)
         collection = client.collections.get(COLLECTION_NAME)
         with collection.batch.dynamic() as batch:
-            for chunk, vector in zip(chunks, vectors):
+            for i, (chunk, vector) in enumerate(zip(chunks, vectors), 1):
                 meta = chunk.get("metadata", {})
                 props = {k: fn(meta, chunk) for k, (_, fn) in CHUNK_SCHEMA.items()}
+                doc = meta.get("document_id", meta.get("paper_id", "?"))
+                section = meta.get("section", "")
+                s_idx = meta.get("section_index", 0)
+                p_idx = meta.get("part_index", 0)
+                print(f"  [{i:>4}/{len(chunks)}] {doc}  |  {section!r}  idx={s_idx}.{p_idx}")
                 batch.add_object(
                     uuid=generate_uuid5(chunk["id"]),
                     properties=props,
@@ -44,7 +49,7 @@ def ingest_chunks(chunks: list[dict]) -> None:
                 )
     finally:
         client.close()
-    print(f"Ingested {len(chunks)} chunks in {time.time() - t0:.1f}s")
+    print(f"\nDone — {len(chunks)} chunks ingested in {time.time() - t0:.1f}s")
 
 
 def ingest_file(chunks_path: str | Path) -> None:

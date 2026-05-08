@@ -7,6 +7,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Risk factor analysis and nomogram for predicting in-hospital mortality in ICU patients with sepsis and lung infection",
+      "section_index": 0,
+      "part_index": 0,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -14,12 +16,14 @@
   },
   {
     "id": "Ren_2022_s1_p0",
-    "text": "## Abstract\nBackground: Lung infection is a common cause of sepsis, and patients with sepsis and lung infection are more ill and have a higher mortality rate than sepsis patients without lung infection. We constructed a nomogram prediction model to accurately evaluate the prognosis of and provide treatment advice for patients with sepsis and lung infection. Methods: Data were retrospectively extracted from the Medical Information Mart for Intensive Care (MIMIC-III) opensource clinical database. The definition of Sepsis 3.0 [10] was used, which includes patients with life-threatening organ dysfunction caused by an uncontrolled host response to infection, and SOFA score ≥ 2. The nomogram prediction model was constructed from the training set using logistic regression analysis, and was then internally validated and underwent sensitivity analysis. Results: The risk factors of age, lactate, temperature, oxygenation index, BUN, lactate, Glasgow Coma Score (GCS), liver disease, cancer, organ transplantation, Troponin T(TnT), neutrophil-to-lymphocyte ratio (NLR), and CRRT, MV, and vasopressor use were included in the nomogram.",
+    "text": "## Abstract\nBackground: Lung infection is a common cause of sepsis, and patients with sepsis and lung infection are more ill and have a higher mortality rate than sepsis patients without lung infection. We constructed a nomogram prediction model to accurately evaluate the prognosis of and provide treatment advice for patients with sepsis and lung infection. Methods: Data were retrospectively extracted from the Medical Information Mart for Intensive Care (MIMIC-III) opensource clinical database. The definition of Sepsis 3.0 [10] was used, which includes patients with life-threatening organ dysfunction caused by an uncontrolled host response to infection, and SOFA score ≥ 2. The nomogram prediction model was constructed from the training set using logistic regression analysis, and was then internally validated and underwent sensitivity analysis. Results: The risk factors of age, lactate, temperature, oxygenation index, BUN, lactate, Glasgow Coma Score (GCS), liver disease, cancer, organ transplantation, Troponin T(TnT), neutrophil-to-lymphocyte ratio (NLR), and CRRT, MV, and vasopressor use were included in the nomogram. We compared our nomogram with the Sequential Organ Failure Assessment (SOFA) score and Simplified Acute Physiology Score II (SAPSII), the nomogram had better discrimination ability, with areas under the receiver operating characteristic curve (AUROC) of 0.743 (95% C.I.: 0.713-0.773) and 0.746 (95% C.I.: 0.699-0.790) in the training and validation sets, respectively. The calibration plot indicated that the nomogram was adequate for predicting the in-hospital mortality risk in both sets. The decision-curve analysis (DCA) of the nomogram revealed that it provided net benefits for clinical use over using the SOFA score and SAPSII in both sets.",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Abstract",
+      "section_index": 1,
+      "part_index": 0,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -27,12 +31,14 @@
   },
   {
     "id": "Ren_2022_s1_p1",
-    "text": "## Abstract\nWe compared our nomogram with the Sequential Organ Failure Assessment (SOFA) score and Simplified Acute Physiology Score II (SAPSII), the nomogram had better discrimination ability, with areas under the receiver operating characteristic curve (AUROC) of 0.743 (95% C.I.: 0.713-0.773) and 0.746 (95% C.I.: 0.699-0.790) in the training and validation sets, respectively. The calibration plot indicated that the nomogram was adequate for predicting the in-hospital mortality risk in both sets. The decision-curve analysis (DCA) of the nomogram revealed that it provided net benefits for clinical use over using the SOFA score and SAPSII in both sets. Conclusion: Our new nomogram is a convenient tool for accurate predictions of in-hospital mortality among ICU patients with sepsis and lung infection. Treatment strategies that improve the factors considered relevant in the model could increase in-hospital survival for these ICU patients. Keywords: Sepsis, Nomogram, Lung infection *Correspondence: lyujun2020@jnu.edu.cn; yinhaiyan1867@126.com 1 Intensive Care Unit, The First Affiliated Hospital of Jinan University, Guangzhou 510630, Guangdong Province, People's Republic of China 2 Department of Clinical Research, The First Affiliated Hospital of Jinan University, Guangzhou 510630, Guangdong Province, People's Republic of China Full list of author information is available at the end of the article",
+    "text": "## Abstract\nConclusion: Our new nomogram is a convenient tool for accurate predictions of in-hospital mortality among ICU patients with sepsis and lung infection. Treatment strategies that improve the factors considered relevant in the model could increase in-hospital survival for these ICU patients. Keywords: Sepsis, Nomogram, Lung infection *Correspondence: lyujun2020@jnu.edu.cn; yinhaiyan1867@126.com 1 Intensive Care Unit, The First Affiliated Hospital of Jinan University, Guangzhou 510630, Guangdong Province, People's Republic of China 2 Department of Clinical Research, The First Affiliated Hospital of Jinan University, Guangzhou 510630, Guangdong Province, People's Republic of China Full list of author information is available at the end of the article",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Abstract",
+      "section_index": 1,
+      "part_index": 1,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -40,12 +46,14 @@
   },
   {
     "id": "Ren_2022_s2_p0",
-    "text": "## Background\nSepsis is particularly common in ICUs, and it is one of the main causes of disability and death in severely ill patients. At least 3 million patients worldwide suffer from sepsis annually, with mortality rates as high as 30-50%, causing serious damage to both their families and society as a whole [1-3]. Sepsis usually has rapid onset, rapidly © The Author(s) 2021. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat iveco mmons. org/ publi cdoma in/ zero/1.",
+    "text": "## Background\nSepsis is particularly common in ICUs, and it is one of the main causes of disability and death in severely ill patients. At least 3 million patients worldwide suffer from sepsis annually, with mortality rates as high as 30-50%, causing serious damage to both their families and society as a whole [1-3]. Sepsis usually has rapid onset, rapidly © The Author(s) 2021. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat iveco mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data. deteriorating progress, affects multiple organs, and is difficult to reverse, meaning that when a patient is diagnosed with sepsis, it should be treated immediately. Sepsis has a complicated source and dangerous condition. It can be caused by various factors and affects the function of multiple organs.",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Background",
+      "section_index": 2,
+      "part_index": 0,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -53,25 +61,14 @@
   },
   {
     "id": "Ren_2022_s2_p1",
-    "text": "## Background\n0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data. deteriorating progress, affects multiple organs, and is difficult to reverse, meaning that when a patient is diagnosed with sepsis, it should be treated immediately. Sepsis has a complicated source and dangerous condition. It can be caused by various factors and affects the function of multiple organs. Lung infection is one of the main causes of sepsis [4, 5], and more than 40% of sepsis patients have lung infections. Studies have indicated that patients with sepsis and lung infection are more ill and have a higher mortality rate [6, 7]. If patients with sepsis and lung infection can be assessed early, and appropriate treatment strategies can be applied in time, mortality rates can be effectively reduced [8]. However, there is no effective scale for evaluating the prognosis and condition of sepsis patients with lung infection, leading to precise treatment delay and extra plague for patients.",
+    "text": "## Background\nLung infection is one of the main causes of sepsis [4, 5], and more than 40% of sepsis patients have lung infections. Studies have indicated that patients with sepsis and lung infection are more ill and have a higher mortality rate [6, 7]. If patients with sepsis and lung infection can be assessed early, and appropriate treatment strategies can be applied in time, mortality rates can be effectively reduced [8]. However, there is no effective scale for evaluating the prognosis and condition of sepsis patients with lung infection, leading to precise treatment delay and extra plague for patients. Although the Sequential Organ Failure Assessment (SOFA) score and Acute Physiology and Chronic Health Evaluation II (APACHEII) scores are somewhat useful in assessing the condition of patients, the scores mainly evaluate the physiological functions of organs and lack pertinence and sensitivity in evaluating clinical practices and prognoses of patients with sepsis and lung infection and are not effective in guiding the treatment of these patients during the clinical process. As there is currently no effective evaluation scale for predicting the in-hospital outcomes of patients with sepsis and lung infection, our study analyzed the risk factors of in-hospital mortality for sepsis patients with lung infection from the Medical Information Mart for Intensive Care (MIMIC-III) database, constructed a nomogram prediction model, and compared it with the SOFA score and Simplified Acute Physiology Score II (SAPSII) systems to accurately evaluate patient conditions, predict the prognostic outcome, and provide advice for the treatment of patients with sepsis and lung infection.",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Background",
-      "page_number": 1,
-      "chunk_type": "section",
-      "split_strategy": "sentence"
-    }
-  },
-  {
-    "id": "Ren_2022_s2_p2",
-    "text": "## Background\nAlthough the Sequential Organ Failure Assessment (SOFA) score and Acute Physiology and Chronic Health Evaluation II (APACHEII) scores are somewhat useful in assessing the condition of patients, the scores mainly evaluate the physiological functions of organs and lack pertinence and sensitivity in evaluating clinical practices and prognoses of patients with sepsis and lung infection and are not effective in guiding the treatment of these patients during the clinical process. As there is currently no effective evaluation scale for predicting the in-hospital outcomes of patients with sepsis and lung infection, our study analyzed the risk factors of in-hospital mortality for sepsis patients with lung infection from the Medical Information Mart for Intensive Care (MIMIC-III) database, constructed a nomogram prediction model, and compared it with the SOFA score and Simplified Acute Physiology Score II (SAPSII) systems to accurately evaluate patient conditions, predict the prognostic outcome, and provide advice for the treatment of patients with sepsis and lung infection.",
-    "metadata": {
-      "document_id": "Ren_2022",
-      "paper_id": "Ren_2022",
-      "year": 2022,
-      "section": "Background",
+      "section_index": 2,
+      "part_index": 1,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -85,6 +82,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Database",
+      "section_index": 3,
+      "part_index": 0,
       "page_number": 2,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -92,12 +91,14 @@
   },
   {
     "id": "Ren_2022_s4_p0",
-    "text": "## Patient admission and data extraction\nThe following inclusion criteria were applied: (1) entering the ICU for the first time, (2) diagnosed with sepsis and lung infection, and (3) aged 18-80 years. The exclusion criteria were (1) SOFA score < 2 and (2) stay of shorter than 24 h in the ICU. The definition of Sepsis 3.0 [10] was used, which includes patients with life-threatening organ dysfunction caused by an uncontrolled host response to infection, and SOFA score ≥ 2. Lung infection diagnosis was determined by the ninth edition of the International Classification of Diseases codes for the MIMIC-III patient data. Data were extracted from the MIMIC-III database using SQL with Navicat Premium. The sampling process is presented in Fig. 1. We extracted patients diagnosed sepsis and pneumonia(including all pathogen infection like bacteria, virus and fungus) according to the ICD9,and then extracted ID, SOFA score, and basic characteristics of target patients from MIMIC-III data tables, and unsuitable patients (< 18 or ≥ 80 years old, SOFA score < 2, and ICU stay of < 24 h) were excluded.",
+    "text": "## Patient admission and data extraction\nThe following inclusion criteria were applied: (1) entering the ICU for the first time, (2) diagnosed with sepsis and lung infection, and (3) aged 18-80 years. The exclusion criteria were (1) SOFA score < 2 and (2) stay of shorter than 24 h in the ICU. The definition of Sepsis 3.0 [10] was used, which includes patients with life-threatening organ dysfunction caused by an uncontrolled host response to infection, and SOFA score ≥ 2. Lung infection diagnosis was determined by the ninth edition of the International Classification of Diseases codes for the MIMIC-III patient data. Data were extracted from the MIMIC-III database using SQL with Navicat Premium. The sampling process is presented in Fig. 1. We extracted patients diagnosed sepsis and pneumonia(including all pathogen infection like bacteria, virus and fungus) according to the ICD9,and then extracted ID, SOFA score, and basic characteristics of target patients from MIMIC-III data tables, and unsuitable patients (< 18 or ≥ 80 years old, SOFA score < 2, and ICU stay of < 24 h) were excluded. The extracted variable items were (1) baseline characteristics and vital signs including mean arterial pressure (MAP), heart rate, respiratory rate, SpO2, and temperature, (2) laboratory test and blood culture results, (3) SOFA score, SAPSII, and GCS to assess organ function, (4) complications including congestive heart failure(CHF), chronic obstructive pulmonary disease(COPD), renal failure, liver disease, neurological disease, cancer, diabetes, AIDS, organ transplantation, and pneumomycosis, and (5) the use of vasopressor and interventions such as CVP, CRRT, MV, and fiberscopy.",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Patient admission and data extraction",
+      "section_index": 4,
+      "part_index": 0,
       "page_number": 2,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -105,12 +106,14 @@
   },
   {
     "id": "Ren_2022_s4_p1",
-    "text": "## Patient admission and data extraction\nThe extracted variable items were (1) baseline characteristics and vital signs including mean arterial pressure (MAP), heart rate, respiratory rate, SpO2, and temperature, (2) laboratory test and blood culture results, (3) SOFA score, SAPSII, and GCS to assess organ function, (4) complications including congestive heart failure(CHF), chronic obstructive pulmonary disease(COPD), renal failure, liver disease, neurological disease, cancer, diabetes, AIDS, organ transplantation, and pneumomycosis, and (5) the use of vasopressor and interventions such as CVP, CRRT, MV, and fiberscopy. Vital signs and laboratory data from blood examinations, basic blood biochemical indexes, and arterial blood gas were collected over the first 24 h of the ICU stay. If a variable was recorded more than once, the value representing the most severe illness was used. We collected discharge outcome data of all patients as the dependent variable of this observational study.",
+    "text": "## Patient admission and data extraction\nVital signs and laboratory data from blood examinations, basic blood biochemical indexes, and arterial blood gas were collected over the first 24 h of the ICU stay. If a variable was recorded more than once, the value representing the most severe illness was used. We collected discharge outcome data of all patients as the dependent variable of this observational study.",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Patient admission and data extraction",
+      "section_index": 4,
+      "part_index": 1,
       "page_number": 2,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -118,12 +121,14 @@
   },
   {
     "id": "Ren_2022_s5_p0",
-    "text": "## Data management and statistical analysis\nWe used multiple imputation method to fill in missing data through R software package of 'lattice' , ' MASS' , 'nnet' and 'mice' , variables with a missing data rate of more than 20% were deleted [11]. After confirming the data set, the continuous variables of blood glucose, MAP, pH, heart rate, and body temperature were converted into graded categorical variables (the concrete transformations are presented in Table 1), mean ± standard deviation or median (interquartile range) values described continuous variables, and categorical variables were presented as percentages. We then conducted logistic regression analysis in training set to determine independent variables relating to patient in-hospital mortality, selected related variables by using multivariate logistic regression analysis on the independent variables to calculate estimated odds ratios (ORs) and 95% confidence intervals (CIs), and set p < 0.1 as the threshold for excluding nonsignificant factors. The development of the nomogram began with randomly dividing samples without replacement into a training set and a validation set at a ratio of 7:3. An original nomogram for predicting in-hospital mortality of patients with sepsis and lung infection was constructed using the training set.",
+    "text": "## Data management and statistical analysis\nWe used multiple imputation method to fill in missing data through R software package of 'lattice' , ' MASS' , 'nnet' and 'mice' , variables with a missing data rate of more than 20% were deleted [11]. After confirming the data set, the continuous variables of blood glucose, MAP, pH, heart rate, and body temperature were converted into graded categorical variables (the concrete transformations are presented in Table 1), mean ± standard deviation or median (interquartile range) values described continuous variables, and categorical variables were presented as percentages. We then conducted logistic regression analysis in training set to determine independent variables relating to patient in-hospital mortality, selected related variables by using multivariate logistic regression analysis on the independent variables to calculate estimated odds ratios (ORs) and 95% confidence intervals (CIs), and set p < 0.1 as the threshold for excluding nonsignificant factors. The development of the nomogram began with randomly dividing samples without replacement into a training set and a validation set at a ratio of 7:3. An original nomogram for predicting in-hospital mortality of patients with sepsis and lung infection was constructed using the training set. Parsimony was a goal in the modeling, the most effective model should achieve the study aim and contain as few variables as possible [12], and considering clinical practice, GCS score and oxygenation index were included in the nomogram to complete the optimized nomogram.",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Data management and statistical analysis",
+      "section_index": 5,
+      "part_index": 0,
       "page_number": 2,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -131,12 +136,14 @@
   },
   {
     "id": "Ren_2022_s5_p1",
-    "text": "## Data management and statistical analysis\nParsimony was a goal in the modeling, the most effective model should achieve the study aim and contain as few variables as possible [12], and considering clinical practice, GCS score and oxygenation index were included in the nomogram to complete the optimized nomogram. Areas under the receiver operating characteristic curves (AUROCs) were calculated to evaluate the performance of the nomogram [13], and we compared the AUROC of nomogram with those of SOFA score and SAPSII in both the training and validation set through Delong's test. The integrated discrimination improvement (IDI) and net reclassification index (NRI) were used to compare discrimination slopes. The Hosmer-Lemeshow test and calibration plots were used to evaluate the calibration of the model [14]. Finally, to evaluate the net benefits, decision-curve analysis (DCA) was applied to the nomogram, SOFA score, and SAPSII models, and then these were compared under different threshold probabilities in the training and validation sets. R software (version 3.6.1, R Foundation for Statistical Computing, Vienna, Austria) was used for all statistical analyses. To amend incomplete data, the multiple imputation method was applied during the statistical analysis process. The statistically significant threshold was a twosided p value of < 0.05.",
+    "text": "## Data management and statistical analysis\nAreas under the receiver operating characteristic curves (AUROCs) were calculated to evaluate the performance of the nomogram [13], and we compared the AUROC of nomogram with those of SOFA score and SAPSII in both the training and validation set through Delong's test. The integrated discrimination improvement (IDI) and net reclassification index (NRI) were used to compare discrimination slopes. The Hosmer-Lemeshow test and calibration plots were used to evaluate the calibration of the model [14]. Finally, to evaluate the net benefits, decision-curve analysis (DCA) was applied to the nomogram, SOFA score, and SAPSII models, and then these were compared under different threshold probabilities in the training and validation sets. R software (version 3.6.1, R Foundation for Statistical Computing, Vienna, Austria) was used for all statistical analyses. To amend incomplete data, the multiple imputation method was applied during the statistical analysis process. The statistically significant threshold was a twosided p value of < 0.05.",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Data management and statistical analysis",
+      "section_index": 5,
+      "part_index": 1,
       "page_number": 2,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -150,6 +157,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Data management and statistical analysis",
+      "section_index": 5,
+      "part_index": 2,
       "page_number": 2,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -163,6 +172,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Participant characteristics",
+      "section_index": 6,
+      "part_index": 0,
       "page_number": 5,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -176,6 +187,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Logistic regression variable screening results and nomogram development",
+      "section_index": 7,
+      "part_index": 0,
       "page_number": 5,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -189,6 +202,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Performance of the nomogram model",
+      "section_index": 8,
+      "part_index": 0,
       "page_number": 5,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -202,6 +217,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Performance of the nomogram model",
+      "section_index": 8,
+      "part_index": 1,
       "page_number": 5,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -215,6 +232,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Clinical use of the nomogram",
+      "section_index": 9,
+      "part_index": 0,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -222,12 +241,14 @@
   },
   {
     "id": "Ren_2022_s10_p0",
-    "text": "## Discussion\nSince the introduction of a clinical definition for sepsis, physicians have been very concerned about its diagnosis and treatment due to its association with a high fatality rate, poor quality of life, and huge economic burden to patients [17]. Sepsis mainly induces systemic organ tissue damage from an inflammatory reaction, and capillary endothelial damage and loss of regulation of peripheral circulation are the key processes for sepsis developing into septic shock. Leukocyte oozing, coagulation dysfunction, and capillary dilation from inflammation are the main physiopathological factors associated with widespread tissue edema [18]. During sepsis development, collapse of pulmonary capillaries causes large amounts of protein-rich edema fluid to leak into the interstitial compartments of the lung [19]. The lung is therefore one of the most vulnerable organs during sepsis. Treating patients with sepsis who have lung infection is more difficult, and their mortality rate is higher [6, 7]. Fig. 2 Nomogram for predicting in-hospital-mortality of patients with sepsis and lung infection. When using it, drawing a vertical line from each variables upward to the points and then recording the corresponding points (i.e., 'age = 80' = 70 points).",
+    "text": "## Discussion\nSince the introduction of a clinical definition for sepsis, physicians have been very concerned about its diagnosis and treatment due to its association with a high fatality rate, poor quality of life, and huge economic burden to patients [17]. Sepsis mainly induces systemic organ tissue damage from an inflammatory reaction, and capillary endothelial damage and loss of regulation of peripheral circulation are the key processes for sepsis developing into septic shock. Leukocyte oozing, coagulation dysfunction, and capillary dilation from inflammation are the main physiopathological factors associated with widespread tissue edema [18]. During sepsis development, collapse of pulmonary capillaries causes large amounts of protein-rich edema fluid to leak into the interstitial compartments of the lung [19]. The lung is therefore one of the most vulnerable organs during sepsis. Treating patients with sepsis who have lung infection is more difficult, and their mortality rate is higher [6, 7]. Fig. 2 Nomogram for predicting in-hospital-mortality of patients with sepsis and lung infection. When using it, drawing a vertical line from each variables upward to the points and then recording the corresponding points (i.e., 'age = 80' = 70 points). The point of each variable was then summed up to obtain a total score that corresponds to a predicted probability of in-hospital-mortality at the bottom of the nomogram There has been recent interest in determining the factors related to the outcome of sepsis. Lactic acid, renal insufficiency, thrombocytopenia, lung infection, and high fever are considered risk factors for poor sepsis outcomes [6, 20-22], while plasma albumin and plasma IgG levels can be protective factors [23, 24].",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Discussion",
+      "section_index": 10,
+      "part_index": 0,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -235,12 +256,14 @@
   },
   {
     "id": "Ren_2022_s10_p1",
-    "text": "## Discussion\nThe point of each variable was then summed up to obtain a total score that corresponds to a predicted probability of in-hospital-mortality at the bottom of the nomogram There has been recent interest in determining the factors related to the outcome of sepsis. Lactic acid, renal insufficiency, thrombocytopenia, lung infection, and high fever are considered risk factors for poor sepsis outcomes [6, 20-22], while plasma albumin and plasma IgG levels can be protective factors [23, 24]. However, there are relatively few studies on the risk factors related to the prognosis of sepsis patients with lung infection. The present multivariate logistic regression analyses of sepsis patients with lung infection from the MIMIC-III database indicated that the variables closely related to patient prognoses include vital signs (age, SAPSII, heart rate, mean BP, body temperature, and SpO2), test results (BUN, bicarbonate, creatinine, lactate, INR, TnT, NLR, and blood culture), complications (cancer, renal failure, liver disease, and organ transplantation), and intervention strategies (vasopressors, MV, and CRRT use). Among these variables, the OR values of body temperature, SpO2, and bicarbonate were less than 1, indicating that they are positively correlated with in-hospital survival of patients with sepsis and lung infection. Vincent and his colleagues found that the mean blood pressure was positively correlated with the survival rate of sepsis patients [25].",
+    "text": "## Discussion\nHowever, there are relatively few studies on the risk factors related to the prognosis of sepsis patients with lung infection. The present multivariate logistic regression analyses of sepsis patients with lung infection from the MIMIC-III database indicated that the variables closely related to patient prognoses include vital signs (age, SAPSII, heart rate, mean BP, body temperature, and SpO2), test results (BUN, bicarbonate, creatinine, lactate, INR, TnT, NLR, and blood culture), complications (cancer, renal failure, liver disease, and organ transplantation), and intervention strategies (vasopressors, MV, and CRRT use). Among these variables, the OR values of body temperature, SpO2, and bicarbonate were less than 1, indicating that they are positively correlated with in-hospital survival of patients with sepsis and lung infection. Vincent and his colleagues found that the mean blood pressure was positively correlated with the survival rate of sepsis patients [25]. Such a correlation was also present in our study, but with an OR value of 1.07 (95% C.I.: 0.99-1.16), which may be due to the different sample populations. Patients with sepsis have higher in-hospital mortality when lung infection is also present, and clinical treatments for them are more difficult. While current sepsis guidelines do not recommend detailed treatment methods and evaluation programs for patients with different infection sources and complications. There are some systems for clinically evaluating sepsis patients, such as SOFA score, qSOFA, SAPSII, APACHE III and APACHE IV, SOFA score and qSOFA are mostly used for early and rapid disease assessments of sepsis patients [10].",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Discussion",
+      "section_index": 10,
+      "part_index": 1,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -248,12 +271,14 @@
   },
   {
     "id": "Ren_2022_s10_p2",
-    "text": "## Discussion\nSuch a correlation was also present in our study, but with an OR value of 1.07 (95% C.I.: 0.99-1.16), which may be due to the different sample populations. Patients with sepsis have higher in-hospital mortality when lung infection is also present, and clinical treatments for them are more difficult. While current sepsis guidelines do not recommend detailed treatment methods and evaluation programs for patients with different infection sources and complications. There are some systems for clinically evaluating sepsis patients, such as SOFA score, qSOFA, SAPSII, APACHE III and APACHE IV, SOFA score and qSOFA are mostly used for early and rapid disease assessments of sepsis patients [10]. Compared with the SOFA score, SAPSII has improved discrimination, calibration, and predictive power for mortality in sepsis patients, which has been recommended for the identification and mortality prognosis of sepsis patients by Sepsis 3.0 [26]. The prediction efficacy of APACHE III and IV models for sepsis and septic shock patients performed unsatisfying according to Ajay Somabhai Dabhi's study [27] and the efficacy of APACHE III, APACHE IV and SAPSII for predictions around sepsis patients with lung infection are uncertain. To meet the needs of clinical practice and to accurately understand sepsis development, some scholars have combined scoring systems and biomarkers to predict sepsis patient mortality. Seo et al.",
+    "text": "## Discussion\nCompared with the SOFA score, SAPSII has improved discrimination, calibration, and predictive power for mortality in sepsis patients, which has been recommended for the identification and mortality prognosis of sepsis patients by Sepsis 3.0 [26]. The prediction efficacy of APACHE III and IV models for sepsis and septic shock patients performed unsatisfying according to Ajay Somabhai Dabhi's study [27] and the efficacy of APACHE III, APACHE IV and SAPSII for predictions around sepsis patients with lung infection are uncertain. To meet the needs of clinical practice and to accurately understand sepsis development, some scholars have combined scoring systems and biomarkers to predict sepsis patient mortality. Seo et al. [28]. constructed a clinical predictive model for the 28-day mortality of sepsis and septic shock patients, with approximately 62% of the sepsis patients in the sample having lung infections. The variables in the model were hypoalbuminemia, low base excess values, and respiratory rate, and the model exhibited effective discrimination and calibration. However, those authors did not validate their predictive model, and so we extracted the clinical data of patients with sepsis and lung infection from the MIMIC-III database, applied logistic regression to determine the risk factors of inhospital mortality, confirmed the prediction model and constructed a nomogram, and performed validity and calibration evaluations of the clinical model. Some studies have demonstrated the benefits of the latest method of DCA and recommend its use [29, 30], DCA is a method to evaluate prediction models by calculating the clinical net benefit.",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Discussion",
+      "section_index": 10,
+      "part_index": 2,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -261,12 +286,14 @@
   },
   {
     "id": "Ren_2022_s10_p3",
-    "text": "## Discussion\n[28]. constructed a clinical predictive model for the 28-day mortality of sepsis and septic shock patients, with approximately 62% of the sepsis patients in the sample having lung infections. The variables in the model were hypoalbuminemia, low base excess values, and respiratory rate, and the model exhibited effective discrimination and calibration. However, those authors did not validate their predictive model, and so we extracted the clinical data of patients with sepsis and lung infection from the MIMIC-III database, applied logistic regression to determine the risk factors of inhospital mortality, confirmed the prediction model and constructed a nomogram, and performed validity and calibration evaluations of the clinical model. Some studies have demonstrated the benefits of the latest method of DCA and recommend its use [29, 30], DCA is a method to evaluate prediction models by calculating the clinical net benefit. The results of our study showed that in both the training and validation sets, interventions based on the nomogram could provide better prognoses than the SOFA score and SAPSII when the probability threshold was between 0.1 and 0.6. We adopt Hosmer-Lemeshow test and calibration plots to evaluate the calibration of the prediction model [14, 16], the results of both test demonstrated our model's calibration ability is satisfied.",
+    "text": "## Discussion\nThe results of our study showed that in both the training and validation sets, interventions based on the nomogram could provide better prognoses than the SOFA score and SAPSII when the probability threshold was between 0.1 and 0.6. We adopt Hosmer-Lemeshow test and calibration plots to evaluate the calibration of the prediction model [14, 16], the results of both test demonstrated our model's calibration ability is satisfied. Liver disease had the largest weighting factor in our model, indicating that it is the most significant predictor for the in-hospital mortality of patients with sepsis and lung infection. The morbidity of sepsis patients with liver disease is 30-50%, which is much higher than that of general patients with sepsis [31]. It is currently believed that the liver prevents sepsis from aggravating damage to tissues and organs mainly by removing bacteria and regulating inflammatory factor metabolism. Kupffer cells Table 4 The AUROC and IDI of SOFA, SAPSII and Nomogram in training set and validation set AUROC area under the receiver operating characteristic curve; IDI integrated discrimination improvement in the liver have an immune defense effect of removing bacteria and dissolving toxins [32]. Studies have indicated that liver damage may amplify lung inflammatory responses to bacterial infection coming from sepsis. Siore et al. used lipopolysaccharides to perfuse the lungs and livers of piglets, and found that when the liver and kidney were perfused simultaneously, nitric oxide, tumor necrosis factor alpha, and interleukin-6 levels are elevated in the lung, causing pulmonary edema [33].",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Discussion",
+      "section_index": 10,
+      "part_index": 3,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -274,12 +301,14 @@
   },
   {
     "id": "Ren_2022_s10_p4",
-    "text": "## Discussion\nLiver disease had the largest weighting factor in our model, indicating that it is the most significant predictor for the in-hospital mortality of patients with sepsis and lung infection. The morbidity of sepsis patients with liver disease is 30-50%, which is much higher than that of general patients with sepsis [31]. It is currently believed that the liver prevents sepsis from aggravating damage to tissues and organs mainly by removing bacteria and regulating inflammatory factor metabolism. Kupffer cells Table 4 The AUROC and IDI of SOFA, SAPSII and Nomogram in training set and validation set AUROC area under the receiver operating characteristic curve; IDI integrated discrimination improvement in the liver have an immune defense effect of removing bacteria and dissolving toxins [32]. Studies have indicated that liver damage may amplify lung inflammatory responses to bacterial infection coming from sepsis. Siore et al. used lipopolysaccharides to perfuse the lungs and livers of piglets, and found that when the liver and kidney were perfused simultaneously, nitric oxide, tumor necrosis factor alpha, and interleukin-6 levels are elevated in the lung, causing pulmonary edema [33].",
+    "text": "## Discussion\nWhen proinflammatory cytokines are synthesized during sepsis, the liver also secretes anti-inflammatory cytokines such as interleukin-10, transforming growth factor β, and glucocorticoids concomitantly, which may prevent continuous organ injury associated with the proinflammatory cytokines, but may cause severe immunosuppression. Infection immunity and endotoxin clearance insufficiency have been observed in patients with sepsis, acute liver failure, and cirrhosis [34]. a Delong's test was used for testing the difference of AUROC between SOFA SAPS II scores and the nomogram model. In training set, result of AUROC between SOFA and the nomogram is Z = -5.0879 ( p < 0.01), result of AUROC between SAPII and the nomogram is Z = 2.8677 ( p = 0.004); in validation set,result of AUROC between SOFA and the nomogram is Z = -5.5984 ( p < 0.01), result of AUROC between SAPII and the nomogram is Z = 2.7171 ( p = 0.007) Fig. 4 Calibration curves constructed by bootstrap approach in the training set ( a ) and validation set ( b ). In both sets, the apparent curve and bias-corrected curve slightly deviated from reference line, but a good conformity between observation and prediction is observed Our study found that cancer and the NLR are closely related to patient mortality, and these factors are closely related to the immune status of each patient. Many studies have indicated that the incidence and mortality rates of sepsis in immunocompromised patients are much higher than in healthy subjects [35, 36]. Through the immune checkpoint pathway and the secretion of immunosuppressive factors, cancer can suppress the innate immunity and adaptive immunity of the host [37, 38].",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Discussion",
+      "section_index": 10,
+      "part_index": 4,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -287,38 +316,14 @@
   },
   {
     "id": "Ren_2022_s10_p5",
-    "text": "## Discussion\nWhen proinflammatory cytokines are synthesized during sepsis, the liver also secretes anti-inflammatory cytokines such as interleukin-10, transforming growth factor β, and glucocorticoids concomitantly, which may prevent continuous organ injury associated with the proinflammatory cytokines, but may cause severe immunosuppression. Infection immunity and endotoxin clearance insufficiency have been observed in patients with sepsis, acute liver failure, and cirrhosis [34]. a Delong's test was used for testing the difference of AUROC between SOFA SAPS II scores and the nomogram model. In training set, result of AUROC between SOFA and the nomogram is Z = -5.0879 ( p < 0.01), result of AUROC between SAPII and the nomogram is Z = 2.8677 ( p = 0.004); in validation set,result of AUROC between SOFA and the nomogram is Z = -5.5984 ( p < 0.01), result of AUROC between SAPII and the nomogram is Z = 2.7171 ( p = 0.007) Fig. 4 Calibration curves constructed by bootstrap approach in the training set ( a ) and validation set ( b ). In both sets, the apparent curve and bias-corrected curve slightly deviated from reference line, but a good conformity between observation and prediction is observed Our study found that cancer and the NLR are closely related to patient mortality, and these factors are closely related to the immune status of each patient.",
+    "text": "## Discussion\nNi et al. suggested that the NLR was related to sepsis patient mortality [39], but their research results indicate that NLR has a negative correlation with sepsis patient mortality, contrary to our results. This may be because the study population and selected variables differed between the studies. Fig. 5 The DCA curve of medical intervention in patients with the nomogram, SOFA, and SAPSII in the training et ( a ) and validation set ( b ) Compared with the SOFA score and SAPSII, our clinical model has better prediction and discrimination performance, and the verification performed through IDI, NRI, Hosmer-Lemeshow test, calibration plots, and DCA demonstrated that our model has good discrimination, calibration, and validation for predicting in-hospital mortality in target patients. Our study had some limitations. First, since different methods are used to diagnose sepsis, such as the Martin criteria, it is necessary to further verify the efficacy of our model based on these criteria. Second, our nomogram was obtained through retrospective observation research from MIMIC-III database and according to our inclusion criteria some population are excluded from our study, this may limit the generalizability of our model (such for patients elder than 80 and patients in emergency department), and including additional factors in the model may affect the prediction results(for example, the time of receiving antibiotics). Finally, we only conducted an internal validation by this database, external validation based on our own data should be performed in the future study to further validate the robustness and performance of the nomogram.",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Discussion",
-      "page_number": 6,
-      "chunk_type": "section",
-      "split_strategy": "sentence"
-    }
-  },
-  {
-    "id": "Ren_2022_s10_p6",
-    "text": "## Discussion\nMany studies have indicated that the incidence and mortality rates of sepsis in immunocompromised patients are much higher than in healthy subjects [35, 36]. Through the immune checkpoint pathway and the secretion of immunosuppressive factors, cancer can suppress the innate immunity and adaptive immunity of the host [37, 38]. Ni et al. suggested that the NLR was related to sepsis patient mortality [39], but their research results indicate that NLR has a negative correlation with sepsis patient mortality, contrary to our results. This may be because the study population and selected variables differed between the studies. Fig. 5 The DCA curve of medical intervention in patients with the nomogram, SOFA, and SAPSII in the training et ( a ) and validation set ( b ) Compared with the SOFA score and SAPSII, our clinical model has better prediction and discrimination performance, and the verification performed through IDI, NRI, Hosmer-Lemeshow test, calibration plots, and DCA demonstrated that our model has good discrimination, calibration, and validation for predicting in-hospital mortality in target patients. Our study had some limitations. First, since different methods are used to diagnose sepsis, such as the Martin criteria, it is necessary to further verify the efficacy of our model based on these criteria.",
-    "metadata": {
-      "document_id": "Ren_2022",
-      "paper_id": "Ren_2022",
-      "year": 2022,
-      "section": "Discussion",
-      "page_number": 6,
-      "chunk_type": "section",
-      "split_strategy": "sentence"
-    }
-  },
-  {
-    "id": "Ren_2022_s10_p7",
-    "text": "## Discussion\nSecond, our nomogram was obtained through retrospective observation research from MIMIC-III database and according to our inclusion criteria some population are excluded from our study, this may limit the generalizability of our model (such for patients elder than 80 and patients in emergency department), and including additional factors in the model may affect the prediction results(for example, the time of receiving antibiotics). Finally, we only conducted an internal validation by this database, external validation based on our own data should be performed in the future study to further validate the robustness and performance of the nomogram.",
-    "metadata": {
-      "document_id": "Ren_2022",
-      "paper_id": "Ren_2022",
-      "year": 2022,
-      "section": "Discussion",
+      "section_index": 10,
+      "part_index": 5,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -332,6 +337,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Conclusion",
+      "section_index": 11,
+      "part_index": 0,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -345,6 +352,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Abbreviations",
+      "section_index": 12,
+      "part_index": 0,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -358,6 +367,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Supplementary Information",
+      "section_index": 13,
+      "part_index": 0,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -371,6 +382,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Acknowledgements",
+      "section_index": 14,
+      "part_index": 0,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -384,6 +397,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Authors' contributions",
+      "section_index": 15,
+      "part_index": 0,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -397,6 +412,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Funding",
+      "section_index": 16,
+      "part_index": 0,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -410,6 +427,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Availability of data and materials",
+      "section_index": 17,
+      "part_index": 0,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -423,6 +442,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Ethics approval and consent to participate",
+      "section_index": 18,
+      "part_index": 0,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -436,6 +457,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Consent for publication",
+      "section_index": 19,
+      "part_index": 0,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -449,6 +472,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Competing interests",
+      "section_index": 20,
+      "part_index": 0,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -462,6 +487,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Author details",
+      "section_index": 21,
+      "part_index": 0,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -469,12 +496,14 @@
   },
   {
     "id": "Ren_2022_s22_p0",
-    "text": "## References\nFleischmann C, Thomas-Rueddel DO. Hospital incidence and mortality rates of sepsis. Medicine. 2016;113:159-66. Fleischmann C, Scherag A, Adhikari NK, Hartog CS, Tsaganos T, Schlattmann P, Angus DC, Reinhart K. Assessment of global incidence and mortality of hospital-treated sepsis: current estimates and limitations. Am J Respir Crit Care Med. 2016;193(3):259-72. https:// doi. org/ 10. 1164/ rccm. 201504- 0781oc. Martin GS, Mannino DM, Eaton S, et al. The epidemiology of sepsis in the United States from 1979 through 2000. N Engl J Med. 2003;348:1546-54. Puskarich MA, Trzeciak S, Shapiro NI, Heffner AC, Kline JA, Jones AE. Outcomes of patients undergoing early sepsis resuscitation for cryptic shock compared with overt shock. Resuscitation. 2011;82(10):1289-93. Howell MD, Donnino M, Clardy P, Talmor D, Shapiro NI. Occult hypoperfusion and mortality in patients with suspected infection. Intensive Care Med. 2007;33(11):1892-9. Kim W-Y, Lee Y-J, Lim SY, et al. Clinical characteristics and prognosis of pneumonia and sepsis: multicenter study. Minerva Anestesiologica. 2013;79(12):1356-65. Mayr FB, Yende S, Angus DC. Epidemiology of severe sepsis. Virulence. 2014;5(1):4-11. Yang J, Li YJ, Liu QQ, Li L, Feng AZ, Wang TY, Zheng S, Xu AD, Lyu J. Brief introduction of medical database and data mining technology in big data era. J Evid-Based Med. 2020;13:57-69. Rhodes A, Evans LE, Alhazzani W, Levy MM, Antonelli M.",
+    "text": "## References\nFleischmann C, Thomas-Rueddel DO. Hospital incidence and mortality rates of sepsis. Medicine. 2016;113:159-66. Fleischmann C, Scherag A, Adhikari NK, Hartog CS, Tsaganos T, Schlattmann P, Angus DC, Reinhart K. Assessment of global incidence and mortality of hospital-treated sepsis: current estimates and limitations. Am J Respir Crit Care Med. 2016;193(3):259-72. https:// doi. org/ 10. 1164/ rccm. 201504- 0781oc. Martin GS, Mannino DM, Eaton S, et al. The epidemiology of sepsis in the United States from 1979 through 2000. N Engl J Med. 2003;348:1546-54. Puskarich MA, Trzeciak S, Shapiro NI, Heffner AC, Kline JA, Jones AE. Outcomes of patients undergoing early sepsis resuscitation for cryptic shock compared with overt shock. Resuscitation. 2011;82(10):1289-93. Howell MD, Donnino M, Clardy P, Talmor D, Shapiro NI. Occult hypoperfusion and mortality in patients with suspected infection. Intensive Care Med. 2007;33(11):1892-9. Kim W-Y, Lee Y-J, Lim SY, et al. Clinical characteristics and prognosis of pneumonia and sepsis: multicenter study. Minerva Anestesiologica. 2013;79(12):1356-65. Mayr FB, Yende S, Angus DC. Epidemiology of severe sepsis. Virulence. 2014;5(1):4-11. Yang J, Li YJ, Liu QQ, Li L, Feng AZ, Wang TY, Zheng S, Xu AD, Lyu J. Brief introduction of medical database and data mining technology in big data era. J Evid-Based Med. 2020;13:57-69. Rhodes A, Evans LE, Alhazzani W, Levy MM, Antonelli M. Surviving sepsis campaign: international guidelines for management of sepsis and septic shock: 2016. Crit Care Med. 2017;3:00-00. https:// doi. org/ 10. 1097/ CCM. 00000 00000 002255. Seymour CW, Liu VX, Iwashyna TJ, et al. Assessment of clinical criteria for sepsis: for the third international consensus definitions for sepsis and septic shock (Sepsis-3).",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "References",
+      "section_index": 22,
+      "part_index": 0,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -482,12 +511,14 @@
   },
   {
     "id": "Ren_2022_s22_p1",
-    "text": "## References\nSurviving sepsis campaign: international guidelines for management of sepsis and septic shock: 2016. Crit Care Med. 2017;3:00-00. https:// doi. org/ 10. 1097/ CCM. 00000 00000 002255. Seymour CW, Liu VX, Iwashyna TJ, et al. Assessment of clinical criteria for sepsis: for the third international consensus definitions for sepsis and septic shock (Sepsis-3). JAMA. 2016;315:762-74. Horton NJ, Lipsitz SR. Multiple imputation in practice: comparison of software packages for regression models with missing variables. Am Stat. 2001;55:244-54. Johnson AE, Pollard TJ, Shen L, et al. MIMIC-III, a freely accessible critical care database. Sci Data 2016;3:160035. Le Gall JR, Lemeshow S, Saulnier F. A new simplified acute physiology score (SAPS II) based on a European/North American multicenter study. JAMA. 1993;270(24):2957-63. Pencina MJ, D'Agostino RB, D'Agostino RB, Vasan RS. Evaluating the added predictive ability of a new marker: from area under the ROC curve to reclassification and beyond. Stat Med. 2008;27(2):157-72. Collins GS, Reitsma JB, Altman DG, Moons KG. Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD). Ann Intern Med. 2015;162:735-6. Steyerberg EW, Vickers AJ, Cook NR, et al. Assessing the performance of prediction models: a framework for traditional and novel measures. Epidemiology. 2010;21(1):128-38. Prescott HC, Langa KM, Liu V, Escobar GJ, Iwashyna TJ.",
+    "text": "## References\nJAMA. 2016;315:762-74. Horton NJ, Lipsitz SR. Multiple imputation in practice: comparison of software packages for regression models with missing variables. Am Stat. 2001;55:244-54. Johnson AE, Pollard TJ, Shen L, et al. MIMIC-III, a freely accessible critical care database. Sci Data 2016;3:160035. Le Gall JR, Lemeshow S, Saulnier F. A new simplified acute physiology score (SAPS II) based on a European/North American multicenter study. JAMA. 1993;270(24):2957-63. Pencina MJ, D'Agostino RB, D'Agostino RB, Vasan RS. Evaluating the added predictive ability of a new marker: from area under the ROC curve to reclassification and beyond. Stat Med. 2008;27(2):157-72. Collins GS, Reitsma JB, Altman DG, Moons KG. Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD). Ann Intern Med. 2015;162:735-6. Steyerberg EW, Vickers AJ, Cook NR, et al. Assessing the performance of prediction models: a framework for traditional and novel measures. Epidemiology. 2010;21(1):128-38. Prescott HC, Langa KM, Liu V, Escobar GJ, Iwashyna TJ. Increased 1-year healthcare use in survivors of severe sepsis. Am J Respir Crit Care Med. 2014;190(1):62-9. Aird WC. The role of the endothelium in severe sepsis and multiple organ dysfunction syndrome. Blood. 2003;101:3765-77. https:// doi. org/ 10. 1182/ blood- 2002- 06- 1887. pmid: 12543 869. Matthay MA, Ware LB, Zimmerman GA. The acute respiratory distress syndrome. J Clin Invest. 2012;122:2731-40. Liu Z, Meng Z, Li Y, Zhao J, Shihong Wu, Gou S, Heshui Wu. Prognostic accuracy of the serum lactate level, the SOFA score and the qSOFA score for mortality among adults with Sepsis. Scand J Trauma Resuscitation Emerg Med. 2019;27:51. Martin-Loeches I, Guia MC, Vallecoccia MS, Suarez D.",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "References",
+      "section_index": 22,
+      "part_index": 1,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -495,12 +526,14 @@
   },
   {
     "id": "Ren_2022_s22_p2",
-    "text": "## References\nIncreased 1-year healthcare use in survivors of severe sepsis. Am J Respir Crit Care Med. 2014;190(1):62-9. Aird WC. The role of the endothelium in severe sepsis and multiple organ dysfunction syndrome. Blood. 2003;101:3765-77. https:// doi. org/ 10. 1182/ blood- 2002- 06- 1887. pmid: 12543 869. Matthay MA, Ware LB, Zimmerman GA. The acute respiratory distress syndrome. J Clin Invest. 2012;122:2731-40. Liu Z, Meng Z, Li Y, Zhao J, Shihong Wu, Gou S, Heshui Wu. Prognostic accuracy of the serum lactate level, the SOFA score and the qSOFA score for mortality among adults with Sepsis. Scand J Trauma Resuscitation Emerg Med. 2019;27:51. Martin-Loeches I, Guia MC, Vallecoccia MS, Suarez D. Risk factors for mortality in elderly and very elderly critically ill patients with sepsis:a prospective, observational, multicenter cohort study. Ann Intensive Care. 2019;9:26. Shen Y, Lou Y, Zhu S. Hyperthermia is a predictor of high mortality in patients with sepsis. Crit Care. 2020;24:543. Takegawa R, Kabata D, Shimizu K, Hisano S, Ogura H, Shintani A, Shimazu T. Serum albumin as a risk factor for death in patients with prolonged sepsis: an observational study. J Crit Care. 2019;51:139-44. Dietz S, Lautenschläger C, Müller-Werdan U, Pilz G, Fraunberger P , Päsler M, Ebelt H, Walli AK, Werdan K, Nuding S. Serum IgG levels and mortality in patients with severe sepsis and septic shock. Med Klin Intensivmed Notfmed. Doi:https:// doi. org/ 10. 1007/ s00063- 016- 0220-6.",
+    "text": "## References\nRisk factors for mortality in elderly and very elderly critically ill patients with sepsis:a prospective, observational, multicenter cohort study. Ann Intensive Care. 2019;9:26. Shen Y, Lou Y, Zhu S. Hyperthermia is a predictor of high mortality in patients with sepsis. Crit Care. 2020;24:543. Takegawa R, Kabata D, Shimizu K, Hisano S, Ogura H, Shintani A, Shimazu T. Serum albumin as a risk factor for death in patients with prolonged sepsis: an observational study. J Crit Care. 2019;51:139-44. Dietz S, Lautenschläger C, Müller-Werdan U, Pilz G, Fraunberger P , Päsler M, Ebelt H, Walli AK, Werdan K, Nuding S. Serum IgG levels and mortality in patients with severe sepsis and septic shock. Med Klin Intensivmed Notfmed. Doi:https:// doi. org/ 10. 1007/ s00063- 016- 0220-6. Vincent J-L, Nielsen ND, Shapiro NI, Gerbasi ME. Mean arterial pressure and mortality in patients with distributive shock:a retrospective analysis of the MIMIC-III database. Ann Intensive Care. 2018;8:107. Song JY, Park DW, Moon SW, et al. Validation of APACHE II and SAPS II scales at the intensive care unit along with assessment of SOFA scale at the admission as an isolated risk of death predictor. Anaesthesiol Intensive Ther. 2019;51(2):107-11. Dabhi AS, Khedekar SS, et al.A prospective study of comparison of APACHE-IV & SAPSII scoring systems and calculation of standardised mortality rate in severe sepsis and septic shock patients. J Clin Diagn Res. 2014, 8(10): MC09-MC13. Seo MH, Choa M, You JS, et al. Tachypnea Predict 28-day mortality in severe sepsis and septic shock patients in the emergency department. Yonsei Med J 2016;57(6):1361-9. Rousson V, Zumbrunn T.",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "References",
+      "section_index": 22,
+      "part_index": 2,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -508,12 +541,14 @@
   },
   {
     "id": "Ren_2022_s22_p3",
-    "text": "## References\nVincent J-L, Nielsen ND, Shapiro NI, Gerbasi ME. Mean arterial pressure and mortality in patients with distributive shock:a retrospective analysis of the MIMIC-III database. Ann Intensive Care. 2018;8:107. Song JY, Park DW, Moon SW, et al. Validation of APACHE II and SAPS II scales at the intensive care unit along with assessment of SOFA scale at the admission as an isolated risk of death predictor. Anaesthesiol Intensive Ther. 2019;51(2):107-11. Dabhi AS, Khedekar SS, et al.A prospective study of comparison of APACHE-IV & SAPSII scoring systems and calculation of standardised mortality rate in severe sepsis and septic shock patients. J Clin Diagn Res. 2014, 8(10): MC09-MC13. Seo MH, Choa M, You JS, et al. Tachypnea Predict 28-day mortality in severe sepsis and septic shock patients in the emergency department. Yonsei Med J 2016;57(6):1361-9. Rousson V, Zumbrunn T. Decision curve analysis revisited: overall net benefit, relationships to ROC curve analysis, and application to case-control studies. BMC Med Inform Decis Mak. 2011;11:45. Vickers AJ, Elkin EB. Decision curve analysis: a novel method for evaluating prediction models. Med Decis Making. 2006;26(6):565-74. Foreman MG, Mannino DM, Moss M. Cirrhosis as a risk factor for sepsis and death: analysis of the National Hospital Discharge Survey. Chest. 2003;124(3):1016-20. Dhainaut JF, Marin N, Mignon A, Vinsonneau C. Hepatic response to sepsis: interaction between coagulation and inflammatory processes.",
+    "text": "## References\nDecision curve analysis revisited: overall net benefit, relationships to ROC curve analysis, and application to case-control studies. BMC Med Inform Decis Mak. 2011;11:45. Vickers AJ, Elkin EB. Decision curve analysis: a novel method for evaluating prediction models. Med Decis Making. 2006;26(6):565-74. Foreman MG, Mannino DM, Moss M. Cirrhosis as a risk factor for sepsis and death: analysis of the National Hospital Discharge Survey. Chest. 2003;124(3):1016-20. Dhainaut JF, Marin N, Mignon A, Vinsonneau C. Hepatic response to sepsis: interaction between coagulation and inflammatory processes. Crit Care Med. 2001;29(7 Suppl):S42-7. Siore AM, Parker RE, Stecenko AA, Cuppels C, McKean M, Christman BW, et al. Endotoxininduced acute lung injury requires interaction with the liver. Am J Physiol Lung Cell Mol Physiol. 2005;289(5):L769-76. von Baehr V, Docke WD, Plauth M, Liebenthal C, Kupferling S, Lochs H, Baumgarten R, Volk HD. Mechanisms of endotoxin tolerance in patients with alcoholic liver cirrhosis: role of interleukin 10, interleukin 1 receptor antagonist, and soluble tumour necrosis factor receptors as well as effector cell desensitisation. Gut. 2000;47(2):281-7. Poutsiaka DD, Davidson LE, Kahn KL, Bates DW, Snydman DR, Hibberd PL. Risk factors for death after sepsis in patients immunosuppressed before the onset of sepsis. Scand J Infect Dis. 2009;41:469-79. Tolsma V, Schwebel C, Azoulay E, Darmon M, Souweine B, Vesin A, et al. Sepsis severe or septic shock: outcome according to immune status and immunodeficiency profile. Chest. 2014;146:1205-13. Gajewski TF. Schreiber H & Fu YX Innate and adaptive immune cells in the tumor microenvironment. Nat Immunol. 2013;14:1014-22. Michot JM, Bigenwald C, Champiat S, et al.",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "References",
+      "section_index": 22,
+      "part_index": 3,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -521,12 +556,14 @@
   },
   {
     "id": "Ren_2022_s22_p4",
-    "text": "## References\nCrit Care Med. 2001;29(7 Suppl):S42-7. Siore AM, Parker RE, Stecenko AA, Cuppels C, McKean M, Christman BW, et al. Endotoxininduced acute lung injury requires interaction with the liver. Am J Physiol Lung Cell Mol Physiol. 2005;289(5):L769-76. von Baehr V, Docke WD, Plauth M, Liebenthal C, Kupferling S, Lochs H, Baumgarten R, Volk HD. Mechanisms of endotoxin tolerance in patients with alcoholic liver cirrhosis: role of interleukin 10, interleukin 1 receptor antagonist, and soluble tumour necrosis factor receptors as well as effector cell desensitisation. Gut. 2000;47(2):281-7. Poutsiaka DD, Davidson LE, Kahn KL, Bates DW, Snydman DR, Hibberd PL. Risk factors for death after sepsis in patients immunosuppressed before the onset of sepsis. Scand J Infect Dis. 2009;41:469-79. Tolsma V, Schwebel C, Azoulay E, Darmon M, Souweine B, Vesin A, et al. Sepsis severe or septic shock: outcome according to immune status and immunodeficiency profile. Chest. 2014;146:1205-13. Gajewski TF. Schreiber H & Fu YX Innate and adaptive immune cells in the tumor microenvironment. Nat Immunol. 2013;14:1014-22. Michot JM, Bigenwald C, Champiat S, et al. Immune-related adverse events with immune checkpoint blockade: a comprehensive review. Eur J Cancer. 2016;54:139-48. Jie Ni MD, Hongye Wang MS, Yue Li MS, et al. Neutrophil to lymphocyte ratio (NLR) as a prognostic marker for in-hospital mortality of patients with sepsis. Medicine. 2019;98:46.",
+    "text": "## References\nImmune-related adverse events with immune checkpoint blockade: a comprehensive review. Eur J Cancer. 2016;54:139-48. Jie Ni MD, Hongye Wang MS, Yue Li MS, et al. Neutrophil to lymphocyte ratio (NLR) as a prognostic marker for in-hospital mortality of patients with sepsis. Medicine. 2019;98:46.",
     "metadata": {
       "document_id": "Ren_2022",
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "References",
+      "section_index": 22,
+      "part_index": 4,
       "page_number": 10,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -540,6 +577,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Publisher's Note",
+      "section_index": 23,
+      "part_index": 0,
       "page_number": 11,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -553,6 +592,8 @@
       "paper_id": "Ren_2022",
       "year": 2022,
       "section": "Ready to submit your research ? Choose BMC and benefit from:",
+      "section_index": 24,
+      "part_index": 0,
       "page_number": 11,
       "chunk_type": "section",
       "split_strategy": "heading"

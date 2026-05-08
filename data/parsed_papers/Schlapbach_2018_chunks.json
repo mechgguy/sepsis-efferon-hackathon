@@ -7,6 +7,8 @@
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Prognostic accuracy of age-adapted SOFA, SIRS, PELOD-2, and qSOFA for in-hospital mortality among children with suspected infection admitted to the intensive care unit",
+      "section_index": 0,
+      "part_index": 0,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -14,12 +16,14 @@
   },
   {
     "id": "Schlapbach_2018_s1_p0",
-    "text": "## Abstract\nPurpose: The Sepsis-3 consensus task force defined sepsis as life-threatening organ dysfunction caused by dysregulated host response to infection. However, the clinical criteria for this definition were neither designed for nor validated in children. We validated the performance of SIRS, age-adapted SOFA, quick SOFA and PELOD-2 scores as predictors of outcome in children. Methods: We performed a multicentre binational cohort study of patients < 18 years admitted with infection to ICUs in Australia and New Zealand. The primary outcome was ICU mortality. SIRS, age-adapted SOFA, quick SOFA and PELOD-2 scores were compared using crude and adjusted area under the receiver operating characteristic curve (AUROC) analysis. Results: Of 2594 paediatric ICU admissions due to infection, 151 (5.8%) children died, and 949/2594 (36.6%) patients died or experienced an ICU length of stay ≥ 3 days. A ≥ 2-point increase in the individual score was associated with a crude mortality increase from 3.1 to 6.8% for SIRS, from 1.9 to 7.6% for age-adapted SOFA, from 1.7 to 7.3% for PELOD-2, and from 3.9 to 8.1% for qSOFA (p < 0.001). The discrimination of outcomes was significantly higher for SOFA (adjusted AUROC 0.829; 0.791-0.868) and PELOD-2 (0.816; 0.777-0.854) than for qSOFA (0.739; 0.695-0.784) and SIRS (0.710; 0.664-0.756). Conclusions: SIRS criteria lack specificity to identify children with infection at substantially higher risk of mortality.",
+    "text": "## Abstract\nPurpose: The Sepsis-3 consensus task force defined sepsis as life-threatening organ dysfunction caused by dysregulated host response to infection. However, the clinical criteria for this definition were neither designed for nor validated in children. We validated the performance of SIRS, age-adapted SOFA, quick SOFA and PELOD-2 scores as predictors of outcome in children. Methods: We performed a multicentre binational cohort study of patients < 18 years admitted with infection to ICUs in Australia and New Zealand. The primary outcome was ICU mortality. SIRS, age-adapted SOFA, quick SOFA and PELOD-2 scores were compared using crude and adjusted area under the receiver operating characteristic curve (AUROC) analysis. Results: Of 2594 paediatric ICU admissions due to infection, 151 (5.8%) children died, and 949/2594 (36.6%) patients died or experienced an ICU length of stay ≥ 3 days. A ≥ 2-point increase in the individual score was associated with a crude mortality increase from 3.1 to 6.8% for SIRS, from 1.9 to 7.6% for age-adapted SOFA, from 1.7 to 7.3% for PELOD-2, and from 3.9 to 8.1% for qSOFA (p < 0.001). The discrimination of outcomes was significantly higher for SOFA (adjusted AUROC 0.829; 0.791-0.868) and PELOD-2 (0.816; 0.777-0.854) than for qSOFA (0.739; 0.695-0.784) and SIRS (0.710; 0.664-0.756). Conclusions: SIRS criteria lack specificity to identify children with infection at substantially higher risk of mortality. We demonstrate that adapting Sepsis-3 to age-specific criteria performs better than Sepsis-2-based criteria. Our findings support the translation of Sepsis-3 into paediatric-specific sepsis definitions and highlight the importance of robust paediatric organ dysfunction characterization.",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Abstract",
+      "section_index": 1,
+      "part_index": 0,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -27,12 +31,14 @@
   },
   {
     "id": "Schlapbach_2018_s1_p1",
-    "text": "## Abstract\nWe demonstrate that adapting Sepsis-3 to age-specific criteria performs better than Sepsis-2-based criteria. Our findings support the translation of Sepsis-3 into paediatric-specific sepsis definitions and highlight the importance of robust paediatric organ dysfunction characterization. Keywords: Childhood, Critical care, Mortality, Infection, PELOD, Sepsis, SIRS, SOFA, Scores *Correspondence: l.schlapbach@uq.edu.au 1 Faculty of Medicine, The University of Queensland, Brisbane, Australia Full author information is available at the end of the article",
+    "text": "## Abstract\nKeywords: Childhood, Critical care, Mortality, Infection, PELOD, Sepsis, SIRS, SOFA, Scores *Correspondence: l.schlapbach@uq.edu.au 1 Faculty of Medicine, The University of Queensland, Brisbane, Australia Full author information is available at the end of the article",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Abstract",
+      "section_index": 1,
+      "part_index": 1,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -40,12 +46,14 @@
   },
   {
     "id": "Schlapbach_2018_s2_p0",
-    "text": "## Introduction\nWhile the prevalence and mortality of paediatric sepsis has become comparable to figures reported in adult ICUs in high-income countries [1-3], defining sepsis in the absence of a gold standard remains a challenge [4]. Following the 2001 consensus statement of the Society of Critical Care Medicine, paediatric sepsis was defined as infection in the presence of at least two out of four criteria of the systemic inflammatory response syndrome (SIRS) [5, 6]. The 2005 Consensus definition for paediatric sepsis maintained the requirement for SIRS, providing further specification on organ failure definitions [6]. The validity of SIRS criteria to identify and risk-stratify patients with sepsis has been challenged in adults, where insufficient sensitivity and specificity were demonstrated [7, 8]. While tachycardia and tachypnoea represent adaptive mechanisms commonly seen in febrile childhood infections, including diseases with near-zero mortality (e.g. bronchiolitis [9]), the face, and construct validity and sensitivity of SIRS criteria have not been studied in large cohorts of critically ill children. The recent Sepsis-3 consensus definition emphasized that sepsis is differentiated from uncomplicated infection by the presence of life-threatening organ dysfunction as a result of a dysregulated host response to infection [10].",
+    "text": "## Introduction\nWhile the prevalence and mortality of paediatric sepsis has become comparable to figures reported in adult ICUs in high-income countries [1-3], defining sepsis in the absence of a gold standard remains a challenge [4]. Following the 2001 consensus statement of the Society of Critical Care Medicine, paediatric sepsis was defined as infection in the presence of at least two out of four criteria of the systemic inflammatory response syndrome (SIRS) [5, 6]. The 2005 Consensus definition for paediatric sepsis maintained the requirement for SIRS, providing further specification on organ failure definitions [6]. The validity of SIRS criteria to identify and risk-stratify patients with sepsis has been challenged in adults, where insufficient sensitivity and specificity were demonstrated [7, 8]. While tachycardia and tachypnoea represent adaptive mechanisms commonly seen in febrile childhood infections, including diseases with near-zero mortality (e.g. bronchiolitis [9]), the face, and construct validity and sensitivity of SIRS criteria have not been studied in large cohorts of critically ill children. The recent Sepsis-3 consensus definition emphasized that sepsis is differentiated from uncomplicated infection by the presence of life-threatening organ dysfunction as a result of a dysregulated host response to infection [10]. The Delphi process, systematic reviews, and development and validation cohorts leading to Sepsis-3 were based on adult populations and the task force recognized 'the need to develop similar updated definitions for pediatric populations' [11]. However, current paediatric sepsis definitions remain essentially based on Sepsis-2, representing a major obstacle towards research, benchmarking, coding, and quality monitoring [11, 12].",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Introduction",
+      "section_index": 2,
+      "part_index": 0,
       "page_number": 2,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -53,12 +61,14 @@
   },
   {
     "id": "Schlapbach_2018_s2_p1",
-    "text": "## Introduction\nThe Delphi process, systematic reviews, and development and validation cohorts leading to Sepsis-3 were based on adult populations and the task force recognized 'the need to develop similar updated definitions for pediatric populations' [11]. However, current paediatric sepsis definitions remain essentially based on Sepsis-2, representing a major obstacle towards research, benchmarking, coding, and quality monitoring [11, 12]. The operationalization of clinical criteria to identify individuals meeting outcomes consistent with sepsis in Sepsis-3 is based on the Sequential Organ Failure Assessment (SOFA) score, however neither SOFA nor quick SOFA (qSOFA) were developed for children. We hypothesized that in children admitted to ICU with infection, the presence of organ dysfunction would better identify patients at substantially higher mortality in comparison to the presence of ≥ 2 SIRS criteria. We compared the performance of SIRS criteria with measures of organ failure to characterize outcomes of children with sepsis.",
+    "text": "## Introduction\nThe operationalization of clinical criteria to identify individuals meeting outcomes consistent with sepsis in Sepsis-3 is based on the Sequential Organ Failure Assessment (SOFA) score, however neither SOFA nor quick SOFA (qSOFA) were developed for children. We hypothesized that in children admitted to ICU with infection, the presence of organ dysfunction would better identify patients at substantially higher mortality in comparison to the presence of ≥ 2 SIRS criteria. We compared the performance of SIRS criteria with measures of organ failure to characterize outcomes of children with sepsis.",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Introduction",
+      "section_index": 2,
+      "part_index": 1,
       "page_number": 2,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -72,6 +82,8 @@
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Take-home message",
+      "section_index": 3,
+      "part_index": 0,
       "page_number": 2,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -85,6 +97,8 @@
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Study population",
+      "section_index": 4,
+      "part_index": 0,
       "page_number": 2,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -92,54 +106,32 @@
   },
   {
     "id": "Schlapbach_2018_s5_p0",
-    "text": "## Outcomes and definitions\nIn-hospital mortality was defined as the primary outcome. The composite secondary outcome was defined as in-hospital mortality or ICU length of stay of 3 days or longer [8, 14]. Physiological parameters on cardiorespiratory, neurologic, hepatic, renal and haematological organ dysfunction were prospectively recorded, capturing the highest and lowest value recorded during the first 24 h of ICU admission. SIRS criteria, pediatric logistic organ dysfunction score-2 (PELOD-2), SOFA, and qSOFA were calculated (Supplementary Table 1). Age-specific cut-offs to define SIRS criteria, and definitions for severe sepsis were applied as per the 2005 Pediatric Sepsis Consensus statement and the correction provided in a subsequent author's reply [6, 15]; paediatric SIRS was defined as presence of ≥ 2 SIRS criteria, one of which must be abnormal temperature or WCC. All PELOD-2 items, except for pupillary dilatation and serum lactate levels, were available in the database to allow calculation of a PELOD-2 ranging from zero (best) to 22 (worst) [16]. Given the absence of age-specific SOFA definitions, we developed an age-adapted SOFA by defining increasing severity of cardiovascular and renal dysfunction using the PELOD-2 cut-offs for mean arterial blood pressure and serum creatinine increase. qSOFA was defined as a score composed of three binary variables (tachypnoea, altered mentation, hypotension) [10].",
+    "text": "## Outcomes and definitions\nIn-hospital  mortality  was  defined  as  the  primary  outcome. The composite secondary outcome was defined as in-hospital mortality or ICU length of stay of 3 days or longer [8, 14]. Physiological  parameters  on  cardiorespiratory,  neurologic,  hepatic,  renal  and  haematological  organ  dysfunction  were  prospectively  recorded,  capturing  the  highest and lowest value recorded during the first  24  h  of  ICU admission.  SIRS  criteria,  pediatric  logistic  organ  dysfunction  score-2  (PELOD-2),  SOFA,  and  qSOFA  were calculated (Supplementary Table 1). Age-specific cut-offs to  define  SIRS  criteria,  and  definitions  for  severe  sepsis were applied as per the 2005 Pediatric Sepsis Consensus statement  and  the  correction  provided  in  a  subsequent author's reply [6, 15]; paediatric SIRS was defined as presence of ≥ 2 SIRS criteria, one of which must be abnormal temperature  or  WCC.  All  PELOD-2  items,  except  for pupillary dilatation and serum lactate levels, were available  in  the  database  to  allow  calculation  of  a  PELOD-2 ranging  from  zero  (best)  to  22  (worst)  [16].  Given  the absence of age-specific SOFA definitions, we developed an age-adapted SOFA by defining increasing severity of cardiovascular and renal dysfunction using the PELOD-2 cut-offs for mean arterial blood pressure and serum creatinine increase. qSOFA was defined as a score composed of  three  binary  variables  (tachypnoea,  altered  mentation, hypotension) [10]. Age-specific qSOFA scores were defined  by  applying  age-specific  cut-offs  for  respiratory rate and systolic blood pressure, respectively, as per the corrected 2005 Pediatric Sepsis definitions [6, 15].",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Outcomes and definitions",
+      "section_index": 5,
+      "part_index": 0,
       "page_number": 2,
       "chunk_type": "section",
-      "split_strategy": "sentence"
-    }
-  },
-  {
-    "id": "Schlapbach_2018_s5_p1",
-    "text": "## Outcomes and definitions\nAge-specific qSOFA scores were defined by applying age-specific cut-offs for respiratory rate and systolic blood pressure, respectively, as per the corrected 2005 Pediatric Sepsis definitions [6, 15].",
-    "metadata": {
-      "document_id": "Schlapbach_2018",
-      "paper_id": "Schlapbach_2018",
-      "year": 2018,
-      "section": "Outcomes and definitions",
-      "page_number": 2,
-      "chunk_type": "section",
-      "split_strategy": "sentence"
+      "split_strategy": "heading"
     }
   },
   {
     "id": "Schlapbach_2018_s6_p0",
-    "text": "## Statistics\nData are presented as percentages and numbers or means with standard deviation. We measured the discrimination of each score using the area under the receiver operating characteristic curve (AUROC). The sensitivity, specificity, negative predictive value (NPV) and positive predictive value (PPV) was calculated for each score. A baseline risk model was developed to reflect the underlying risk of a patient developing the primary and secondary outcomes using available information at the time of ICU admission not contained in any of the scores. Univariate mixed effects logistic regression models, with a random effect for each site, were used to assess associations between patient factors and the primary outcome. Variables with associations p < 0.2 where considered for inclusion in a multivariable model. The same model was applied to the secondary outcome. Sensitivity analyses were performed by using age- and sex-specific systolic blood pressure cut-offs based on the 5th percentile previously validated in children with sepsis [13, 17], and by using systolic blood pressure cut-offs used to define arterial hypotension in the corrected 2005 consensus definition [6, 15].",
+    "text": "## Statistics\nData are presented as percentages and numbers or means with standard deviation. We measured the discrimination of each score using the area under the receiver operating characteristic curve (AUROC). The sensitivity, specificity, negative  predictive  value  (NPV)  and  positive  predictive value (PPV) was calculated for each score. A baseline risk model was developed to reflect the underlying risk of a patient developing the primary and secondary outcomes using  available  information  at  the  time  of  ICU  admission not contained in any of the scores. Univariate mixed effects  logistic  regression  models,  with  a  random  effect for  each  site,  were  used  to  assess  associations  between patient factors and the primary outcome. Variables with associations p < 0.2 where considered for inclusion in a multivariable model. The same model was applied to the secondary outcome. Sensitivity analyses were performed by using age- and sex-specific systolic blood pressure cut-offs based on the 5th percentile previously validated in children with sepsis [13, 17], and by using systolic blood pressure cut-offs used to define arterial hypotension in the corrected 2005 consensus  definition  [6,  15].  Analyses  were  conducted Table 1  Distribution of signs meeting SIRS criteria in children admitted to ICU with infection, according to primary outcome (mortality) and secondary outcome (mortality or ICU stay ≥ 3 days) LOS intensive care unit length of stay, SIRS systemic inflammatory response syndrome using Stata (version 14.0, Stata Corp, College Station, TX, USA). p values < 0.05 were considered significant.",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Statistics",
+      "section_index": 6,
+      "part_index": 0,
       "page_number": 3,
       "chunk_type": "section",
-      "split_strategy": "sentence"
-    }
-  },
-  {
-    "id": "Schlapbach_2018_s6_p1",
-    "text": "## Statistics\nAnalyses were conducted Table 1 Distribution of signs meeting SIRS criteria in children admitted to ICU with infection, according to primary outcome (mortality) and secondary outcome (mortality or ICU stay ≥ 3 days) LOS intensive care unit length of stay, SIRS systemic inflammatory response syndrome using Stata (version 14.0, Stata Corp, College Station, TX, USA). p values < 0.05 were considered significant.",
-    "metadata": {
-      "document_id": "Schlapbach_2018",
-      "paper_id": "Schlapbach_2018",
-      "year": 2018,
-      "section": "Statistics",
-      "page_number": 3,
-      "chunk_type": "section",
-      "split_strategy": "sentence"
+      "split_strategy": "heading"
     }
   },
   {
@@ -150,6 +142,8 @@
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Study population",
+      "section_index": 7,
+      "part_index": 0,
       "page_number": 4,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -157,25 +151,14 @@
   },
   {
     "id": "Schlapbach_2018_s8_p0",
-    "text": "## SIRS criteria\nOf all 2594 episodes, SIRS data was incomplete in 323 (12.4%). 57/2271(2.2%) children did not present with any SIRS criteria during the first 24 h of ICU admission, 356 (15.6%) met one SIRS criterion, 1858/2271 (81.8%) fulfilled at least two SIRS criteria, and 1675 (73.8%) met paediatric SIRS (Table 1, Fig. 1). Mortality increased from 3.1% in presence of < 2 SIRS criteria to 6.8% if ≥ 2 SIRS criteria were present (between-group difference, 3.6%, 95% CI 1.6-5.7, p = 0.005, Fig. 2, Supplementary Figs. 1 and 2). Using patients with < 2 SIRS criteria as a reference, the relative increase in the primary and secondary outcomes was not significant for 2 SIRS criteria, but was significant for 3 SIRS criteria (primary outcome OR 1.94, 95% CI 1.02-3.70); secondary outcome OR 1.46, 95% CI 1.12-1.92), and for 4 SIRS criteria (primary outcome OR 3.31, 95% CI 1.72-6.37; secondary outcome OR 2.97, 95% CI 2.19-4.03). Using models adjusted for baseline risk, the relative odds of death increased in the presence of paediatric SIRS (OR 1.83, 95% CI 1.13-2.99, p = 0.015), or the presence of any ≥ 2 SIRS criteria (OR 2.00, 95% CI 1.10-3.64, p = 0.023). The relative odds of the secondary outcome increased in the presence of paediatric SIRS (OR 1.54, 95% CI 1.25-1.90, p < 0.001), and in the presence of ≥ 2 SIRS criteria (OR 1.50, 95% CI 1.21-1.85, p < 0.001).",
+    "text": "## SIRS criteria\nOf all 2594 episodes, SIRS data was incomplete in 323 (12.4%). 57/2271(2.2%) children did not present with any SIRS criteria during the first 24 h of ICU admission, 356 (15.6%) met one SIRS criterion, 1858/2271 (81.8%) fulfilled at least two SIRS criteria, and 1675 (73.8%) met paediatric SIRS (Table 1, Fig. 1). Mortality increased from 3.1% in presence of < 2 SIRS criteria to 6.8% if ≥ 2 SIRS criteria were present (between-group difference, 3.6%, 95% CI 1.6-5.7, p = 0.005, Fig. 2, Supplementary Figs. 1 and 2). Using patients with < 2 SIRS criteria as a reference, the relative increase in the primary and secondary outcomes was not significant for 2 SIRS criteria, but was significant for 3 SIRS criteria (primary outcome OR 1.94, 95% CI 1.02-3.70); secondary outcome OR 1.46, 95% CI 1.12-1.92), and for 4 SIRS criteria (primary outcome OR 3.31, 95% CI 1.72-6.37; secondary outcome OR 2.97, 95% CI 2.19-4.03). Using models adjusted for baseline risk, the relative odds of death increased in the presence of paediatric SIRS (OR 1.83, 95% CI 1.13-2.99, p = 0.015), or the presence of any ≥ 2 SIRS criteria (OR 2.00, 95% CI 1.10-3.64, p = 0.023). The relative odds of the secondary outcome increased in the presence of paediatric SIRS (OR 1.54, 95% CI 1.25-1.90, p < 0.001), and in the presence of ≥ 2 SIRS criteria (OR 1.50, 95% CI 1.21-1.85, p < 0.001). Overall, each additional SIRS criterion was associated with a 50% increase in the relative odds for the primary outcome (OR 1.50, 95% CI 1.25-1.81, p < 0.001) and a Fig. 2 Mortality by SIRS criteria, PELOD-2 score, SOFA and qSOFA score measured during the first 24 h of ICU admission in patients < 18 years admitted with infection 38% increase for the secondary outcome (OR 1.38, 95% CI 1.27-1.52, p < 0.001).",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "SIRS criteria",
-      "page_number": 4,
-      "chunk_type": "section",
-      "split_strategy": "sentence"
-    }
-  },
-  {
-    "id": "Schlapbach_2018_s8_p1",
-    "text": "## SIRS criteria\nOverall, each additional SIRS criterion was associated with a 50% increase in the relative odds for the primary outcome (OR 1.50, 95% CI 1.25-1.81, p < 0.001) and a Fig. 2 Mortality by SIRS criteria, PELOD-2 score, SOFA and qSOFA score measured during the first 24 h of ICU admission in patients < 18 years admitted with infection 38% increase for the secondary outcome (OR 1.38, 95% CI 1.27-1.52, p < 0.001).",
-    "metadata": {
-      "document_id": "Schlapbach_2018",
-      "paper_id": "Schlapbach_2018",
-      "year": 2018,
-      "section": "SIRS criteria",
+      "section_index": 8,
+      "part_index": 0,
       "page_number": 4,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -189,6 +172,8 @@
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "SOFA, PELOD-2 and qSOFA",
+      "section_index": 9,
+      "part_index": 0,
       "page_number": 5,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -202,6 +187,8 @@
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Comparison of SIRS, severe sepsis, SOFA, PELOD-2 and qSOFA",
+      "section_index": 10,
+      "part_index": 0,
       "page_number": 5,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -209,12 +196,14 @@
   },
   {
     "id": "Schlapbach_2018_s11_p0",
-    "text": "## Discussion\nIn this multicentre cohort of 2594 children aged < 18 years admitted to ICU with infection, we externally validated and assessed the discriminatory capacities of SIRS, severe sepsis, SOFA, PELOD-2, and qSOFA. We observed superior prognostic accuracy of SOFA and PELOD-2, both for in-hospital mortality and for the composite outcome of in-hospital mortality or ICU length of stay of ≥ 3 days, in comparison with SIRS, severe sepsis, or qSOFA. SIRS lacked specificity to identify children with infection at substantially higher mortality risk. Key features underlying the Sepsis-3 consensus definition relate to the differentiation of sepsis from nonlife-threatening infection, operationalization of the definition, and establishment through a data-driven process using large cohorts [18]. In contrast, paediatric Sepsis-2 definitions focus on systemic inflammation, applying non-validated criteria commonly seen outside sepsis, and have specific requirements for individual organ dysfunctions, attributing more weight to cardiovascular or respiratory organ dysfunction [19, 20]. The paradigm of SIRS as a feature of paediatric sepsis has been maintained for two decades, but neither SIRS nor the particular organ dysfunction criteria-which overlap with multiorgan dysfunction-to define severe sepsis in children have been externally validated in large ICU cohorts.",
+    "text": "## Discussion\nIn this multicentre cohort of 2594 children aged < 18 years admitted to ICU with infection, we externally validated and assessed the discriminatory capacities of SIRS, severe sepsis, SOFA, PELOD-2, and qSOFA. We observed superior prognostic accuracy of SOFA and PELOD-2, both for in-hospital mortality and for the composite outcome of in-hospital mortality or ICU length of stay of ≥ 3 days, in comparison with SIRS, severe sepsis, or qSOFA. SIRS lacked specificity to identify children with infection at substantially higher mortality risk. Key features underlying the Sepsis-3 consensus definition relate to the differentiation of sepsis from nonlife-threatening infection, operationalization of the definition, and establishment through a data-driven process using large cohorts [18]. In contrast, paediatric Sepsis-2 definitions focus on systemic inflammation, applying non-validated criteria commonly seen outside sepsis, and have specific requirements for individual organ dysfunctions, attributing more weight to cardiovascular or respiratory organ dysfunction [19, 20]. The paradigm of SIRS as a feature of paediatric sepsis has been maintained for two decades, but neither SIRS nor the particular organ dysfunction criteria-which overlap with multiorgan dysfunction-to define severe sepsis in children have been externally validated in large ICU cohorts. Previous studies reported that SIRS criteria are met in > 90% of febrile children presenting to ED, of which < 5% require ICU admission [21]. We demonstrate that ≥ 2 SIRS criteria are present in 81.8% of paediatric patients admitted to ICU with infection, resulting in poor specificity and poor positive predictive value to capture patients at risk for adverse outcomes.",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Discussion",
+      "section_index": 11,
+      "part_index": 0,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -222,12 +211,14 @@
   },
   {
     "id": "Schlapbach_2018_s11_p1",
-    "text": "## Discussion\nPrevious studies reported that SIRS criteria are met in > 90% of febrile children presenting to ED, of which < 5% require ICU admission [21]. We demonstrate that ≥ 2 SIRS criteria are present in 81.8% of paediatric patients admitted to ICU with infection, resulting in poor specificity and poor positive predictive value to capture patients at risk for adverse outcomes. While each additional SIRS criterion was associated with an increase in the relative odds of the primary, and secondary outcomes, significance was only reached when 3 or 4 SIRS criteria were present. Furthermore, the sensitivity of ≥ 2 SIRS criteria to discriminate in-hospital mortality was inferior to an incremental increase by ≥ 2 points in SOFA or PELOD-2, challenging the common notion that SIRS has excellent sensitivity for sepsis. Our findings are supported by a study in critically ill adults, demonstrating shortcomings in sensitivity, specificity, and validity of ≥ 2 SIRS criteria to define sepsis [7]. The limited utility if SIRS is further illustrated by substantial differences when applying Sepsis-3 versus Sepsis-2 criteria to infected children [11]. In a recent study on children with bloodstream infection, 30-day mortality was 1% in the presence of bacteraemia and SIRS without organ dysfunction, but increased to 17% when organ dysfunction was present [22].",
+    "text": "## Discussion\nWhile each additional SIRS criterion was associated with an increase in the relative odds of the primary, and secondary outcomes, significance was only reached when 3 or 4 SIRS criteria were present. Furthermore, the sensitivity of ≥ 2 SIRS criteria to discriminate in-hospital mortality was inferior to an incremental increase by ≥ 2 points in SOFA or PELOD-2, challenging the common notion that SIRS has excellent sensitivity for sepsis. Our findings are supported by a study in critically ill adults, demonstrating shortcomings in sensitivity, specificity, and validity of ≥ 2 SIRS criteria to define sepsis [7]. The limited utility if SIRS is further illustrated by substantial differences when applying Sepsis-3 versus Sepsis-2 criteria to infected children [11]. In a recent study on children with bloodstream infection, 30-day mortality was 1% in the presence of bacteraemia and SIRS without organ dysfunction, but increased to 17% when organ dysfunction was present [22]. Hence, our findings support abandoning SIRS since operationalising inflammation performs inferior to operationalising organ dysfunction when predicting death or prolonged ICU stay as outcomes. Fig. 3 Comparison of area under the receiver operating characteristic curves (AUROCS) to discriminate in-hospital mortality (primary outcome) and in-hospital mortality or ICU length of stay of 3 days or more (secondary outcome) for SIRS criteria, SOFA, qSOFA, and PELOD scores at ICU admission. AUROCs are shown for primary ( a , c ) and secondary ( b , d ) outcomes using crude ( a , b ) and adjusted ( c , d ) models Both age-adapted SOFA and PELOD-2 were superior to SIRS in identifying patients with infection at greater risk of mortality.",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Discussion",
+      "section_index": 11,
+      "part_index": 1,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -235,12 +226,14 @@
   },
   {
     "id": "Schlapbach_2018_s11_p2",
-    "text": "## Discussion\nHence, our findings support abandoning SIRS since operationalising inflammation performs inferior to operationalising organ dysfunction when predicting death or prolonged ICU stay as outcomes. Fig. 3 Comparison of area under the receiver operating characteristic curves (AUROCS) to discriminate in-hospital mortality (primary outcome) and in-hospital mortality or ICU length of stay of 3 days or more (secondary outcome) for SIRS criteria, SOFA, qSOFA, and PELOD scores at ICU admission. AUROCs are shown for primary ( a , c ) and secondary ( b , d ) outcomes using crude ( a , b ) and adjusted ( c , d ) models Both age-adapted SOFA and PELOD-2 were superior to SIRS in identifying patients with infection at greater risk of mortality. Given the limited evidence on optimal blood pressure thresholds [23, 24], and to avoid overfitting of models, we applied the validated PELOD-2 agespecific cut-offs for cardiovascular and renal dysfunction, which may partially account for the similar performance observed between SOFA and PELOD-2 [25]. When simplifying the discrete scores (SIRS, SOFA, PELOD2, qSOFA) to binary categorizations, PELOD ≥ 8 performed best. Notably, Sepsis-3 defined an increase in SOFA by ≥ 2 points based on the a priori requirement to identify presence of ≥ 1 (new) organ dysfunction to characterize sepsis, and not by post hoc derivation of optimal cut-offs.",
+    "text": "## Discussion\nGiven the limited evidence on optimal blood pressure thresholds [23, 24], and to avoid overfitting of models, we applied the validated PELOD-2 agespecific cut-offs for cardiovascular and renal dysfunction, which may partially account for the similar performance observed between SOFA and PELOD-2 [25]. When simplifying the discrete scores (SIRS, SOFA, PELOD2, qSOFA) to binary categorizations, PELOD ≥ 8 performed best. Notably, Sepsis-3 defined an increase in SOFA by ≥ 2 points based on the a priori requirement to identify presence of ≥ 1 (new) organ dysfunction to characterize sepsis, and not by post hoc derivation of optimal cut-offs. While a PELOD-2 ≥ 2 will capture patients with ≥ 1 organ dysfunction, PELOD ≥ 8 performed best in our study but such scores will predominantly reflect multiorgan dysfunction. Our findings support the operationalization of clinical criteria to paediatric patients with sepsis [10] and are highly comparable to a large external validation cohort in critically ill adults captured by the same database [8]. Leclerc and colleagues assessed PELOD-2 in 862 children with infection recruited in the original PELOD cohort and reported a high in-sample performance [23]. Our findings are further supported by a recent single centre PICU study including patients up to 21 years which tested a paediatric SOFA adaptation [26] based on the same PELOD-2 cut-offs for arterial hypotension and renal dysfunction but applying a more granular score increase, resulting in excellent performance. In contrast to the paper by Matics et al.",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Discussion",
+      "section_index": 11,
+      "part_index": 2,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -248,12 +241,14 @@
   },
   {
     "id": "Schlapbach_2018_s11_p3",
-    "text": "## Discussion\nWhile a PELOD-2 ≥ 2 will capture patients with ≥ 1 organ dysfunction, PELOD ≥ 8 performed best in our study but such scores will predominantly reflect multiorgan dysfunction. Our findings support the operationalization of clinical criteria to paediatric patients with sepsis [10] and are highly comparable to a large external validation cohort in critically ill adults captured by the same database [8]. Leclerc and colleagues assessed PELOD-2 in 862 children with infection recruited in the original PELOD cohort and reported a high in-sample performance [23]. Our findings are further supported by a recent single centre PICU study including patients up to 21 years which tested a paediatric SOFA adaptation [26] based on the same PELOD-2 cut-offs for arterial hypotension and renal dysfunction but applying a more granular score increase, resulting in excellent performance. In contrast to the paper by Matics et al. [26] which did not report on SIRS or severe sepsis, we analyzed multicentre data of patients < 18 years, using mortality as the primary and mortality and/or PICU length of stay ≥ 3 days as the composite secondary outcome, and applied crude and adjusted analyses using similar methodology to adult Sepsis-3 validation cohorts [8]. qSOFA has been proposed as a screening tool in adults with infection, prompting assessment for evidence of organ dysfunction on hospital floors or in the ED [10].",
+    "text": "## Discussion\n[26] which did not report on SIRS or severe sepsis, we analyzed multicentre data of patients < 18 years, using mortality as the primary and mortality and/or PICU length of stay ≥ 3 days as the composite secondary outcome, and applied crude and adjusted analyses using similar methodology to adult Sepsis-3 validation cohorts [8]. qSOFA has been proposed as a screening tool in adults with infection, prompting assessment for evidence of organ dysfunction on hospital floors or in the ED [10]. In our study, the performance of our adapted qSOFA score to identify children who subsequently died or had prolonged length of stay was only moderate, which potentially could reflect the use of ventilation, sedation, and inotropes in ICU, altering respiratory rate, blood pressure, and GCS. In comparison, other PICU sepsis scores and paediatric Early Warning Tools have reported AUROCs of > 0.80 [12, 27]. Specific features of paediatric sepsis and septic shock [28], such as late development of arterial hypotension and a higher proportion of fulminant presentations [12, 22, 29, 30], warrant improved rapid identification of infected paediatric patients with organ dysfunction [30] across emergency department, hospital ward, and ICU settings. Given the high proportion of patients with organ dysfunction (74% with SOFA ≥ 2) in our cohort, future studies are needed to test the discriminatory performance in cohorts of lower average acuity. The key strengths of this study relate to the application of stringent data-driven validation procedures to allow comparison of the prognostic accuracy of SIRS, severe sepsis, SOFA, PELOD-2 and qSOFA.",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Discussion",
+      "section_index": 11,
+      "part_index": 3,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -261,12 +256,14 @@
   },
   {
     "id": "Schlapbach_2018_s11_p4",
-    "text": "## Discussion\nIn our study, the performance of our adapted qSOFA score to identify children who subsequently died or had prolonged length of stay was only moderate, which potentially could reflect the use of ventilation, sedation, and inotropes in ICU, altering respiratory rate, blood pressure, and GCS. In comparison, other PICU sepsis scores and paediatric Early Warning Tools have reported AUROCs of > 0.80 [12, 27]. Specific features of paediatric sepsis and septic shock [28], such as late development of arterial hypotension and a higher proportion of fulminant presentations [12, 22, 29, 30], warrant improved rapid identification of infected paediatric patients with organ dysfunction [30] across emergency department, hospital ward, and ICU settings. Given the high proportion of patients with organ dysfunction (74% with SOFA ≥ 2) in our cohort, future studies are needed to test the discriminatory performance in cohorts of lower average acuity. The key strengths of this study relate to the application of stringent data-driven validation procedures to allow comparison of the prognostic accuracy of SIRS, severe sepsis, SOFA, PELOD-2 and qSOFA. Moreover, given the limitations of using mortality as an outcome, analyses included the composite outcome of mortality or ICU length of stay of 3 days or longer, aligned with adult Sepsis-3 studies [8, 13].",
+    "text": "## Discussion\nMoreover, given the limitations of using mortality as an outcome, analyses included the composite outcome of mortality or ICU length of stay of 3 days or longer, aligned with adult Sepsis-3 studies [8, 13]. We deliberately did not restrict the study to admissions coded as sepsis but instead included all children admitted to ICUs with suspected and confirmed infection. Diagnoses were based on assessment by trained ICU specialists and not administrative coding. Our study carries several limitations. First, it is based on a binational prospective dataset of adult and mixed adult-paediatric ICUs, whereas the main PICUs contribute to a different registry, which may have led to selection bias. In contrast to the paediatric ANZPIC registry, the ANZICS APD has been prospectively collecting data on SIRS, APACHE and SOFA score in patients admitted to the contributing units which ensured consistent practices of organ dysfunction assessment and data monitoring. Due to the high centralization of PICU services in Australia and New Zealand, it is common for critically ill children outside large metropolitan areas to be admitted to mixed ICUs. In the present study, 149 (5.8%) children required secondary interhospital transfer to a PICU, all of which were tracked to capture the primary and secondary outcome. Second, capturing the worst parameters within the first 24 h of ICU admission may not capture peak disease severity, resulting in lower performance of the scores [26]. However, prediction requires early assessment by definition and the passage of time is associated with competing risk bias due to death or discharge from ICU.",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Discussion",
+      "section_index": 11,
+      "part_index": 4,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -274,38 +271,14 @@
   },
   {
     "id": "Schlapbach_2018_s11_p5",
-    "text": "## Discussion\nWe deliberately did not restrict the study to admissions coded as sepsis but instead included all children admitted to ICUs with suspected and confirmed infection. Diagnoses were based on assessment by trained ICU specialists and not administrative coding. Our study carries several limitations. First, it is based on a binational prospective dataset of adult and mixed adult-paediatric ICUs, whereas the main PICUs contribute to a different registry, which may have led to selection bias. In contrast to the paediatric ANZPIC registry, the ANZICS APD has been prospectively collecting data on SIRS, APACHE and SOFA score in patients admitted to the contributing units which ensured consistent practices of organ dysfunction assessment and data monitoring. Due to the high centralization of PICU services in Australia and New Zealand, it is common for critically ill children outside large metropolitan areas to be admitted to mixed ICUs. In the present study, 149 (5.8%) children required secondary interhospital transfer to a PICU, all of which were tracked to capture the primary and secondary outcome. Second, capturing the worst parameters within the first 24 h of ICU admission may not capture peak disease severity, resulting in lower performance of the scores [26]. However, prediction requires early assessment by definition and the passage of time is associated with competing risk bias due to death or discharge from ICU.",
+    "text": "## Discussion\nIn a recent study on a different cohort of septic children admitted to specialized PICUs we have demonstrated that a small set of clinical variables available within the first hour of PICU admission allows to establish robust severity stratification for paediatric sepsis mortality [12]. Third, although data collection for this binational ICU registry had been monitored using regular quality controls and mandatory audits, data had not been primarily captured for sepsis studies. Fourth, the SOFA score was modified as detailed information on vasopressor type and dose was not consistently available. Finally, two items of the PELOD score, including pupil size and serum lactate levels, were not available in the database, which may have reduced the performance of PELOD. Several studies have identified lactate as one of the best predictors of paediatric sepsis severity [12, 31, 32]. In conclusion, the two SIRS variables based sepsis criteria had poor specificity and diagnostic performance to discriminate children with infection at substantially higher mortality risk. In contrast, SOFA and PELOD-2 had significantly greater prognostic accuracy for in-hospital mortality. Our findings indicate that age-specific translation of Sepsis-3 definitions to critically ill children using validated measures of organ dysfunction should be considered in the next revision of paediatric sepsis definitions. In contrast, the performance of qSOFA to identify patients with organ dysfunction at risk for worse outcomes was poor, and may not be of sufficient clinical value to be recommended as a screening tool for paediatric age groups within the ICU.",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Discussion",
-      "page_number": 6,
-      "chunk_type": "section",
-      "split_strategy": "sentence"
-    }
-  },
-  {
-    "id": "Schlapbach_2018_s11_p6",
-    "text": "## Discussion\nIn a recent study on a different cohort of septic children admitted to specialized PICUs we have demonstrated that a small set of clinical variables available within the first hour of PICU admission allows to establish robust severity stratification for paediatric sepsis mortality [12]. Third, although data collection for this binational ICU registry had been monitored using regular quality controls and mandatory audits, data had not been primarily captured for sepsis studies. Fourth, the SOFA score was modified as detailed information on vasopressor type and dose was not consistently available. Finally, two items of the PELOD score, including pupil size and serum lactate levels, were not available in the database, which may have reduced the performance of PELOD. Several studies have identified lactate as one of the best predictors of paediatric sepsis severity [12, 31, 32]. In conclusion, the two SIRS variables based sepsis criteria had poor specificity and diagnostic performance to discriminate children with infection at substantially higher mortality risk. In contrast, SOFA and PELOD-2 had significantly greater prognostic accuracy for in-hospital mortality. Our findings indicate that age-specific translation of Sepsis-3 definitions to critically ill children using validated measures of organ dysfunction should be considered in the next revision of paediatric sepsis definitions.",
-    "metadata": {
-      "document_id": "Schlapbach_2018",
-      "paper_id": "Schlapbach_2018",
-      "year": 2018,
-      "section": "Discussion",
-      "page_number": 6,
-      "chunk_type": "section",
-      "split_strategy": "sentence"
-    }
-  },
-  {
-    "id": "Schlapbach_2018_s11_p7",
-    "text": "## Discussion\nIn contrast, the performance of qSOFA to identify patients with organ dysfunction at risk for worse outcomes was poor, and may not be of sufficient clinical value to be recommended as a screening tool for paediatric age groups within the ICU.",
-    "metadata": {
-      "document_id": "Schlapbach_2018",
-      "paper_id": "Schlapbach_2018",
-      "year": 2018,
-      "section": "Discussion",
+      "section_index": 11,
+      "part_index": 5,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -319,6 +292,8 @@
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Electronic supplementary material",
+      "section_index": 12,
+      "part_index": 0,
       "page_number": 8,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -332,6 +307,8 @@
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Abbreviations",
+      "section_index": 13,
+      "part_index": 0,
       "page_number": 8,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -345,6 +322,8 @@
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Author details",
+      "section_index": 14,
+      "part_index": 0,
       "page_number": 9,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -358,6 +337,8 @@
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Acknowledgements",
+      "section_index": 15,
+      "part_index": 0,
       "page_number": 9,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -371,6 +352,8 @@
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Funding source",
+      "section_index": 16,
+      "part_index": 0,
       "page_number": 9,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -384,6 +367,8 @@
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Conflicts of interest",
+      "section_index": 17,
+      "part_index": 0,
       "page_number": 9,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -397,6 +382,8 @@
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "Open Access",
+      "section_index": 18,
+      "part_index": 0,
       "page_number": 9,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -404,12 +391,14 @@
   },
   {
     "id": "Schlapbach_2018_s19_p0",
-    "text": "## References\nWeiss SL, Fitzgerald JC, Pappachan J, Wheeler D, Jaramillo-Bustamante JC, Salloo A, Singhi SC, Erickson S, Roy JA, Bush JL, Nadkarni VM, Thomas NJ, Sepsis Prevalence O, Therapies Study I, Pediatric Acute Lung I, Sepsis Investigators N (2015) Global epidemiology of pediatric severe sepsis: the sepsis prevalence, outcomes, and therapies study. Am J Respir Crit Care Med 191:1147-1157 Schlapbach LJ, Straney L, Alexander J, MacLaren G, Festa M, Schibler A, Slater A, Group APS (2015) Mortality related to invasive infections, sepsis, and septic shock in critically ill children in Australia and New Zealand, 2002-13: a multicentre retrospective cohort study. Lancet Infect Dis 15:46-54 Hartman ME, Linde-Zwirble WT, Angus DC, Watson RS (2013) Trends in the epidemiology of pediatric severe sepsis. Pediatr Crit Care Med 14:686-693 Angus DC (2016) Opening the debate on the new sepsis definition defining sepsis: a case of bounded rationality and fuzzy thinking? Am J Respir Crit Care Med 194:14-15 Carcillo JA, Fields AI, American College of Critical Care Medicine Task Force Committee M (2002) Clinical practice parameters for hemodynamic support of pediatric and neonatal patients in septic shock. Crit Care Med 30:1365-1378 Goldstein B, Giroir B, Randolph A (2005) International pediatric sepsis consensus conference: definitions for sepsis and organ dysfunction in pediatrics.",
+    "text": "## References\nWeiss SL, Fitzgerald JC, Pappachan J, Wheeler D, Jaramillo-Bustamante JC, Salloo A, Singhi SC, Erickson S, Roy JA, Bush JL, Nadkarni VM, Thomas NJ, Sepsis Prevalence O, Therapies Study I, Pediatric Acute Lung I, Sepsis Investigators N (2015) Global epidemiology of pediatric severe sepsis: the sepsis prevalence, outcomes, and therapies study. Am J Respir Crit Care Med 191:1147-1157 Schlapbach LJ, Straney L, Alexander J, MacLaren G, Festa M, Schibler A, Slater A, Group APS (2015) Mortality related to invasive infections, sepsis, and septic shock in critically ill children in Australia and New Zealand, 2002-13: a multicentre retrospective cohort study. Lancet Infect Dis 15:46-54 Hartman ME, Linde-Zwirble WT, Angus DC, Watson RS (2013) Trends in the epidemiology of pediatric severe sepsis. Pediatr Crit Care Med 14:686-693 Angus DC (2016) Opening the debate on the new sepsis definition defining sepsis: a case of bounded rationality and fuzzy thinking? Am J Respir Crit Care Med 194:14-15 Carcillo JA, Fields AI, American College of Critical Care Medicine Task Force Committee M (2002) Clinical practice parameters for hemodynamic support of pediatric and neonatal patients in septic shock. Crit Care Med 30:1365-1378 Goldstein B, Giroir B, Randolph A (2005) International pediatric sepsis consensus conference: definitions for sepsis and organ dysfunction in pediatrics. Pediatr Crit Care Med 6:2-8 Kaukonen KM, Bailey M, Pilcher D, Cooper DJ, Bellomo R (2015) Systemic inflammatory response syndrome criteria in defining severe sepsis.",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "References",
+      "section_index": 19,
+      "part_index": 0,
       "page_number": 9,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -417,12 +406,14 @@
   },
   {
     "id": "Schlapbach_2018_s19_p1",
-    "text": "## References\nPediatr Crit Care Med 6:2-8 Kaukonen KM, Bailey M, Pilcher D, Cooper DJ, Bellomo R (2015) Systemic inflammatory response syndrome criteria in defining severe sepsis. N Engl J Med 372:1629-1638 Raith EP , Udy AA, Bailey M, McGloughlin S, MacIsaac C, Bellomo R, Pilcher DV, Australian, New Zealand Intensive Care Society Centre for O, Resource E (2017) Prognostic accuracy of the SOFA score, SIRS criteria, and qSOFA score for in-hospital mortality among adults with suspected infection admitted to the intensive care unit. JAMA 317:290-300 Schlapbach LJ, Straney L, Gelbart B, Alexander J, Franklin D, Beca J, Whitty JA, Ganu S, Wilkins B, Slater A, Croston E, Erickson S, Schibler A, Australian, New Zealand Intensive Care Society Centre for O, Resource E, the A, New Zealand Intensive Care Society Paediatric Study G, (2017) Burden of disease and change in practice in critically ill infants with bronchiolitis. Eur Respir J 49(6). http:doi.org/10.1183/13993003.01648-2016 Singer M, Deutschman CS, Seymour CW, Shankar-Hari M, Annane D, Bauer M, Bellomo R, Bernard GR, Chiche JD, Coopersmith CM, Hotchkiss RS, Levy MM, Marshall JC, Martin GS, Opal SM, Rubenfeld GD, van der Poll T, Vincent JL, Angus DC (2016) The third international consensus definitions for sepsis and septic shock (Sepsis-3). JAMA 315:801-810 Schlapbach LJ (2017) Time for Sepsis-3 in children? Pediatr Crit Care Med 18:805-806 Schlapbach LJ, Kisson N (2018) Pediatric sepsis definitions - an urgent need for change.",
+    "text": "## References\nN Engl J Med 372:1629-1638 Raith EP , Udy AA, Bailey M, McGloughlin S, MacIsaac C, Bellomo R, Pilcher DV, Australian, New Zealand Intensive Care Society Centre for O, Resource E (2017) Prognostic accuracy of the SOFA score, SIRS criteria, and qSOFA score for in-hospital mortality among adults with suspected infection admitted to the intensive care unit. JAMA 317:290-300 Schlapbach LJ, Straney L, Gelbart B, Alexander J, Franklin D, Beca J, Whitty JA, Ganu S, Wilkins B, Slater A, Croston E, Erickson S, Schibler A, Australian, New Zealand Intensive Care Society Centre for O, Resource E, the A, New Zealand Intensive Care Society Paediatric Study G, (2017) Burden of disease and change in practice in critically ill infants with bronchiolitis. Eur Respir J 49(6). http:doi.org/10.1183/13993003.01648-2016 Singer M, Deutschman CS, Seymour CW, Shankar-Hari M, Annane D, Bauer M, Bellomo R, Bernard GR, Chiche JD, Coopersmith CM, Hotchkiss RS, Levy MM, Marshall JC, Martin GS, Opal SM, Rubenfeld GD, van der Poll T, Vincent JL, Angus DC (2016) The third international consensus definitions for sepsis and septic shock (Sepsis-3). JAMA 315:801-810 Schlapbach LJ (2017) Time for Sepsis-3 in children? Pediatr Crit Care Med 18:805-806 Schlapbach LJ, Kisson N (2018) Pediatric sepsis definitions - an urgent need for change. JAMA Pediatrics (in press) Schlapbach LJ, MacLaren G, Festa M, Alexander J, Erickson S, Beca J, Slater A, Schibler A, Pilcher D, Millar J, Straney L, Australian, New Zealand Intensive Care Society Centre for O, Resource E, Australian, New Zealand Intensive Care Society Paediatric Study G (2017) Prediction of pediatric sepsis mortality within 1 h of intensive care admission.",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "References",
+      "section_index": 19,
+      "part_index": 1,
       "page_number": 9,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -430,12 +421,14 @@
   },
   {
     "id": "Schlapbach_2018_s19_p2",
-    "text": "## References\nJAMA Pediatrics (in press) Schlapbach LJ, MacLaren G, Festa M, Alexander J, Erickson S, Beca J, Slater A, Schibler A, Pilcher D, Millar J, Straney L, Australian, New Zealand Intensive Care Society Centre for O, Resource E, Australian, New Zealand Intensive Care Society Paediatric Study G (2017) Prediction of pediatric sepsis mortality within 1 h of intensive care admission. Intensive Care Med 43:1085-1096 Seymour CW, Liu VX, Iwashyna TJ, Brunkhorst FM, Rea TD, Scherag A, Rubenfeld G, Kahn JM, Shankar-Hari M, Singer M, Deutschman CS, Escobar GJ, Angus DC (2016) Assessment of clinical criteria for sepsis: for the third international consensus definitions for sepsis and septic shock (Sepsis-3). JAMA 315:762-774 Gebara BM (2005) Values for systolic blood pressure. Pediatr Crit Care Med 6:500 (author reply 500-501) Leteurtre S, Duhamel A, Salleron J, Grandbastien B, Lacroix J, Leclerc F, Groupe Francophone de Reanimation et d'Urgences P (2013) PELOD-2: an update of the PEdiatric logistic organ dysfunction score. Crit Care Med 41:1761-1773 Haque IU, Zaritsky AL (2007) Analysis of the evidence for the lower limit of systolic and mean arterial pressure in children. Pediatr Crit Care Med 8:138-144 Singer M (2016) The new sepsis consensus definitions (Sepsis-3): the good, the not-so-bad, and the actually-quite-pretty. Intensive Care Med 42:2027-2029 Vincent JL, Mira JP , Antonelli M (2016) Sepsis: older and newer concepts.",
+    "text": "## References\nIntensive Care Med 43:1085-1096 Seymour CW, Liu VX, Iwashyna TJ, Brunkhorst FM, Rea TD, Scherag A, Rubenfeld G, Kahn JM, Shankar-Hari M, Singer M, Deutschman CS, Escobar GJ, Angus DC (2016) Assessment of clinical criteria for sepsis: for the third international consensus definitions for sepsis and septic shock (Sepsis-3). JAMA 315:762-774 Gebara BM (2005) Values for systolic blood pressure. Pediatr Crit Care Med 6:500 (author reply 500-501) Leteurtre S, Duhamel A, Salleron J, Grandbastien B, Lacroix J, Leclerc F, Groupe Francophone de Reanimation et d'Urgences P (2013) PELOD-2: an update of the PEdiatric logistic organ dysfunction score. Crit Care Med 41:1761-1773 Haque IU, Zaritsky AL (2007) Analysis of the evidence for the lower limit of systolic and mean arterial pressure in children. Pediatr Crit Care Med 8:138-144 Singer M (2016) The new sepsis consensus definitions (Sepsis-3): the good, the not-so-bad, and the actually-quite-pretty. Intensive Care Med 42:2027-2029 Vincent JL, Mira JP , Antonelli M (2016) Sepsis: older and newer concepts. Lancet Respir Med 4:237-240 Vincent JL, Opal SM, Marshall JC, Tracey KJ (2013) Sepsis definitions: time for change. Lancet 381:774-775 Scott HF, Deakyne SJ, Woods JM, Bajaj L (2015) The prevalence and diagnostic utility of systemic inflammatory response syndrome vital signs in a pediatric emergency department. Acad Emerg Med 22:381-389 Agyeman PKA, Schlapbach LJ, Giannoni E, Stocker M, Posfay-Barbe KM, Heininger U, Schindler M, Korten I, Konetzny G, Niederer-Loher A, Kahlert CR, Donas A, Leone A, Hasters P , Relly C, Baer W, Kuehni CE, Aebi C, Berger C (2017) Epidemiology of blood culture-proven bacterial sepsis in children in Switzerland: a population-based cohort study.",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "References",
+      "section_index": 19,
+      "part_index": 2,
       "page_number": 9,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -443,12 +436,14 @@
   },
   {
     "id": "Schlapbach_2018_s19_p3",
-    "text": "## References\nLancet Respir Med 4:237-240 Vincent JL, Opal SM, Marshall JC, Tracey KJ (2013) Sepsis definitions: time for change. Lancet 381:774-775 Scott HF, Deakyne SJ, Woods JM, Bajaj L (2015) The prevalence and diagnostic utility of systemic inflammatory response syndrome vital signs in a pediatric emergency department. Acad Emerg Med 22:381-389 Agyeman PKA, Schlapbach LJ, Giannoni E, Stocker M, Posfay-Barbe KM, Heininger U, Schindler M, Korten I, Konetzny G, Niederer-Loher A, Kahlert CR, Donas A, Leone A, Hasters P , Relly C, Baer W, Kuehni CE, Aebi C, Berger C (2017) Epidemiology of blood culture-proven bacterial sepsis in children in Switzerland: a population-based cohort study. Lancet Child Adolesc Health 1:124-133 Marlais M, Lyttle MD, Inwald D (2017) Ten concerns about blood pressure measurement and targets in paediatric sepsis. Intensive Care Med 43:433-435 Ray S, Rogers L, Noren DP , Dhar R, Nadel S, Peters MJ, Inwald DP (2017) Risk of over-diagnosis of hypotension in children: a comparative analysis of over 50,000 blood pressure measurements. Intensive Care Med 43(10):1540-1541. http:doi.org/10.1007/s00134-017-4843-8 Leclerc F, Duhamel A, Deken V, Grandbastien B, Leteurtre S, Groupe Francophone de Reanimation et Urgences P (2017) Can the pediatric logistic organ dysfunction-2 score on day 1 be used in clinical criteria for sepsis in children?",
+    "text": "## References\nLancet Child Adolesc Health 1:124-133 Marlais M, Lyttle MD, Inwald D (2017) Ten concerns about blood pressure measurement and targets in paediatric sepsis. Intensive Care Med 43:433-435 Ray S, Rogers L, Noren DP , Dhar R, Nadel S, Peters MJ, Inwald DP (2017) Risk of over-diagnosis of hypotension in children: a comparative analysis of over 50,000 blood pressure measurements. Intensive Care Med 43(10):1540-1541. http:doi.org/10.1007/s00134-017-4843-8 Leclerc F, Duhamel A, Deken V, Grandbastien B, Leteurtre S, Groupe Francophone de Reanimation et Urgences P (2017) Can the pediatric logistic organ dysfunction-2 score on day 1 be used in clinical criteria for sepsis in children? Pediatr Crit Care Med 18:758-763 Matics TJ, Sanchez-Pinto LN (2017) Adaptation and validation of a pediatric sequential organ failure assessment score and evaluation of the Sepsis-3 definitions in critically ill children. JAMA Pediatr 171(10):e172352. http:doi.org/10.1001/jamapediatrics.2017.2352 Chapman SM, Wray J, Oulton K, Pagel C, Ray S, Peters MJ (2017) 'The Score Matters': wide variations in predictive performance of 18 paediatric track and trigger systems. Arch Dis Child 102:487-495 Morin L, Ray S, Wilson C, Remy S, Benissa MR, Jansen NJ, Javouhey E, Peters MJ, Kneyber M, De Luca D, Nadel S, Schlapbach LJ, Maclaren G, Tissieres P , ESPNIC Refractory Septic Shock Definition Taskforce tISISsoE (2016) Refractory septic shock in children: a European Society of Paediatric and neonatal intensive care definition. Intensive Care Med 42:1948-1957 Cvetkovic M, Lutman D, Ramnarayan P, Pathan N, Inwald DP, Peters MJ (2015) Timing of death in children referred for intensive care with severe sepsis: implications for interventional studies.",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "References",
+      "section_index": 19,
+      "part_index": 3,
       "page_number": 9,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -456,25 +451,14 @@
   },
   {
     "id": "Schlapbach_2018_s19_p4",
-    "text": "## References\nPediatr Crit Care Med 18:758-763 Matics TJ, Sanchez-Pinto LN (2017) Adaptation and validation of a pediatric sequential organ failure assessment score and evaluation of the Sepsis-3 definitions in critically ill children. JAMA Pediatr 171(10):e172352. http:doi.org/10.1001/jamapediatrics.2017.2352 Chapman SM, Wray J, Oulton K, Pagel C, Ray S, Peters MJ (2017) 'The Score Matters': wide variations in predictive performance of 18 paediatric track and trigger systems. Arch Dis Child 102:487-495 Morin L, Ray S, Wilson C, Remy S, Benissa MR, Jansen NJ, Javouhey E, Peters MJ, Kneyber M, De Luca D, Nadel S, Schlapbach LJ, Maclaren G, Tissieres P , ESPNIC Refractory Septic Shock Definition Taskforce tISISsoE (2016) Refractory septic shock in children: a European Society of Paediatric and neonatal intensive care definition. Intensive Care Med 42:1948-1957 Cvetkovic M, Lutman D, Ramnarayan P, Pathan N, Inwald DP, Peters MJ (2015) Timing of death in children referred for intensive care with severe sepsis: implications for interventional studies. Pediatr Crit Care Med 16:410-417 Lin JC, Spinella PC, Fitzgerald JC, Tucci M, Bush JL, Nadkarni VM, Thomas NJ, Weiss SL, Sepsis Prevalence O, Therapy Study I (2017) New or progressive multiple organ dysfunction syndrome in pediatric severe sepsis: a sepsis phenotype with higher morbidity and mortality.",
+    "text": "## References\nPediatr Crit Care Med 16:410-417 Lin JC, Spinella PC, Fitzgerald JC, Tucci M, Bush JL, Nadkarni VM, Thomas NJ, Weiss SL, Sepsis Prevalence O, Therapy Study I (2017) New or progressive multiple organ dysfunction syndrome in pediatric severe sepsis: a sepsis phenotype with higher morbidity and mortality. Pediatr Crit Care Med 18:8-16 Scott HF, Brou L, Deakyne SJ, Kempe A, Fairclough DL, Bajaj L (2017) Association between early lactate levels and 30-day mortality in clinically suspected sepsis in children. JAMA Pediatr 171:249-255 Schlapbach LJ, MacLaren G, Straney L (2017) Venous versus arterial lactate and 30-day mortality in pediatric sepsis. JAMA Pediatr 171:813",
     "metadata": {
       "document_id": "Schlapbach_2018",
       "paper_id": "Schlapbach_2018",
       "year": 2018,
       "section": "References",
-      "page_number": 9,
-      "chunk_type": "section",
-      "split_strategy": "sentence"
-    }
-  },
-  {
-    "id": "Schlapbach_2018_s19_p5",
-    "text": "## References\nPediatr Crit Care Med 18:8-16 Scott HF, Brou L, Deakyne SJ, Kempe A, Fairclough DL, Bajaj L (2017) Association between early lactate levels and 30-day mortality in clinically suspected sepsis in children. JAMA Pediatr 171:249-255 Schlapbach LJ, MacLaren G, Straney L (2017) Venous versus arterial lactate and 30-day mortality in pediatric sepsis. JAMA Pediatr 171:813",
-    "metadata": {
-      "document_id": "Schlapbach_2018",
-      "paper_id": "Schlapbach_2018",
-      "year": 2018,
-      "section": "References",
+      "section_index": 19,
+      "part_index": 4,
       "page_number": 9,
       "chunk_type": "section",
       "split_strategy": "sentence"

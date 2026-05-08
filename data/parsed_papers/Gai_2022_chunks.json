@@ -7,6 +7,8 @@
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "preamble",
+      "section_index": 0,
+      "part_index": 0,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -20,6 +22,8 @@
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Risk factors for the prognosis of patients with sepsis in intensive care units",
+      "section_index": 1,
+      "part_index": 0,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -33,6 +37,8 @@
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Background and purpose",
+      "section_index": 2,
+      "part_index": 0,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -46,6 +52,8 @@
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Methods",
+      "section_index": 3,
+      "part_index": 0,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -59,6 +67,8 @@
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Results",
+      "section_index": 4,
+      "part_index": 0,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -72,6 +82,8 @@
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Conclusion",
+      "section_index": 5,
+      "part_index": 0,
       "page_number": 1,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -79,12 +91,14 @@
   },
   {
     "id": "Gai_2022_s6_p0",
-    "text": "## Introduction\nHitherto, sepsis remains the main cause of mortality in intensive care units (ICUs) [1, 2], and shock accounts for one of the highest rates of mortality, approximately 50%, in many countries [3]. Therefore, early detection and management is of chief importance. The gastrointestinal tract has long been hypothesized to play an integral role in the occurrence and development of sepsis [4]. During septic shock, the body responds by redistributing blood to vital organs, such as the heart, brain, and kidneys. However, the gastrointestinal tract is the first organ to be affected by hypoperfusion, which is considered a common indicator of the development of multiple organ failure [5, 6]. Although vasoactive drugs such as epinephrine and norepinephrine increase the perfusion pressure as well as cardiac output, they are capable of diverting blood flow away from the mesenteric circulation [5, 7], leading to the destruction of the intestinal mucosal barrier, release of inflammatory factors, intestinal epithelial hyperpermeability, bacterial translocation, and multiple organ dysfunction via the circulation [8-10]. Although the underlying mechanism of total organ failure is not entirely understood, it can be avoided, since early diagnosis and management of sepsis have been associated with improved outcomes and reduced mortality [11].",
+    "text": "## Introduction\nHitherto, sepsis remains the main cause of mortality in intensive care units (ICUs) [1, 2], and shock accounts for one of the highest rates of mortality, approximately 50%, in many countries [3]. Therefore, early detection and management is of chief importance. The gastrointestinal tract has long been hypothesized to play an integral role in the occurrence and development of sepsis [4]. During septic shock, the body responds by redistributing blood to vital organs, such as the heart, brain, and kidneys. However, the gastrointestinal tract is the first organ to be affected by hypoperfusion, which is considered a common indicator of the development of multiple organ failure [5, 6]. Although vasoactive drugs such as epinephrine and norepinephrine increase the perfusion pressure as well as cardiac output, they are capable of diverting blood flow away from the mesenteric circulation [5, 7], leading to the destruction of the intestinal mucosal barrier, release of inflammatory factors, intestinal epithelial hyperpermeability, bacterial translocation, and multiple organ dysfunction via the circulation [8-10]. Although the underlying mechanism of total organ failure is not entirely understood, it can be avoided, since early diagnosis and management of sepsis have been associated with improved outcomes and reduced mortality [11]. The process of early detection of sepsis may be straightforward; despite this, the early stage of sepsis remains challenging for patients [11].",
     "metadata": {
       "document_id": "Gai_2022",
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Introduction",
+      "section_index": 6,
+      "part_index": 0,
       "page_number": 2,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -92,25 +106,14 @@
   },
   {
     "id": "Gai_2022_s6_p1",
-    "text": "## Introduction\nThe process of early detection of sepsis may be straightforward; despite this, the early stage of sepsis remains challenging for patients [11]. Routine assessments of splanchnic perfusion such as mucosal perfusion, mesenteric blood flow, mucosal oxygenation, intramucosal pH, gastric and arterial partial pressure of carbon dioxide, intestinal permeability, and lactate production can be used as preventative steps, these tools are not useful once sepsis has already developed [12]. Therefore, there is an urgent need for an accurate, reproducible, radiationfree, rapid, and non-invasive tool to provide information about intestinal perfusion without compromising the treatment of patients with sepsis [13-15]. The use of critical care ultrasound has increased in ICUs in recent years. It has been found to be useful in identifying valuable information to improve medical decision-making, especially in patients with septic shock [16]. Ultrasound can reliably assess arterial and venous blood flow [17, 18]. The SMA is the primary artery supplying the small intestine [19]. In the fasting state, approximately 25% of the cardiac output depends on the splanchnic vascular area. Postprandially, blood flow into SMA is doubled or even tripled [20]. Although effective therapy is still lacking, the therapeutic approach that is selected considerably influences mortality risk.",
+    "text": "## Introduction\nRoutine assessments of splanchnic perfusion such as mucosal perfusion, mesenteric blood flow, mucosal oxygenation, intramucosal pH, gastric and arterial partial pressure of carbon dioxide, intestinal permeability, and lactate production can be used as preventative steps, these tools are not useful once sepsis has already developed [12]. Therefore, there is an urgent need for an accurate, reproducible, radiationfree, rapid, and non-invasive tool to provide information about intestinal perfusion without compromising the treatment of patients with sepsis [13-15]. The use of critical care ultrasound has increased in ICUs in recent years. It has been found to be useful in identifying valuable information to improve medical decision-making, especially in patients with septic shock [16]. Ultrasound can reliably assess arterial and venous blood flow [17, 18]. The SMA is the primary artery supplying the small intestine [19]. In the fasting state, approximately 25% of the cardiac output depends on the splanchnic vascular area. Postprandially, blood flow into SMA is doubled or even tripled [20]. Although effective therapy is still lacking, the therapeutic approach that is selected considerably influences mortality risk. Therefore, in the present study we hypothesized that SMA ultrasound is an effective technique to predict mortality in patients with sepsis.",
     "metadata": {
       "document_id": "Gai_2022",
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Introduction",
-      "page_number": 2,
-      "chunk_type": "section",
-      "split_strategy": "sentence"
-    }
-  },
-  {
-    "id": "Gai_2022_s6_p2",
-    "text": "## Introduction\nTherefore, in the present study we hypothesized that SMA ultrasound is an effective technique to predict mortality in patients with sepsis.",
-    "metadata": {
-      "document_id": "Gai_2022",
-      "paper_id": "Gai_2022",
-      "year": 2022,
-      "section": "Introduction",
+      "section_index": 6,
+      "part_index": 1,
       "page_number": 2,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -124,6 +127,8 @@
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Study design and patients",
+      "section_index": 7,
+      "part_index": 0,
       "page_number": 2,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -137,6 +142,8 @@
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Data collection and definition",
+      "section_index": 8,
+      "part_index": 0,
       "page_number": 3,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -150,6 +157,8 @@
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Statistical analysis",
+      "section_index": 9,
+      "part_index": 0,
       "page_number": 3,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -157,12 +166,14 @@
   },
   {
     "id": "Gai_2022_s10_p0",
-    "text": "## Results\nAmong 72 patients with sepsis, there were 42 (58.3%) non-survivors and 30 (41.7%) survivors. The mean ages of the survivors and non-survivors were 71.07 ± 7.52 and 71.45 ± 6.89 years, respectively ( P = 0.822). The mean APACHE II and SOFA scores were higher in the non-survivors than in the survivors (APACHE II, 22.67 ± 4.28 vs. 17.43 ± 3.17 and SOFA score, 10.62 ± 1.67 vs. 7.83 ± 2.29, respectively; P < 0.001 for both). The lactate level showed significant difference between non-survivors and survivors (3.79 ± 1.05 mmol/L and 2.74 ± 0.92 mmol/L, respectively; P < 0.001; Table 1 ). The non-survivors showed lower PSV (78.92 ± 4.75 cm/s vs. 100.8 ± 7.10 cm/s), lower EDV (26.09 ± 1.51 cm/s vs. 29.55 ± 1.41 cm/s), and lower RI (0.67 ± 0.03 vs. 0.71 ± 0.02) than the survivors ( P < 0.001 for all). However, no significant differences found in the gender, CCI score, original infection sites, occurrence of septic shock, platelet count, C-reactive protein, and albumin level between both the groups. Compared with survivors, non-survivors experienced higher dose of norepinephrine ( Table 1 ). The statistically significant variables included APACHE II score, SOFA score, lactate, low PSV, EDV, and RI which evidenced to be the potential risk factors for mortality by the univariate analysis ( P < 0.05) were used to establish a stepwise multivariate logistic regression model. However, only PSV was included in the model.",
+    "text": "## Results\nAmong 72 patients with sepsis, there were 42 (58.3%) non-survivors and 30 (41.7%) survivors. The mean ages of the survivors and non-survivors were 71.07 ± 7.52 and 71.45 ± 6.89 years, respectively ( P = 0.822). The mean APACHE II and SOFA scores were higher in the non-survivors than in the survivors (APACHE II, 22.67 ± 4.28 vs. 17.43 ± 3.17 and SOFA score, 10.62 ± 1.67 vs. 7.83 ± 2.29, respectively; P < 0.001 for both). The lactate level showed significant difference between non-survivors and survivors (3.79 ± 1.05 mmol/L and 2.74 ± 0.92 mmol/L, respectively; P < 0.001; Table 1 ). The non-survivors showed lower PSV (78.92 ± 4.75 cm/s vs. 100.8 ± 7.10 cm/s), lower EDV (26.09 ± 1.51 cm/s vs. 29.55 ± 1.41 cm/s), and lower RI (0.67 ± 0.03 vs. 0.71 ± 0.02) than the survivors ( P < 0.001 for all). However, no significant differences found in the gender, CCI score, original infection sites, occurrence of septic shock, platelet count, C-reactive protein, and albumin level between both the groups. Compared with survivors, non-survivors experienced higher dose of norepinephrine ( Table 1 ). The statistically significant variables included APACHE II score, SOFA score, lactate, low PSV, EDV, and RI which evidenced to be the potential risk factors for mortality by the univariate analysis ( P < 0.05) were used to establish a stepwise multivariate logistic regression model. However, only PSV was included in the model. Patients with higher PSV (100.8 cm/s) have a 70.5% lower chance of dying (OR = 0.295; 95% CI: 0.094-0.925) (survivors) than patients with lower PSV (78.92 cm/s) (Table 2). Table 1. Characteristics of septic patients (n = 72).",
     "metadata": {
       "document_id": "Gai_2022",
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Results",
+      "section_index": 10,
+      "part_index": 0,
       "page_number": 3,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -170,12 +181,14 @@
   },
   {
     "id": "Gai_2022_s10_p1",
-    "text": "## Results\nPatients with higher PSV (100.8 cm/s) have a 70.5% lower chance of dying (OR = 0.295; 95% CI: 0.094-0.925) (survivors) than patients with lower PSV (78.92 cm/s) (Table 2). Table 1. Characteristics of septic patients (n = 72). APACHE II: Acute Physiology and Chronic Health Evaluation II; SOFA: Sequential Organ Failure Assessment Score; CCI: Charlson Comorbidity Index; NEmax: maxium dose of norepinephrine; PSV: Peak systolic velocity; EDV: End diastolic velocity; RI: Resistive index. https://doi.org/10.1371/journal.pone.0273377.t001 The ROC analysis showed that the AUC of PSV (0.99) was the largest among variables of the APACHE II score, SOFA score, lactate level, and EDV. The sensitivity, and specificity of PSV were 0.99, and 0.96, respectively ( Fig 1 ).",
+    "text": "## Results\nAPACHE II: Acute Physiology and Chronic Health Evaluation II; SOFA: Sequential Organ Failure Assessment Score; CCI: Charlson Comorbidity Index; NEmax: maxium dose of norepinephrine; PSV: Peak systolic velocity; EDV: End diastolic velocity; RI: Resistive index. https://doi.org/10.1371/journal.pone.0273377.t001 The ROC analysis showed that the AUC of PSV (0.99) was the largest among variables of the APACHE II score, SOFA score, lactate level, and EDV. The sensitivity, and specificity of PSV were 0.99, and 0.96, respectively ( Fig 1 ).",
     "metadata": {
       "document_id": "Gai_2022",
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Results",
+      "section_index": 10,
+      "part_index": 1,
       "page_number": 3,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -183,12 +196,14 @@
   },
   {
     "id": "Gai_2022_s11_p0",
-    "text": "## Discussion\nThe present results demonstrate that low PSV was an independent risk factor for mortality, and the results of the ROC curves analyses showed that the PSV value had a good diagnostic Table 2. Univariate and multivariate logistic analysis. APACHE II: Acute Physiology and Chronic Health Evaluation II; SOFA: Sequential Organ Failure Assessment Score; PSV: Peak systolic velocity; EDV: End diastolic velocity; RI: Resistive index; CI, confidence interval https://doi.org/10.1371/journal.pone.0273377.t002 Fig 1. The area under the receiver operating characteristic (ROC) curve (AUC). (APACHE II: Acute Physiology and Chronic Health Evaluation II; SOFA: Sepsis-related Organ Failure Assessment; Lac: Lactate; PSV: Peak systolic velocity; EDV: End-diastolic velocity; RI: Resistive index). https://doi.org/10.1371/journal.pone.0273377.g001 performance in predicting mortality in sepsis, which has substantial clinical value for detection in the early stage of sepsis. In recent years, critical ultrasound has been widely used to evaluate and to aid in the treatment of critically ill patients. Previous studies measured the blood flow velocity in SMA in several pathologies, including patent ductus arteriosus, sepsis, and necrotizing enterocolitis [23]. However, most of these assessed patients with sepsis, allowing for the application of indirect techniques to estimate visceral blood flow, but splanchnic microcirculatory blood flow has rarely been measured [5].",
+    "text": "## Discussion\nThe present results demonstrate that low PSV was an independent risk factor for mortality, and the results of the ROC curves analyses showed that the PSV value had a good diagnostic Table 2. Univariate and multivariate logistic analysis. APACHE II: Acute Physiology and Chronic Health Evaluation II; SOFA: Sequential Organ Failure Assessment Score; PSV: Peak systolic velocity; EDV: End diastolic velocity; RI: Resistive index; CI, confidence interval https://doi.org/10.1371/journal.pone.0273377.t002 Fig 1. The area under the receiver operating characteristic (ROC) curve (AUC). (APACHE II: Acute Physiology and Chronic Health Evaluation II; SOFA: Sepsis-related Organ Failure Assessment; Lac: Lactate; PSV: Peak systolic velocity; EDV: End-diastolic velocity; RI: Resistive index). https://doi.org/10.1371/journal.pone.0273377.g001 performance in predicting mortality in sepsis, which has substantial clinical value for detection in the early stage of sepsis. In recent years, critical ultrasound has been widely used to evaluate and to aid in the treatment of critically ill patients. Previous studies measured the blood flow velocity in SMA in several pathologies, including patent ductus arteriosus, sepsis, and necrotizing enterocolitis [23]. However, most of these assessed patients with sepsis, allowing for the application of indirect techniques to estimate visceral blood flow, but splanchnic microcirculatory blood flow has rarely been measured [5]. We used SMA ultrasound for the evaluation of patients with sepsis and found that early monitoring of PSV and EDV is extremely valuable in predicting mortality.",
     "metadata": {
       "document_id": "Gai_2022",
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Discussion",
+      "section_index": 11,
+      "part_index": 0,
       "page_number": 4,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -196,12 +211,14 @@
   },
   {
     "id": "Gai_2022_s11_p1",
-    "text": "## Discussion\nWe used SMA ultrasound for the evaluation of patients with sepsis and found that early monitoring of PSV and EDV is extremely valuable in predicting mortality. Although our finding can bridge the knowledge gap, it must be emphasized that our study aimed to conduct a qualitative assessment of the SMA flow, rather than an absolute quantitative comparison between the groups. The gastrointestinal tract plays a crucial role in the pathogenesis of many diseases, and it is considered to be the motor of multiorgan failure [24]. Non-occlusive mesenteric ischemia is reported to often occur in critically ill patients or in those with significant comorbidities. It is caused by a circulatory failure as well as vasoconstriction in the mesenteric bed [19]. A previous study reported that as a result of non-occlusive mesenteric ischemia, blood flow in SMA reduced to a great extent compared to the cardiac output, and along with blood flow reduction, mesenteric vascular resistance remarkably increased [25]. Therefore, early monitoring of the mesenteric blood flow is of great importance in predicting and evaluating the outcome of severe diseases. In this study, we observed low PSV, EDV, and RI in the non-survivor group. PSV and EDV alone showed high sensitivity and specificity in predicting the risk of mortality. Therefore, any therapeutic intervention that targets the splanchnic flow may be of great significance in critically ill patients [24].",
+    "text": "## Discussion\nAlthough our finding can bridge the knowledge gap, it must be emphasized that our study aimed to conduct a qualitative assessment of the SMA flow, rather than an absolute quantitative comparison between the groups. The gastrointestinal tract plays a crucial role in the pathogenesis of many diseases, and it is considered to be the motor of multiorgan failure [24]. Non-occlusive mesenteric ischemia is reported to often occur in critically ill patients or in those with significant comorbidities. It is caused by a circulatory failure as well as vasoconstriction in the mesenteric bed [19]. A previous study reported that as a result of non-occlusive mesenteric ischemia, blood flow in SMA reduced to a great extent compared to the cardiac output, and along with blood flow reduction, mesenteric vascular resistance remarkably increased [25]. Therefore, early monitoring of the mesenteric blood flow is of great importance in predicting and evaluating the outcome of severe diseases. In this study, we observed low PSV, EDV, and RI in the non-survivor group. PSV and EDV alone showed high sensitivity and specificity in predicting the risk of mortality. Therefore, any therapeutic intervention that targets the splanchnic flow may be of great significance in critically ill patients [24]. Other approaches such as vascular catheterization, dilution techniques, and surface mucosal transducers may be more effective for monitoring blood flow; however, they are more expensive and invasive, and expose the patient to the risk of complications and radiation [14, 24].",
     "metadata": {
       "document_id": "Gai_2022",
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Discussion",
+      "section_index": 11,
+      "part_index": 1,
       "page_number": 4,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -209,12 +226,14 @@
   },
   {
     "id": "Gai_2022_s11_p2",
-    "text": "## Discussion\nOther approaches such as vascular catheterization, dilution techniques, and surface mucosal transducers may be more effective for monitoring blood flow; however, they are more expensive and invasive, and expose the patient to the risk of complications and radiation [14, 24]. The SMA ultrasound aids in the analysis of the superior and inferior mesenteric flow and provides several quantifiable parameters, such as pulsatility index, RI, systolic and diastolic velocities, and blood flow volume, to assess the signal from visceral vessels [26]. Platelets play an important role in the coordinated immune response to an infection; however, during a dysregulated host response such as sepsis, platelet activation can cause inflammatory dysfunction and contribute to organ damage [27]. A previous study reported that a sharp drop in the serum albumin level due to bacteremia seriously affected the prognosis [28]. However, no significant differences were observed between the survivors and non-survivors with regard to platelet count and albumin level in our study. Lactate is a reliable prognostic biomarker for poor prognosis in patients with sepsis [12, 28]. However, the mechanism of hyperlactemia is complicated, and several reasons can cause an increase in lactate levels, including tissue hypoperfusion, underlying diseases, drugs, and birth defects. Therefore, the diagnostic value of the lactate level alone may be insufficient [28].",
+    "text": "## Discussion\nThe SMA ultrasound aids in the analysis of the superior and inferior mesenteric flow and provides several quantifiable parameters, such as pulsatility index, RI, systolic and diastolic velocities, and blood flow volume, to assess the signal from visceral vessels [26]. Platelets play an important role in the coordinated immune response to an infection; however, during a dysregulated host response such as sepsis, platelet activation can cause inflammatory dysfunction and contribute to organ damage [27]. A previous study reported that a sharp drop in the serum albumin level due to bacteremia seriously affected the prognosis [28]. However, no significant differences were observed between the survivors and non-survivors with regard to platelet count and albumin level in our study. Lactate is a reliable prognostic biomarker for poor prognosis in patients with sepsis [12, 28]. However, the mechanism of hyperlactemia is complicated, and several reasons can cause an increase in lactate levels, including tissue hypoperfusion, underlying diseases, drugs, and birth defects. Therefore, the diagnostic value of the lactate level alone may be insufficient [28]. Despite the promising results, our study has some limitations. As only 72 elderly patients were eligible for and analyzed in our study, the study may be prone to sampling bias. This sample size may not be an accurate representation of the target population, and caution must be exercised before extrapolating the results of our study to patients with sepsis of all ages. Despite this limitation, our results are internally valid. SOFA scores are frequently used to assess organ dysfunction and are closely related to the risk of mortality, with low scores indicating better outcomes [28].",
     "metadata": {
       "document_id": "Gai_2022",
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Discussion",
+      "section_index": 11,
+      "part_index": 2,
       "page_number": 4,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -222,12 +241,14 @@
   },
   {
     "id": "Gai_2022_s11_p3",
-    "text": "## Discussion\nDespite the promising results, our study has some limitations. As only 72 elderly patients were eligible for and analyzed in our study, the study may be prone to sampling bias. This sample size may not be an accurate representation of the target population, and caution must be exercised before extrapolating the results of our study to patients with sepsis of all ages. Despite this limitation, our results are internally valid. SOFA scores are frequently used to assess organ dysfunction and are closely related to the risk of mortality, with low scores indicating better outcomes [28]. In our study, a strong negative correlation was observed between PSV and the SOFA score; we found that the PSV value was a better predictor of mortality than the SOFA score. Based on our results, SMA ultrasound should be used at an early stage after patients with sepsis are admitted to ICU, with or without septic shock.",
+    "text": "## Discussion\nIn our study, a strong negative correlation was observed between PSV and the SOFA score; we found that the PSV value was a better predictor of mortality than the SOFA score. Based on our results, SMA ultrasound should be used at an early stage after patients with sepsis are admitted to ICU, with or without septic shock.",
     "metadata": {
       "document_id": "Gai_2022",
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Discussion",
+      "section_index": 11,
+      "part_index": 3,
       "page_number": 4,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -241,6 +262,8 @@
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Conclusion",
+      "section_index": 12,
+      "part_index": 0,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -254,6 +277,8 @@
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Supporting information",
+      "section_index": 13,
+      "part_index": 0,
       "page_number": 6,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -267,6 +292,8 @@
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "Author Contributions",
+      "section_index": 14,
+      "part_index": 0,
       "page_number": 7,
       "chunk_type": "section",
       "split_strategy": "heading"
@@ -274,12 +301,14 @@
   },
   {
     "id": "Gai_2022_s15_p0",
-    "text": "## References\nFay KT, Ford ML, Coopersmith CM. The intestinal microenvironment in sepsis. Biochimica et biophysica acta Molecular basis of disease. 2017; 1863(10 Pt B):2574-83. https://doi.org/10.1016/j.bbadis. 2017.03.005 PMID: 28286161 M ø ller MH, Alhazzani W, Shankar-Hari M. Focus on sepsis. Intensive care medicine. 2019; 45 (10):1459-61. https://doi.org/10.1007/s00134-019-05680-4 PMID: 31267195 Huan C, Lu C, Song B, Li PC, Ren HS, Chu YF, et al. The shape change index (SCI) of inferior vena cava (IVC) measuring by transabdominal ultrasound to predict the presence of septic shock in intensive care unit (ICU) patients. European review for medical and pharmacological sciences. 2019; 23 (6):2505-12. https://doi.org/10.26355/eurrev_201903_17398 PMID: 30964177 Liu Z, Li N, Fang H, Chen X, Guo Y, Gong S, et al. Enteric dysbiosis is associated with sepsis in patients. FASEB journal: official publication of the Federation of American Societies for Experimental Biology. 2019; 33(11):12299-310. https://doi.org/10.1096/fj.201900398RR PMID: 31465241 Krejci V, Hiltebrand LB, Sigurdsson GH. Effects of epinephrine, norepinephrine, and phenylephrine on microcirculatory blood flow in the gastrointestinal tract in sepsis. Critical care medicine. 2006; 34 (5):1456-63. https://doi.org/10.1097/01.CCM.0000215834.48023.57 PMID: 16557162 Bartsch S, Bru ¨ning A, Reimann FM, Ludwig D. Haemodynamic effects of dopexamine on postprandial splanchnic hyperaemia.",
+    "text": "## References\nFay KT, Ford ML, Coopersmith CM. The intestinal microenvironment in sepsis. Biochimica et biophysica acta Molecular basis of disease. 2017; 1863(10 Pt B):2574-83. https://doi.org/10.1016/j.bbadis. 2017.03.005 PMID: 28286161 M ø ller MH, Alhazzani W, Shankar-Hari M. Focus on sepsis. Intensive care medicine. 2019; 45 (10):1459-61. https://doi.org/10.1007/s00134-019-05680-4 PMID: 31267195 Huan C, Lu C, Song B, Li PC, Ren HS, Chu YF, et al. The shape change index (SCI) of inferior vena cava (IVC) measuring by transabdominal ultrasound to predict the presence of septic shock in intensive care unit (ICU) patients. European review for medical and pharmacological sciences. 2019; 23 (6):2505-12. https://doi.org/10.26355/eurrev_201903_17398 PMID: 30964177 Liu Z, Li N, Fang H, Chen X, Guo Y, Gong S, et al. Enteric dysbiosis is associated with sepsis in patients. FASEB journal: official publication of the Federation of American Societies for Experimental Biology. 2019; 33(11):12299-310. https://doi.org/10.1096/fj.201900398RR PMID: 31465241 Krejci V, Hiltebrand LB, Sigurdsson GH. Effects of epinephrine, norepinephrine, and phenylephrine on microcirculatory blood flow in the gastrointestinal tract in sepsis. Critical care medicine. 2006; 34 (5):1456-63. https://doi.org/10.1097/01.CCM.0000215834.48023.57 PMID: 16557162 Bartsch S, Bru ¨ning A, Reimann FM, Ludwig D. Haemodynamic effects of dopexamine on postprandial splanchnic hyperaemia. European journal of clinical investigation. 2004; 34(4):268-74. https://doi.org/ 10.1111/j.1365-2362.2004.01323.x PMID: 15086358 Kim HY, Kim IO, Kim WS, Kang GH. Bowel sonography in sepsis with pathological correlation: an experimental study. Pediatric radiology.",
     "metadata": {
       "document_id": "Gai_2022",
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "References",
+      "section_index": 15,
+      "part_index": 0,
       "page_number": 7,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -287,12 +316,14 @@
   },
   {
     "id": "Gai_2022_s15_p1",
-    "text": "## References\nEuropean journal of clinical investigation. 2004; 34(4):268-74. https://doi.org/ 10.1111/j.1365-2362.2004.01323.x PMID: 15086358 Kim HY, Kim IO, Kim WS, Kang GH. Bowel sonography in sepsis with pathological correlation: an experimental study. Pediatric radiology. 2011; 41(2):237-43. https://doi.org/10.1007/s00247-010-18064 PMID: 20734039 Haussner F, Chakraborty S, Halbgebauer R, Huber-Lang M. Challenge to the Intestinal Mucosa During Sepsis. Frontiers in immunology. 2019; 10:891. https://doi.org/10.3389/fimmu.2019.00891 PMID: 31114571 Li H, Zhang D, Wang Y, Zhao S. Association between acute gastrointestinal injury grading system and disease severity and prognosis in critically ill patients: A multicenter, prospective, observational study in China. Journal of critical care. 2016; 36:24-8. https://doi.org/10.1016/j.jcrc.2016.05.001 PMID: 27546743 Rowlands BJ, Soong CV, Gardiner KR. The gastrointestinal tract as a barrier in sepsis. British medical bulletin. 1999; 55(1):196-211. https://doi.org/10.1258/0007142991902213 PMID: 10695087 Mitra B, Roman C, Charters KE, O'Reilly G, Gantner D, Cameron PA. Lactate, bicarbonate and anion gap for evaluation of patients presenting with sepsis to the emergency department: A prospective cohort study. Emergency medicine Australasia: EMA. 2020; 32(1):20-4. https://doi.org/10.1111/1742-6723. 13324 PMID: 31184442 Woolsey CA, Coopersmith CM. Vasoactive drugs and the gut: is there anything new? Current opinion in critical care.",
+    "text": "## References\n2011; 41(2):237-43. https://doi.org/10.1007/s00247-010-18064 PMID: 20734039 Haussner F, Chakraborty S, Halbgebauer R, Huber-Lang M. Challenge to the Intestinal Mucosa During Sepsis. Frontiers in immunology. 2019; 10:891. https://doi.org/10.3389/fimmu.2019.00891 PMID: 31114571 Li H, Zhang D, Wang Y, Zhao S. Association between acute gastrointestinal injury grading system and disease severity and prognosis in critically ill patients: A multicenter, prospective, observational study in China. Journal of critical care. 2016; 36:24-8. https://doi.org/10.1016/j.jcrc.2016.05.001 PMID: 27546743 Rowlands BJ, Soong CV, Gardiner KR. The gastrointestinal tract as a barrier in sepsis. British medical bulletin. 1999; 55(1):196-211. https://doi.org/10.1258/0007142991902213 PMID: 10695087 Mitra B, Roman C, Charters KE, O'Reilly G, Gantner D, Cameron PA. Lactate, bicarbonate and anion gap for evaluation of patients presenting with sepsis to the emergency department: A prospective cohort study. Emergency medicine Australasia: EMA. 2020; 32(1):20-4. https://doi.org/10.1111/1742-6723. 13324 PMID: 31184442 Woolsey CA, Coopersmith CM. Vasoactive drugs and the gut: is there anything new? Current opinion in critical care. 2006; 12(2):155-9. https://doi.org/10.1097/01.ccx.0000216584.72427.e4 PMID: 16543793 Ukleja A. Altered GI motility in critically Ill patients: current understanding of pathophysiology, clinical impact, and diagnostic approach. Nutrition in clinical practice: official publication of the American Society for Parenteral and Enteral Nutrition. 2010; 25(1):16-25. https://doi.org/10.1177/0884533609357568 PMID: 20130154 Maconi G, Parente F, Bollani S, Imbesi V, Ardizzone S, Russo A, et al.",
     "metadata": {
       "document_id": "Gai_2022",
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "References",
+      "section_index": 15,
+      "part_index": 1,
       "page_number": 7,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -300,12 +331,14 @@
   },
   {
     "id": "Gai_2022_s15_p2",
-    "text": "## References\n2006; 12(2):155-9. https://doi.org/10.1097/01.ccx.0000216584.72427.e4 PMID: 16543793 Ukleja A. Altered GI motility in critically Ill patients: current understanding of pathophysiology, clinical impact, and diagnostic approach. Nutrition in clinical practice: official publication of the American Society for Parenteral and Enteral Nutrition. 2010; 25(1):16-25. https://doi.org/10.1177/0884533609357568 PMID: 20130154 Maconi G, Parente F, Bollani S, Imbesi V, Ardizzone S, Russo A, et al. Factors affecting splanchnic haemodynamics in Crohn's disease: a prospective controlled study using Doppler ultrasound. Gut. 1998; 43(5):645-50. https://doi.org/10.1136/gut.43.5.645 PMID: 9824345 Nylund K, Maconi G, Hollerweger A, Ripolles T, Pallotta N, Higginson A, et al. EFSUMB Recommendations and Guidelines for Gastrointestinal Ultrasound. Ultraschall in der Medizin (Stuttgart, Germany: 1980). 2017; 38(3):e1-e15. https://doi.org/10.1055/s-0042-115853 PMID: 27604052 Chen Z, Hong Y, Dai J, Xing L. Incorporation of point-of-care ultrasound into morning round is associated with improvement in clinical outcomes in critically ill patients with sepsis. Journal of clinical anesthesia. 2018; 48:62-6. https://doi.org/10.1016/j.jclinane.2018.05.010 PMID: 29763777 Peters HP, de Leeuw D, Lapham RC, Bol E, Mosterd WL, de Vries WR. Reproducibility of ultrasound blood flow measurement of the superior mesenteric artery before and after exercise. International journal of sports medicine.",
+    "text": "## References\nFactors affecting splanchnic haemodynamics in Crohn's disease: a prospective controlled study using Doppler ultrasound. Gut. 1998; 43(5):645-50. https://doi.org/10.1136/gut.43.5.645 PMID: 9824345 Nylund K, Maconi G, Hollerweger A, Ripolles T, Pallotta N, Higginson A, et al. EFSUMB Recommendations and Guidelines for Gastrointestinal Ultrasound. Ultraschall in der Medizin (Stuttgart, Germany: 1980). 2017; 38(3):e1-e15. https://doi.org/10.1055/s-0042-115853 PMID: 27604052 Chen Z, Hong Y, Dai J, Xing L. Incorporation of point-of-care ultrasound into morning round is associated with improvement in clinical outcomes in critically ill patients with sepsis. Journal of clinical anesthesia. 2018; 48:62-6. https://doi.org/10.1016/j.jclinane.2018.05.010 PMID: 29763777 Peters HP, de Leeuw D, Lapham RC, Bol E, Mosterd WL, de Vries WR. Reproducibility of ultrasound blood flow measurement of the superior mesenteric artery before and after exercise. International journal of sports medicine. 2001; 22(4):245-9. https://doi.org/10.1055/s-2001-13811 PMID: 11414664 van Bockel JH, Geelkerken RH, Wasser MN. Chronic splanchnic ischaemia. Best practice & research Clinical gastroenterology. 2001; 15(1):99-119. https://doi.org/10.1053/bega.2001.0158 PMID: 11355903 Gnanapandithan K, Feuerstadt P. Review Article: Mesenteric Ischemia. Current gastroenterology reports. 2020; 22(4):17. https://doi.org/10.1007/s11894-020-0754-x PMID: 32185509 Byrne MF, Farrell MA, Abass S, Fitzgerald A, Varghese JC, Thornton F, et al. Assessment of Crohn's disease activity by Doppler sonography of the superior mesenteric artery, clinical evaluation and the Crohn's disease activity index: a prospective study. Clinical radiology.",
     "metadata": {
       "document_id": "Gai_2022",
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "References",
+      "section_index": 15,
+      "part_index": 2,
       "page_number": 7,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -313,12 +346,14 @@
   },
   {
     "id": "Gai_2022_s15_p3",
-    "text": "## References\n2001; 22(4):245-9. https://doi.org/10.1055/s-2001-13811 PMID: 11414664 van Bockel JH, Geelkerken RH, Wasser MN. Chronic splanchnic ischaemia. Best practice & research Clinical gastroenterology. 2001; 15(1):99-119. https://doi.org/10.1053/bega.2001.0158 PMID: 11355903 Gnanapandithan K, Feuerstadt P. Review Article: Mesenteric Ischemia. Current gastroenterology reports. 2020; 22(4):17. https://doi.org/10.1007/s11894-020-0754-x PMID: 32185509 Byrne MF, Farrell MA, Abass S, Fitzgerald A, Varghese JC, Thornton F, et al. Assessment of Crohn's disease activity by Doppler sonography of the superior mesenteric artery, clinical evaluation and the Crohn's disease activity index: a prospective study. Clinical radiology. 2001; 56(12):973-8. https://doi. org/10.1053/crad.2001.0794 PMID: 11795926 Wicklein S, Mu ¨hlberg W, Richter B, Sieber CC. Increased splanchnic arterial vascular resistance in oldest old patients-possible relevance for postprandial hypotension. Zeitschrift fur Gerontologie und Geriatrie. 2007; 40(1):37-42. https://doi.org/10.1007/s00391-007-0431-9 PMID: 17318730 Guang Y, Ying D, Sheng Y, Yiyong F, Jun W, Shuqiang G, et al. Early Doppler Ultrasound in the Superior Mesenteric Artery and the Prediction of Necrotizing Enterocolitis in Preterm Neonates. Journal of ultrasound in medicine: official journal of the American Institute of Ultrasound in Medicine.",
+    "text": "## References\n2001; 56(12):973-8. https://doi. org/10.1053/crad.2001.0794 PMID: 11795926 Wicklein S, Mu ¨hlberg W, Richter B, Sieber CC. Increased splanchnic arterial vascular resistance in oldest old patients-possible relevance for postprandial hypotension. Zeitschrift fur Gerontologie und Geriatrie. 2007; 40(1):37-42. https://doi.org/10.1007/s00391-007-0431-9 PMID: 17318730 Guang Y, Ying D, Sheng Y, Yiyong F, Jun W, Shuqiang G, et al. Early Doppler Ultrasound in the Superior Mesenteric Artery and the Prediction of Necrotizing Enterocolitis in Preterm Neonates. Journal of ultrasound in medicine: official journal of the American Institute of Ultrasound in Medicine. 2019; 38 (12):3283-9. https://doi.org/10.1002/jum.15064 PMID: 31218729 Maruyama K, Fujiu T, Inoue T, Koizumi A, Inoue F. Feeding interval and postprandial intestinal blood flow in premature infants. Pediatrics international: official journal of the Japan Pediatric Society. 2013; 55(4):472-6. https://doi.org/10.1111/ped.12106 PMID: 23566051 Gatt M, MacFie J, Anderson AD, Howell G, Reddy BS, Suppiah A, et al. Changes in superior mesenteric artery blood flow after oral, enteral, and parenteral feeding in humans. Critical care medicine. 2009; 37 (1):171-6. https://doi.org/10.1097/CCM.0b013e318192fb44 PMID: 19050615 Fiore G, Brienza N, Cicala P, Tunzi P, Marraudino N, Schinosa Lde L, et al. Superior mesenteric artery blood flow modifications during off-pump coronary surgery. The Annals of thoracic surgery. 2006; 82 (1):62-7. https://doi.org/10.1016/j.athoracsur.2006.02.012 PMID: 16798189 Perez-Calatayud AA, Carrillo-Esper R, Anica-Malagon ED, Briones-Gardu ñ o JC, Arch-Tirado E, Wise R, et al.",
     "metadata": {
       "document_id": "Gai_2022",
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "References",
+      "section_index": 15,
+      "part_index": 3,
       "page_number": 7,
       "chunk_type": "section",
       "split_strategy": "sentence"
@@ -326,25 +361,14 @@
   },
   {
     "id": "Gai_2022_s15_p4",
-    "text": "## References\n2019; 38 (12):3283-9. https://doi.org/10.1002/jum.15064 PMID: 31218729 Maruyama K, Fujiu T, Inoue T, Koizumi A, Inoue F. Feeding interval and postprandial intestinal blood flow in premature infants. Pediatrics international: official journal of the Japan Pediatric Society. 2013; 55(4):472-6. https://doi.org/10.1111/ped.12106 PMID: 23566051 Gatt M, MacFie J, Anderson AD, Howell G, Reddy BS, Suppiah A, et al. Changes in superior mesenteric artery blood flow after oral, enteral, and parenteral feeding in humans. Critical care medicine. 2009; 37 (1):171-6. https://doi.org/10.1097/CCM.0b013e318192fb44 PMID: 19050615 Fiore G, Brienza N, Cicala P, Tunzi P, Marraudino N, Schinosa Lde L, et al. Superior mesenteric artery blood flow modifications during off-pump coronary surgery. The Annals of thoracic surgery. 2006; 82 (1):62-7. https://doi.org/10.1016/j.athoracsur.2006.02.012 PMID: 16798189 Perez-Calatayud AA, Carrillo-Esper R, Anica-Malagon ED, Briones-Gardu ñ o JC, Arch-Tirado E, Wise R, et al. Point-of-care gastrointestinal and urinary tract sonography in daily evaluation of gastrointestinal dysfunction in critically ill patients (GUTS Protocol). Anaesthesiology intensive therapy. 2018; 50(1):408. https://doi.org/10.5603/AIT.a2017.0073 PMID: 29303209 Shannon O. The role of platelets in sepsis. Research and practice in thrombosis and haemostasis. 2021; 5(1):27-37. https://doi.org/10.1002/rth2.12465 PMID: 33537527 Gharipour A, Razavi R, Gharipour M, Mukasa D.",
+    "text": "## References\nPoint-of-care gastrointestinal and urinary tract sonography in daily evaluation of gastrointestinal dysfunction in critically ill patients (GUTS Protocol). Anaesthesiology intensive therapy. 2018; 50(1):408. https://doi.org/10.5603/AIT.a2017.0073 PMID: 29303209 Shannon O. The role of platelets in sepsis. Research and practice in thrombosis and haemostasis. 2021; 5(1):27-37. https://doi.org/10.1002/rth2.12465 PMID: 33537527 Gharipour A, Razavi R, Gharipour M, Mukasa D. Lactate/albumin ratio: An early prognostic marker in critically ill patients. The American journal of emergency medicine. 2020; 38(10):2088-95. https://doi. org/10.1016/j.ajem.2020.06.067 PMID: 33152585",
     "metadata": {
       "document_id": "Gai_2022",
       "paper_id": "Gai_2022",
       "year": 2022,
       "section": "References",
-      "page_number": 7,
-      "chunk_type": "section",
-      "split_strategy": "sentence"
-    }
-  },
-  {
-    "id": "Gai_2022_s15_p5",
-    "text": "## References\nLactate/albumin ratio: An early prognostic marker in critically ill patients. The American journal of emergency medicine. 2020; 38(10):2088-95. https://doi. org/10.1016/j.ajem.2020.06.067 PMID: 33152585",
-    "metadata": {
-      "document_id": "Gai_2022",
-      "paper_id": "Gai_2022",
-      "year": 2022,
-      "section": "References",
+      "section_index": 15,
+      "part_index": 4,
       "page_number": 7,
       "chunk_type": "section",
       "split_strategy": "sentence"
