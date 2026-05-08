@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "MCV",
+      "type": "Scoring System",
+      "value": "Mean Corpuscular Volume"
+    },
+    {
+      "id": "28-day mortality",
+      "type": "Clinical Outcome",
+      "value": "Mortality within 28 days"
+    },
+    {
+      "id": "Sepsis Patients",
+      "type": "Demographic",
+      "value": "Patients diagnosed with sepsis"
+    },
+    {
+      "id": "Age",
+      "type": "Demographic",
+      "value": "Age of patient"
+    },
+    {
+      "id": "BMI",
+      "type": "Demographic",
+      "value": "Body Mass Index"
+    },
+    {
+      "id": "Odds Ratio (OR)",
+      "type": "Statistical Metric",
+      "value": "Odds Ratio"
+    }
+  ],
+  "links": [
+    {
+      "source": "MCV",
+      "target": "28-day mortality",
+      "relation": "Predicts",
+      "p_value": "0.04"
+    },
+    {
+      "source": "MCV",
+      "target": "28-day mortality",
+      "relation": "Predicts",
+      "p_value": "0.004"
+    },
+    {
+      "source": "MCV",
+      "target": "28-day mortality",
+      "relation": "Correlates with",
+      "p_value": null
+    },
+    {
+      "source": "MCV",
+      "target": "Age",
+      "relation": "Correlates with",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "MCV",
+      "target": "BMI",
+      "relation": "Correlates with",
+      "p_value": "<0.001"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "variable",
+      "value": "631",
+      "label": "Sample Size (All Patients)",
+      "id": "sample_size_all_patients"
+    },
+    {
+      "type": "variable",
+      "value": "538",
+      "label": "Sample Size (SIRS-Positive)",
+      "id": "sample_size_sirs_positive"
+    },
+    {
+      "type": "variable",
+      "value": "93",
+      "label": "Sample Size (SIRS-Negative)",
+      "id": "sample_size_sirs_negative"
+    },
+    {
+      "type": "group",
+      "label": "Patients with SIRS-Positive Sepsis",
+      "id": "sirs_positive_sepsis"
+    },
+    {
+      "type": "group",
+      "label": "Patients with SIRS-Negative Sepsis",
+      "id": "sirs_negative_sepsis"
+    },
+    {
+      "type": "variable",
+      "value": "573 (90.8%)",
+      "label": "Mechanical Ventilation (All Patients)",
+      "id": "mechanical_ventilation_all"
+    },
+    {
+      "type": "variable",
+      "value": "489 (90.9%)",
+      "label": "Mechanical Ventilation (SIRS-Positive)",
+      "id": "mechanical_ventilation_sirs_positive"
+    },
+    {
+      "type": "variable",
+      "value": "84 (90.3%)",
+      "label": "Mechanical Ventilation (SIRS-Negative)",
+      "id": "mechanical_ventilation_sirs_negative"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Besen_2016"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mechanical_ventilation"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size_all_patients"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size_sirs_positive"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size_sirs_negative"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mechanical_ventilation_all"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mechanical_ventilation_sirs_positive"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mechanical_ventilation_sirs_negative"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "paper_id": "Li_2024_tables",
+  "title": null,
+  "year": 2024,
+  "extractions": [
+    {
+      "variable": "Age (years), median (IQR)",
+      "value": "83 (74, 88)",
+      "unit": null,
+      "raw_value_text": "83 (74, 88)",
+      "evidence_text": "Table 2 Baseline characteristics of the study population",
+      "source_type": "text"
+    },
+    {
+      "variable": "P-value (Age)",
+      "value": "0.002",
+      "unit": null,
+      "raw_value_text": "0.002",
+      "evidence_text": "Table 2 Baseline characteristics of the study population",
+      "source_type": "text"
+    },
+    {
+      "variable": "BMI (kg/m2), mean ± SD",
+      "value": "21.73 ± 4.31",
+      "unit": null,
+      "raw_value_text": "21.73 ± 4.31",
+      "evidence_text": "Table 2 Baseline characteristics of the study population",
+      "source_type": "text"
+    },
+    {
+      "variable": "P-value (BMI)",
+      "value": "0.053",
+      "unit": null,
+      "raw_value_text": "0.053",
+      "evidence_text": "Table 2 Baseline characteristics of the study population",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age (years) - HR",
+      "value": "1.044",
+      "unit": null,
+      "raw_value_text": "1.044",
+      "evidence_text": "Table 4 Predictors of the 28-day mortality",
+      "source_type": "text"
+    },
+    {
+      "variable": "P-value (Age, Model 1)",
+      "value": "0.002",
+      "unit": null,
+      "raw_value_text": "0.002",
+      "evidence_text": "Table 4 Predictors of the 28-day mortality",
+      "source_type": "text"
+    },
+    {
+      "variable": "Albumin - HR",
+      "value": "0.950",
+      "unit": null,
+      "raw_value_text": "0.950",
+      "evidence_text": "Table 4 Predictors of the 28-day mortality",
+      "source_type": "text"
+    },
+    {
+      "variable": "P-value (Albumin)",
+      "value": "0.005",
+      "unit": null,
+      "raw_value_text": "0.005",
+      "evidence_text": "Table 4 Predictors of the 28-day mortality",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate - HR",
+      "value": "1.080",
+      "unit": null,
+      "raw_value_text": "1.080",
+      "evidence_text": "Table 4 Predictors of the 28-day mortality",
+      "source_type": "text"
+    },
+    {
+      "variable": "P-value (Lactate)",
+      "value": "0.011",
+      "unit": null,
+      "raw_value_text": "0.011",
+      "evidence_text": "Table 4 Predictors of the 28-day mortality",
+      "source_type": "text"
+    },
+    {
+      "variable": "APACHE II score - HR",
+      "value": "1.069",
+      "unit": null,
+      "raw_value_text": "1.069",
+      "evidence_text": "Table 4 Predictors of the 28-day mortality",
+      "source_type": "text"
+    },
+    {
+      "variable": "P-value (APACHE II score, Model 1)",
+      "value": "< 0.001",
+      "unit": null,
+      "raw_value_text": "< 0.001",
+      "evidence_text": "Table 4 Predictors of the 28-day mortality",
+      "source_type": "text"
+    }
+  ]
+}

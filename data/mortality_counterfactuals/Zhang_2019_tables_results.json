@@ -1,0 +1,151 @@
+{
+  "paper_id": "Zhang_2019_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age-yr No. of patients with data",
+      "value": "631",
+      "unit": null,
+      "raw_value_text": "631",
+      "evidence_text": "Table 1 Baseline characteristics and hospital outcomes of patients with sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age-yr Median",
+      "value": "60.0",
+      "unit": "years",
+      "raw_value_text": "60.0",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age-yr Interquartile range",
+      "value": "46.0 - 73.0",
+      "unit": "years",
+      "raw_value_text": "46.0 - 73.0",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Male sex - no. (%)",
+      "value": "417 (66.1%)",
+      "unit": null,
+      "raw_value_text": "417 (66.1%)",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Risk of death-%",
+      "value": null,
+      "unit": null,
+      "raw_value_text": "N/A",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "APACHE II No. of patients with data",
+      "value": "631",
+      "unit": null,
+      "raw_value_text": "631",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "APACHE II Median",
+      "value": "25.0",
+      "unit": null,
+      "raw_value_text": "25.0",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "APACHE II Interquartile range",
+      "value": "20.0 - 29.0",
+      "unit": null,
+      "raw_value_text": "20.0 - 29.0",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA No. of patients with data",
+      "value": "631",
+      "unit": null,
+      "raw_value_text": "631",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA Median",
+      "value": "9",
+      "unit": null,
+      "raw_value_text": "9",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA Interquartile range",
+      "value": "7 - 12",
+      "unit": null,
+      "raw_value_text": "7 - 12",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Duration of stay in ICU-days No. of patients with data",
+      "value": "631",
+      "unit": null,
+      "raw_value_text": "631",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Duration of stay in ICU-days Median",
+      "value": "13.0",
+      "unit": null,
+      "raw_value_text": "13.0",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Duration of stay in ICU-days Interquartile range",
+      "value": "7.0 - 24.0",
+      "unit": null,
+      "raw_value_text": "7.0 - 24.0",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Death-% (in-hospital)",
+      "value": "188 (29.8)",
+      "unit": null,
+      "raw_value_text": "188 (29.8)",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Subgroup- no(%) Septic shock",
+      "value": "212 (33.6)",
+      "unit": null,
+      "raw_value_text": "212 (33.6)",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Mechanical ventilation",
+      "value": "573 (90.8)",
+      "unit": null,
+      "raw_value_text": "573 (90.8)",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "28-day ventilator-free days Median",
+      "value": "8.0",
+      "unit": null,
+      "raw_value_text": "8.0",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    }
+  ]
+}

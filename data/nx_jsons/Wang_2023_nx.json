@@ -1,0 +1,167 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "LDH",
+      "type": "Statistical Metric",
+      "value": "Lactic Dehydrogenase"
+    },
+    {
+      "id": "One-Year Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Age",
+      "type": "Demographic"
+    },
+    {
+      "id": "Gender",
+      "type": "Demographic"
+    },
+    {
+      "id": "Ethnicity",
+      "type": "Demographic"
+    },
+    {
+      "id": "Potassium",
+      "type": "Laboratory Value"
+    },
+    {
+      "id": "Calcium",
+      "type": "Laboratory Value"
+    },
+    {
+      "id": "Albumin",
+      "type": "Laboratory Value"
+    },
+    {
+      "id": "Hemoglobin",
+      "type": "Laboratory Value"
+    },
+    {
+      "id": "Alkaline Phosphatase",
+      "type": "Laboratory Value"
+    },
+    {
+      "id": "Vasopressor",
+      "type": "Clinical Intervention"
+    },
+    {
+      "id": "Elixhauser Score",
+      "type": "Scoring System"
+    },
+    {
+      "id": "Respiratory Failure",
+      "type": "Comorbidity"
+    },
+    {
+      "id": "LDH-Model",
+      "type": "Prediction Model"
+    },
+    {
+      "id": "SOFA",
+      "type": "Scoring System",
+      "value": "Sequential Organ Failure Assessment"
+    },
+    {
+      "id": "SAPS II",
+      "type": "Scoring System",
+      "value": "Simplified Acute Physiology Score II"
+    },
+    {
+      "id": "AUC",
+      "type": "Statistical Metric",
+      "value": "Area Under Curve"
+    }
+  ],
+  "links": [
+    {
+      "source": "LDH",
+      "target": "One-Year Mortality",
+      "relation": "Correlates with",
+      "p_value": null
+    },
+    {
+      "source": "LDH",
+      "target": "LDH-Model",
+      "relation": "Predictor"
+    },
+    {
+      "source": "Age",
+      "target": "LDH-Model",
+      "relation": "Predictor"
+    },
+    {
+      "source": "Gender",
+      "target": "LDH-Model",
+      "relation": "Predictor"
+    },
+    {
+      "source": "Ethnicity",
+      "target": "LDH-Model",
+      "relation": "Predictor"
+    },
+    {
+      "source": "Potassium",
+      "target": "LDH-Model",
+      "relation": "Predictor"
+    },
+    {
+      "source": "Calcium",
+      "target": "LDH-Model",
+      "relation": "Predictor"
+    },
+    {
+      "source": "Albumin",
+      "target": "LDH-Model",
+      "relation": "Predictor"
+    },
+    {
+      "source": "Hemoglobin",
+      "target": "LDH-Model",
+      "relation": "Predictor"
+    },
+    {
+      "source": "Alkaline Phosphatase",
+      "target": "LDH-Model",
+      "relation": "Predictor"
+    },
+    {
+      "source": "Vasopressor",
+      "target": "LDH-Model",
+      "relation": "Predictor"
+    },
+    {
+      "source": "Elixhauser Score",
+      "target": "LDH-Model",
+      "relation": "Predictor"
+    },
+    {
+      "source": "Respiratory Failure",
+      "target": "LDH-Model",
+      "relation": "Predictor"
+    },
+    {
+      "source": "LDH-Model",
+      "target": "One-Year Mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "LDH-Model",
+      "target": "AUC",
+      "relation": "Resulted in",
+      "p_value": "0.773"
+    },
+    {
+      "source": "SOFA",
+      "target": "One-Year Mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "SAPS II",
+      "target": "One-Year Mortality",
+      "relation": "Predicts"
+    }
+  ]
+}

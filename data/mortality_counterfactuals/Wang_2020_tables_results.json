@@ -1,0 +1,95 @@
+{
+  "paper_id": "Wang_2020_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age, mean ± SD",
+      "value": "61.6",
+      "unit": "years",
+      "raw_value_text": "61.6 ± 17.9",
+      "evidence_text": "TABLE 1 | Baseline characteristics of all the subjects.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Sex, male (%)",
+      "value": "63.7",
+      "unit": "%",
+      "raw_value_text": "3,128 (63.7)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of all the subjects.",
+      "source_type": "text"
+    },
+    {
+      "variable": "APACHE II, median",
+      "value": "16.0",
+      "unit": "",
+      "raw_value_text": "16.0",
+      "evidence_text": "TABLE 1 | Baseline characteristics of all the subjects.",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA, median (Initial)",
+      "value": "8.0",
+      "unit": "",
+      "raw_value_text": "8.0 (5.0-11.0)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of all the subjects.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Sepsis (%)",
+      "value": "28.7",
+      "unit": "%",
+      "raw_value_text": "1,407 (28.7)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of all the subjects.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Mortality, ICU (%)",
+      "value": "17.0",
+      "unit": "%",
+      "raw_value_text": "834 (17.0)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of all the subjects.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Mortality, Hospital (%)",
+      "value": "21.5",
+      "unit": "%",
+      "raw_value_text": "1,058 (21.5)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of all the subjects.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Diabetes mellitus (%)",
+      "value": "17.8",
+      "unit": "%",
+      "raw_value_text": "874 (17.8)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of all the subjects.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Chronic renal failure (%)",
+      "value": "11.1",
+      "unit": "%",
+      "raw_value_text": "543 (11.1)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of all the subjects.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Severity of sepsis, Septic shock (%)",
+      "value": "54.4",
+      "unit": "%",
+      "raw_value_text": "1,134 (54.4)",
+      "evidence_text": "TABLE 2 | Distribution of the most common sites of infection and isolated organism.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lung infection (% of patients)",
+      "value": "55.5",
+      "unit": "%",
+      "raw_value_text": "1,157 (55.5)",
+      "evidence_text": "TABLE 2 | Distribution of the most common sites of infection and isolated organism.",
+      "source_type": "text"
+    }
+  ]
+}

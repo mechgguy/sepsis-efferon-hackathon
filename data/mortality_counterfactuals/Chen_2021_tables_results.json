@@ -1,0 +1,63 @@
+{
+  "paper_id": "Chen_2021_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "G6",
+      "value": "5031 64.50±17.08",
+      "unit": null,
+      "raw_value_text": "5031 64.50±17.08",
+      "evidence_text": "G6 data shows a mean value with standard deviation and total count.",
+      "source_type": "text"
+    },
+    {
+      "variable": "G5",
+      "value": "3584 63.87±18.15",
+      "unit": null,
+      "raw_value_text": "3584 63.87±18.15",
+      "evidence_text": "G5 data shows a mean value with standard deviation and total count.",
+      "source_type": "text"
+    },
+    {
+      "variable": "G4",
+      "value": "5395",
+      "unit": null,
+      "raw_value_text": "5395",
+      "evidence_text": "G4 data provides the total count.",
+      "source_type": "text"
+    },
+    {
+      "variable": "G3",
+      "value": "5804",
+      "unit": null,
+      "raw_value_text": "5804",
+      "evidence_text": "G3 data provides the total count.",
+      "source_type": "text"
+    },
+    {
+      "variable": "G2",
+      "value": null,
+      "unit": null,
+      "raw_value_text": null,
+      "evidence_text": "No data available for G2.",
+      "source_type": "text"
+    },
+    {
+      "variable": "G1",
+      "value": "3060",
+      "unit": null,
+      "raw_value_text": "3060",
+      "evidence_text": "G1 data provides the total count.",
+      "source_type": "text"
+    },
+    {
+      "variable": "All",
+      "value": "27 131 64.00±17.94",
+      "unit": null,
+      "raw_value_text": "27 131 64.00±17.94",
+      "evidence_text": "Data provides mean age and standard deviation.",
+      "source_type": "text"
+    }
+  ]
+}

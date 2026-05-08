@@ -1,0 +1,85 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "mean/SD",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "117",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Obstetric_Sepsis_Study"
+    },
+    {
+      "type": "variable",
+      "value": "Age < 20 years",
+      "label": "Age Less than 20",
+      "id": "age_less_20"
+    },
+    {
+      "type": "variable",
+      "value": "Age > 35 years",
+      "label": "Age greater than 35",
+      "id": "age_greater_35"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "associated_with",
+      "strength": "significant",
+      "source": "age",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Obstetric_Sepsis_Study",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Obstetric_Sepsis_Study",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Obstetric_Sepsis_Study",
+      "target": "age_less_20"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Obstetric_Sepsis_Study",
+      "target": "age_greater_35"
+    },
+    {
+      "relation": "has_sample_size",
+      "strength": null,
+      "source": "Obstetric_Sepsis_Study",
+      "target": "sample_size"
+    },
+    {
+      "relation": "associated_with",
+      "strength": "possibly significant",
+      "source": "age_less_20",
+      "target": "mortality_hospital"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "paper_id": "Wen_2019_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age (years)",
+      "value": "62",
+      "unit": "years",
+      "raw_value_text": "62 (51 - 73)",
+      "evidence_text": "Table 1 Patients ' baseline characteristics",
+      "source_type": "text"
+    },
+    {
+      "variable": "Male (%)",
+      "value": "89",
+      "unit": "%",
+      "raw_value_text": "89 (64)",
+      "evidence_text": "Table 1 Patients ' baseline characteristics",
+      "source_type": "text"
+    },
+    {
+      "variable": "White blood cells",
+      "value": "12.0",
+      "unit": "10^9/L",
+      "raw_value_text": "12.0 (7.7 - 18.3)",
+      "evidence_text": "Table 1 Patients ' baseline characteristics",
+      "source_type": "text"
+    },
+    {
+      "variable": "Platelets",
+      "value": "141",
+      "unit": "10^9/L",
+      "raw_value_text": "141 (74 - 232)",
+      "evidence_text": "Table 1 Patients ' baseline characteristics",
+      "source_type": "text"
+    },
+    {
+      "variable": "Total bilirubin",
+      "value": "1.3",
+      "unit": "mg/dL",
+      "raw_value_text": "1.3 (0.8 - 2.9)",
+      "evidence_text": "Table 1 Patients ' baseline characteristics",
+      "source_type": "text"
+    },
+    {
+      "variable": "Creatinine",
+      "value": "1.4",
+      "unit": "mg/dL",
+      "raw_value_text": "1.4 (0.9 - 2.7)",
+      "evidence_text": "Table 1 Patients ' baseline characteristics",
+      "source_type": "text"
+    },
+    {
+      "variable": "Procalcitonin",
+      "value": "6.26",
+      "unit": "ng/mL",
+      "raw_value_text": "6.26 (1.82 - 31.02)",
+      "evidence_text": "Table 1 Patients ' baseline characteristics",
+      "source_type": "text"
+    },
+    {
+      "variable": "Presepsin",
+      "value": "1348",
+      "unit": "pg/mL",
+      "raw_value_text": "1,348 (661 - 3273)",
+      "evidence_text": "Table 1 Patients ' baseline characteristics",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate",
+      "value": "1.6",
+      "unit": "mmol/L",
+      "raw_value_text": "1.6 (1.1 - 2.7)",
+      "evidence_text": "Table 1 Patients ' baseline characteristics",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA score",
+      "value": "8",
+      "unit": null,
+      "raw_value_text": "8 (5 - 11)",
+      "evidence_text": "Table 1 Patients ' baseline characteristics",
+      "source_type": "text"
+    },
+    {
+      "variable": "APACHE II score",
+      "value": "21",
+      "unit": null,
+      "raw_value_text": "21 (16 - 26)",
+      "evidence_text": "Table 1 Patients ' baseline characteristics",
+      "source_type": "text"
+    },
+    {
+      "variable": "Presepsin",
+      "value": "1.221",
+      "unit": null,
+      "raw_value_text": "1.221 | 1.024 - 1.455",
+      "evidence_text": "Table 2 Univariate binary logistic regression analysis results",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate",
+      "value": "1.296",
+      "unit": null,
+      "raw_value_text": "1.296 | 1.071 - 1.569",
+      "evidence_text": "Table 2 Univariate binary logistic regression analysis results",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA score",
+      "value": "1.404",
+      "unit": null,
+      "raw_value_text": "1.404 | 1.209 - 1.632",
+      "evidence_text": "Table 2 Univariate binary logistic regression analysis results",
+      "source_type": "text"
+    }
+  ]
+}

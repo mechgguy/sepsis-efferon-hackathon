@@ -1,0 +1,172 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "Low HCT Level",
+      "type": "Hematocrit",
+      "value": ""
+    },
+    {
+      "id": "Regular HCT Level",
+      "type": "Hematocrit",
+      "value": ""
+    },
+    {
+      "id": "High HCT Level",
+      "type": "Hematocrit",
+      "value": ""
+    },
+    {
+      "id": "30-day Mortality",
+      "type": "Clinical Outcome",
+      "value": ""
+    },
+    {
+      "id": "Hazard Ratio",
+      "type": "Statistical Metric",
+      "value": ""
+    },
+    {
+      "id": "Age",
+      "type": "Demographic",
+      "value": ""
+    },
+    {
+      "id": "Albumin",
+      "type": "Laboratory Parameter",
+      "value": ""
+    },
+    {
+      "id": "Platelets",
+      "type": "Laboratory Parameter",
+      "value": ""
+    },
+    {
+      "id": "Bilirubin",
+      "type": "Laboratory Parameter",
+      "value": ""
+    },
+    {
+      "id": "Red Blood Cell Distribution Width",
+      "type": "Laboratory Parameter",
+      "value": ""
+    },
+    {
+      "id": "Lactate",
+      "type": "Laboratory Parameter",
+      "value": ""
+    },
+    {
+      "id": "Serum Creatinine",
+      "type": "Laboratory Parameter",
+      "value": ""
+    },
+    {
+      "id": "Systolic Blood Pressure",
+      "type": "Vital Sign",
+      "value": ""
+    },
+    {
+      "id": "Diastolic Blood Pressure",
+      "type": "Vital Sign",
+      "value": ""
+    },
+    {
+      "id": "Mean Arterial Pressure",
+      "type": "Vital Sign",
+      "value": ""
+    },
+    {
+      "id": "SAPS II Score",
+      "type": "Scoring System",
+      "value": ""
+    }
+  ],
+  "links": [
+    {
+      "source": "Low HCT Level",
+      "target": "30-day Mortality",
+      "relation": "Predicts",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "Low HCT Level",
+      "target": "30-day Mortality",
+      "relation": "Resulted in",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "Low HCT Level",
+      "target": "Hazard Ratio",
+      "relation": "Increased Risk",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "Age",
+      "target": "30-day Mortality",
+      "relation": "Correlates with",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "Albumin",
+      "target": "30-day Mortality",
+      "relation": "Correlates with",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "Platelets",
+      "target": "30-day Mortality",
+      "relation": "Correlates with",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "Bilirubin",
+      "target": "30-day Mortality",
+      "relation": "Correlates with",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "Red Blood Cell Distribution Width",
+      "target": "30-day Mortality",
+      "relation": "Correlates with",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "Lactate",
+      "target": "30-day Mortality",
+      "relation": "Correlates with",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "Serum Creatinine",
+      "target": "30-day Mortality",
+      "relation": "Correlates with",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "Systolic Blood Pressure",
+      "target": "30-day Mortality",
+      "relation": "Correlates with",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "Diastolic Blood Pressure",
+      "target": "30-day Mortality",
+      "relation": "Correlates with",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "Mean Arterial Pressure",
+      "target": "30-day Mortality",
+      "relation": "Correlates with",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "SAPS II Score",
+      "target": "30-day Mortality",
+      "relation": "Correlates with",
+      "p_value": "<0.05"
+    }
+  ]
+}

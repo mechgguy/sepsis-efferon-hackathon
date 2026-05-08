@@ -1,0 +1,279 @@
+{
+  "paper_id": "Koozi_2023_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age",
+      "value": "69",
+      "unit": "years",
+      "raw_value_text": "69 (59-76)",
+      "evidence_text": "Age, years",
+      "source_type": "text"
+    },
+    {
+      "variable": "Alive > 30 days",
+      "value": "1482",
+      "unit": "patients",
+      "raw_value_text": "1482 (74.7%)",
+      "evidence_text": "All 1984 (100%)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Deceased ⩽ 30 days",
+      "value": "502",
+      "unit": "patients",
+      "raw_value_text": "502 (25.3%)",
+      "evidence_text": "All 1984 (100%)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Male sex",
+      "value": "58.1",
+      "unit": "%",
+      "raw_value_text": "58.1",
+      "evidence_text": "Male sex, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "BMI",
+      "value": "26.6",
+      "unit": "kg/m²",
+      "raw_value_text": "26.6 (23.2-30.9)",
+      "evidence_text": "BMI, kg/m 2",
+      "source_type": "text"
+    },
+    {
+      "variable": "Septic shock",
+      "value": "39.5",
+      "unit": "%",
+      "raw_value_text": "39.5",
+      "evidence_text": "Septic shock, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "SAPS-3 score at admission",
+      "value": "65",
+      "unit": "",
+      "raw_value_text": "65 (57-75)",
+      "evidence_text": "SAPS-3 score at admission",
+      "source_type": "text"
+    },
+    {
+      "variable": "EMRSAPS-3 Swe",
+      "value": "28",
+      "unit": "%",
+      "raw_value_text": "28",
+      "evidence_text": "EMRSAPS-3 Swe, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "EMRSAPS-3",
+      "value": "46",
+      "unit": "%",
+      "raw_value_text": "46",
+      "evidence_text": "EMRSAPS-3, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA score at admission",
+      "value": "7",
+      "unit": "",
+      "raw_value_text": "7 (5-10)",
+      "evidence_text": "SOFA score at admission",
+      "source_type": "text"
+    },
+    {
+      "variable": "Immunosuppression",
+      "value": "12.2",
+      "unit": "%",
+      "raw_value_text": "12.2",
+      "evidence_text": "Immunosuppression, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "Corticosteroids",
+      "value": "14.3",
+      "unit": "%",
+      "raw_value_text": "14.3",
+      "evidence_text": "Corticosteroids, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "Diabetes Mellitus",
+      "value": "24.2",
+      "unit": "%",
+      "raw_value_text": "24.2",
+      "evidence_text": "Diabetes Mellitus, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "Cardiovascular disease",
+      "value": "46.0",
+      "unit": "%",
+      "raw_value_text": "46.0",
+      "evidence_text": "Cardiovascular disease, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "Heart failure",
+      "value": "15.3",
+      "unit": "%",
+      "raw_value_text": "15.3",
+      "evidence_text": "Heart failure, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "Stroke/TIA",
+      "value": "12.3",
+      "unit": "%",
+      "raw_value_text": "12.3",
+      "evidence_text": "Stroke/TIA, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "Asthma/COPD",
+      "value": "19.1",
+      "unit": "%",
+      "raw_value_text": "19.1",
+      "evidence_text": "Asthma/COPD, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "Liver disease",
+      "value": "5.8",
+      "unit": "%",
+      "raw_value_text": "5.8",
+      "evidence_text": "Liver disease, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "Renal disease",
+      "value": "11.3",
+      "unit": "%",
+      "raw_value_text": "11.3",
+      "evidence_text": "Renal disease, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "Malignancy",
+      "value": "13.7",
+      "unit": "%",
+      "raw_value_text": "13.7",
+      "evidence_text": "Malignancy, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "Heart rate",
+      "value": "115",
+      "unit": "bpm",
+      "raw_value_text": "115 (96-130)",
+      "evidence_text": "Heart rate, bpm",
+      "source_type": "text"
+    },
+    {
+      "variable": "Systolic blood pressure",
+      "value": "100",
+      "unit": "mmHg",
+      "raw_value_text": "100 (79-124)",
+      "evidence_text": "Systolic blood pressure, mmHg",
+      "source_type": "text"
+    },
+    {
+      "variable": "Respiratory rate",
+      "value": "30",
+      "unit": "/min",
+      "raw_value_text": "30 (24-38)",
+      "evidence_text": "Respiratory rate, /min",
+      "source_type": "text"
+    },
+    {
+      "variable": "GCS",
+      "value": "12.3",
+      "unit": "",
+      "raw_value_text": "12.3 ( ± 3.57)",
+      "evidence_text": "GCS, mean ( ± 1 SD)",
+      "source_type": "text"
+    },
+    {
+      "variable": "SpO2",
+      "value": "89",
+      "unit": "%",
+      "raw_value_text": "89 (80-95)",
+      "evidence_text": "SpO2, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "Body temperature",
+      "value": "37.5",
+      "unit": "°C",
+      "raw_value_text": "37.5 (36.3-38.5)",
+      "evidence_text": "Body temperature, °C",
+      "source_type": "text"
+    },
+    {
+      "variable": "Vasopressor support",
+      "value": "37.6",
+      "unit": "%",
+      "raw_value_text": "37.6",
+      "evidence_text": "Vasopressor support, %",
+      "source_type": "text"
+    },
+    {
+      "variable": "CRP",
+      "value": "105",
+      "unit": "mg/L",
+      "raw_value_text": "105 (33-224)",
+      "evidence_text": "CRP, mg/L",
+      "source_type": "text"
+    },
+    {
+      "variable": "WBC",
+      "value": "13.8",
+      "unit": "10^9/L",
+      "raw_value_text": "13.8 (8.7-19.9)",
+      "evidence_text": "WBC, 10^9/L",
+      "source_type": "text"
+    },
+    {
+      "variable": "Platelet count",
+      "value": "208",
+      "unit": "10^9/L",
+      "raw_value_text": "208 (140-292)",
+      "evidence_text": "Platelet count, 10^9/L",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate",
+      "value": "2.7",
+      "unit": "mmol/L",
+      "raw_value_text": "2.7 (1.4-5.1)",
+      "evidence_text": "Lactate, mmol/L",
+      "source_type": "text"
+    },
+    {
+      "variable": "Creatinine",
+      "value": "116",
+      "unit": "µmol/L",
+      "raw_value_text": "116 (76-207)",
+      "evidence_text": "Creatinine, µmol/L",
+      "source_type": "text"
+    },
+    {
+      "variable": "Bilirubin",
+      "value": "11",
+      "unit": "µmol/L",
+      "raw_value_text": "11 (7-20)",
+      "evidence_text": "Bilirubin, µmol/L",
+      "source_type": "text"
+    },
+    {
+      "variable": "pH",
+      "value": "7.3",
+      "unit": "",
+      "raw_value_text": "7.3 (7.2-7.4)",
+      "evidence_text": "pH",
+      "source_type": "text"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "paper_id": "Todi_2024_tables",
+  "title": null,
+  "year": 2024,
+  "extractions": [
+    {
+      "variable": "Age (mean (SD))",
+      "value": "62.12",
+      "unit": "years",
+      "raw_value_text": "62.12 (16.83)",
+      "evidence_text": "Table 1 Demographic of the study cohort",
+      "source_type": "text"
+    },
+    {
+      "variable": "Gender (Male %)",
+      "value": "61.3",
+      "unit": "%",
+      "raw_value_text": "719(61.3)",
+      "evidence_text": "Table 1 Demographic of the study cohort",
+      "source_type": "text"
+    },
+    {
+      "variable": "Gender (Female %)",
+      "value": "38.7",
+      "unit": "%",
+      "raw_value_text": "453(38.7)",
+      "evidence_text": "Table 1 Demographic of the study cohort",
+      "source_type": "text"
+    },
+    {
+      "variable": "BMI (mean (SD))",
+      "value": "22.16",
+      "unit": "kg/m²",
+      "raw_value_text": "22.16 (6.29)",
+      "evidence_text": "Table 1 Demographic of the study cohort",
+      "source_type": "text"
+    },
+    {
+      "variable": "Charlson Comorbidity Index (mean (SD))",
+      "value": "3.52",
+      "unit": "unit",
+      "raw_value_text": "3.52 (2.46)",
+      "evidence_text": "Table 1 Demographic of the study cohort",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA score (mean (SD))",
+      "value": "6.70",
+      "unit": "score",
+      "raw_value_text": "6.70 (3.64)",
+      "evidence_text": "Table 1 Demographic of the study cohort",
+      "source_type": "text"
+    },
+    {
+      "variable": "APACHE score (mean (SD))",
+      "value": "21.87",
+      "unit": "score",
+      "raw_value_text": "21.87 (12.45)",
+      "evidence_text": "Table 1 Demographic of the study cohort",
+      "source_type": "text"
+    },
+    {
+      "variable": "ICU transferred from (another hospital %)",
+      "value": "4.9",
+      "unit": "%",
+      "raw_value_text": "58(4.9)",
+      "evidence_text": "Table 1 Demographic of the study cohort",
+      "source_type": "text"
+    },
+    {
+      "variable": "ICU transferred from (Emergency %)",
+      "value": "72",
+      "unit": "%",
+      "raw_value_text": "844(72)",
+      "evidence_text": "Table 1 Demographic of the study cohort",
+      "source_type": "text"
+    },
+    {
+      "variable": "ICU transferred from (OT %)",
+      "value": "2.6",
+      "unit": "%",
+      "raw_value_text": "31(2.6)",
+      "evidence_text": "Table 1 Demographic of the study cohort",
+      "source_type": "text"
+    },
+    {
+      "variable": "Community acquired infection (%)",
+      "value": "81.9",
+      "unit": "%",
+      "raw_value_text": "960(81.9)",
+      "evidence_text": "Table 1 Demographic of the study cohort",
+      "source_type": "text"
+    },
+    {
+      "variable": "Observed hospital mortality (%)",
+      "value": "36.34",
+      "unit": "%",
+      "raw_value_text": "36.34%(n=426)",
+      "evidence_text": "Table 2 Hospital mortality and length of stay",
+      "source_type": "text"
+    },
+    {
+      "variable": "APACHEII score (mean (SD))",
+      "value": "21.87",
+      "unit": "score",
+      "raw_value_text": "21.87 (12.45)",
+      "evidence_text": "Table 2 Hospital mortality and length of stay",
+      "source_type": "text"
+    },
+    {
+      "variable": "Predicted hospital mortality (%)",
+      "value": "40",
+      "unit": "%",
+      "raw_value_text": "40%",
+      "evidence_text": "Table 2 Hospital mortality and length of stay",
+      "source_type": "text"
+    },
+    {
+      "variable": "Standardised mortality ratio (SMR)",
+      "value": "0.9",
+      "unit": "ratio",
+      "raw_value_text": "0.9",
+      "evidence_text": "Table 2 Hospital mortality and length of stay",
+      "source_type": "text"
+    },
+    {
+      "variable": "Average ICU LOS (mean (SD))",
+      "value": "8.64",
+      "unit": "days",
+      "raw_value_text": "8.64 (10.12)",
+      "evidence_text": "Table 2 Hospital mortality and length of stay",
+      "source_type": "text"
+    },
+    {
+      "variable": "Average hospital LOS (mean (SD))",
+      "value": "11.99",
+      "unit": "days",
+      "raw_value_text": "11.99 (12.34)",
+      "evidence_text": "Table 2 Hospital mortality and length of stay",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA score (mean (SD))",
+      "value": "6.70",
+      "unit": "score",
+      "raw_value_text": "6.7(3.639)",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "QSOFA score (mean (SD))",
+      "value": "1.87",
+      "unit": "score",
+      "raw_value_text": "1.87 (0.904)",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "SIRS (mean (SD))",
+      "value": "2.86",
+      "unit": "score",
+      "raw_value_text": "2.86 (0.931)",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "APACHE II score (median [IQR])",
+      "value": "21",
+      "unit": "score",
+      "raw_value_text": "21[14.00, 26.00]",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "Charlson comorbidity index (median [IQR])",
+      "value": "3",
+      "unit": "unit",
+      "raw_value_text": "3 [2.00, 5.00]",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age (median [IQR])",
+      "value": "65",
+      "unit": "years",
+      "raw_value_text": "65[52.75, 74.00]",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "BMI (median [IQR])",
+      "value": "20.59",
+      "unit": "kg/m²",
+      "raw_value_text": "20.59 [17.81, 25.00]",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "Community acquired infection (%)",
+      "value": "81.9",
+      "unit": "%",
+      "raw_value_text": "960(81.9)",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hospital acquired infection (%)",
+      "value": "14.1",
+      "unit": "%",
+      "raw_value_text": "165(14.1)",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "ICU acquired infection (%)",
+      "value": "4",
+      "unit": "%",
+      "raw_value_text": "47(4)",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "Septic shock as per sepsis 3 criteria (%)",
+      "value": "42.6",
+      "unit": "%",
+      "raw_value_text": "500(42.6)",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "Clinical Feature of hypoperfusion (%)",
+      "value": "28.8",
+      "unit": "%",
+      "raw_value_text": "338(28.8)",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "Risk factor for antibiotic resistant infection (%)",
+      "value": "31.7",
+      "unit": "%",
+      "raw_value_text": "371(31.7)",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "Organ support (Dialysis %)",
+      "value": "5.5",
+      "unit": "%",
+      "raw_value_text": "64(5.5)",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "Organ support (Ventilation %)",
+      "value": "33.6",
+      "unit": "%",
+      "raw_value_text": "394(33.6)",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    },
+    {
+      "variable": "Organ support (Ventilation and Dialysis %)",
+      "value": "6.1",
+      "unit": "%",
+      "raw_value_text": "71(6.1)",
+      "evidence_text": "Table 3 Univariate analysis of study variables",
+      "source_type": "text"
+    }
+  ]
+}

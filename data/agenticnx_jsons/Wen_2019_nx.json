@@ -1,0 +1,132 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "label": "ICU Mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "label": "Sepsis-3 Criteria",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "138",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "paper",
+      "label": "Wen_2019 Study",
+      "id": "Wen_2019"
+    },
+    {
+      "type": "variable",
+      "label": "Presepsin Levels",
+      "id": "presepsin_levels"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "predicts",
+      "strength": "positive",
+      "source": "sofa_score",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "positive",
+      "source": "lactate_levels",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "correlated_with",
+      "strength": "positive",
+      "source": "lactate_levels",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Wen_2019",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Wen_2019",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Wen_2019",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "inclusion_criteria",
+      "strength": null,
+      "source": "Wen_2019",
+      "target": "sepsis_3_criteria"
+    },
+    {
+      "relation": "sample_size",
+      "strength": null,
+      "source": "Wen_2019",
+      "target": "sample_size"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Wen_2019",
+      "target": "age"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Wen_2019",
+      "target": "mechanical_ventilation"
+    },
+    {
+      "relation": "predicts",
+      "strength": "positive",
+      "source": "presepsin_levels",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "correlated_with",
+      "strength": "positive",
+      "source": "presepsin_levels",
+      "target": "sofa_score"
+    }
+  ]
+}

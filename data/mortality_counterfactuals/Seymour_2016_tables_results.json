@@ -1,0 +1,71 @@
+{
+  "paper_id": "Seymour_2016_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Systemic Inflammatory Response Syndrome (SIRS) Criteria",
+      "value": "Range, 0-4 Criteria",
+      "unit": null,
+      "raw_value_text": "Systemic Inflammatory Response Syndrome (SIRS) Criteria (Range, 0-4 Criteria)",
+      "evidence_text": "Table 1. Variables for Candidate Sepsis Criteria Among Encounters With Suspected Infection",
+      "source_type": "text"
+    },
+    {
+      "variable": "Sequential [Sepsis-related] Organ Failure Assessment (SOFA)",
+      "value": "Range, 0-24 Points",
+      "unit": null,
+      "raw_value_text": "Sequential [Sepsis-related] Organ Failure Assessment (SOFA) (Range, 0-24 Points)",
+      "evidence_text": "Table 1. Variables for Candidate Sepsis Criteria Among Encounters With Suspected Infection",
+      "source_type": "text"
+    },
+    {
+      "variable": "Logistic Organ Dysfunction System (LODS)",
+      "value": "Range, 0-22 Points",
+      "unit": null,
+      "raw_value_text": "Logistic Organ Dysfunction System (LODS) (Range, 0-22 Points)",
+      "evidence_text": "Table 1. Variables for Candidate Sepsis Criteria Among Encounters With Suspected Infection",
+      "source_type": "text"
+    },
+    {
+      "variable": "Quick Sequential [Sepsis-related] Organ Failure Assessment (qSOFA)",
+      "value": "Range, 0-3 Points",
+      "unit": null,
+      "raw_value_text": "Quick Sequential [Sepsis-related] Organ Failure Assessment (qSOFA) (Range, 0-3 Points)",
+      "evidence_text": "Table 1. Variables for Candidate Sepsis Criteria Among Encounters With Suspected Infection",
+      "source_type": "text"
+    },
+    {
+      "variable": "Total No. of encounters",
+      "value": "1309025",
+      "unit": null,
+      "raw_value_text": "Total No. of encounters 1309025",
+      "evidence_text": "Table 2. Summary of Data Sets",
+      "source_type": "text"
+    },
+    {
+      "variable": "No. of hospitals",
+      "value": "12",
+      "unit": null,
+      "raw_value_text": "No. of hospitals 12",
+      "evidence_text": "Table 2. Summary of Data Sets",
+      "source_type": "text"
+    },
+    {
+      "variable": "Years of cohort",
+      "value": "2010-2012",
+      "unit": null,
+      "raw_value_text": "Years of cohort 2010-2012",
+      "evidence_text": "Table 2. Summary of Data Sets",
+      "source_type": "text"
+    },
+    {
+      "variable": "No. with suspected infection (% of total)",
+      "value": "148907 (11)",
+      "unit": null,
+      "raw_value_text": "No. with suspected infection (% of total) 148907 (11)",
+      "evidence_text": "Table 2. Summary of Data Sets",
+      "source_type": "text"
+    }
+  ]
+}

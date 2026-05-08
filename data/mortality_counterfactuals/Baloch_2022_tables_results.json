@@ -1,0 +1,95 @@
+{
+  "paper_id": "Baloch_2022_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age (months)",
+      "value": "24",
+      "unit": "months",
+      "raw_value_text": "24 (2-144)",
+      "evidence_text": "0.902",
+      "source_type": "text"
+    },
+    {
+      "variable": "Weight (kg)",
+      "value": "10",
+      "unit": "kg",
+      "raw_value_text": "10 (2.2-40)",
+      "evidence_text": "0.578",
+      "source_type": "text"
+    },
+    {
+      "variable": "Clinical admission percentage",
+      "value": "92",
+      "unit": "%",
+      "raw_value_text": "263 (92)",
+      "evidence_text": "0.025*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Surgical admission percentage",
+      "value": "8",
+      "unit": "%",
+      "raw_value_text": "23 (8)",
+      "evidence_text": null,
+      "source_type": "text"
+    },
+    {
+      "variable": "Ventilator requirement (Yes)",
+      "value": "84.6",
+      "unit": "%",
+      "raw_value_text": "242 (84.6)",
+      "evidence_text": "0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Ventilator requirement (No)",
+      "value": "15.4",
+      "unit": "%",
+      "raw_value_text": "44 (15.4)",
+      "evidence_text": null,
+      "source_type": "text"
+    },
+    {
+      "variable": "Inotrope Need (Yes)",
+      "value": "58.4",
+      "unit": "%",
+      "raw_value_text": "167 (58.4)",
+      "evidence_text": "0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Inotrope Need (No)",
+      "value": "41.6",
+      "unit": "%",
+      "raw_value_text": "119 (41.6)",
+      "evidence_text": null,
+      "source_type": "text"
+    },
+    {
+      "variable": "p-SOFA score",
+      "value": "8",
+      "unit": "score",
+      "raw_value_text": "8 (1-20)",
+      "evidence_text": "0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "PRISM III 24 score",
+      "value": "10",
+      "unit": "score",
+      "raw_value_text": "10 (0-29)",
+      "evidence_text": "0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Duration of PICU stay (days)",
+      "value": "5",
+      "unit": "days",
+      "raw_value_text": "5 (1-40)",
+      "evidence_text": "0.679",
+      "source_type": "text"
+    }
+  ]
+}

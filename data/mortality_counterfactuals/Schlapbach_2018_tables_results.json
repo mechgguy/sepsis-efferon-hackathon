@@ -1,0 +1,87 @@
+{
+  "paper_id": "Schlapbach_2018_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Abnormal heart rate",
+      "value": "57.0",
+      "unit": "%",
+      "raw_value_text": "57.0%",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Increased respiratory rate",
+      "value": "83.5",
+      "unit": "%",
+      "raw_value_text": "83.5%",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Abnormal temperature",
+      "value": "48.0",
+      "unit": "%",
+      "raw_value_text": "48.0%",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "High temperature",
+      "value": "29.5",
+      "unit": "%",
+      "raw_value_text": "29.5%",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Low temperature",
+      "value": "21.4",
+      "unit": "%",
+      "raw_value_text": "21.4%",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Abnormal white-cell count",
+      "value": "59.1",
+      "unit": "%",
+      "raw_value_text": "59.1%",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "High WCC",
+      "value": "48.7",
+      "unit": "%",
+      "raw_value_text": "48.7%",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Low WCC",
+      "value": "10.9",
+      "unit": "%",
+      "raw_value_text": "10.9%",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Not present (of 2 or more SIRS criteria)",
+      "value": "18.2",
+      "unit": "%",
+      "raw_value_text": "18.2%",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Present (of 2 or more SIRS criteria)",
+      "value": "81.8",
+      "unit": "%",
+      "raw_value_text": "81.8%",
+      "evidence_text": "Table 1",
+      "source_type": "text"
+    }
+  ]
+}

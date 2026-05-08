@@ -1,0 +1,92 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "clinical_variable",
+      "label": "ICU Mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "clinical_variable",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "clinical_variable",
+      "label": "Sepsis 3 Criteria",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "clinical_variable",
+      "value": "9415",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "clinical_variable",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "clinical_variable",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "paper",
+      "label": "Tang et al. 2025",
+      "id": "Tang_2025"
+    },
+    {
+      "type": "clinical_variable",
+      "label": "Mean Corpuscular Volume (MCV)",
+      "id": "mcv"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Tang_2025",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Tang_2025",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Tang_2025",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Tang_2025",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Tang_2025",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "Tang_2025",
+      "target": "mcv"
+    },
+    {
+      "relation": "predicts",
+      "strength": "significant increase in risk (OR 1.10, 95% CI 1.02, 1.17, P = 0.004)",
+      "source": "mcv",
+      "target": "mortality_icu"
+    }
+  ]
+}

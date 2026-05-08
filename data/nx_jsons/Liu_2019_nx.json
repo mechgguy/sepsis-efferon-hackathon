@@ -1,0 +1,190 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "Lactate",
+      "type": "Biomarker",
+      "value": null
+    },
+    {
+      "id": "SOFA",
+      "type": "Scoring System",
+      "value": null
+    },
+    {
+      "id": "qSOFA",
+      "type": "Scoring System",
+      "value": null
+    },
+    {
+      "id": "30-day mortality",
+      "type": "Clinical Outcome",
+      "value": null
+    },
+    {
+      "id": "90-day mortality",
+      "type": "Clinical Outcome",
+      "value": null
+    },
+    {
+      "id": "1-year mortality",
+      "type": "Clinical Outcome",
+      "value": null
+    },
+    {
+      "id": "In-hospital mortality",
+      "type": "Clinical Outcome",
+      "value": null
+    },
+    {
+      "id": "Overall mortality",
+      "type": "Clinical Outcome",
+      "value": null
+    },
+    {
+      "id": "Age",
+      "type": "Demographic",
+      "value": null
+    },
+    {
+      "id": "Sex",
+      "type": "Demographic",
+      "value": null
+    },
+    {
+      "id": "Ethnicity",
+      "type": "Demographic",
+      "value": null
+    },
+    {
+      "id": "Admission Type",
+      "type": "Clinical Parameter",
+      "value": null
+    },
+    {
+      "id": "ICU Type",
+      "type": "Clinical Parameter",
+      "value": null
+    },
+    {
+      "id": "AUROC",
+      "type": "Statistical Metric",
+      "value": null
+    },
+    {
+      "id": "Sensitivity",
+      "type": "Statistical Metric",
+      "value": null
+    },
+    {
+      "id": "Specificity",
+      "type": "Statistical Metric",
+      "value": null
+    }
+  ],
+  "links": [
+    {
+      "source": "Lactate",
+      "target": "30-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Lactate",
+      "target": "90-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Lactate",
+      "target": "1-year mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Lactate",
+      "target": "In-hospital mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Lactate",
+      "target": "Overall mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SOFA",
+      "target": "30-day mortality",
+      "relation": "Correlates with",
+      "p_value": null
+    },
+    {
+      "source": "qSOFA",
+      "target": "30-day mortality",
+      "relation": "Correlates with",
+      "p_value": null
+    },
+    {
+      "source": "Lactate",
+      "target": "SOFA",
+      "relation": "Correlates with",
+      "p_value": "< 0.001"
+    },
+    {
+      "source": "Lactate",
+      "target": "qSOFA",
+      "relation": "Correlates with",
+      "p_value": "< 0.001"
+    },
+    {
+      "source": "Lactate",
+      "target": "AUROC",
+      "relation": "Resulted in AUC of",
+      "p_value": "0.664"
+    },
+    {
+      "source": "qSOFA",
+      "target": "AUROC",
+      "relation": "Resulted in AUC of",
+      "p_value": "0.547"
+    },
+    {
+      "source": "SOFA",
+      "target": "AUROC",
+      "relation": "Resulted in AUC of",
+      "p_value": "0.686"
+    },
+    {
+      "source": "Age",
+      "target": "30-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Sex",
+      "target": "30-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Ethnicity",
+      "target": "30-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Admission Type",
+      "target": "30-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "ICU Type",
+      "target": "30-day mortality",
+      "relation": "Predicts",
+      "p_value": null
+    }
+  ]
+}

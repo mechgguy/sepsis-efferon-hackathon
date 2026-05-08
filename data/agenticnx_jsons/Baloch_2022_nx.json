@@ -1,0 +1,140 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "mortality in the intensive care unit",
+      "label": "ICU Mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "value": "mortality within the hospital",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "Sequential Organ Failure Assessment score",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "Simplified Acute Physiology Score 3",
+      "label": "SAP 3 Score",
+      "id": "sap_3_score"
+    },
+    {
+      "type": "variable",
+      "value": "lactate concentration in blood",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "sepsis criteria as per Sepsis-2 definition",
+      "label": "Sepsis-2 Criteria",
+      "id": "sepsis_2_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "sepsis criteria as per Sepsis-3 definition",
+      "label": "Sepsis-3 Criteria",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "number of patients in the study",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "age of the patients",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "use of vasopressor medications",
+      "label": "Vasopressor Use",
+      "id": "vasopressor_use"
+    },
+    {
+      "type": "variable",
+      "value": "use of mechanical ventilation",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "paper",
+      "label": "Baloch et al. 2022",
+      "id": "Baloch_2022"
+    },
+    {
+      "type": "variable",
+      "value": "Pediatric Sequential Organ Failure Assessment",
+      "label": "p-SOFA Score",
+      "id": "p_SOFA"
+    },
+    {
+      "type": "variable",
+      "value": "Pediatric Risk of Mortality III 24 score",
+      "label": "PRISM III 24 Score",
+      "id": "PRISM_III_24"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Baloch_2022",
+      "target": "p_SOFA"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Baloch_2022",
+      "target": "PRISM_III_24"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Baloch_2022",
+      "target": "sample_size"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Baloch_2022",
+      "target": "age"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "Baloch_2022",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "good",
+      "source": "p_SOFA",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "correlated",
+      "strength": "positive",
+      "source": "p_SOFA",
+      "target": "PRISM_III_24"
+    },
+    {
+      "relation": "predicts",
+      "strength": "good",
+      "source": "PRISM_III_24",
+      "target": "mortality_hospital"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "Septic Shock at Admission",
+      "type": "Clinical Condition"
+    },
+    {
+      "id": "Need for Vasopressors During Hospitalization",
+      "type": "Treatment"
+    },
+    {
+      "id": "Lactate Levels >2mmol/L",
+      "type": "Laboratory Value"
+    },
+    {
+      "id": "SOFA Score >2",
+      "type": "Scoring System"
+    },
+    {
+      "id": "Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Urinary Infection",
+      "type": "Comorbidity"
+    },
+    {
+      "id": "Mean Age",
+      "type": "Demographic"
+    }
+  ],
+  "links": [
+    {
+      "source": "Septic Shock at Admission",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "RR": "3.45",
+      "CI_lower": "1.64",
+      "CI_upper": "7.25"
+    },
+    {
+      "source": "Need for Vasopressors During Hospitalization",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "RR": "17.32",
+      "CI_lower": "4.20",
+      "CI_upper": "71.36"
+    },
+    {
+      "source": "Lactate Levels >2mmol/L",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "RR": "4.60",
+      "CI_lower": "1.05",
+      "CI_upper": "20.07"
+    },
+    {
+      "source": "SOFA Score >2",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "RR": "5.97",
+      "CI_lower": "1.82",
+      "CI_upper": "19.94"
+    },
+    {
+      "source": "Need for Vasopressors During Hospitalization",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "OR": "26.38",
+      "CI_lower": "5.87",
+      "CI_upper": "118.51"
+    },
+    {
+      "source": "Urinary Infection",
+      "target": "Mortality",
+      "relation": "Protective",
+      "RR": "0.26",
+      "CI_lower": "0.08",
+      "CI_upper": "0.85",
+      "p_value": "0.009"
+    },
+    {
+      "source": "Mean Age",
+      "target": "Mortality",
+      "relation": "Correlates with",
+      "p_value": "0.02"
+    }
+  ]
+}

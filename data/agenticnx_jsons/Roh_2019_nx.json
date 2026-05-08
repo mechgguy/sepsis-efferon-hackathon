@@ -1,0 +1,182 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "mortality in the ICU",
+      "label": "Mortality (ICU)",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "value": "mortality in the hospital",
+      "label": "Mortality (Hospital)",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "Sequential Organ Failure Assessment score",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "Simplified Acute Physiology Score 3",
+      "label": "SAP 3 Score",
+      "id": "sap_3_score"
+    },
+    {
+      "type": "variable",
+      "value": "Lactate levels in blood",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "Sepsis-2 diagnostic criteria",
+      "label": "Sepsis-2 Criteria",
+      "id": "sepsis_2_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "Sepsis-3 diagnostic criteria",
+      "label": "Sepsis-3 Criteria",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "Number of patients in the study",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "Patient age",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "Usage of vasopressors",
+      "label": "Vasopressor Use",
+      "id": "vasopressor_use"
+    },
+    {
+      "type": "variable",
+      "value": "Usage of mechanical ventilation",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "paper",
+      "label": "Roh_2019 Study",
+      "id": "Roh_2019"
+    },
+    {
+      "type": "variable",
+      "value": "Age >= 65 years",
+      "label": "Age >= 65 years",
+      "id": "age_65_years"
+    },
+    {
+      "type": "variable",
+      "value": "BMI <= 18.5 kg/m^2",
+      "label": "BMI <= 18.5",
+      "id": "bmi_18.5"
+    },
+    {
+      "type": "variable",
+      "value": "Hemato-oncologic diseases as comorbidities",
+      "label": "Hemato-oncologic Diseases",
+      "id": "hemato_oncologic_diseases"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "predicts",
+      "strength": "significant",
+      "source": "mechanical_ventilation",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Roh_2019",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Roh_2019",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Roh_2019",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Roh_2019",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Roh_2019",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Roh_2019",
+      "target": "mechanical_ventilation"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Roh_2019",
+      "target": "sepsis_3_criteria"
+    },
+    {
+      "relation": "predicts",
+      "strength": "significant",
+      "source": "age_65_years",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "significant",
+      "source": "age_65_years",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "predicts",
+      "strength": "significant",
+      "source": "bmi_18.5",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "significant",
+      "source": "bmi_18.5",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "predicts",
+      "strength": "significant",
+      "source": "hemato_oncologic_diseases",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "significant",
+      "source": "hemato_oncologic_diseases",
+      "target": "mortality_icu"
+    }
+  ]
+}

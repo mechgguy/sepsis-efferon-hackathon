@@ -1,0 +1,112 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "SOFA Score",
+      "type": "Scoring System"
+    },
+    {
+      "id": "30-day mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Median Age",
+      "type": "Demographic",
+      "value": "75 years"
+    },
+    {
+      "id": "Lactate (LAC)",
+      "type": "Biomarker"
+    },
+    {
+      "id": "Procalcitonin (PCT)",
+      "type": "Biomarker"
+    },
+    {
+      "id": "C-reactive protein (CRP)",
+      "type": "Biomarker"
+    },
+    {
+      "id": "CRP_Delta",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "PCT_Delta",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "LAC_Delta",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "AUC (CRP_Delta)",
+      "type": "Statistical Metric",
+      "value": "0.903"
+    },
+    {
+      "id": "AUC (PCT_Delta)",
+      "type": "Statistical Metric",
+      "value": "0.843"
+    },
+    {
+      "id": "AUC (LAC_Delta)",
+      "type": "Statistical Metric",
+      "value": "0.703"
+    },
+    {
+      "id": "Neutrophil-to-Lymphocyte Ratio (NLR)",
+      "type": "Biomarker"
+    }
+  ],
+  "links": [
+    {
+      "source": "SOFA Score",
+      "target": "30-day mortality",
+      "relation": "Predicts",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "Lactate (LAC)",
+      "target": "30-day mortality",
+      "relation": "Associated with",
+      "p_value": "<0.05"
+    },
+    {
+      "source": "CRP_Delta",
+      "target": "30-day mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "PCT_Delta",
+      "target": "30-day mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "LAC_Delta",
+      "target": "30-day mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "CRP_Delta",
+      "target": "AUC (CRP_Delta)",
+      "relation": "Resulted in"
+    },
+    {
+      "source": "PCT_Delta",
+      "target": "AUC (PCT_Delta)",
+      "relation": "Resulted in"
+    },
+    {
+      "source": "LAC_Delta",
+      "target": "AUC (LAC_Delta)",
+      "relation": "Resulted in"
+    },
+    {
+      "source": "Neutrophil-to-Lymphocyte Ratio (NLR)",
+      "target": "30-day mortality",
+      "relation": "Associated with",
+      "p_value": "<0.05"
+    }
+  ]
+}

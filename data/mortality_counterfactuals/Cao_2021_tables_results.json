@@ -1,0 +1,95 @@
+{
+  "paper_id": "Cao_2021_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Institutions",
+      "value": "Affiliated Hospital of North Sichuan Medical College",
+      "unit": null,
+      "raw_value_text": "Affiliated Hospital of North Sichuan Medical College",
+      "evidence_text": "Table 1. Characteristics of the participating ICUs.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Number of beds",
+      "value": "18",
+      "unit": "beds",
+      "raw_value_text": "18 beds",
+      "evidence_text": "Table 1. Characteristics of the participating ICUs.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Number of doctors",
+      "value": "13",
+      "unit": "doctors",
+      "raw_value_text": "13 doctors",
+      "evidence_text": "Table 1. Characteristics of the participating ICUs.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Number of nurses",
+      "value": "40",
+      "unit": "nurses",
+      "raw_value_text": "40 nurses",
+      "evidence_text": "Table 1. Characteristics of the participating ICUs.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age, years, median (Q1, Q3)",
+      "value": "67",
+      "unit": "years",
+      "raw_value_text": "67 years (55-76)",
+      "evidence_text": "Table 2. Characteristics of patients with sepsis.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Male, n (%)",
+      "value": "185",
+      "unit": "count",
+      "raw_value_text": "185 (62.9%)",
+      "evidence_text": "Table 2. Characteristics of patients with sepsis.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Countryside",
+      "value": "180",
+      "unit": "count",
+      "raw_value_text": "180 (61.2%)",
+      "evidence_text": "Table 2. Characteristics of patients with sepsis.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Urban",
+      "value": "114",
+      "unit": "count",
+      "raw_value_text": "114 (38.8%)",
+      "evidence_text": "Table 2. Characteristics of patients with sepsis.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Respiratory diseases",
+      "value": "113",
+      "unit": "count",
+      "raw_value_text": "113 (38.4%)",
+      "evidence_text": "Table 2. Characteristics of patients with sepsis.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Diabetes",
+      "value": "60",
+      "unit": "count",
+      "raw_value_text": "60 (20.4%)",
+      "evidence_text": "Table 2. Characteristics of patients with sepsis.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hypertension",
+      "value": "95",
+      "unit": "count",
+      "raw_value_text": "95 (32.3%)",
+      "evidence_text": "Table 2. Characteristics of patients with sepsis.",
+      "source_type": "text"
+    }
+  ]
+}

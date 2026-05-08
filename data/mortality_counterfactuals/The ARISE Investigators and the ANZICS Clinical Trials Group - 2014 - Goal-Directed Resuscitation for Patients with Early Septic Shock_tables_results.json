@@ -1,0 +1,151 @@
+{
+  "paper_id": "The ARISE Investigators and the ANZICS Clinical Trials Group - 2014 - Goal-Directed Resuscitation for Patients with Early Septic Shock_tables",
+  "title": null,
+  "year": 2014,
+  "extractions": [
+    {
+      "variable": "Age",
+      "value": "62.7",
+      "unit": "yr",
+      "raw_value_text": "62.7±16.4",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Male sex",
+      "value": "60.2",
+      "unit": "%",
+      "raw_value_text": "477 (60.2)",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Usual residence - Home",
+      "value": "94.5",
+      "unit": "%",
+      "raw_value_text": "749 (94.5)",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Long-term care facility",
+      "value": "5.5",
+      "unit": "%",
+      "raw_value_text": "44 (5.5)",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Charlson comorbidity index median score",
+      "value": "1",
+      "unit": "IQR",
+      "raw_value_text": "1 (0-2)",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "APACHE II score",
+      "value": "15.4",
+      "unit": "",
+      "raw_value_text": "15.4±6.5",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Invasive mechanical ventilation",
+      "value": "9.0",
+      "unit": "%",
+      "raw_value_text": "71 (9.0)",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Noninvasive mechanical ventilation",
+      "value": "7.6",
+      "unit": "%",
+      "raw_value_text": "60 (7.6)",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Vasopressor infusion",
+      "value": "21.8",
+      "unit": "%",
+      "raw_value_text": "173 (21.8)",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Total intravenous fluids volume",
+      "value": "2515",
+      "unit": "ml",
+      "raw_value_text": "2515±1244",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Total intravenous fluids volume per weight",
+      "value": "34.6",
+      "unit": "ml/kg",
+      "raw_value_text": "34.6±19.4",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Refractory hypotension",
+      "value": "70.0",
+      "unit": "%",
+      "raw_value_text": "555 (70.0)",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Systolic blood pressure",
+      "value": "78.8",
+      "unit": "mmHg",
+      "raw_value_text": "78.8±9.3",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate >=4.0 mmol/liter",
+      "value": "46.0",
+      "unit": "%",
+      "raw_value_text": "365 (46.0)",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate value at time criterion met",
+      "value": "6.7",
+      "unit": "mmol/liter",
+      "raw_value_text": "6.7±3.3",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Median interval after presentation to emergency department until final inclusion criterion met",
+      "value": "1.4",
+      "unit": "hr",
+      "raw_value_text": "1.4 (0.6-2.5)",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Relative Risk",
+      "value": "0.98",
+      "unit": "",
+      "raw_value_text": "0.98 (0.80 to 1.21)",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Risk Difference",
+      "value": "-0.3",
+      "unit": "percentage points",
+      "raw_value_text": "-0.3 (-4.1 to 3.6)",
+      "evidence_text": "EGDT (N=793)",
+      "source_type": "text"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "APACHE II score",
+      "type": "Scoring System"
+    },
+    {
+      "id": "SOFA score",
+      "type": "Scoring System"
+    },
+    {
+      "id": "ICU mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "In-hospital mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Age",
+      "type": "Demographic"
+    },
+    {
+      "id": "Septic shock",
+      "type": "Clinical Condition"
+    },
+    {
+      "id": "Administration of antibiotics",
+      "type": "Treatment"
+    },
+    {
+      "id": "Fluid resuscitation",
+      "type": "Treatment"
+    },
+    {
+      "id": "Pre-existing cardiovascular diseases",
+      "type": "Comorbidity"
+    },
+    {
+      "id": "Malignant tumors",
+      "type": "Comorbidity"
+    },
+    {
+      "id": "Renal replacement therapy (RRT)",
+      "type": "Treatment"
+    }
+  ],
+  "links": [
+    {
+      "source": "APACHE II score",
+      "target": "ICU mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "SOFA score",
+      "target": "ICU mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "Age",
+      "target": "ICU mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "Pre-existing cardiovascular diseases",
+      "target": "ICU mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "Malignant tumors",
+      "target": "ICU mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "Renal replacement therapy (RRT)",
+      "target": "ICU mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "Septic shock",
+      "target": "ICU mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "Administration of antibiotics",
+      "target": "ICU mortality",
+      "relation": "Improved outcome",
+      "p_value": "0.65"
+    },
+    {
+      "source": "Fluid resuscitation",
+      "target": "ICU mortality",
+      "relation": "Improved outcome",
+      "p_value": "0.43"
+    }
+  ]
+}

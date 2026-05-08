@@ -1,0 +1,99 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "SAPS-3",
+      "type": "Scoring System"
+    },
+    {
+      "id": "SOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "Simple Model",
+      "type": "Scoring System",
+      "value": "Age, Immunosuppression, GCS, Body Temperature, CRP, Bilirubin"
+    },
+    {
+      "id": "30-day Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Age",
+      "type": "Demographic"
+    },
+    {
+      "id": "AUC",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Sensitivity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Specificity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "p-value",
+      "type": "Statistical Metric"
+    }
+  ],
+  "links": [
+    {
+      "source": "SAPS-3",
+      "target": "30-day Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SOFA",
+      "target": "30-day Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "Simple Model",
+      "target": "30-day Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SAPS-3",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "p_value": "0.75"
+    },
+    {
+      "source": "SOFA",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "p_value": "0.67"
+    },
+    {
+      "source": "Simple Model",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "p_value": "0.72"
+    },
+    {
+      "source": "Simple Model",
+      "target": "SAPS-3",
+      "relation": "Non-Inferior",
+      "p_value": "0.071"
+    },
+    {
+      "source": "SOFA",
+      "target": "SAPS-3",
+      "relation": "Inferior",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "SOFA",
+      "target": "Simple Model",
+      "relation": "Inferior",
+      "p_value": "0.0019"
+    }
+  ]
+}

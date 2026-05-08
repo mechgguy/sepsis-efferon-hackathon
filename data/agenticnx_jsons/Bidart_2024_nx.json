@@ -1,0 +1,163 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "label": "ICU Mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "label": "SAP 3 Score",
+      "id": "sap_3_score"
+    },
+    {
+      "type": "variable",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "label": "Sepsis 2 Criteria",
+      "id": "sepsis_2_criteria"
+    },
+    {
+      "type": "variable",
+      "label": "Sepsis 3 Criteria",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "665",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "73.36",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "label": "Vasopressor Use",
+      "id": "vasopressor_use"
+    },
+    {
+      "type": "variable",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "paper",
+      "label": "Bidart_2024",
+      "id": "Bidart_2024"
+    },
+    {
+      "type": "variable",
+      "label": "quick SOFA score",
+      "id": "qSOFA"
+    },
+    {
+      "type": "variable",
+      "label": "Severity Criteria (mottled skin, tachycardia > 120 bpm, shivering suggesting bacteremia)",
+      "id": "severity_criteria"
+    },
+    {
+      "type": "variable",
+      "label": "ICU Admission",
+      "id": "icu_admission"
+    },
+    {
+      "type": "variable",
+      "label": "Blood Cultures",
+      "id": "blood_cultures"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "predicts",
+      "strength": "high",
+      "source": "vasopressor_use",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Bidart_2024",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Bidart_2024",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Bidart_2024",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Bidart_2024",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Bidart_2024",
+      "target": "vasopressor_use"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Bidart_2024",
+      "target": "sepsis_2_criteria"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Bidart_2024",
+      "target": "sepsis_3_criteria"
+    },
+    {
+      "relation": "associated_with",
+      "strength": null,
+      "source": "qSOFA",
+      "target": "icu_admission"
+    },
+    {
+      "relation": "not_associated_with",
+      "strength": null,
+      "source": "qSOFA",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "not_associated_with",
+      "strength": null,
+      "source": "severity_criteria",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "moderate",
+      "source": "blood_cultures",
+      "target": "mortality_hospital"
+    }
+  ]
+}

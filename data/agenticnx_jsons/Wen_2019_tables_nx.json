@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "hospital mortality",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "SOFA score",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "Lactate levels",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "138",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "62 (51 - 73)",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "Mechanical ventilation",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Besen_2016"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "predicts",
+      "strength": "positive correlation",
+      "source": "sofa_score",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "positive correlation",
+      "source": "lactate_levels",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "positive correlation",
+      "source": "mechanical_ventilation",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mechanical_ventilation"
+    }
+  ]
+}

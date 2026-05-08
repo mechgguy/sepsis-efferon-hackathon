@@ -1,0 +1,87 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "qSOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "Severity Criteria",
+      "type": "Scoring System"
+    },
+    {
+      "id": "30-day Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Overall Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "ICU Admission",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Average Age",
+      "type": "Demographic",
+      "value": "73"
+    },
+    {
+      "id": "Positive Blood Cultures",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Vasopressor Administration",
+      "type": "Treatment"
+    }
+  ],
+  "links": [
+    {
+      "source": "qSOFA",
+      "target": "ICU Admission",
+      "relation": "Associated with",
+      "p_value": "0.02"
+    },
+    {
+      "source": "qSOFA",
+      "target": "ICU Admission",
+      "relation": "Associated with",
+      "p_value": "0.03"
+    },
+    {
+      "source": "qSOFA",
+      "target": "ICU Admission",
+      "relation": "Associated with",
+      "p_value": "0.04"
+    },
+    {
+      "source": "qSOFA",
+      "target": "30-day Mortality",
+      "relation": "No association"
+    },
+    {
+      "source": "Severity Criteria",
+      "target": "30-day Mortality",
+      "relation": "No association"
+    },
+    {
+      "source": "Positive Blood Cultures",
+      "target": "30-day Mortality",
+      "relation": "Associated with",
+      "p_value": "N/A"
+    },
+    {
+      "source": "Vasopressor Administration",
+      "target": "30-day Mortality",
+      "relation": "Associated with",
+      "p_value": "N/A"
+    },
+    {
+      "source": "Vasopressor Administration",
+      "target": "Overall Mortality",
+      "relation": "Predictor of",
+      "p_value": "N/A"
+    }
+  ]
+}

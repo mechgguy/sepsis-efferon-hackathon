@@ -1,0 +1,103 @@
+{
+  "paper_id": "Kochkin_2021_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Diabetes in history (No) - Count",
+      "value": "44",
+      "unit": "count",
+      "raw_value_text": "44",
+      "evidence_text": "Д диабет в анамнезе | Нет | Количество | 44",
+      "source_type": "text"
+    },
+    {
+      "variable": "Diabetes in history (No) - Percentage",
+      "value": "66.7%",
+      "unit": "%",
+      "raw_value_text": "66,7%",
+      "evidence_text": "Д диабет в анамнезе | Нет | % | 66,7%",
+      "source_type": "text"
+    },
+    {
+      "variable": "Diabetes in history (Yes) - Count",
+      "value": "0",
+      "unit": "count",
+      "raw_value_text": "0",
+      "evidence_text": "Д диабет в анамнезе | Да | Количество | 0",
+      "source_type": "text"
+    },
+    {
+      "variable": "Diabetes in history (Yes) - Percentage",
+      "value": "0.0%",
+      "unit": "%",
+      "raw_value_text": "0,0%",
+      "evidence_text": "Д диабет в анамнезе | Да | % | 0,0%",
+      "source_type": "text"
+    },
+    {
+      "variable": "Total - Count",
+      "value": "79",
+      "unit": "count",
+      "raw_value_text": "79",
+      "evidence_text": "Всего | | Количество | 44 | 35 | 79",
+      "source_type": "text"
+    },
+    {
+      "variable": "Total - Percentage",
+      "value": "100.0%",
+      "unit": "%",
+      "raw_value_text": "100,0%",
+      "evidence_text": "Всего | | % | 55,7% | 44,3% | 100,0%",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA",
+      "value": "0.486",
+      "unit": "N/A",
+      "raw_value_text": "0,486",
+      "evidence_text": "SOFA | 0,486 | 0,109 | 19,863 | 0,000",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA - Adjusted Odds Ratio",
+      "value": "1.626",
+      "unit": "N/A",
+      "raw_value_text": "1,626",
+      "evidence_text": "adj.OR | 1,626 | 1,313 | 2,014",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age",
+      "value": "-0.019",
+      "unit": "N/A",
+      "raw_value_text": "-0,019",
+      "evidence_text": "Возраст | -0,019 | 0,030 | 0,385 | 0,535",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age - Adjusted Odds Ratio",
+      "value": "0.981",
+      "unit": "N/A",
+      "raw_value_text": "0,981",
+      "evidence_text": "доклад | 0,981 | 0,925 | 1,042",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate",
+      "value": "-0.014",
+      "unit": "N/A",
+      "raw_value_text": "-0,014",
+      "evidence_text": "Лактат | -0,014 | 0,131 | 0,011 | 0,916",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate - Adjusted Odds Ratio",
+      "value": "0.986",
+      "unit": "N/A",
+      "raw_value_text": "0,986",
+      "evidence_text": "л. | 0,986 | 0,763 | 1,274",
+      "source_type": "text"
+    }
+  ]
+}

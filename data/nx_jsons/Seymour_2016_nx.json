@@ -1,0 +1,116 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "SOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "qSOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "SIRS",
+      "type": "Scoring System"
+    },
+    {
+      "id": "LODS",
+      "type": "Scoring System"
+    },
+    {
+      "id": "In-hospital Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "ICU Length of Stay >= 3 days",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "AUROC",
+      "type": "Statistical Metric",
+      "value": null
+    }
+  ],
+  "links": [
+    {
+      "source": "SOFA",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": "< .001"
+    },
+    {
+      "source": "qSOFA",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": "< .001"
+    },
+    {
+      "source": "SIRS",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": "< .001"
+    },
+    {
+      "source": "LODS",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": "< .001"
+    },
+    {
+      "source": "SIRS",
+      "target": "AUROC",
+      "relation": "Resulted in",
+      "value": "0.64",
+      "context": "ICU encounters"
+    },
+    {
+      "source": "qSOFA",
+      "target": "AUROC",
+      "relation": "Resulted in",
+      "value": "0.66",
+      "context": "ICU encounters"
+    },
+    {
+      "source": "SOFA",
+      "target": "AUROC",
+      "relation": "Resulted in",
+      "value": "0.74",
+      "context": "ICU encounters"
+    },
+    {
+      "source": "LODS",
+      "target": "AUROC",
+      "relation": "Resulted in",
+      "value": "0.75",
+      "context": "ICU encounters"
+    },
+    {
+      "source": "qSOFA",
+      "target": "AUROC",
+      "relation": "Resulted in",
+      "value": "0.81",
+      "context": "Non-ICU encounters"
+    },
+    {
+      "source": "SOFA",
+      "target": "AUROC",
+      "relation": "Resulted in",
+      "value": "0.79",
+      "context": "Non-ICU encounters"
+    },
+    {
+      "source": "SIRS",
+      "target": "AUROC",
+      "relation": "Resulted in",
+      "value": "0.76",
+      "context": "Non-ICU encounters"
+    },
+    {
+      "source": "qSOFA",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    }
+  ]
+}

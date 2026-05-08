@@ -1,0 +1,55 @@
+{
+  "paper_id": "Liu_2019_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "30-day mortality",
+      "value": "395",
+      "unit": null,
+      "raw_value_text": "395 (33.88)",
+      "evidence_text": "< 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "90-day mortality",
+      "value": "508",
+      "unit": null,
+      "raw_value_text": "508 (43.57)",
+      "evidence_text": "< 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "1-year mortality",
+      "value": "600",
+      "unit": null,
+      "raw_value_text": "600 (51.46)",
+      "evidence_text": "< 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hospital mortality",
+      "value": "408",
+      "unit": null,
+      "raw_value_text": "408 (34.99)",
+      "evidence_text": "< 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Severe sepsis",
+      "value": "1120",
+      "unit": null,
+      "raw_value_text": "1120 (96.05)",
+      "evidence_text": "0.057",
+      "source_type": "text"
+    },
+    {
+      "variable": "Septic shock",
+      "value": "738",
+      "unit": null,
+      "raw_value_text": "738 (63.29)",
+      "evidence_text": "0.002",
+      "source_type": "text"
+    }
+  ]
+}

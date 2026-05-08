@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "SOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "90-day Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Hospitalization in Last 6 Months",
+      "type": "Clinical Characteristic"
+    },
+    {
+      "id": "Intra-abdominal Source of Infection",
+      "type": "Source of Infection"
+    },
+    {
+      "id": "AUC",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Sensitivity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Specificity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Mortality Risk Groups",
+      "type": "Clinical Outcome"
+    }
+  ],
+  "links": [
+    {
+      "source": "SOFA",
+      "target": "90-day Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SOFA",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "p_value": "0.80"
+    },
+    {
+      "source": "SOFA",
+      "target": "Hospitalization in Last 6 Months",
+      "relation": "Combined with",
+      "p_value": null
+    },
+    {
+      "source": "SOFA",
+      "target": "Intra-abdominal Source of Infection",
+      "relation": "Combined with",
+      "p_value": null
+    },
+    {
+      "source": "SOFA",
+      "target": "90-day Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SOFA",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "p_value": "0.89"
+    },
+    {
+      "source": "SOFA",
+      "target": "Sensitivity",
+      "relation": "Resulted in Sensitivity of",
+      "p_value": "0.86"
+    },
+    {
+      "source": "SOFA",
+      "target": "Specificity",
+      "relation": "Resulted in Specificity of",
+      "p_value": "0.84"
+    },
+    {
+      "source": "Mortality Risk Groups",
+      "target": "90-day Mortality",
+      "relation": "Correlates with",
+      "p_value": null
+    }
+  ]
+}

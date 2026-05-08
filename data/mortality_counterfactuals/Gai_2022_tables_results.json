@@ -1,0 +1,111 @@
+{
+  "paper_id": "Gai_2022_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age",
+      "value": "71.07 ± 7.52",
+      "unit": "years",
+      "raw_value_text": "71.07 ± 7.52",
+      "evidence_text": "Survivors (n = 30): 71.07 ± 7.52; Non-survivors (n = 42): 71.45 ± 6.89; P-value: 0.822",
+      "source_type": "text"
+    },
+    {
+      "variable": "APACHE II score",
+      "value": "17.43 ± 3.17",
+      "unit": null,
+      "raw_value_text": "17.43 ± 3.17",
+      "evidence_text": "Survivors (n = 30): 17.43 ± 3.17; Non-survivors (n = 42): 22.67 ± 4.28; P-value: < 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA score",
+      "value": "7.83 ± 2.29",
+      "unit": null,
+      "raw_value_text": "7.83 ± 2.29",
+      "evidence_text": "Survivors (n = 30): 7.83 ± 2.29; Non-survivors (n = 42): 10.62 ± 1.67; P-value: < 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "NEmax",
+      "value": "0.26 ± 0.08",
+      "unit": "μg/kg/min",
+      "raw_value_text": "0.26 ± 0.08",
+      "evidence_text": "Survivors (n = 30): 0.26 ± 0.08; Non-survivors (n = 42): 0.38 ± 0.08; P-value: < 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate",
+      "value": "2.74 ± 0.92",
+      "unit": "mmol/L",
+      "raw_value_text": "2.74 ± 0.92",
+      "evidence_text": "Survivors (n = 30): 2.74 ± 0.92; Non-survivors (n = 42): 3.79 ± 1.05; P-value: < 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "PSV",
+      "value": "100.8 ± 7.10",
+      "unit": "cm/s",
+      "raw_value_text": "100.8 ± 7.10",
+      "evidence_text": "Survivors (n = 30): 100.8 ± 7.10; Non-survivors (n = 42): 78.92 ± 4.75; P-value: < 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "EDV",
+      "value": "29.55 ± 1.41",
+      "unit": "cm/s",
+      "raw_value_text": "29.55 ± 1.41",
+      "evidence_text": "Survivors (n = 30): 29.55 ± 1.41; Non-survivors (n = 42): 26.09 ± 1.51; P-value: < 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "RI",
+      "value": "0.71 ± 0.02",
+      "unit": null,
+      "raw_value_text": "0.71 ± 0.02",
+      "evidence_text": "Survivors (n = 30): 0.71 ± 0.02; Non-survivors (n = 42): 0.67 ± 0.03; P-value: < 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Odds Ratio (APACHE II score)",
+      "value": "1.449",
+      "unit": null,
+      "raw_value_text": "1.449 (95% CI: 1.208, 1.738)",
+      "evidence_text": "Univariate logistic analysis: Odds Ratio (APACHE II score): 1.449 (1.208, 1.738), P-value: < 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Odds Ratio (SOFA score)",
+      "value": "1.974",
+      "unit": null,
+      "raw_value_text": "1.974 (95% CI: 1.433, 2.719)",
+      "evidence_text": "Univariate logistic analysis: Odds Ratio (SOFA score): 1.974 (1.433, 2.719), P-value: < 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Odds Ratio (Lactate)",
+      "value": "2.873",
+      "unit": null,
+      "raw_value_text": "2.873 (95% CI: 1.616, 5.108)",
+      "evidence_text": "Univariate logistic analysis: Odds Ratio (Lactate): 2.873 (1.616, 5.108), P-value: < 0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Odds Ratio (PSV)",
+      "value": "0.295",
+      "unit": null,
+      "raw_value_text": "0.295 (95% CI: 0.094, 0.925)",
+      "evidence_text": "Univariate logistic analysis: Odds Ratio (PSV): 0.295 (0.094, 0.925), P-value: 0.036",
+      "source_type": "text"
+    },
+    {
+      "variable": "Odds Ratio (EDV)",
+      "value": "0.219",
+      "unit": null,
+      "raw_value_text": "0.219 (95% CI: 0.111, 0.432)",
+      "evidence_text": "Univariate logistic analysis: Odds Ratio (EDV): 0.219 (0.111, 0.432), P-value: < 0.001",
+      "source_type": "text"
+    }
+  ]
+}

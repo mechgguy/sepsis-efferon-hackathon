@@ -1,0 +1,127 @@
+{
+  "paper_id": "Cilloniz_2019_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age, mean (SD), years",
+      "value": "86.6",
+      "unit": "years",
+      "raw_value_text": "86.6 (5.0)",
+      "evidence_text": "Table 1. Characteristics of very old ( 80 years) patients by the presence or absence of sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Male sex, n (%)",
+      "value": "43",
+      "unit": "%",
+      "raw_value_text": "155 (43)",
+      "evidence_text": "Table 1. Characteristics of very old ( 80 years) patients by the presence or absence of sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Current smoker, n (%)",
+      "value": "3",
+      "unit": "%",
+      "raw_value_text": "10 (3)",
+      "evidence_text": "Table 1. Characteristics of very old ( 80 years) patients by the presence or absence of sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Current alcohol user, n (%)",
+      "value": "6",
+      "unit": "%",
+      "raw_value_text": "19 (6)",
+      "evidence_text": "Table 1. Characteristics of very old ( 80 years) patients by the presence or absence of sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Previous antibiotic in last week, n (%)",
+      "value": "30",
+      "unit": "%",
+      "raw_value_text": "98 (30)",
+      "evidence_text": "Table 1. Characteristics of very old ( 80 years) patients by the presence or absence of sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Fever, n (%)",
+      "value": "69",
+      "unit": "%",
+      "raw_value_text": "231 (69)",
+      "evidence_text": "Table 1. Characteristics of very old ( 80 years) patients by the presence or absence of sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Altered mental status, n (%)",
+      "value": "19",
+      "unit": "%",
+      "raw_value_text": "64 (19)",
+      "evidence_text": "Table 1. Characteristics of very old ( 80 years) patients by the presence or absence of sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Diabetes mellitus, n (%)",
+      "value": "20",
+      "unit": "%",
+      "raw_value_text": "70 (20)",
+      "evidence_text": "Table 1. Characteristics of very old ( 80 years) patients by the presence or absence of sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Chronic renal disease, n (%)",
+      "value": "6",
+      "unit": "%",
+      "raw_value_text": "22 (6)",
+      "evidence_text": "Table 1. Characteristics of very old ( 80 years) patients by the presence or absence of sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Length of hospital stay, median (IQR), days",
+      "value": "7",
+      "unit": "days",
+      "raw_value_text": "7 (6; 11)",
+      "evidence_text": "Table 3. Clinical outcomes according to sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "In-hospital mortality, n (%)",
+      "value": "9",
+      "unit": "%",
+      "raw_value_text": "32 (9)",
+      "evidence_text": "Table 3. Clinical outcomes according to sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "One-year mortality, n (%)",
+      "value": "16",
+      "unit": "%",
+      "raw_value_text": "56 (16)",
+      "evidence_text": "Table 3. Clinical outcomes according to sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "ICU admission, n (%)",
+      "value": "5",
+      "unit": "%",
+      "raw_value_text": "17 (5)",
+      "evidence_text": "Table 3. Clinical outcomes according to sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Chronic renal disease OR",
+      "value": "2.60",
+      "unit": null,
+      "raw_value_text": "2.60",
+      "evidence_text": "Table 4. Significant risk factors for 30-day mortality in patients with sepsis in weighted logistic regression analyses",
+      "source_type": "text"
+    },
+    {
+      "variable": "Diabetes mellitus OR",
+      "value": "0.49",
+      "unit": null,
+      "raw_value_text": "0.49",
+      "evidence_text": "Table 4. Significant risk factors for 30-day mortality in patients with sepsis in weighted logistic regression analyses",
+      "source_type": "text"
+    }
+  ]
+}

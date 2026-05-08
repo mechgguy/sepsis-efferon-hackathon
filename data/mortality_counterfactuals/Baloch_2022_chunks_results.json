@@ -1,0 +1,103 @@
+{
+  "paper_id": "Baloch_2022_chunks",
+  "title": "Comparison of Pediatric Sequential Organ Failure Assessment and Pediatric Risk of Mortality III Score as Mortality Prediction in Pediatric Intensive Care Unit",
+  "year": 2022,
+  "extractions": [
+    {
+      "variable": "30-day mortality rate",
+      "value": "57%",
+      "unit": null,
+      "raw_value_text": "30-day mortality was estimated as 57%",
+      "evidence_text": "The 30-day mortality was estimated as 57%",
+      "source_type": "text"
+    },
+    {
+      "variable": "maximum p-SOFA score AUC",
+      "value": "0.81",
+      "unit": null,
+      "raw_value_text": "AUC=0.81",
+      "evidence_text": "The maximum p-SOFA score (AUC=0.81, 95% CI=0.76-0.86, p=0.001)",
+      "source_type": "text"
+    },
+    {
+      "variable": "PRISM III 24 score AUC",
+      "value": "0.75",
+      "unit": null,
+      "raw_value_text": "AUC=0.75",
+      "evidence_text": "PRISM III 24 score (AUC=0.75, 95% CI=0.69-0.81, p=0.001)",
+      "source_type": "text"
+    },
+    {
+      "variable": "p-SOFA sensitivity",
+      "value": "93.87%",
+      "unit": null,
+      "raw_value_text": "sensitivity was 93.87%",
+      "evidence_text": "For the prediction of 30-day mortality at the cut-off value of p-SOFA>2, the sensitivity was 93.87%",
+      "source_type": "text"
+    },
+    {
+      "variable": "p-SOFA specificity",
+      "value": "38.21%",
+      "unit": null,
+      "raw_value_text": "specificity was 38.21%",
+      "evidence_text": "specificity was 38.21%",
+      "source_type": "text"
+    },
+    {
+      "variable": "p-SOFA accuracy",
+      "value": "69.93%",
+      "unit": null,
+      "raw_value_text": "accuracy was 69.93%",
+      "evidence_text": "accuracy was 69.93%",
+      "source_type": "text"
+    },
+    {
+      "variable": "PRISM III 24 score sensitivity",
+      "value": "55.83%",
+      "unit": null,
+      "raw_value_text": "sensitivity was 55.83%",
+      "evidence_text": "Whereas at the cut-off value of PRISM III 24 score>8, the sensitivity was 55.83%",
+      "source_type": "text"
+    },
+    {
+      "variable": "PRISM III 24 score specificity",
+      "value": "77.24%",
+      "unit": null,
+      "raw_value_text": "specificity was 77.24%",
+      "evidence_text": "specificity was 77.24%",
+      "source_type": "text"
+    },
+    {
+      "variable": "PRISM III 24 score accuracy",
+      "value": "65.03%",
+      "unit": null,
+      "raw_value_text": "accuracy was 65.03%",
+      "evidence_text": "accuracy was 65.03%",
+      "source_type": "text"
+    },
+    {
+      "variable": "median age of study population",
+      "value": "24 months",
+      "unit": null,
+      "raw_value_text": "The median age was 24 months (range: 1-144 months)",
+      "evidence_text": "The median age was 24 months (range: 1-144 months)",
+      "source_type": "text"
+    },
+    {
+      "variable": "median p-SOFA score among non-survivors",
+      "value": "8",
+      "unit": null,
+      "raw_value_text": "8 [range: 1-20]",
+      "evidence_text": "children who did not survive had a significantly higher p-SOFA score than survivors (8 [range: 1-20] vs 4 [range: 0-14]; p=0.0001)",
+      "source_type": "text"
+    },
+    {
+      "variable": "median PRISM III 24 score among non-survivors",
+      "value": "10",
+      "unit": null,
+      "raw_value_text": "10 [range: 0-29]",
+      "evidence_text": "PRISM III 24 score was significantly greater in children who did not survive than survivors (10 [range: 0-29] vs 3 [range: 0-20]; p=0.0001)",
+      "source_type": "text"
+    }
+  ]
+}

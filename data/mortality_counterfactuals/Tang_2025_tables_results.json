@@ -1,0 +1,151 @@
+{
+  "paper_id": "Tang_2025_tables",
+  "title": null,
+  "year": 2025,
+  "extractions": [
+    {
+      "variable": "Age (years)",
+      "value": "62.15 ± 16.52",
+      "unit": null,
+      "raw_value_text": "62.15 ± 16.52",
+      "evidence_text": "<0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Gender: Male",
+      "value": "1185 (50.60%)",
+      "unit": null,
+      "raw_value_text": "1185 (50.60%)",
+      "evidence_text": "0.128",
+      "source_type": "text"
+    },
+    {
+      "variable": "Gender: Female",
+      "value": "1157 (49.40%)",
+      "unit": null,
+      "raw_value_text": "1157 (49.40%)",
+      "evidence_text": null,
+      "source_type": "text"
+    },
+    {
+      "variable": "BMI",
+      "value": "29.68 ± 10.01",
+      "unit": null,
+      "raw_value_text": "29.68 ± 10.01",
+      "evidence_text": "<0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Temperature(°C)",
+      "value": "36.62 ± 1.33",
+      "unit": null,
+      "raw_value_text": "36.62 ± 1.33",
+      "evidence_text": "0.003",
+      "source_type": "text"
+    },
+    {
+      "variable": "Respiratory rate (bpm)",
+      "value": "31.20 ± 14.40",
+      "unit": null,
+      "raw_value_text": "31.20 ± 14.40",
+      "evidence_text": "0.016",
+      "source_type": "text"
+    },
+    {
+      "variable": "Heart rate (/min)",
+      "value": "115.26 ± 28.15",
+      "unit": null,
+      "raw_value_text": "115.26 ± 28.15",
+      "evidence_text": "<0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "MAP(mmHg)",
+      "value": "56(48-112)",
+      "unit": null,
+      "raw_value_text": "56(48-112)",
+      "evidence_text": "<0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Acute Physiology Score III",
+      "value": "59.49 ± 25.03",
+      "unit": null,
+      "raw_value_text": "59.49 ± 25.03",
+      "evidence_text": "<0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "APACHE IV score",
+      "value": "71.55 ± 26.24",
+      "unit": null,
+      "raw_value_text": "71.55 ± 26.24",
+      "evidence_text": "<0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate(mmol/L)",
+      "value": "1.8 (1.2-2.93)",
+      "unit": null,
+      "raw_value_text": "1.8 (1.2-2.93)",
+      "evidence_text": "<0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "MCHC(g/dL)",
+      "value": "32.51 ± 1.74",
+      "unit": null,
+      "raw_value_text": "32.51 ± 1.74",
+      "evidence_text": "<0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Platelets (x 109/L)",
+      "value": "205(133-291)",
+      "unit": null,
+      "raw_value_text": "205(133-291)",
+      "evidence_text": "<0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hemoglobin (g/dL)",
+      "value": "9.89 ± 2.01",
+      "unit": null,
+      "raw_value_text": "9.89 ± 2.01",
+      "evidence_text": "<0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "RDW(%)",
+      "value": "17.06 ± 3.04",
+      "unit": null,
+      "raw_value_text": "17.06 ± 3.04",
+      "evidence_text": "<0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "White blood cell (x 109/L)",
+      "value": "14.1(9.41-20.7)",
+      "unit": null,
+      "raw_value_text": "14.1(9.41-20.7)",
+      "evidence_text": "0.065",
+      "source_type": "text"
+    },
+    {
+      "variable": "ICU 28-day mortality",
+      "value": "No: 2146 (91.59%), Yes: 197 (8.41%)",
+      "unit": null,
+      "raw_value_text": "No: 2146 (91.59%), Yes: 197 (8.41%)",
+      "evidence_text": "0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hospital 28-day mortality",
+      "value": "No: 1990 (84.93%)",
+      "unit": null,
+      "raw_value_text": "No: 1990 (84.93%)",
+      "evidence_text": "<0.001",
+      "source_type": "text"
+    }
+  ]
+}

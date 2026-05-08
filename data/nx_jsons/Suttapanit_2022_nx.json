@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "NEWS",
+      "type": "Scoring System"
+    },
+    {
+      "id": "qSOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "SOS",
+      "type": "Scoring System"
+    },
+    {
+      "id": "ESI Triage",
+      "type": "Scoring System"
+    },
+    {
+      "id": "SIRS",
+      "type": "Scoring System"
+    },
+    {
+      "id": "28-day Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Mechanical Ventilation Usage",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Vasopressor Usage",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Mean Age",
+      "type": "Demographic"
+    },
+    {
+      "id": "Male Proportion",
+      "type": "Demographic"
+    },
+    {
+      "id": "AUC",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Sensitivity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Specificity",
+      "type": "Statistical Metric"
+    }
+  ],
+  "links": [
+    {
+      "source": "NEWS",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "NEWS",
+      "target": "Mechanical Ventilation Usage",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "NEWS",
+      "target": "Vasopressor Usage",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "NEWS",
+      "target": "AUC",
+      "relation": "Resulted in",
+      "value": "0.770",
+      "p_value": null
+    },
+    {
+      "source": "NEWS",
+      "target": "28-day Mortality",
+      "relation": "Outperforms",
+      "targetSystems": [
+        "qSOFA",
+        "SOS",
+        "SIRS",
+        "ESI Triage"
+      ],
+      "p_value": null
+    },
+    {
+      "source": "qSOFA",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "qSOFA",
+      "target": "AUC",
+      "relation": "Resulted in",
+      "value": "0.7473",
+      "p_value": null
+    },
+    {
+      "source": "SOS",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SOS",
+      "target": "AUC",
+      "relation": "Resulted in",
+      "value": "0.749",
+      "p_value": null
+    },
+    {
+      "source": "ESI Triage",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "ESI Triage",
+      "target": "AUC",
+      "relation": "Resulted in",
+      "value": "0.599",
+      "p_value": null
+    },
+    {
+      "source": "SIRS",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": null
+    },
+    {
+      "source": "SIRS",
+      "target": "AUC",
+      "relation": "Resulted in",
+      "value": "0.588",
+      "p_value": null
+    }
+  ]
+}

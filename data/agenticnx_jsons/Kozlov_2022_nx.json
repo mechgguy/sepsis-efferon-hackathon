@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "47%",
+      "label": "ICU Mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "value": "6 (4-8)",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "58.5 (43-71)",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "> 1.8 mmol/l",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "134",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Kozlov_2022"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "predicts",
+      "strength": "high",
+      "source": "sofa_score",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "predicts",
+      "strength": "moderate",
+      "source": "lactate_levels",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Kozlov_2022",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Kozlov_2022",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Kozlov_2022",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Kozlov_2022",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Kozlov_2022",
+      "target": "sample_size"
+    }
+  ]
+}

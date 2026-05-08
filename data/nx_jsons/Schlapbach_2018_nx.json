@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "Age-adapted SOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "SIRS",
+      "type": "Scoring System"
+    },
+    {
+      "id": "PELOD-2",
+      "type": "Scoring System"
+    },
+    {
+      "id": "qSOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "ICU Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "In-hospital Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "ICU Length of Stay >= 3 days",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "AUROC",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Sensitivity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Specificity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "NPV",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "PPV",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Median Age",
+      "type": "Demographic",
+      "value": "13 years"
+    },
+    {
+      "id": "< 18 years",
+      "type": "Demographic"
+    }
+  ],
+  "links": [
+    {
+      "source": "Age-adapted SOFA",
+      "target": "ICU Mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "Age-adapted SOFA",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "Age-adapted SOFA",
+      "target": "ICU Length of Stay >= 3 days",
+      "relation": "Predicts"
+    },
+    {
+      "source": "SIRS",
+      "target": "ICU Mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "SIRS",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "SIRS",
+      "target": "ICU Length of Stay >= 3 days",
+      "relation": "Predicts"
+    },
+    {
+      "source": "PELOD-2",
+      "target": "ICU Mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "PELOD-2",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "PELOD-2",
+      "target": "ICU Length of Stay >= 3 days",
+      "relation": "Predicts"
+    },
+    {
+      "source": "qSOFA",
+      "target": "ICU Mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "qSOFA",
+      "target": "In-hospital Mortality",
+      "relation": "Predicts"
+    },
+    {
+      "source": "qSOFA",
+      "target": "ICU Length of Stay >= 3 days",
+      "relation": "Predicts"
+    },
+    {
+      "source": "Age-adapted SOFA",
+      "target": "AUROC",
+      "relation": "Resulted in",
+      "p_value": "0.829"
+    },
+    {
+      "source": "SIRS",
+      "target": "AUROC",
+      "relation": "Resulted in",
+      "p_value": "0.710"
+    },
+    {
+      "source": "PELOD-2",
+      "target": "AUROC",
+      "relation": "Resulted in",
+      "p_value": "0.816"
+    },
+    {
+      "source": "qSOFA",
+      "target": "AUROC",
+      "relation": "Resulted in",
+      "p_value": "0.739"
+    }
+  ]
+}

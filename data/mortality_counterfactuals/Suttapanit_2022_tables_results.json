@@ -1,0 +1,151 @@
+{
+  "paper_id": "Suttapanit_2022_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age, year, mean (SD)",
+      "value": "69",
+      "unit": "year",
+      "raw_value_text": "69 (16.5)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Male, n (%)",
+      "value": "46.7",
+      "unit": "%",
+      "raw_value_text": "257 (46.7)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Cirrhosis, n (%)",
+      "value": "5.3",
+      "unit": "%",
+      "raw_value_text": "29 (5.3)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Diabetes mellitus, n (%)",
+      "value": "31.6",
+      "unit": "%",
+      "raw_value_text": "174 (31.6)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hematologic malignancy, n (%)",
+      "value": "6.9",
+      "unit": "%",
+      "raw_value_text": "38 (6.9)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Solid-organ malignancy, n (%)",
+      "value": "25.8",
+      "unit": "%",
+      "raw_value_text": "142 (25.8)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Heart failure, n (%)",
+      "value": "4.2",
+      "unit": "%",
+      "raw_value_text": "23 (4.2)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Heart rate, per minute, mean (SD)",
+      "value": "107",
+      "unit": "per minute",
+      "raw_value_text": "107 (23.9)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Respiratory rate, per minute, mean (SD)",
+      "value": "24",
+      "unit": "per minute",
+      "raw_value_text": "24 (4.8)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Systolic blood pressure, mmHg, mean (SD)",
+      "value": "130",
+      "unit": "mmHg",
+      "raw_value_text": "130 (33.2)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Diastolic blood pressure, mmHg, mean (SD)",
+      "value": "71",
+      "unit": "mmHg",
+      "raw_value_text": "71 (16.2)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Oxygen saturation, %",
+      "value": "96",
+      "unit": "%",
+      "raw_value_text": "96 (7.8)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Alert, n (%)",
+      "value": "73.5",
+      "unit": "%",
+      "raw_value_text": "404 (73.5)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Disposition - Discharge, n (%)",
+      "value": "53.1",
+      "unit": "%",
+      "raw_value_text": "290 (53.1)",
+      "evidence_text": "Table 1. Baseline characteristics of patients stratified by 28-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Intensive care ward, n (%)",
+      "value": "14.3",
+      "unit": "%",
+      "raw_value_text": "78 (14.3)",
+      "evidence_text": "Table 1. Continued.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Length of hospital stay in hours, median (IQR)",
+      "value": "68",
+      "unit": "hours",
+      "raw_value_text": "68 (11,233)",
+      "evidence_text": "Table 1. Continued.",
+      "source_type": "text"
+    },
+    {
+      "variable": "NEWS, median (IQR)",
+      "value": "5",
+      "unit": "score",
+      "raw_value_text": "5 (3,7)",
+      "evidence_text": "Table 1. Continued.",
+      "source_type": "text"
+    },
+    {
+      "variable": "28-day intubation free day, day",
+      "value": "28",
+      "unit": "days",
+      "raw_value_text": "28 (8.1)",
+      "evidence_text": "Table 1. Continued.",
+      "source_type": "text"
+    }
+  ]
+}

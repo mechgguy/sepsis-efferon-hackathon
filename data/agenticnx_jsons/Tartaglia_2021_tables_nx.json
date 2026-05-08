@@ -1,0 +1,13 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Besen_2016"
+    }
+  ],
+  "edges": []
+}

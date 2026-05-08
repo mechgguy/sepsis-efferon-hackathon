@@ -1,0 +1,182 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "SOFA",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "vasopressors",
+      "label": "Vasopressor Use",
+      "id": "vasopressor_use"
+    },
+    {
+      "type": "variable",
+      "value": "PaO2/FiO2 ratio",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "variable",
+      "value": "Respiratory rate",
+      "label": "Respiratory Rate",
+      "id": "respiratory_rate"
+    },
+    {
+      "type": "variable",
+      "value": "Glasgow Coma Scale score",
+      "label": "Glasgow Coma Scale",
+      "id": "glasgow_coma_scale"
+    },
+    {
+      "type": "variable",
+      "value": "Systolic blood pressure",
+      "label": "Systolic Blood Pressure",
+      "id": "systolic_blood_pressure"
+    },
+    {
+      "type": "variable",
+      "value": "Heart rate",
+      "label": "Heart Rate",
+      "id": "heart_rate"
+    },
+    {
+      "type": "variable",
+      "value": "Serum creatinine",
+      "label": "Serum Creatinine",
+      "id": "serum_creatinine"
+    },
+    {
+      "type": "variable",
+      "value": "Bilirubin",
+      "label": "Bilirubin",
+      "id": "bilirubin"
+    },
+    {
+      "type": "variable",
+      "value": "Platelet count",
+      "label": "Platelet Count",
+      "id": "platelet_count"
+    },
+    {
+      "type": "variable",
+      "value": "White blood cell count",
+      "label": "White Blood Cell Count",
+      "id": "white_blood_cell_count"
+    },
+    {
+      "type": "variable",
+      "value": "Urine output",
+      "label": "Urine Output",
+      "id": "urine_output"
+    },
+    {
+      "type": "variable",
+      "value": "Serum urea",
+      "label": "Serum Urea",
+      "id": "serum_urea"
+    },
+    {
+      "type": "variable",
+      "value": "Prothrombin time",
+      "label": "Prothrombin Time",
+      "id": "prothrombin_time"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "vasopressor_use"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "mechanical_ventilation"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "respiratory_rate"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "glasgow_coma_scale"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "systolic_blood_pressure"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "heart_rate"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "serum_creatinine"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "bilirubin"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "platelet_count"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "white_blood_cell_count"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "urine_output"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "serum_urea"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "DeterminingClinicalCriteriaforSepsisUsingExistingMeasures",
+      "target": "prothrombin_time"
+    }
+  ]
+}

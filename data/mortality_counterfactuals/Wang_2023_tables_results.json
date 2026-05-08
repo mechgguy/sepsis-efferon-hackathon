@@ -1,0 +1,199 @@
+{
+  "paper_id": "Wang_2023_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age, years",
+      "value": "68.02",
+      "unit": "years",
+      "raw_value_text": "68.02±15.47",
+      "evidence_text": "t=-8.40 | <0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Gender - Female",
+      "value": "42.22",
+      "unit": "percent",
+      "raw_value_text": "586 (42.22)",
+      "evidence_text": "χ 2 =4.202 | 0.040",
+      "source_type": "text"
+    },
+    {
+      "variable": "Gender - Male",
+      "value": "57.78",
+      "unit": "percent",
+      "raw_value_text": "802 (57.78)",
+      "evidence_text": "χ 2 =4.202 | 0.040",
+      "source_type": "text"
+    },
+    {
+      "variable": "Marital status - Married",
+      "value": "48.13",
+      "unit": "percent",
+      "raw_value_text": "668 (48.13)",
+      "evidence_text": "χ 2 =0.458 | 0.499",
+      "source_type": "text"
+    },
+    {
+      "variable": "Marital status - Not married",
+      "value": "51.87",
+      "unit": "percent",
+      "raw_value_text": "720 (51.87)",
+      "evidence_text": "χ 2 =0.458 | 0.499",
+      "source_type": "text"
+    },
+    {
+      "variable": "Ethnicity - White",
+      "value": "81.27",
+      "unit": "percent",
+      "raw_value_text": "1128 (81.27)",
+      "evidence_text": "χ 2 =14.338 | 0.002",
+      "source_type": "text"
+    },
+    {
+      "variable": "Ethnicity - Asian",
+      "value": "3.10",
+      "unit": "percent",
+      "raw_value_text": "43 (3.10)",
+      "evidence_text": "χ 2 =14.338 | 0.002",
+      "source_type": "text"
+    },
+    {
+      "variable": "Ethnicity - Black",
+      "value": "10.23",
+      "unit": "percent",
+      "raw_value_text": "142 (10.23)",
+      "evidence_text": "χ 2 =14.338 | 0.002",
+      "source_type": "text"
+    },
+    {
+      "variable": "Ethnicity - Hispanic",
+      "value": "5.40",
+      "unit": "percent",
+      "raw_value_text": "75 (5.40)",
+      "evidence_text": "χ 2 =14.338 | 0.002",
+      "source_type": "text"
+    },
+    {
+      "variable": "Length of stay, days",
+      "value": "5.67",
+      "unit": "days",
+      "raw_value_text": "5.67 (2.81, 12.73)",
+      "evidence_text": "Z=-1.573 | 0.116",
+      "source_type": "text"
+    },
+    {
+      "variable": "Respiratory rate, times/min",
+      "value": "21.53",
+      "unit": "times/min",
+      "raw_value_text": "21.53±6.62",
+      "evidence_text": "t=0.15 | 0.881",
+      "source_type": "text"
+    },
+    {
+      "variable": "Temperature",
+      "value": "36.72",
+      "unit": "°C",
+      "raw_value_text": "36.72±2.50",
+      "evidence_text": "t=1.90 | 0.058",
+      "source_type": "text"
+    },
+    {
+      "variable": "Heart rate, times/min",
+      "value": "97.36",
+      "unit": "times/min",
+      "raw_value_text": "97.36±21.79",
+      "evidence_text": "t=2.09 | 0.037",
+      "source_type": "text"
+    },
+    {
+      "variable": "DBP, mmHg",
+      "value": "61.62",
+      "unit": "mmHg",
+      "raw_value_text": "61.62±18.60",
+      "evidence_text": "t=3.39 | <0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "RBC, m/uL",
+      "value": "3.75",
+      "unit": "m/uL",
+      "raw_value_text": "3.75±0.77",
+      "evidence_text": "t=5.26 | <0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Potassium, mEq/L",
+      "value": "4.43",
+      "unit": "mEq/L",
+      "raw_value_text": "4.43±1.00",
+      "evidence_text": "t=-5.57 | <0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Creatinine, mg/dL",
+      "value": "1.50",
+      "unit": "mg/dL",
+      "raw_value_text": "1.50 (1.00, 2.50)",
+      "evidence_text": "Z=-2.998 | 0.003",
+      "source_type": "text"
+    },
+    {
+      "variable": "BUN, mg/dL",
+      "value": "31.50",
+      "unit": "mg/dL",
+      "raw_value_text": "31.50 (20.00, 51.00)",
+      "evidence_text": "Z=-5.852 | <0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Albumin",
+      "value": "2.90",
+      "unit": "g/dL",
+      "raw_value_text": "2.90±0.65",
+      "evidence_text": "t=3.37 | <0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hematocrit, %",
+      "value": "33.99",
+      "unit": "%",
+      "raw_value_text": "33.99±6.51",
+      "evidence_text": "t=4.78 | <0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hemoglobin, g/dL",
+      "value": "11.25",
+      "unit": "g/dL",
+      "raw_value_text": "11.25±2.21",
+      "evidence_text": "t=5.72 | <0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "CK, U/L",
+      "value": "113.00",
+      "unit": "U/L",
+      "raw_value_text": "113.00 (47.00, 285.00)",
+      "evidence_text": "Z=4.279 | <0.001",
+      "source_type": "text"
+    },
+    {
+      "variable": "CK-MB, U/L",
+      "value": "4.00",
+      "unit": "U/L",
+      "raw_value_text": "4.00 (3.00, 8.00)",
+      "evidence_text": "Z=-2.308 | 0.021",
+      "source_type": "text"
+    },
+    {
+      "variable": "LDH, U/L",
+      "value": "281.00",
+      "unit": "U/L",
+      "raw_value_text": "281.00 (213.00, 426.50)",
+      "evidence_text": "Z=-4.829 | <0.001",
+      "source_type": "text"
+    }
+  ]
+}

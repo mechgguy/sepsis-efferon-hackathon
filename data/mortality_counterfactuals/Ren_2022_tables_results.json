@@ -1,0 +1,199 @@
+{
+  "paper_id": "Ren_2022_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age (years)",
+      "value": "58.84 ± 13.95",
+      "unit": null,
+      "raw_value_text": "58.84 ± 13.95",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age (years)",
+      "value": "62.13 ± 12.60",
+      "unit": null,
+      "raw_value_text": "62.13 ± 12.60",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Gender (Male %)",
+      "value": "60.8",
+      "unit": "%",
+      "raw_value_text": "724 (60.8)",
+      "evidence_text": "Died in hospitalN = 485 | P value 0.385",
+      "source_type": "text"
+    },
+    {
+      "variable": "Gender (Male %)",
+      "value": "58.4",
+      "unit": "%",
+      "raw_value_text": "283 (58.4)",
+      "evidence_text": "Died in hospitalN = 485 | P value 0.385",
+      "source_type": "text"
+    },
+    {
+      "variable": "Heart Rate (101-120)",
+      "value": "35.1",
+      "unit": "%",
+      "raw_value_text": "418 (35.1)",
+      "evidence_text": "Died in hospitalN = 485 | P value 0.003*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Heart Rate (121-140)",
+      "value": "27.6",
+      "unit": "%",
+      "raw_value_text": "134 (27.6)",
+      "evidence_text": "Died in hospitalN = 485 | P value 0.003*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Temperature (T in °C)",
+      "value": "28.0",
+      "unit": "%",
+      "raw_value_text": "333 (28.0)",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Temperature (T in °C)",
+      "value": "37.9",
+      "unit": "%",
+      "raw_value_text": "184 (37.9)",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "SpO2",
+      "value": "92.00",
+      "unit": null,
+      "raw_value_text": "92.00 [89.00, 95.00]",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA Score",
+      "value": "6.00",
+      "unit": null,
+      "raw_value_text": "6.00 [4.00, 9.00]",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "SAPS II Score",
+      "value": "40.00",
+      "unit": null,
+      "raw_value_text": "40.00 [31.00, 49.00]",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Albumin (g/dl)",
+      "value": "2.82",
+      "unit": "g/dl",
+      "raw_value_text": "2.82 ± 0.66",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Bilirubin (mg/dl)",
+      "value": "0.70",
+      "unit": "mg/dl",
+      "raw_value_text": "0.70 [0.40, 1.30]",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "BUN (mg/dl)",
+      "value": "29.00",
+      "unit": "mg/dl",
+      "raw_value_text": "29.00 [18.00, 47.00]",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Creatinine (mg/dl)",
+      "value": "1.40",
+      "unit": "mg/dl",
+      "raw_value_text": "1.40 [0.90, 2.40]",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "White Blood Cells (WBC k/μl)",
+      "value": "13.80",
+      "unit": "k/μl",
+      "raw_value_text": "13.80 [9.60, 19.90]",
+      "evidence_text": "Died in hospitalN = 485 | P value 0.836",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hemoglobin (g/dl)",
+      "value": "9.62",
+      "unit": "g/dl",
+      "raw_value_text": "9.62 ± 1.90",
+      "evidence_text": "Died in hospitalN = 485 | P value 0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Platelet (k/μl)",
+      "value": "180.00",
+      "unit": "k/μl",
+      "raw_value_text": "180.00 [112.00, 264.00]",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "APTT (s)",
+      "value": "34.50",
+      "unit": "s",
+      "raw_value_text": "34.50 [29.45, 45.70]",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "INR",
+      "value": "1.40",
+      "unit": null,
+      "raw_value_text": "1.40 [1.20, 1.80]",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "PT (s)",
+      "value": "15.20",
+      "unit": "s",
+      "raw_value_text": "15.20 [13.70, 18.00]",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "NLR",
+      "value": "8.57",
+      "unit": null,
+      "raw_value_text": "8.57 [6.24, 9.94]",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate (mmol/L)",
+      "value": "2.10",
+      "unit": "mmol/L",
+      "raw_value_text": "2.10 [1.40, 3.65]",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate (mmol/L)",
+      "value": "2.70",
+      "unit": "mmol/L",
+      "raw_value_text": "2.70 [1.70, 4.80]",
+      "evidence_text": "Died in hospitalN = 485 | P value <0.001*",
+      "source_type": "text"
+    }
+  ]
+}

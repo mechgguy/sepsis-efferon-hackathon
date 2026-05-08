@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "62.12 (16.83)",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "6.70 (3.64)",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "1172",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "500",
+      "label": "Septic Shock Cohort Size",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "672",
+      "label": "Sepsis Cohort Size",
+      "id": "sepsis_2_criteria"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Besen_2016"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sepsis_3_criteria"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sepsis_2_criteria"
+    }
+  ]
+}

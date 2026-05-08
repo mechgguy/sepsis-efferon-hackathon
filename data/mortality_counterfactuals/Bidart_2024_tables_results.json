@@ -1,0 +1,191 @@
+{
+  "paper_id": "Bidart_2024_tables",
+  "title": null,
+  "year": 2024,
+  "extractions": [
+    {
+      "variable": "Sex - Female",
+      "value": "344",
+      "unit": "count",
+      "raw_value_text": "344(51.73)",
+      "evidence_text": "Sex (No. [%]) Female | 344(51.73)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Sex - Male",
+      "value": "321",
+      "unit": "count",
+      "raw_value_text": "321(48.27)",
+      "evidence_text": "Sex (No. [%]) Male | 321(48.27)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age - Mean",
+      "value": "73.3",
+      "unit": "years",
+      "raw_value_text": "73.3(19.19)",
+      "evidence_text": "Age (mean [SD]) (yr) | 73.3(19.19)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age - 18-64",
+      "value": "163",
+      "unit": "count",
+      "raw_value_text": "163 (24.51)",
+      "evidence_text": "No. (%) 18-64 | 163 (24.51)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age - ≥65",
+      "value": "502",
+      "unit": "count",
+      "raw_value_text": "502 (75.49)",
+      "evidence_text": "No. (%) ≥65 | 502 (75.49)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Glasgow Coma Scale score ≤14",
+      "value": "208",
+      "unit": "count",
+      "raw_value_text": "208(32.50)",
+      "evidence_text": "Glasgow Coma Scale score≤14(No. [%]) | 208(32.50)",
+      "source_type": "text"
+    },
+    {
+      "variable": "SBP ≤100 mmHg",
+      "value": "345",
+      "unit": "count",
+      "raw_value_text": "345(51.88)",
+      "evidence_text": "SBP≤100 mmHg(No. [%]) | 345(51.88)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Respiratory rate ≥22 breaths/min",
+      "value": "485",
+      "unit": "count",
+      "raw_value_text": "485(72.93)",
+      "evidence_text": "Respiratory rate≥22 breaths/min (No. [%]) | 485(72.93)",
+      "source_type": "text"
+    },
+    {
+      "variable": "qSOFA points - 0",
+      "value": "71",
+      "unit": "count",
+      "raw_value_text": "71(10.68)",
+      "evidence_text": "qSOFA points (No. [%]) 0 | 71(10.68)",
+      "source_type": "text"
+    },
+    {
+      "variable": "qSOFA points - 1",
+      "value": "203",
+      "unit": "count",
+      "raw_value_text": "203(30.53)",
+      "evidence_text": "qSOFA points (No. [%]) 1 | 203(30.53)",
+      "source_type": "text"
+    },
+    {
+      "variable": "qSOFA points - 2",
+      "value": "334",
+      "unit": "count",
+      "raw_value_text": "334(50.23)",
+      "evidence_text": "qSOFA points (No. [%]) 2 | 334(50.23)",
+      "source_type": "text"
+    },
+    {
+      "variable": "qSOFA points - 3",
+      "value": "57",
+      "unit": "count",
+      "raw_value_text": "57(8.57)",
+      "evidence_text": "qSOFA points (No. [%]) 3 | 57(8.57)",
+      "source_type": "text"
+    },
+    {
+      "variable": "qSOFA ≥2 points",
+      "value": "391",
+      "unit": "count",
+      "raw_value_text": "391(58.80)",
+      "evidence_text": "qSOFA≥2 points (No. [%]) | 391(58.80)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Shivering",
+      "value": "76",
+      "unit": "count",
+      "raw_value_text": "76(11.43)",
+      "evidence_text": "Shivering (No. [%]) | 76(11.43)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Mottled skin",
+      "value": "84",
+      "unit": "count",
+      "raw_value_text": "84(12.63)",
+      "evidence_text": "Mottled skin (No. [%]) | 84(12.63)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Tachycardia ≥120 beats/min",
+      "value": "310",
+      "unit": "count",
+      "raw_value_text": "310(46.62)",
+      "evidence_text": "Tachycardia≥120 beats/min (No. [%]) | 310(46.62)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Vasopressor at ED",
+      "value": "138",
+      "unit": "count",
+      "raw_value_text": "138(20.75)",
+      "evidence_text": "Vasopressor at ED (No. [%]) | 138(20.75)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Positive blood cultures - Negative",
+      "value": "505",
+      "unit": "count",
+      "raw_value_text": "505(75.94)",
+      "evidence_text": "Blood cultures (No. [%]) Negative | 505(75.94)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Positive blood cultures - Positive",
+      "value": "98",
+      "unit": "count",
+      "raw_value_text": "98(14.74)",
+      "evidence_text": "Blood cultures (No. [%]) Positive | 98(14.74)",
+      "source_type": "text"
+    },
+    {
+      "variable": "30-Day mortality",
+      "value": "113",
+      "unit": "count",
+      "raw_value_text": "113(16.99)",
+      "evidence_text": "30-Day mortality (No. [%]) | 113(16.99)",
+      "source_type": "text"
+    },
+    {
+      "variable": "ICU admission",
+      "value": "339",
+      "unit": "count",
+      "raw_value_text": "339(50.98)",
+      "evidence_text": "ICU admission (No. [%]) | 339(50.98)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Overall mortality",
+      "value": "131",
+      "unit": "count",
+      "raw_value_text": "131(19.7)",
+      "evidence_text": "Overall mortality (No. [%]) | 131(19.7)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Time to ATB",
+      "value": "37.43",
+      "unit": "minutes",
+      "raw_value_text": "37.43(48)",
+      "evidence_text": "Time to ATB (mean [SD]) (minutes) | 37.43(48)",
+      "source_type": "text"
+    }
+  ]
+}

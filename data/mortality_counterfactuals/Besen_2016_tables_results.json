@@ -1,0 +1,159 @@
+{
+  "paper_id": "Besen_2016_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age-yo",
+      "value": "52 ± 19",
+      "unit": "years",
+      "raw_value_text": "52 ± 19",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Gender (males/females)- n",
+      "value": "504/453",
+      "unit": null,
+      "raw_value_text": "504/453",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "SAPS 3",
+      "value": "65 [50,79]",
+      "unit": null,
+      "raw_value_text": "65 [50,79]",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Total SOFA (first day)",
+      "value": "6 [3,9]",
+      "unit": null,
+      "raw_value_text": "6 [3,9]",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Worst lactate (first day)-mmol/L",
+      "value": "3.0 [2.0,4.0]",
+      "unit": "mmol/L",
+      "raw_value_text": "3.0 [2.0,4.0]",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Maximum SOFA (ICU stay)",
+      "value": "7 [6,12]",
+      "unit": null,
+      "raw_value_text": "7 [6,12]",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Vasopressors- n (%)",
+      "value": "572 (60)",
+      "unit": null,
+      "raw_value_text": "572 (60)",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Inotropes- n (%)",
+      "value": "13 (1)",
+      "unit": null,
+      "raw_value_text": "13 (1)",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Mechanical ventilation (first day)- n (%)",
+      "value": "259 (27)",
+      "unit": null,
+      "raw_value_text": "259 (27)",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "(C)RRT (first day)- n (%)",
+      "value": "102 (11)",
+      "unit": null,
+      "raw_value_text": "102 (11)",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Mechanical ventilation (ICU stay)- n (%)",
+      "value": "420 (44)",
+      "unit": null,
+      "raw_value_text": "420 (44)",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "(C)RRT (ICU stay)- n (%)",
+      "value": "233 (24)",
+      "unit": null,
+      "raw_value_text": "233 (24)",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Sepsis- n (%)",
+      "value": "134 (14)",
+      "unit": null,
+      "raw_value_text": "134 (14)",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Severe sepsis- n (%)",
+      "value": "251 (26)",
+      "unit": null,
+      "raw_value_text": "251 (26)",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Septic shock- n (%)",
+      "value": "572 (60)",
+      "unit": null,
+      "raw_value_text": "572 (60)",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "No-dysfunction- n (%)",
+      "value": "103 (11)",
+      "unit": null,
+      "raw_value_text": "103 (11)",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Days on mechanical ventilation d",
+      "value": "3 [1,6]",
+      "unit": null,
+      "raw_value_text": "3 [1,6]",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Days on (C)RRT d",
+      "value": "3 [2,7]",
+      "unit": null,
+      "raw_value_text": "3 [2,7]",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    },
+    {
+      "variable": "Days on vasopressors d",
+      "value": "2 [1,4]",
+      "unit": null,
+      "raw_value_text": "2 [1,4]",
+      "evidence_text": "Whole group ( N = 957)",
+      "source_type": "text"
+    }
+  ]
+}

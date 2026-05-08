@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "Sepsis-3",
+      "type": "Scoring System"
+    },
+    {
+      "id": "Sepsis-2",
+      "type": "Scoring System"
+    },
+    {
+      "id": "ICU Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Lactate > 4 mmol/L",
+      "type": "Biomarker"
+    },
+    {
+      "id": "Septic Shock (Sepsis-3)",
+      "type": "Clinical Definition"
+    },
+    {
+      "id": "No Dysfunction (Sepsis-3)",
+      "type": "Clinical Definition"
+    },
+    {
+      "id": "Severe Sepsis (Sepsis-2)",
+      "type": "Clinical Definition"
+    },
+    {
+      "id": "Age",
+      "type": "Demographic"
+    },
+    {
+      "id": "SAPS 3",
+      "type": "Scoring System"
+    },
+    {
+      "id": "SOFA",
+      "type": "Scoring System"
+    }
+  ],
+  "links": [
+    {
+      "source": "Sepsis-3",
+      "target": "ICU Mortality",
+      "relation": "Predicts",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "Sepsis-2",
+      "target": "ICU Mortality",
+      "relation": "Predicts",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "Sepsis-3",
+      "target": "Sepsis-2",
+      "relation": "Sepsis-3 superior to",
+      "p_value": null
+    },
+    {
+      "source": "Lactate > 4 mmol/L",
+      "target": "ICU Mortality",
+      "relation": "Improved stratification of",
+      "p_value": null
+    },
+    {
+      "source": "Lactate > 4 mmol/L",
+      "target": "Septic Shock (Sepsis-3)",
+      "relation": "Improves accuracy in",
+      "p_value": null
+    },
+    {
+      "source": "Lactate > 4 mmol/L",
+      "target": "No Dysfunction (Sepsis-3)",
+      "relation": "Improves accuracy in",
+      "p_value": null
+    },
+    {
+      "source": "Lactate > 4 mmol/L",
+      "target": "Severe Sepsis (Sepsis-2)",
+      "relation": "Improves accuracy in",
+      "p_value": null
+    },
+    {
+      "source": "Lactate > 4 mmol/L",
+      "target": "Septic Shock (Sepsis-2)",
+      "relation": "Improves accuracy in",
+      "p_value": null
+    },
+    {
+      "source": "Age",
+      "target": "ICU Mortality",
+      "relation": "Correlates with",
+      "p_value": null
+    },
+    {
+      "source": "SAPS 3",
+      "target": "ICU Mortality",
+      "relation": "Correlates with",
+      "p_value": null
+    },
+    {
+      "source": "SOFA",
+      "target": "ICU Mortality",
+      "relation": "Correlates with",
+      "p_value": null
+    }
+  ]
+}

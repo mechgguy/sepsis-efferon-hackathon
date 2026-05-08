@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "SAPS 3",
+      "type": "Scoring System"
+    },
+    {
+      "id": "SOFA score",
+      "type": "Scoring System"
+    },
+    {
+      "id": "28-day mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Septic shock",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Coagulation dysfunction",
+      "type": "Organ Dysfunction"
+    },
+    {
+      "id": "CRRT",
+      "type": "Treatment"
+    },
+    {
+      "id": "Age",
+      "type": "Demographic"
+    },
+    {
+      "id": "Charlson Comorbidity Index",
+      "type": "Demographic",
+      "value": "CCI"
+    },
+    {
+      "id": "Lactic acid",
+      "type": "Lab Data"
+    },
+    {
+      "id": "odds ratio",
+      "type": "Statistical Metric",
+      "value": "OR"
+    }
+  ],
+  "links": [
+    {
+      "source": "SAPS 3",
+      "target": "28-day mortality",
+      "relation": "Predicts",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "CRRT",
+      "target": "28-day mortality",
+      "relation": "Predicts",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "Septic shock",
+      "target": "Non-survivor group",
+      "relation": "Significantly higher",
+      "p_value": "0.028"
+    },
+    {
+      "source": "Coagulation dysfunction",
+      "target": "28-day mortality",
+      "relation": "Independently associated",
+      "p_value": "0.001"
+    },
+    {
+      "source": "Coagulation dysfunction",
+      "target": "odds ratio",
+      "relation": "Resulted in OR",
+      "p_value": "2.78"
+    },
+    {
+      "source": "Charlson Comorbidity Index",
+      "target": "Non-survivors",
+      "relation": "Associated",
+      "p_value": "0.011"
+    }
+  ]
+}

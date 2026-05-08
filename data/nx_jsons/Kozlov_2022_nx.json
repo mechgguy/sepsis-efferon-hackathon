@@ -1,0 +1,108 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "SOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "APACHE II",
+      "type": "Scoring System"
+    },
+    {
+      "id": "Lactateemia",
+      "type": "Clinical Measurement"
+    },
+    {
+      "id": "Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Cardiac Index",
+      "type": "Clinical Measurement"
+    },
+    {
+      "id": "Cardiac Function Index",
+      "type": "Clinical Measurement"
+    },
+    {
+      "id": "Age",
+      "type": "Demographic"
+    },
+    {
+      "id": "AUC",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Sensitivity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Specificity",
+      "type": "Statistical Metric"
+    }
+  ],
+  "links": [
+    {
+      "source": "SOFA",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "0.0001"
+    },
+    {
+      "source": "SOFA",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "value": "0.813"
+    },
+    {
+      "source": "SOFA",
+      "target": "Sensitivity",
+      "relation": "Resulted in Sensitivity of",
+      "value": "74"
+    },
+    {
+      "source": "SOFA",
+      "target": "Specificity",
+      "relation": "Resulted in Specificity of",
+      "value": "81"
+    },
+    {
+      "source": "Lactateemia",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "0.0001"
+    },
+    {
+      "source": "Lactateemia",
+      "target": "AUC",
+      "relation": "Resulted in AUC of",
+      "value": "0.799"
+    },
+    {
+      "source": "Lactateemia",
+      "target": "Sensitivity",
+      "relation": "Resulted in Sensitivity of",
+      "value": "63"
+    },
+    {
+      "source": "Lactateemia",
+      "target": "Specificity",
+      "relation": "Resulted in Specificity of",
+      "value": "79"
+    },
+    {
+      "source": "Mortality",
+      "target": "Cardiac Index",
+      "relation": "Predicts",
+      "p_value": "0.002"
+    },
+    {
+      "source": "Mortality",
+      "target": "Cardiac Function Index",
+      "relation": "Predicts",
+      "p_value": "0.0007"
+    }
+  ]
+}

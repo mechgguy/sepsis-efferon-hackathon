@@ -1,0 +1,195 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "label": "ICU Mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "label": "SAP 3 Score",
+      "id": "sap_3_score"
+    },
+    {
+      "type": "variable",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "label": "Sepsis 2 Criteria",
+      "id": "sepsis_2_criteria"
+    },
+    {
+      "type": "variable",
+      "label": "Sepsis 3 Criteria",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "148907",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "label": "Vasopressor Use",
+      "id": "vasopressor_use"
+    },
+    {
+      "type": "variable",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "paper",
+      "label": "Seymour_2016 Study",
+      "id": "Seymour_2016"
+    },
+    {
+      "type": "variable",
+      "label": "quick SOFA score",
+      "id": "qSOFA"
+    },
+    {
+      "type": "variable",
+      "label": "Systemic Inflammatory Response Syndrome criteria",
+      "id": "SIRS"
+    },
+    {
+      "type": "variable",
+      "label": "Logistic Organ Dysfunction System",
+      "id": "LODS"
+    },
+    {
+      "type": "variable",
+      "label": "Area Under the Receiver Operating Characteristic Curve",
+      "id": "AUROC"
+    },
+    {
+      "id": "SOFA_score"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Seymour_2016",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Seymour_2016",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Seymour_2016",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Seymour_2016",
+      "target": "sap_3_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Seymour_2016",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Seymour_2016",
+      "target": "sepsis_2_criteria"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Seymour_2016",
+      "target": "sepsis_3_criteria"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Seymour_2016",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Seymour_2016",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Seymour_2016",
+      "target": "vasopressor_use"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Seymour_2016",
+      "target": "mechanical_ventilation"
+    },
+    {
+      "relation": "predicts",
+      "strength": "moderate",
+      "source": "qSOFA",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "qSOFA",
+      "target": "AUROC"
+    },
+    {
+      "relation": "predicts",
+      "strength": "low",
+      "source": "SIRS",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "SIRS",
+      "target": "AUROC"
+    },
+    {
+      "relation": "predicts",
+      "strength": "high",
+      "source": "SOFA_score",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "SOFA_score",
+      "target": "AUROC"
+    }
+  ]
+}

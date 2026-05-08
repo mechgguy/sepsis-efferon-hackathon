@@ -1,0 +1,103 @@
+{
+  "paper_id": "Tartaglia_2021_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Patients",
+      "value": "113",
+      "unit": null,
+      "raw_value_text": "N = 113",
+      "evidence_text": "Results section, Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Male gender",
+      "value": "52.2",
+      "unit": "%",
+      "raw_value_text": "59 (52.2)",
+      "evidence_text": "Results section, Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age",
+      "value": "68.1",
+      "unit": "years",
+      "raw_value_text": "68.1±14.3",
+      "evidence_text": "Results section, Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "BMI",
+      "value": "26.4",
+      "unit": "kg/m²",
+      "raw_value_text": "26.4±4.9",
+      "evidence_text": "Results section, Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Charlson age-comorbidity index",
+      "value": "4.5",
+      "unit": "",
+      "raw_value_text": "4.5±2.3",
+      "evidence_text": "Results section, Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hypertension",
+      "value": "38.2",
+      "unit": "%",
+      "raw_value_text": "39 (38.2)",
+      "evidence_text": "Results section, Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Overall perioperative mortality",
+      "value": "43.4",
+      "unit": "%",
+      "raw_value_text": "49/113 (43.4)",
+      "evidence_text": "Results section, Table 3",
+      "source_type": "text"
+    },
+    {
+      "variable": "Definitive closure mortality",
+      "value": "59.2",
+      "unit": "%",
+      "raw_value_text": "29/49 (59.2)",
+      "evidence_text": "Results section, Table 3",
+      "source_type": "text"
+    },
+    {
+      "variable": "APACHE II score",
+      "value": "15.3",
+      "unit": "",
+      "raw_value_text": "15.3±6.3",
+      "evidence_text": "Results section, Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Time to surgery",
+      "value": "9.2",
+      "unit": "hours",
+      "raw_value_text": "9.2±6.7",
+      "evidence_text": "Results section, Table 1",
+      "source_type": "text"
+    },
+    {
+      "variable": "Neurological disorders impact on mortality",
+      "value": "2.26",
+      "unit": "OR",
+      "raw_value_text": "2.26 | 0.27 - 19.23",
+      "evidence_text": "Discussion section, Table 5",
+      "source_type": "text"
+    },
+    {
+      "variable": "ASA IV risk factor for mortality",
+      "value": "6.74",
+      "unit": "OR",
+      "raw_value_text": "6.74 | 1.78 - 25.47",
+      "evidence_text": "Discussion section, Table 5",
+      "source_type": "text"
+    }
+  ]
+}

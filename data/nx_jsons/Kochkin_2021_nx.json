@@ -1,0 +1,136 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "SOFA",
+      "type": "Scoring System"
+    },
+    {
+      "id": "28-day Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Age",
+      "type": "Demographic"
+    },
+    {
+      "id": "AUC",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Sensitivity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Specificity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Lactate Concentration",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "Norepinephrine Dose",
+      "type": "Clinical Measurement"
+    },
+    {
+      "id": "Procalcitonin Concentration",
+      "type": "Clinical Measurement"
+    },
+    {
+      "id": "P/F Ratio",
+      "type": "Clinical Measurement"
+    },
+    {
+      "id": "Diabetes Mellitus",
+      "type": "Comorbidity"
+    }
+  ],
+  "links": [
+    {
+      "source": "SOFA",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": "< 0.001"
+    },
+    {
+      "source": "SOFA",
+      "target": "28-day Mortality",
+      "relation": "Resulted in adj. OR 1.626",
+      "p_value": "< 0.001"
+    },
+    {
+      "source": "Age",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": "0.01"
+    },
+    {
+      "source": "Age",
+      "target": "AUC",
+      "relation": "Resulted in AUC of 0.670",
+      "p_value": "0.01"
+    },
+    {
+      "source": "Lactate Concentration",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": "< 0.001"
+    },
+    {
+      "source": "Lactate Concentration",
+      "target": "AUC",
+      "relation": "Resulted in AUC of 0.808",
+      "p_value": "< 0.001"
+    },
+    {
+      "source": "Norepinephrine Dose",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": "< 0.0001"
+    },
+    {
+      "source": "Norepinephrine Dose",
+      "target": "AUC",
+      "relation": "Resulted in AUC of 0.745",
+      "p_value": "< 0.0001"
+    },
+    {
+      "source": "Procalcitonin Concentration",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": "< 0.001"
+    },
+    {
+      "source": "Procalcitonin Concentration",
+      "target": "AUC",
+      "relation": "Resulted in AUC of 0.950",
+      "p_value": "< 0.001"
+    },
+    {
+      "source": "P/F Ratio",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": "< 0.0001"
+    },
+    {
+      "source": "P/F Ratio",
+      "target": "AUC",
+      "relation": "Resulted in AUC of 0.756",
+      "p_value": "< 0.0001"
+    },
+    {
+      "source": "SOFA",
+      "target": "AUC",
+      "relation": "Resulted in AUC of 0.984",
+      "p_value": "< 0.001"
+    },
+    {
+      "source": "Diabetes Mellitus",
+      "target": "28-day Mortality",
+      "relation": "Predicts",
+      "p_value": "< 0.001"
+    }
+  ]
+}

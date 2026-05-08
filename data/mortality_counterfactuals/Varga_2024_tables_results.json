@@ -1,0 +1,159 @@
+{
+  "paper_id": "Varga_2024_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age",
+      "value": "75",
+      "unit": "years",
+      "raw_value_text": "75 (69-82)",
+      "evidence_text": "Table 1. Overall Characteristics at Baseline",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age (Survivors)",
+      "value": "72",
+      "unit": "years",
+      "raw_value_text": "72 (65-79)",
+      "evidence_text": "Table 1. Overall Characteristics at Baseline",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age (Non-Survivors)",
+      "value": "79",
+      "unit": "years",
+      "raw_value_text": "79 (75-86)",
+      "evidence_text": "Table 1. Overall Characteristics at Baseline",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA Score",
+      "value": "5",
+      "unit": "points",
+      "raw_value_text": "5 (4-7)",
+      "evidence_text": "Table 1. Overall Characteristics at Baseline",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA Score (Survivors)",
+      "value": "4",
+      "unit": "points",
+      "raw_value_text": "4 (3-5)",
+      "evidence_text": "Table 1. Overall Characteristics at Baseline",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA Score (Non-Survivors)",
+      "value": "6",
+      "unit": "points",
+      "raw_value_text": "6 (5-7)",
+      "evidence_text": "Table 1. Overall Characteristics at Baseline",
+      "source_type": "text"
+    },
+    {
+      "variable": "CCI Score",
+      "value": "6",
+      "unit": "points",
+      "raw_value_text": "6 (4-7)",
+      "evidence_text": "Table 1. Overall Characteristics at Baseline",
+      "source_type": "text"
+    },
+    {
+      "variable": "CCI Score (Survivors)",
+      "value": "5",
+      "unit": "points",
+      "raw_value_text": "5 (4-6)",
+      "evidence_text": "Table 1. Overall Characteristics at Baseline",
+      "source_type": "text"
+    },
+    {
+      "variable": "CCI Score (Non-Survivors)",
+      "value": "6",
+      "unit": "points",
+      "raw_value_text": "6 (5-7)",
+      "evidence_text": "Table 1. Overall Characteristics at Baseline",
+      "source_type": "text"
+    },
+    {
+      "variable": "PCT at baseline (median)",
+      "value": "2.97",
+      "unit": "ng/mL",
+      "raw_value_text": "2.97",
+      "evidence_text": "Table 2. Median Values and Percentage changes of PCT.",
+      "source_type": "text"
+    },
+    {
+      "variable": "CRP at baseline (median)",
+      "value": "157",
+      "unit": "mg/L",
+      "raw_value_text": "157",
+      "evidence_text": "Table 2. Median Values and Percentage changes of CRP.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate at baseline (median)",
+      "value": "2.9",
+      "unit": "mmol/L",
+      "raw_value_text": "2.9",
+      "evidence_text": "Table 2. Median Values and Percentage changes of LAC.",
+      "source_type": "text"
+    },
+    {
+      "variable": "WBC",
+      "value": "15.9",
+      "unit": "× 1000/ µ L",
+      "raw_value_text": "15.9 (12.1-21.5)",
+      "evidence_text": "Table 1. Overall Characteristics at Baseline",
+      "source_type": "text"
+    },
+    {
+      "variable": "NLR",
+      "value": "8.53",
+      "unit": "ratio",
+      "raw_value_text": "8.53 (6.48-9.94)",
+      "evidence_text": "Table 1. Overall Characteristics at Baseline",
+      "source_type": "text"
+    },
+    {
+      "variable": "Area Under the Curve (Age)",
+      "value": "0.730",
+      "unit": null,
+      "raw_value_text": "0.730",
+      "evidence_text": "Table 3. Area Under the ROC Curve",
+      "source_type": "text"
+    },
+    {
+      "variable": "Area Under the Curve (CCI)",
+      "value": "0.694",
+      "unit": null,
+      "raw_value_text": "0.694",
+      "evidence_text": "Table 3. Area Under the ROC Curve",
+      "source_type": "text"
+    },
+    {
+      "variable": "Area Under the Curve (NLR)",
+      "value": "0.716",
+      "unit": null,
+      "raw_value_text": "0.716",
+      "evidence_text": "Table 3. Area Under the ROC Curve",
+      "source_type": "text"
+    },
+    {
+      "variable": "Area Under the Curve (PCT Delta)",
+      "value": "0.843",
+      "unit": null,
+      "raw_value_text": "0.843",
+      "evidence_text": "Table 3. Area Under the ROC Curve",
+      "source_type": "text"
+    },
+    {
+      "variable": "Area Under the Curve (CRP Delta)",
+      "value": "0.903",
+      "unit": null,
+      "raw_value_text": "0.903",
+      "evidence_text": "Table 3. Area Under the ROC Curve",
+      "source_type": "text"
+    }
+  ]
+}

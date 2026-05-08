@@ -1,0 +1,111 @@
+{
+  "paper_id": "Luo_2022_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age",
+      "value": "70[59,81]",
+      "unit": "years",
+      "raw_value_text": "70[59,81]",
+      "evidence_text": "Characteristics of the patients with sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Female",
+      "value": "418",
+      "unit": "n (%)",
+      "raw_value_text": "418 (45.88)",
+      "evidence_text": "Characteristics of the patients with sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Mechanical Ventilation",
+      "value": "27.11",
+      "unit": "%",
+      "raw_value_text": "247[27.11]",
+      "evidence_text": "Characteristics of the patients with sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hypertension",
+      "value": "11.64",
+      "unit": "%",
+      "raw_value_text": "106 (11.64)",
+      "evidence_text": "Characteristics of the patients with sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Diabetes",
+      "value": "5.05",
+      "unit": "%",
+      "raw_value_text": "46 (5.05)",
+      "evidence_text": "Characteristics of the patients with sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Systolic Blood Pressure",
+      "value": "113.41",
+      "unit": "mmHg",
+      "raw_value_text": "113.41[105.0,119.2]",
+      "evidence_text": "Characteristics of the patients with sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "DBP",
+      "value": "57.0",
+      "unit": "mmHg",
+      "raw_value_text": "57.0[51.0,60.3]",
+      "evidence_text": "Characteristics of the patients with sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA",
+      "value": "6.0",
+      "unit": "",
+      "raw_value_text": "6.0[3.0,9.0]",
+      "evidence_text": "Characteristics of the patients with sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "Alkaline Phosphate",
+      "value": "2.5",
+      "unit": "mmol/L",
+      "raw_value_text": "2.5[1.6,4.6]",
+      "evidence_text": "Characteristics of the patients with sepsis",
+      "source_type": "text"
+    },
+    {
+      "variable": "30-day mortality (Low hematocrit level)",
+      "value": "62.63",
+      "unit": "%",
+      "raw_value_text": "569(62.63)",
+      "evidence_text": "Outcomes of sepsis patients according to the hematocrit level",
+      "source_type": "text"
+    },
+    {
+      "variable": "30-day survival (High hematocrit level)",
+      "value": "11.78",
+      "unit": "%",
+      "raw_value_text": "135(11.78)",
+      "evidence_text": "Outcomes of sepsis patients according to the hematocrit level",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age (HR Univariate Model)",
+      "value": "1.018",
+      "unit": "",
+      "raw_value_text": "1.018",
+      "evidence_text": "Univariate analyses for the relationship between the candidate risk factors and 30-day mortality",
+      "source_type": "text"
+    },
+    {
+      "variable": "Potassium (HR Multivariable Model)",
+      "value": "1.078",
+      "unit": "",
+      "raw_value_text": "1.078",
+      "evidence_text": "Multivariable analyses for the relationship between the candidate risk factors and 30-day mortality",
+      "source_type": "text"
+    }
+  ]
+}

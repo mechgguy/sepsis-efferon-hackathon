@@ -1,0 +1,110 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "30-day mortality: Lactate group 1: 33.88%, Lactate group 2: 59.23%; 90-day mortality: Lactate group 1: 43.57%, Lactate group 2: 67.81%",
+      "label": "Mortality (Hospital)",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "Lactate group 1: 7 (5 - 10), Lactate group 2: 11 (8 - 13)",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "Lactate group 1: 2.05 (1.53 - 2.80) mmol/L, Lactate group 2: 4.95 (3.90 - 7.35) mmol/L",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "Lactate group 1: 1166, Lactate group 2: 699, Total: 1865",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "Lactate group 1: 70 (56 - 80) years, Lactate group 2: 66 (55.5 - 77) years",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "Implied based on study's patient selection criteria",
+      "label": "Sepsis-3 Criteria",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "Lactate group 1: 47 (37 - 56), Lactate group 2: 57 (46 - 69)",
+      "label": "SAPS II Score",
+      "id": "SAPS_II"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Besen_2016"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "predicts",
+      "strength": "high",
+      "source": "lactate_levels",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "correlated_with",
+      "strength": "significant",
+      "source": "lactate_levels",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "SAPS_II"
+    },
+    {
+      "relation": "addressed",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sepsis_3_criteria"
+    }
+  ]
+}

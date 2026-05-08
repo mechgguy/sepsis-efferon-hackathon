@@ -1,0 +1,105 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "nodes": [
+    {
+      "id": "APACHE II score",
+      "type": "Scoring System"
+    },
+    {
+      "id": "SOFA score",
+      "type": "Scoring System"
+    },
+    {
+      "id": "Lactate level",
+      "type": "Demographic"
+    },
+    {
+      "id": "PSV",
+      "type": "Demographic",
+      "value": "Peak Systolic Velocity"
+    },
+    {
+      "id": "EDV",
+      "type": "Demographic",
+      "value": "End-Diastolic Velocity"
+    },
+    {
+      "id": "RI",
+      "type": "Demographic",
+      "value": "Resistive Index"
+    },
+    {
+      "id": "Mortality",
+      "type": "Clinical Outcome"
+    },
+    {
+      "id": "AUC",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Sensitivity",
+      "type": "Statistical Metric"
+    },
+    {
+      "id": "Specificity",
+      "type": "Statistical Metric"
+    }
+  ],
+  "links": [
+    {
+      "source": "APACHE II score",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "SOFA score",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "Lactate level",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "PSV",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "0.036"
+    },
+    {
+      "source": "EDV",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "RI",
+      "target": "Mortality",
+      "relation": "Predicts",
+      "p_value": "<0.001"
+    },
+    {
+      "source": "PSV",
+      "target": "AUC",
+      "relation": "Resulted in",
+      "value": "0.99"
+    },
+    {
+      "source": "PSV",
+      "target": "Sensitivity",
+      "relation": "Resulted in",
+      "value": "0.99"
+    },
+    {
+      "source": "PSV",
+      "target": "Specificity",
+      "relation": "Resulted in",
+      "value": "0.96"
+    }
+  ]
+}

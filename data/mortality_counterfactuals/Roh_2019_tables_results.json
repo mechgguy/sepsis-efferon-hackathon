@@ -1,0 +1,231 @@
+{
+  "paper_id": "Roh_2019_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age",
+      "value": "71",
+      "unit": "years",
+      "raw_value_text": "71 (18 - 95)",
+      "evidence_text": "Baseline characteristics and outcomes of all enrolled patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Male",
+      "value": "271",
+      "unit": "%",
+      "raw_value_text": "271 (60.8)",
+      "evidence_text": "Baseline characteristics and outcomes of all enrolled patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Body mass index",
+      "value": "22.1",
+      "unit": "kg/m2",
+      "raw_value_text": "22.1 (11.5 - 42.6)",
+      "evidence_text": "Baseline characteristics and outcomes of all enrolled patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Diabetes mellitus",
+      "value": "154",
+      "unit": "%",
+      "raw_value_text": "154 (34.5)",
+      "evidence_text": "Baseline characteristics and outcomes of all enrolled patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Chronic heart diseases",
+      "value": "112",
+      "unit": "%",
+      "raw_value_text": "112 (25.1)",
+      "evidence_text": "Baseline characteristics and outcomes of all enrolled patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Neurologic diseases",
+      "value": "94",
+      "unit": "%",
+      "raw_value_text": "94 (21.1)",
+      "evidence_text": "Baseline characteristics and outcomes of all enrolled patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hemato-oncologic diseases",
+      "value": "75",
+      "unit": "%",
+      "raw_value_text": "75 (16.8)",
+      "evidence_text": "Baseline characteristics and outcomes of all enrolled patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Chronic lung diseases",
+      "value": "61",
+      "unit": "%",
+      "raw_value_text": "61 (13.7)",
+      "evidence_text": "Baseline characteristics and outcomes of all enrolled patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Chronic kidney diseases",
+      "value": "43",
+      "unit": "%",
+      "raw_value_text": "43 (9.6)",
+      "evidence_text": "Baseline characteristics and outcomes of all enrolled patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Chronic liver diseases",
+      "value": "36",
+      "unit": "%",
+      "raw_value_text": "36 (8.1)",
+      "evidence_text": "Baseline characteristics and outcomes of all enrolled patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Alimentary diseases",
+      "value": "19",
+      "unit": "%",
+      "raw_value_text": "19 (4.3)",
+      "evidence_text": "Baseline characteristics and outcomes of all enrolled patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Biliary diseases",
+      "value": "16",
+      "unit": "%",
+      "raw_value_text": "16 (3.6)",
+      "evidence_text": "Baseline characteristics and outcomes of all enrolled patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Respiratory infections",
+      "value": "253",
+      "unit": "%",
+      "raw_value_text": "253 (56.7)",
+      "evidence_text": "Source of infection distribution.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Intra-abdominal infections",
+      "value": "71",
+      "unit": "%",
+      "raw_value_text": "71 (15.9)",
+      "evidence_text": "Source of infection distribution.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Urinary tract infections",
+      "value": "51",
+      "unit": "%",
+      "raw_value_text": "51 (11.4)",
+      "evidence_text": "Source of infection distribution.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Musculoskeletal infections",
+      "value": "27",
+      "unit": "%",
+      "raw_value_text": "27 (6.1)",
+      "evidence_text": "Source of infection distribution.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Septic shock upon arrival",
+      "value": "169",
+      "unit": "%",
+      "raw_value_text": "169 (37.9)",
+      "evidence_text": "Severity of illness at admission.",
+      "source_type": "text"
+    },
+    {
+      "variable": "ICU mortality",
+      "value": "96",
+      "unit": "%",
+      "raw_value_text": "96 (21.5)",
+      "evidence_text": "Mortality outcome.",
+      "source_type": "text"
+    },
+    {
+      "variable": "180-day cumulative mortality",
+      "value": "181",
+      "unit": "%",
+      "raw_value_text": "181 (40.6)",
+      "evidence_text": "Cumulative mortality outcome.",
+      "source_type": "text"
+    },
+    {
+      "variable": "365-day cumulative mortality",
+      "value": "213",
+      "unit": "%",
+      "raw_value_text": "213 (47.8)",
+      "evidence_text": "Cumulative mortality outcome.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age ≥ 65 years (180-day mortality)",
+      "value": "2.206",
+      "unit": "OR",
+      "raw_value_text": "2.206 (1.440 - 3.379)",
+      "evidence_text": "Unadjusted odds ratio for age group with 180-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "BMI < 18.5 kg/m2 (180-day mortality)",
+      "value": "3.544",
+      "unit": "OR",
+      "raw_value_text": "3.544 (2.101 - 5.979)",
+      "evidence_text": "Unadjusted odds ratio for BMI category with 180-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hemato-oncologic diseases (180-day mortality)",
+      "value": "2.269",
+      "unit": "OR",
+      "raw_value_text": "2.269 (1.371 - 3.754)",
+      "evidence_text": "Unadjusted odds ratio for comorbidity impact on 180-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Ventilator care (180-day mortality)",
+      "value": "2.735",
+      "unit": "OR",
+      "raw_value_text": "2.735 (1.829 - 4.089)",
+      "evidence_text": "Unadjusted odds ratio for ventilator care impact on 180-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age ≥ 65 years (365-day mortality)",
+      "value": "1.808",
+      "unit": "OR",
+      "raw_value_text": "1.808 (1.206 - 2.710)",
+      "evidence_text": "Unadjusted odds ratio for age group with 365-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "BMI < 18.5 kg/m2 (365-day mortality)",
+      "value": "3.510",
+      "unit": "OR",
+      "raw_value_text": "3.510 (2.033 - 6.601)",
+      "evidence_text": "Unadjusted odds ratio for BMI category with 365-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hemato-oncologic diseases (365-day mortality)",
+      "value": "3.177",
+      "unit": "OR",
+      "raw_value_text": "3.177 (1.855 - 5.440)",
+      "evidence_text": "Unadjusted odds ratio for comorbidity impact on 365-day mortality.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Ventilator care (365-day mortality)",
+      "value": "2.185",
+      "unit": "OR",
+      "raw_value_text": "2.185 (1.467 - 3.254)",
+      "evidence_text": "Unadjusted odds ratio for ventilator care impact on 365-day mortality.",
+      "source_type": "text"
+    }
+  ]
+}

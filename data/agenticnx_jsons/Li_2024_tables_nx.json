@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "SOFA score",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "paper",
+      "label": "Study Root",
+      "id": "Besen_2016"
+    },
+    {
+      "type": "variable",
+      "value": "Platelet count",
+      "label": "Platelet Count",
+      "id": "platelet_count"
+    },
+    {
+      "type": "variable",
+      "value": "PT-INR",
+      "label": "Prothrombin Time - International Normalized Ratio",
+      "id": "pt_inr"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "platelet_count"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "pt_inr"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "paper_id": "Holanda_2020_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age (Mean/SD)",
+      "value": "27.1",
+      "unit": "years",
+      "raw_value_text": "27.1 6.8",
+      "evidence_text": "Mean age for death vs no death.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age < 20 years (n/%)",
+      "value": "3",
+      "unit": "count",
+      "raw_value_text": "3 13.6",
+      "evidence_text": "Proportion of patients under 20 years old who died.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age > 35 years (n/%)",
+      "value": "2",
+      "unit": "count",
+      "raw_value_text": "2 9.1",
+      "evidence_text": "Proportion of patients over 35 years old who died.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Number of pregnancies (Median/IQR)",
+      "value": "2",
+      "unit": "count",
+      "raw_value_text": "2 1 - 3",
+      "evidence_text": "Median number of pregnancies.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Parity (Median/IQR)",
+      "value": "1",
+      "unit": "count",
+      "raw_value_text": "1 1 - 2",
+      "evidence_text": "Median parity.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Nulliparous (n/%)",
+      "value": "5",
+      "unit": "count",
+      "raw_value_text": "5 23.8",
+      "evidence_text": "Number of nulliparous patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Multiparous (n/%)",
+      "value": "5",
+      "unit": "count",
+      "raw_value_text": "5 23.8",
+      "evidence_text": "Number of multiparous patients.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Schooling < 8 years (n/%)",
+      "value": "2",
+      "unit": "count",
+      "raw_value_text": "2 9.1",
+      "evidence_text": "Proportion of patients with less than 8 years of schooling who died.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Resident of a city in Pernambuco other than the state capital or resident of another Brazilian state (n/%)",
+      "value": "10",
+      "unit": "count",
+      "raw_value_text": "10 45.5",
+      "evidence_text": "Proportion of residents in non-capital cities.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Transferred from another hospital",
+      "value": "16",
+      "unit": "count",
+      "raw_value_text": "16 72.4",
+      "evidence_text": "Patients transferred from another hospital.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Pregnant at the time of sepsis",
+      "value": "11",
+      "unit": "count",
+      "raw_value_text": "11 50.0",
+      "evidence_text": "Proportion of patients pregnant at sepsis diagnosis.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Caesarean section",
+      "value": "6",
+      "unit": "count",
+      "raw_value_text": "6 30.0",
+      "evidence_text": "Proportion of patients who had a caesarean section.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Obstetric complications",
+      "value": "10",
+      "unit": "count",
+      "raw_value_text": "10 45.5",
+      "evidence_text": "Presence of obstetric complications.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Comorbidities",
+      "value": "6",
+      "unit": "count",
+      "raw_value_text": "6 27.3",
+      "evidence_text": "Presence of comorbidities.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lifestyle factors (smoking + use of illicit drugs)",
+      "value": "1",
+      "unit": "count",
+      "raw_value_text": "1 4.5",
+      "evidence_text": "Presence of lifestyle factors affecting health.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Respiratory infection",
+      "value": "7",
+      "unit": "count",
+      "raw_value_text": "7 31.8",
+      "evidence_text": "Presence of respiratory infections.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Uterine infection",
+      "value": "8",
+      "unit": "count",
+      "raw_value_text": "8 36.4",
+      "evidence_text": "Presence of uterine infections.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Urinary infection",
+      "value": "3",
+      "unit": "count",
+      "raw_value_text": "3 13.6",
+      "evidence_text": "Presence of urinary infections.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Other infections",
+      "value": "4",
+      "unit": "count",
+      "raw_value_text": "4 18.2",
+      "evidence_text": "Presence of other infections.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Septic shock at admission (n/%)",
+      "value": "8",
+      "unit": "count",
+      "raw_value_text": "8 36.4",
+      "evidence_text": "Presence of septic shock at admission.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Need for vasopressors during hospitalization (n/%)",
+      "value": "20",
+      "unit": "count",
+      "raw_value_text": "20 90.9",
+      "evidence_text": "Need for vasopressors during hospitalization.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate levels at admission (Mean/SD)",
+      "value": "6.2",
+      "unit": "mmol/L",
+      "raw_value_text": "6.2 5.2",
+      "evidence_text": "Mean lactate levels at admission.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Lactate > 2 at admission (n/%)",
+      "value": "9",
+      "unit": "count",
+      "raw_value_text": "9 81.8",
+      "evidence_text": "Proportion of patients with lactate levels > 2.",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA at admission (Median/IQR)",
+      "value": "6",
+      "unit": "score",
+      "raw_value_text": "6 4 - 9.5",
+      "evidence_text": "Median SOFA score at admission.",
+      "source_type": "text"
+    },
+    {
+      "variable": "SOFA > 2 at admission (n/%)",
+      "value": "17",
+      "unit": "count",
+      "raw_value_text": "17 85.0",
+      "evidence_text": "Proportion of patients with SOFA score > 2.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Inadequate hydration (n/%)",
+      "value": "6",
+      "unit": "count",
+      "raw_value_text": "6 27.3",
+      "evidence_text": "Presence of inadequate hydration.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Time until the initiation of antibiotics > 1h (n/%)",
+      "value": "13",
+      "unit": "count",
+      "raw_value_text": "13 59.1",
+      "evidence_text": "Proportion of patients with delayed initiation of antibiotics.",
+      "source_type": "text"
+    }
+  ]
+}

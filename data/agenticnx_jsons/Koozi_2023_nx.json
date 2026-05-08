@@ -1,0 +1,230 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": null,
+      "label": "ICU Mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "SAPS-3 Score",
+      "id": "sap_3_score"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Sepsis-3 Criteria",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "1984",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Vasopressor Use",
+      "id": "vasopressor_use"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "paper",
+      "label": "Koozi et al. (2023)",
+      "id": "Koozi_2023"
+    },
+    {
+      "type": "variable",
+      "value": "vasopressor use and lactate > 2 mmol/L",
+      "label": "Septic Shock",
+      "id": "septic_shock"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Immunosuppression",
+      "id": "immunosuppression"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Glasgow Coma Scale",
+      "id": "gcs_score"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Body Temperature",
+      "id": "body_temperature"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "C-Reactive Protein",
+      "id": "creactive_protein"
+    },
+    {
+      "type": "variable",
+      "value": null,
+      "label": "Bilirubin",
+      "id": "bilirubin"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "predicts",
+      "strength": "moderate",
+      "source": "sap_3_score",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "predicts",
+      "strength": "moderate",
+      "source": "lactate_levels",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "significant",
+      "source": "age",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "moderate",
+      "source": "vasopressor_use",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Koozi_2023",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Koozi_2023",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "correlated_with",
+      "strength": "moderate",
+      "source": "Koozi_2023",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Koozi_2023",
+      "target": "sap_3_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Koozi_2023",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Koozi_2023",
+      "target": "sepsis_3_criteria"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Koozi_2023",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Koozi_2023",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Koozi_2023",
+      "target": "vasopressor_use"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Koozi_2023",
+      "target": "immunosuppression"
+    },
+    {
+      "relation": "predicts",
+      "strength": "moderate",
+      "source": "septic_shock",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "significant",
+      "source": "immunosuppression",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "significant",
+      "source": "gcs_score",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "significant",
+      "source": "body_temperature",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "significant",
+      "source": "creactive_protein",
+      "target": "mortality_hospital"
+    },
+    {
+      "relation": "predicts",
+      "strength": "significant",
+      "source": "bilirubin",
+      "target": "mortality_hospital"
+    }
+  ]
+}

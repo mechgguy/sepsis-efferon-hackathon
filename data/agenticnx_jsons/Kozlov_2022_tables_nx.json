@@ -1,0 +1,61 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "label": "ICU Mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "value": "2-14",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "134",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "0.5-20.3 mmol/l",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "paper",
+      "label": "Abdominal Sepsis Study",
+      "id": "abdominal_sepsis_study"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "studied",
+      "strength": null,
+      "source": "abdominal_sepsis_study",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "abdominal_sepsis_study",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "reports",
+      "strength": null,
+      "source": "abdominal_sepsis_study",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "abdominal_sepsis_study",
+      "target": "lactate_levels"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "paper_id": "Zhang_2021_tables",
+  "title": null,
+  "year": null,
+  "extractions": [
+    {
+      "variable": "Age",
+      "value": "67.0",
+      "unit": "years",
+      "raw_value_text": "67.0 (54.0-80.0)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age of Survivors",
+      "value": "66.0",
+      "unit": "years",
+      "raw_value_text": "66.0 (53.0-78.0)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Age of Non-survivors",
+      "value": "75.0",
+      "unit": "years",
+      "raw_value_text": "75.0 (61.0-84.0)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Gender (Male)",
+      "value": "55.5",
+      "unit": "%",
+      "raw_value_text": "3,020 (55.5)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Gender (Female)",
+      "value": "44.5",
+      "unit": "%",
+      "raw_value_text": "2,423 (44.5)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "White Ethnicity",
+      "value": "72.5",
+      "unit": "%",
+      "raw_value_text": "3,945 (72.5)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Black Ethnicity",
+      "value": "8.7",
+      "unit": "%",
+      "raw_value_text": "475 (8.7)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Heart Failure",
+      "value": "17.6",
+      "unit": "%",
+      "raw_value_text": "957 (17.6)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Hypertension",
+      "value": "15.9",
+      "unit": "%",
+      "raw_value_text": "868 (15.9)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "COPD",
+      "value": "20.3",
+      "unit": "%",
+      "raw_value_text": "1,103 (20.3)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Diabetes",
+      "value": "28.7",
+      "unit": "%",
+      "raw_value_text": "1,563 (28.7)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Renal Failure",
+      "value": "18.4",
+      "unit": "%",
+      "raw_value_text": "1,000 (18.4)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Need Mechanical Ventilation",
+      "value": "48.5",
+      "unit": "%",
+      "raw_value_text": "2,638 (48.5)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Need Mechanical Ventilation (Survivors)",
+      "value": "45.9",
+      "unit": "%",
+      "raw_value_text": "2,080 (45.9)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Need Mechanical Ventilation (Non-survivors)",
+      "value": "61.5",
+      "unit": "%",
+      "raw_value_text": "558 (61.5)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "SAPS II",
+      "value": "39",
+      "unit": "score",
+      "raw_value_text": "39 (31-50)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "APS III",
+      "value": "48",
+      "unit": "score",
+      "raw_value_text": "48 (36-63)",
+      "evidence_text": "TABLE 1 | Baseline characteristics of participants in development set.",
+      "source_type": "text"
+    },
+    {
+      "variable": "Top Score for Mortality Risk",
+      "value": "34",
+      "unit": null,
+      "raw_value_text": "Top score = 34",
+      "evidence_text": "TABLE 2 | Sepsis mortality risk score.",
+      "source_type": "text"
+    }
+  ]
+}

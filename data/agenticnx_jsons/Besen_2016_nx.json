@@ -1,0 +1,218 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "variable",
+      "value": "ICU mortality",
+      "label": "ICU Mortality",
+      "id": "mortality_icu"
+    },
+    {
+      "type": "variable",
+      "value": "Hospital mortality",
+      "label": "Hospital Mortality",
+      "id": "mortality_hospital"
+    },
+    {
+      "type": "variable",
+      "value": "SOFA score",
+      "label": "SOFA Score",
+      "id": "sofa_score"
+    },
+    {
+      "type": "variable",
+      "value": "SAPS 3 score",
+      "label": "SAPS 3 Score",
+      "id": "sap_3_score"
+    },
+    {
+      "type": "variable",
+      "value": "Lactate levels",
+      "label": "Lactate Levels",
+      "id": "lactate_levels"
+    },
+    {
+      "type": "variable",
+      "value": "Sepsis-2 criteria",
+      "label": "Sepsis-2 Criteria",
+      "id": "sepsis_2_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "Sepsis-3 criteria",
+      "label": "Sepsis-3 Criteria",
+      "id": "sepsis_3_criteria"
+    },
+    {
+      "type": "variable",
+      "value": "Sample size",
+      "label": "Sample Size",
+      "id": "sample_size"
+    },
+    {
+      "type": "variable",
+      "value": "Age",
+      "label": "Age",
+      "id": "age"
+    },
+    {
+      "type": "variable",
+      "value": "Vasopressor use",
+      "label": "Vasopressor Use",
+      "id": "vasopressor_use"
+    },
+    {
+      "type": "variable",
+      "value": "Mechanical ventilation",
+      "label": "Mechanical Ventilation",
+      "id": "mechanical_ventilation"
+    },
+    {
+      "type": "paper",
+      "label": "Besen et al. (2016)",
+      "id": "Besen_2016"
+    },
+    {
+      "type": "variable",
+      "value": "Infection with no organ dysfunction",
+      "label": "Sepsis-3 No Dysfunction",
+      "id": "sepsis_3_infection_no_dysfunction"
+    },
+    {
+      "type": "variable",
+      "value": "Sepsis (Sepsis-3)",
+      "label": "Sepsis-3 Sepsis",
+      "id": "sepsis_3_sepsis"
+    },
+    {
+      "type": "variable",
+      "value": "Septic Shock (Sepsis-3)",
+      "label": "Sepsis-3 Septic Shock",
+      "id": "sepsis_3_septic_shock"
+    },
+    {
+      "type": "variable",
+      "value": "Severe Sepsis (Sepsis-2)",
+      "label": "Sepsis-2 Severe Sepsis",
+      "id": "sepsis_2_severe_sepsis"
+    },
+    {
+      "type": "variable",
+      "value": "Septic Shock (Sepsis-2)",
+      "label": "Sepsis-2 Septic Shock",
+      "id": "sepsis_2_septic_shock"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "predicts",
+      "strength": "moderate",
+      "source": "lactate_levels",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "predicts",
+      "strength": null,
+      "source": "sepsis_2_criteria",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "predicts",
+      "strength": null,
+      "source": "sepsis_3_criteria",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sofa_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sap_3_score"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "lactate_levels"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sepsis_2_criteria"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sepsis_3_criteria"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "sample_size"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "age"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "vasopressor_use"
+    },
+    {
+      "relation": "measured",
+      "strength": null,
+      "source": "Besen_2016",
+      "target": "mechanical_ventilation"
+    },
+    {
+      "relation": "associated",
+      "strength": "low",
+      "source": "sepsis_3_infection_no_dysfunction",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "associated",
+      "strength": "moderate",
+      "source": "sepsis_3_sepsis",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "associated",
+      "strength": "high",
+      "source": "sepsis_3_septic_shock",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "associated",
+      "strength": "moderate",
+      "source": "sepsis_2_severe_sepsis",
+      "target": "mortality_icu"
+    },
+    {
+      "relation": "associated",
+      "strength": "high",
+      "source": "sepsis_2_septic_shock",
+      "target": "mortality_icu"
+    }
+  ]
+}
