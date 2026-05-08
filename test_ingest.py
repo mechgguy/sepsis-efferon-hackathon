@@ -222,6 +222,29 @@ if st.button("🚀 Parse All Papers", type="primary"):
 
 st.divider()
 
+st.subheader("📦 Chunk All Parsed Papers")
+
+parsed_jsons = [p for p in pdfs if (PARSED_CACHE_DIR / f"{p.stem}.json").exists()]
+unchunked = [p for p in parsed_jsons if not (PARSED_CACHE_DIR / f"{p.stem}_chunks.json").exists()]
+st.caption(f"{len(parsed_jsons)} parsed · {unchunked and len(unchunked) or 0} not yet chunked")
+
+if st.button("🔪 Chunk All Papers", type="primary"):
+    if not parsed_jsons:
+        st.warning("No parsed papers found. Parse first.")
+    else:
+        prog = st.progress(0)
+        log2: list[str] = []
+        box2 = st.empty()
+        for i, p in enumerate(parsed_jsons, 1):
+            paper = parse_pdf(p)
+            path = write_chunks_json(paper)
+            log2.append(f"✅ {p.name} → {path.name}")
+            box2.markdown("\n".join(log2[-10:]))
+            prog.progress(i / len(parsed_jsons))
+        st.success(f"Chunked {len(parsed_jsons)} papers.")
+
+st.divider()
+
 paper: ParsedPaper | None = st.session_state.get("paper")
 
 if paper is None:

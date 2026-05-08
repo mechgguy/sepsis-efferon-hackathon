@@ -17,7 +17,7 @@ from ingest import (
 )
 import json
 from dataclasses import asdict
-
+from ingest import FIGURE_DIR, ParsedFigure
 # thread-local storage: one converter per thread
 _local = threading.local()
 
@@ -28,62 +28,10 @@ def _get_thread_converter():
 
 
 def _parse_one(pdf_path: Path) -> tuple[Path, ParsedPaper | Exception]:
-    """Parse a single PDF. Uses cache if available; otherwise uses thread-local converter."""
     try:
-        cache_path = PARSED_CACHE_DIR / f"{pdf_path.stem}.json"
-        if cache_path.exists():
-            # cache hit — safe to load from any thread (read-only)
-            return pdf_path, parse_pdf(pdf_path)
-
-        # cache miss — use thread-local converter instead of global
-        converter = _get_thread_converter()
-        result = converter.convert(str(pdf_path))
-        doc = result.document
-
-        sections, current_heading, current_text = [], "preamble", []
-        for item, _ in doc.iterate_items():
-            t = type(item).__name__
-            if t == "SectionHeaderItem":
-                if current_text:
-                    sections.append(ParsedSection(current_heading, " ".join(current_text)))
-                current_heading = item.text
-                current_text = []
-            elif t in ("TextItem", "ListItem"):
-                current_text.append(item.text)
-        if current_text:
-            sections.append(ParsedSection(current_heading, " ".join(current_text)))
-
-        tables, section_at_table, heading_cursor, table_idx = [], {}, "preamble", 0
-        for item, _ in doc.iterate_items():
-            t = type(item).__name__
-            if t == "SectionHeaderItem":
-                heading_cursor = item.text
-            elif t == "TableItem":
-                section_at_table[table_idx] = heading_cursor
-                table_idx += 1
-
-        for i, table in enumerate(doc.tables):
-            tables.append(ParsedTable(
-                index=i,
-                preceding_heading=section_at_table.get(i, "unknown"),
-                markdown=table.export_to_markdown(doc),
-                page_start=1,
-            ))
-
-        paper = ParsedPaper(
-            paper_id=pdf_path.stem,
-            sections=sections,
-            tables=tables,
-            full_markdown=doc.export_to_markdown(),
-        )
-        with open(cache_path, "w") as f:
-            json.dump(asdict(paper), f)
-
-        return pdf_path, paper
-
+        return pdf_path, parse_pdf(pdf_path, converter=_get_thread_converter())
     except Exception as e:
         return pdf_path, e
-
 
 def parse_all_parallel(
     papers_dir: str | Path,

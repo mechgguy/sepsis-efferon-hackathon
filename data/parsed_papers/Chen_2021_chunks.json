@@ -1,0 +1,509 @@
+[
+  {
+    "id": "Chen_2021_s0_p0",
+    "text": "## preamble\nTo cite: Chen Y, Luo M, Xu H, et al .  Association between serum phosphate and mortality in critically ill patients: a large retrospective cohort study. BMJ Open 2021; 11 :e044473. doi:10.1136/ bmjopen-2020-044473 Prepublication history and additional supplemental material for this paper are available online. To view these files, please visit the journal online (http://  dx.  doi.  org/  10.  1136/ bmjopen-  2020-  044473). Received 05 September 2020 Accepted 02 June 2021 © Author(s) (or their employer(s)) 2021. Re-  use permitted under CC BY-  NC. No commercial re-  use. See rights and permissions. Published by BMJ. 1 Emergency, Affiliated Hospital of Southwest Jiaotong University / The Third People's Hospital of Chengdu, Chengdu, Sichuan, China 2 Clinical College, Southwest Jiaotong University, Chengdu, Sichuan, China Correspondence to Dr Qing He; kk555888@  126.  com",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "preamble",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Chen_2021_s1_p0",
+    "text": "## Association between serum phosphate and mortality in critically ill patients: a large retrospective cohort study\nYang Chen, 1 Mengdi Luo, 1 Huange Xu, 2 Weiwei Zhao, 2 Qing He 1",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Association between serum phosphate and mortality in critically ill patients: a large retrospective cohort study",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Chen_2021_s2_p0",
+    "text": "## ABSTRACT\nObjectives This research aims to explore the impact of serum phosphate on the mortality of critically ill patients. Design A retrospective large cohort study. Setting Our data were extracted from a publicly accessible database named 'Multiparameter Intelligent Monitoring in Intensive Care Database III'. Participants 27 131 patients were included by clear definitions of selection and exclusion criteria. Interventions We used initial phosphate at admission as a design variable. Patients were divided into six groups with different serum phosphate levels and five groups at different intensive care unit (ICU) departments. Primary and secondary outcomes 28- day and 90- day mortality were primary outcomes. All- cause mortality and length of stay ICU were secondary outcomes. Results Patients with very- high- normal serum phosphate, hypophosphataemia and hyperphosphataemia had worse outcomes. And the relationship between serum phosphate and the probability of 28- day or 90- day mortality had a linear relationship. After adjustment for potential confounders, hypophosphataemia and hyperphosphataemia were not significantly associated with 28- day or 90- day mortality. Nevertheless, at the medical ICU, hyperphosphataemia was associated with increased 28- day or 90- day mortality (HR=0.64, 95% CI 0.48 to 0.84, p=0.0017; HR=0.72, 95% CI 0.57 to 0.91, p=0.0067, respectively), using group 2 (≥2.5 mg/dL and <3.0 mg/dL) as the reference group.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "ABSTRACT",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s2_p1",
+    "text": "## ABSTRACT\nConclusions Patients with very- high- normal serum phosphate also had worse outcomes, it might be necessary to re- evaluate the definitions of the normal reference range for serum phosphate. Hypophosphataemia and hyperphosphataemia are not the independent risk factors of 28- day or 90- day ICU mortality, which leads us to consider whether phosphate monitoring is not a necessary measure in critically ill patients. But hyperphosphataemia was associated with increased 28- day or 90- day mortality at the medical ICU, which emphasises the potential importance of early diagnosis and treatment of hyperphosphataemia for the patients who were admitted to the medical ICU.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "ABSTRACT",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s3_p0",
+    "text": "## INTRODUCTION\nIn the human body, phosphorus is in the form of phosphate, most of which (about 85%) is stored in bones and teeth, and the rest (about 14%) is mainly in cells and the extracellular",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "INTRODUCTION",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Chen_2021_s4_p0",
+    "text": "## Strengths and limitations of this study\nA large sample size facilitated a robust modelling approach. Subset analyses based on different admission intensive care unit departments and sex were performed to alleviate the heterogeneity of the mixed intensive care unit and the sex. Evaluation of serum phosphate levels over time was ignored which lead to certain bias despite excluded patients with phosphate supplement. Due to the nature of the retrospective study, the causal association could not be inferred. fluid. Serum phosphorus only accounts for 1% (of which 70% exists in organic form, and 30% exists in inorganic form). Inorganic phosphate is the value of serum phosphate measured in the clinic. 1-5 Although serum phosphate content is very low in the body, it plays an important role in energy metabolism, bone metabolism and cell signal transduction. 1-3 6-9 For example, (1) participating in the composition of cell membranes in the form of phospholipids to maintain the integrity and function of the cell structure; (2) regulating haemoglobin release oxygen in the form of 2,3- diphosphoglycerate; (3) directly participating in energy storage and metabolism in the form of ATP. At present, the more generally accepted normal range of phosphate is 0.8-1.5 mmol/L (2.5-4.5 mg/ dL).",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Strengths and limitations of this study",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s4_p1",
+    "text": "## Strengths and limitations of this study\n3 4 6 In addition, phosphate homeostasis is a complicated process, 1-3 5 7 10-12 phosphate is mainly absorbed in the intestine, and then reabsorbed or excreted in the kidney, which is mainly related to the following three factors: (1) 1,25- dihydroxy vitamin D [1,25(OH)2D]: upregulating the expression of sodiumdependent phosphate cotransporter 2b (NPT2b) to stimulate the absorption of phosphate by the intestine; (2) fibroblast growth factor-23: reducing 1,25(OH)2D and NPT2b to inhibition intestinal transport of phosphate;it also effects the sodium phosphate transporters in the kidney and the ability to reabsorb phosphate from the urine; (3) parathyroid hormone: indirectly increasing the absorption of phosphate in the intestine through the action of 1,25(OH)2D, it also effects the reabsorption of phosphate from the urine. Phosphate abnormalities can cause dysfunction of multiple organ systems, including the respiratory system, cardiovascular system, immune system, urinary system, haematology or neuromuscular. 1 3-6 11 13-16 The intensive care unit (ICU) is distinct from the emergency department ward. It is a department that provides medical services for patients who need life support and have a very high risk of death. It is mainly divided into five adult ICU departments 17 : coronary care unit (CCU), cardiac surgery recovery unit, medical ICU (MICU), surgical ICU (SICU), trauma surgical ICU (TSICU).",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Strengths and limitations of this study",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s4_p2",
+    "text": "## Strengths and limitations of this study\nAs we all know, patients often have electrolyte disturbances during ICU, the hypophosphataemia and hyperphosphataemia are common electrolyte disturbances. Recent studies have shown that ICU patients have a higher prevalence of hypophosphataemia and hyperphosphataemia compared with other patients. 1 3 6 8 18 19 It has varying degrees of impact on clinical outcomes, but due to its atypical clinical symptoms, it has not received much attention. In the past few decades, there were some researches about the associations between abnormal serum phosphate levels and clinical outcomes. For hyperphosphataemia, most studies had proved that hyperphosphataemia was an independent risk factor for mortality or morbidity. 1 7 11 14 15 20-26 For hypophosphataemia, some studies showed that it was an independent risk factor for mortality or morbidity, 1 8 23 27 but some studies showed that it was not significantly associated with mortality or morbidity. 15 20 22 28 Thus, it was not determined whether serum phosphate abnormalities are directly related to the increase in mortality in ICU patients or merely a sign of the severity of disease for ICU patients. Besides, for regular hospitalised patients, another recent study showed that serum phosphate was related to all- cause mortality.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Strengths and limitations of this study",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s4_p3",
+    "text": "## Strengths and limitations of this study\n29 And then, we reviewed the previous literature and found that the relationship between serum phosphate levels and the prognosis of the ICU population at the time of initial admission to the ICU had been poorly studied in the past, and the sample size was small. Based on the above, we speculated that (1) the abnormalities of serum phosphate when patients enter the ICU had an adverse effect on the mortality of ICU patients, (2) the impact of abnormal serum phosphate levels on the mortality of patients at various ICU departments was different and (3) the abnormalities of serum phosphate in male and female were significantly associated with ICU mortality. To confirm these hypothesis, we conducted a single- centre retrospective cohort study. Our primary study endpoints were 28- day mortality and 90- day mortality after ICU admission.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Strengths and limitations of this study",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s5_p0",
+    "text": "## Sources of data\nThe  data  for  our  study  were  collected  from  a  publicly accessible  critical  care  database  named  Multiparameter Intelligent  Monitoring  in  Intensive  Care  Database  III (MIMIC-  III,  V.1.4). 30 MIMIC III is a large, single-  centre database  containing  information  of  61  532  ICU  admissions to Beth Israel Deaconess Medical Center (BIDMC) (a teaching hospital of Harvard Medical School in Boston, Massachusetts) between 2001 and 2012. Because all the data are deidentified, no informed consent is required. In recent years, some high-  quality papers using this database's  data  have  been  published. 31 In  this  study,  data presented were extracted by author Chen, who completed the  National  Institutes  of  Health  Web-  based  training course  and  the  Protecting  Human  Research  Participants examination (No. 36328122). Data extraction was performed  using  structure  query  language  (SQL)  with pgAdmin4 PostgreSQL.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Sources of data",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Chen_2021_s6_p0",
+    "text": "## Patient and public involvement\nThis was a retrospective study. We collected the medical information of all involved patients from the public database.  Patients  were  not  involved  in  the  recruitment  for any additional trials or any particular study designs.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Patient and public involvement",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Chen_2021_s7_p0",
+    "text": "## Selection of participants and stratification method\nIn our study, It was not appropriate or possible to involve patients  or  the  public  in  the  design,  or  conduct,  or reporting,  or  dissemination  plans  of  our  research.  All patients admitted to ICU in this database were included. Exclusion criteria as follows: (1) age <18 years; (2) patients who  did  not  complete  serum  phosphate  measurement within  the  first  day  after  admission  to  the  ICU  or  had unclear records of the first serum phosphate measured value; (3) patients who received phosphate supplementation during the ICU stay; (4) for patients with multiple records of ICU admission, excluding records other than the first ICU admission. Finally, the total number of 27 131 patients were included (figure 1). According to the normal range of serum phosphate as mentioned before, we set a concentration gradient every 0.5 mg/dL from 2.5 mg/dL (the lower limit of normal serum  phosphate  level).  We  divided  patients  into  six groups based on the admission serum phosphate levels: G1:  hypophosphataemia  group  (<2.5  mg/L);  G2:  verylow-  normal phosphate group ( ≥ 2.5 mg/dL and <3.0 mg/ dL); G3: low-  normal phosphate group ( ≥ 3.0 mg/dL and <3.5  mg/dL);  G4:  high-  normal  phosphate  group  ( ≥ 3.5 mg/dL  and  <4.0  mg/dL);  G5:  very-  high-  normal  phosphate group ( ≥ 4.0 mg/dL and <4.5 mg/dL); G6: hyperphosphataemia group ( ≥ 4.5 mg/dL).",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Selection of participants and stratification method",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Chen_2021_s8_p0",
+    "text": "## Extraction of variables\nAs mentioned before, using SQL with pgAdmin4 PostgreSQL, we extracted the following data: (1) age; (2) gender; (3) ethnicities; (4) admission types; (5) ICU types; (6) vital signs (within the first day at ICU Figure 1 Flow diagram. ICU, intensive care unit; MIMIC, multiparameter intelligent monitoring in intensive care. admission): heart rate, mean arterial pressure, respiratory rate, temperature, oxygen saturation; (7) severity at ICU admission: Sequential Organ Failure Assessment (SOFA) score, Simplified Acute Physiology Score II (SAPS II), Overall Anxiety Severity and Impairment Scale (OASIS) score; (8) comorbidities [was defined by International Classification of Diseases-9 (ICD-9) codes]: congestive heart failure, coronary artery disease, hypertension, diabetes, chronic pulmonary disease, atrial fibrillation, liver disease, fluid and electrolyte disorder, malignant tumour, chronic kidney disease, (9) laboratory results (within the first day at ICU admission): serum phosphate, serum sodium, serum potassium, serum calcium, serum creatinine, blood urea nitrogen, serum bicarbonate, serum chloride, white cell count, haemoglobin, platelet; (10) interventions (within the first day at ICU admission): use of mechanical ventilation, renal replacement therapy, vasopressor. For some patients whose multiple laboratory measurements within the first day at ICU admission were available, the first measurement was used in our study.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Extraction of variables",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s8_p1",
+    "text": "## Extraction of variables\nBecause all variables included less than 3% of missing observations, missing values were imputed as the mean values.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Extraction of variables",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s9_p0",
+    "text": "## Outcome variables\nWe  extracted  the following outcomes  variables: (1) all-  cause  28-  day  mortality  after  ICU  admission;  (2)  allcause 90-  day mortality after ICU admission; (3) all-  cause mortality during ICU stay; (4) length of ICU stay. Among the four, all-  cause 28-  day ICU mortality and 90-  day ICU mortality were the primary endpoints, all-  cause mortality during ICU stay and length of ICU stay were the secondary endpoints.  Moreover,  the  secondary  endpoints  were extracted only for descriptive purposes. The data for the 28 or 90-  day ICU mortality was confirmed by inspection of the death records in the database.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Outcome variables",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Chen_2021_s10_p0",
+    "text": "## Statistical analysis\nPatient characteristics were described using descriptive statistics. Continuous variables were examined for normality using the Shapiro- Wilk test. According to the types and distributions of variables, normally distributed continuous variables are presented in the tables as the mean with SD. Skewed variables were presented as the median with IQR. Categorical variables are presented as a percentage. Analysis of variance (or the Kruskal- Wallis test) and χ 2 (or Fisher's exact) tests were used for comparisons between groups. Kaplan- Meier survival analysis for the cumulative rate of all- cause 28 or 90- day mortality after ICU admission was used to compare the death distributions of patients among six groups of serum phosphate at admission. We used the restricted cubic spline functions to explore nonlinear relationships between the different levels of the serum phosphate at ICU admission as a continuous variable and our primary endpoints after ICU admission. In order to evaluate independent associations between serum phosphate levels at ICU admission and the primary endpoints, we used univariate and multivariable Cox regression models. We used two different models to adjust potential confounders.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Statistical analysis",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s10_p1",
+    "text": "## Statistical analysis\nModel 1: including age, gender, ethnicities, heart rate, mean arterial pressure, respiratory rate, temperature, oxygen saturation; model 2: including the same as model 1, furthermore, including admission types, ICU types, SOFA score, SAPS II, OASIS score, congestive heart failure, coronary artery disease, hypertension, diabetes, chronic pulmonary disease, atrial fibrillation, liver disease, fluid and electrolyte disorder, malignant tumour, chronic kidney disease, serum sodium, serum potassium, serum calcium, serum creatinine, blood urea nitrogen, serum bicarbonate, serum chloride, white cell count, haemoglobin, platelet, use of mechanical ventilation on the first day, use of renal replacement therapy on the first day, use of vasopressor on the first day. We chose the G2 as the model's reference group and calculated adjusted HRs for the other groups in comparison to the reference group. Because it is a group that its serum phosphate level is lowest in the normal serum phosphate level. It is the threshold between normal and abnormal groups. So it is the most suitable control group of all groups. Compared with G2, it can not only reflect the basic condition and survival situation of the patient when the serum phosphate level is lower than 2.5 mg/ dL or higher than 4.5 mg/dL, but also reflect changes of patients' basic condition and survival situation with the increase of value in normal serum phosphate level.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Statistical analysis",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s10_p2",
+    "text": "## Statistical analysis\nIn addition, we built ICU types stratified analyses and sex stratified analyses. Software Stata V.16.0 and R V.3.6.3 were used for statistical analyses. Values of p<0.05 were considered to indicate statistical significance in all analyses.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Statistical analysis",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s11_p0",
+    "text": "## Baseline characteristics of the study population\nIn  the  end,  a  total  of  27  131  patients  were  enrolled, among  which  3060  patients  in  G1  (11.28%),  4257 patients in G2 (15.69%), 5804 patients in G3 (21.39%), 5395  patients  in  G4  (19.89%),  3584  patients  in  G5 (13.21%) and 5031 patients in G6 (18.54%). The mean age of the study population was 64.00±17.94 years. More patients  were  males  (55.60%),  but  the  gender  distribution among the six groups was not significant. A total of 19  387  patients  (71.46%)  were  white,  and  emergency admission (85.61%) was the most common of the admission types. The patients who were admitted to the MICU (39.45%), CCU (17.28%), SICU (18.21%) accounted for a higher proportion. However, when we compared the six groups with each other, we found that the patients of G6 (hyperphosphataemia  group)  had  higher  SOFA  score, SAPS II,  OASIS score on ICU admission, higher prevalence of chronic kidney disease (28.82%), a higher value of serum creatinine (2.66±2.50) and blood urea nitrogen (43.65±31.06). Also, the patients of G6 had higher usage of mechanical ventilation (44.27%) or renal replacement therapy (1.89%) or vasopressor (32.96%). The detail was shown in table 1.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Baseline characteristics of the study population",
+      "page_number": 4,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Chen_2021_s12_p0",
+    "text": "## ICU outcomes of the study population\nOverall, 3776 patients (13.92%) of the study population died within 28 days after ICU admission. We found that the 28-  day ICU mortality of G2 (10.74%), G3 (10.91%), G4 (10.70%) was close, while the comparison of 28-  day ICU mortality among the six groups was G6 (24.41%)>G5 (14.17%)>G1 (12.19%)>G2, G3, G4. In addition, similar results were found for 90-  day ICU mortality, mortality at ICU, and the median lengths of ICU stay. The detail was shown in table 2. As  shown in figure  2,  the  Kaplan-  Meier  curves  of  allcause 28 or 90-  day mortality after ICU admission intuitively reflected the death distributions of the six groups' patients and showed the result as before (p<0.0001). Cubic  spline  analysis  demonstrated  that  the  relationship between serum phosphate and the probability of 28 or  90-  day  ICU  mortality  had  a  linear  relationship.  The detail was shown in figure 3.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "ICU outcomes of the study population",
+      "page_number": 4,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Chen_2021_s13_p0",
+    "text": "## Associations between serum phosphate and clinical outcomes\nThe multivariable Cox regression analyses were used to indicate the relationship between serum phosphate levels and all- cause 28 or 90- day ICU mortality. Compared with patients of G2, patients of G1, G5 and G6 had increased 28- day ICU mortality with a non- adjusted HR (G1: HR=1.15, 95% CI 1.00 to 1.32, p=0.0481; G5: HR=1.34, 95% CI 1.18 to 1.52, p<0.0001; G6: HR=2.50, 95% CI 2.25 to 2.79, p<0.0001, respectively). After being adjusted by the model 1, compared with patients of G2, patients of G5 and G6 had increased 28- day ICU mortality with a HR ((G5: HR=1.32, 95% CI 1.16 to 1.50, p<0.0001; G6: HR=2.20, 95% CI 1.97 to 2.45, p<0.0001, respectively), adjusted by model 1). However, after adjusted by the model 2, the associations were no statistical significant. Besides, we found that the G4 had a beneficial effect on the 28- day ICU mortality (HR=0.87, 95% CI 0.77 to 0.98, p=0.0243, adjusted by model 2). The relationship between serum phosphate and 90- day ICU mortality had a similar pattern to that of 28- day ICU mortality, with increased risk for events in patients of G5 and G6 with a non- adjusted HR (G5: HR=1.31, 95% CI 1.18 to 1.46, p<0.0001; G6: HR=2.32, 95% CI 2.12 to 2.54, p<0.0001, respectively).",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Associations between serum phosphate and clinical outcomes",
+      "page_number": 4,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s13_p1",
+    "text": "## Associations between serum phosphate and clinical outcomes\nAfter being adjusted by the model 1, compared with patients of G2, patients of G1, G5 and G6 had increased 90- day ICU mortality with a HR ((G1: HR=1.13, 95% CI 1.01 to 1.27, p=0.0372; G5: HR=1.30, 95% CI 1.17 to 1.44, p<0.0001; G6: HR=2.09, 95% CI 1.91 to 2.30, p<0.0001, respectively), adjusted by model 1). However, after adjusted by the Model2, the associations were no statistical significant. The detailed results are shown in table 3. As shown in table 4, at the different ICU departments, the multivariable Cox regression analyses showed that the estimates of the association between serum phosphate and 28 or 90- day ICU mortality were broadly consistent. Nevertheless, at the MICU, patients of G6 had increased risk of 28 or 90- day mortality ((HR=1.37, 95% CI 1.15 to 1.63, p=0.0005; HR=1.25, 95% CI 1.08 to 1.44, p=0.0035, respectively), adjusted by model 2). Moreover, at the SICU, a significant inverse association between patients of G4 and 28 or 90- day mortality was observed ((HR=0.64, 95% CI 0.48 to 0.84, p=0.0017; HR=0.72, 95% CI 0.57 to 0.91, p=0.0067, respectively), adjusted by model 2).",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Associations between serum phosphate and clinical outcomes",
+      "page_number": 4,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s13_p2",
+    "text": "## Associations between serum phosphate and clinical outcomes\nThere were two interesting findings: (1) hyperphosphataemia (G6) exerted a beneficial effect on the 28 or 90- day mortality of patients at the SICU ((HR=0.54, 95% CI 0.40 to 0.74, p<0.0001; HR=0.69, 95% CI 0.53 to 0.89, p=0.0042, respectively), adjusted by model 2), (2) hyperphosphataemia (G6) also made a beneficial effect on the 28- day ICU mortality of patients at the TSICU (HR=0.62, 95% CI 0.42 to 0.91, p=0.0160, adjusted by model 2). In addition, for the subset analyses including sex, the multivariable Cox regression analyses showed that hypophosphataemia and hyperphosphataemia at ICU admission were not the independent risk factors of 28 or 90- day mortality for general critically ill patients. Nevertheless, we found that the G4 had a beneficial effect on the 28- day ICU mortality for female (HR=0.82, 95% CI 0.68 to 0.97, p=0.0244, adjusted by model 2). The detailed results are shown in online supplemental eTable 1.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "Associations between serum phosphate and clinical outcomes",
+      "page_number": 4,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s14_p0",
+    "text": "## DISCUSSION\nAfter reviewing the literature in recent years, we found that few studies have focused on the association between serum phosphate and ICU patients' clinical outcomes. Compared with these studies, our study seemed to be the only one study currently available with a large sample for patients in ICU and it was the advantage of our study. In addition, the results of these studies in the past were partly consistent and partly controversial. Suzuki et al 's study 28 showed the relationship between hypophosphataemia and 28- day ICU mortality among 2730 ICU patients. They found higher ICU mortality of patients with hypophosphataemia (12% vs 7%) and a longer ICU stay ((3.6, 95% CI 2.2 to 6.8) vs (1.7, 95% CI 0.9 to 3.1)), but the incidence of hypophosphataemia was not an independent risk factor for ICU mortality (OR=0.86, 95% CI 0.66 to 1.10, adjusted). Also, they found the timing or the duration of hypophosphataemia had no significant association with ICU mortality. Another retrospective cohort study among 946 ICU patients performed by Wang et al 's study 8 indicated that patients in ICU with hypophosphataemia had higher 28- day ICU mortality (35.3% vs 24%) and longer ICU stay ((5.5, 2.8-10.6) vs (1.7, 1.5-3.4)). According to the results of their study, hypophosphataemia was an independent risk factor for 28- day ICU mortality (OR=1.5, 95% CI 1.1 to 2.1, p=0.01, adjusted).",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "DISCUSSION",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s14_p1",
+    "text": "## DISCUSSION\nHaider et al 's study 22 reported that the ICU stay of patients with hyperphosphataemia was longer than patients with hypophosphataemia or normal phosphate ((6, 1-14) vs (3, 0-8) or (3, 0-3)) among 2390 ICU patients. On the one hand, hyperphosphataemia was a predictor for 28- day ICU mortality (OR=3.29, 95% CI 1.8 to 6.1, p<0.001, adjusted), on the other hand, hypophosphataemia was not associated with 28- day ICU mortality (OR=1.24, 95% CI 0.66 to 2.30, p=0.51, adjusted). Another study conducted by Broman et al 's study 1 was similar to the Haider's. In this research with 4656 samples, hyperphosphataemia was associated with a higher risk of 180- day ICU death (HR=1.2, 98.3% CI 1.0 to 1.5, p=0.0089, adjusted) compared with controls. The risk of death in the hypophosphataemia group did not differ significantly from controls (HR=0.90, 98.3% CI 0.72 to 1.1, p=0.2650, adjusted). Another recent study conducted by Campos- Obando et al showed that serum phosphate was associated with increased all- cause mortality (HR=1.46, 95% CI 1.26 to 1.69). 29 But in our study, regardless of male and female, hypophosphataemia and hyperphosphataemia at ICU admission were not the independent risk factors of 28 or 90- day mortality for general critically ill patients. This might be due to the difference in conditions between ICU patients and regular hospitalised patients. In summary, the association between abnormal serum phosphate and clinical outcomes was still controversial.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "DISCUSSION",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s14_p2",
+    "text": "## DISCUSSION\nFigure 2 Kaplan- Meier survival plot of mortality (p<0.0001). The death distributions of patients among six groups of serum phosphate at admission within 28 days (A) or 90 days (B) after ICU admission. G1 (red): hypophosphataemia group (<2.5 mg/L); G2 (cyan): very- low- normal phosphate group (≥2.5 mg/dL and <3.0 mg/dL); G3 (yellow): low- normal phosphate group (≥3.0 mg/dL and <3.5 mg/dL); G4 (pink): high- normal phosphate group (≥3.5 mg/dL and <4.0 mg/dL); G5 (blue): very- high- normal phosphate group (≥4.0 mg/dL and <4.5 mg/dL); G6 (purple): hyperphosphataemia group (≥4.5 mg/dL). ICU, intensive care unit. Our study selected patients with serum phosphate measurements (within the first day at ICU admission) as the study population and explored the associations between serum phosphate at ICU admission and clinical outcomes to verify the hypothesis mentioned above. We retrospectively analysed the data from a large critical care database (MIMIC- III database). Through our study, we found that the comparison of the clinical outcomes (ICU mortality, 28- day ICU mortality, 90- day ICU mortality, ICU stay) among the six groups was G6 >G5>G1>G2, G3, G4 approximately. Unlike previous results, we found that very- high- normal phosphate (G5) was also associated with 28 or 90- day mortality in critically ill patients non- adjusted or adjusted by model 1 (age, gender, ethnicities, heart rate, mean arterial pressure, respiratory rate, temperature, oxygen saturation).",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "DISCUSSION",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s14_p3",
+    "text": "## DISCUSSION\nIt seemed to remind us whether it was necessary to redefine the normal range of serum phosphate. The results of the multivariable Cox regression analysis showed that hypophosphataemia (G1) and Continued Continued Table 4 Figure 3 Cubic spline analysis. The plot described the relationship between serum phosphate as a continuous variable and the probability of 28 days (A) or 90 days (B) mortality after ICU admission. The dashed area indicated the 95% CI. ICU, intensive care unit. 90- day mortality after ICU admission 28- day mortality after ICU admission Model 2 Model 1 Non- adjusted Model 2 Model 1 Non- adjusted ICU P value HR, 95% CI P value HR, 95% CI P value HR, 95% CI P value HR, 95% CI P value HR, 95% CI P value HR, 95% CI departments 0.0689 0.74 (0.53 to 1.02) 0.0166 1.43 (1.07 to 1.91) 0.0009 1.63 (1.22 to 2.17) 0.0160 0.62 (0.42 to 0.91) 0.1169 1.31 (0.93 to 1.83) 0.0164 1.50 (1.08 to 2.09) G6 G1: hypophosphataemia group (<2.5 mg/L); G2: very- low- normal phosphate group (≥2.5 mg/dL and <3.0 mg/dL); G3: low- normal phosphate group (≥3.0 mg/dL and <3.5 mg/dL); G4: high- normal phosphate group (≥3.5 mg/dL and <4.0 mg/dL); G5: very- high- normal phosphate group (≥4.0 mg/dL and <4.5 mg/dL); G6: hyperphosphataemia group (≥4.5 mg/dL). G2 was the reference group. Model 1 was adjusted by age, gender, ethnicities, heart rate, mean arterial pressure, respiratory rate, temperature, oxygen saturation.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "DISCUSSION",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s14_p4",
+    "text": "## DISCUSSION\nModel 2 was adjusted by age, gender, ethnicities, heart rate, mean arterial pressure, respiratory rate, temperature, oxygen saturation, admission types, Sequential Organ Failure Assessment score, Simplified Acute Physiology Score II, Overall Anxiety Severity and Impairment Scale score, congestive heart failure, coronary artery disease, hypertension, diabetes, chronic pulmonary disease, atrial fibrillation, liver disease, fluid and electrolyte disorder, malignant tumour, chronic kidney disease, serum sodium, serum potassium, serum calcium, serum creatinine, blood urea nitrogen, serum bicarbonate, serum chloride, white ell count, haemoglobin, platelet, use of mechanical ventilation on the first day, use of renal replacement therapy on the first day, use of vasopressor on the first day. Statistical significance (p<0.05). CCU, coronary care unit; CSRU, cardiac surgery recovery unit; ICU, intensive care unit; MICU, medical ICU; SICU, surgical ICU; TSICU, trauma surgical ICU. hyperphosphataemia (G6) at ICU admission were not the independent risk factors of 28 or 90- day mortality for critically ill patients admitted to the ICU in total. It showed that the abnormal phosphate seemed to be just a marker of illness severity. And phosphate monitoring might not be necessary for ICU patients. Besides, high- normal phosphate (G4) was the independent protection factor of 28- day ICU mortality. Similarly, in sex- stratified analyses, this conclusion was also found.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "DISCUSSION",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s14_p5",
+    "text": "## DISCUSSION\nHowever, after being stratified by types of ICU, this association only appeared at the SICU. It showed that controlling the phosphate value at 3.0-4.5 mg/dL might have a positive effect on reducing short- term mortality at the SICU. Moreover, we found that hyperphosphataemia was an independent risk factor of 28 or 90- day mortality at the MICU, which would increase the risk of 28 or 90- day mortality after MICU admission by about 35% or 25%. It indicated that timely adjustment of hyperphosphataemia after MICU admission might be a necessary treatment. However, our study had not studied whether correcting hyperphosphataemia would improve the prognosis of patients at the MICU. So, this issue would be further explored in future research. In addition, some results need to be discussed were: (1) the inverse association between hyperphosphataemia and 28 or 90- day ICU mortality for the SICU patients; (2) the inverse association between hyperphosphataemia and 28- day ICU mortality for the TSICU patients. These results seemed to be contrary to intuition, which we thought were related to the selection of participants. In our study, for patients with multiple ICU admission records, only the first ICU admission was analysed. As we all know, SICU and TSICU are mainly aimed at surgical critically ill patients. They stayed in the ICU for a relatively short term. Generally, they would be transferred out of the ICU within 1-2 days after the operation.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "DISCUSSION",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s14_p6",
+    "text": "## DISCUSSION\nSo, we thought it was not accurate to define clinical outcomes based on the first ICU admission. We speculated that a more reasonable approach was when critically ill patients were prepared for the operation in the SICU or TSICU, and then transferred out of the ICU for the operation. In this circumstance, it was more accurate to use hospital mortality as the clinical outcome. In the future, we need to target the patients of SICU or TSICU to verify our speculation. The most obvious advantage of this study was the large ICU sample size, which was performed for subgroup analysis and adjustment for confounding factors. And another important finding was that hyperphosphataemia was an independent risk factor for mortality in certain ICU departments, which was contrary to the results of previous studies. In addition, hypophosphataemia was also not an independent risk factor for ICU clinical outcomes. This was the same as the results of some previous studies. Our study provided clinical evidence for this conclusion. However, there were several limitations to our study. First, this was a single- centre, a retrospective study based on the MIMIC- III database. Wherefore, the additional investigation was required to generalise our findings to other institutions. Second, because of the missing observations of albumin measurement up to 45.7%, we did not adjust our model for serum albumin. Third, the main ethnicity in our study was white.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "DISCUSSION",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s14_p7",
+    "text": "## DISCUSSION\nWe also required further studies with a more heterogeneous ethnicity population. Fourth, we only evaluated the baseline measurements of the serum phosphate level at ICU admission, but we ignored the evaluation of serum phosphate levels over time. Finally, although we found hyperphosphataemia was an independent risk factor of 28 or 90- day mortality at the MICU, whether correcting hyperphosphataemia would reduce the patients' mortality rate at the MICU was unknown. Therefore, prospective studies were still needed to confirm the results of our study further.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "DISCUSSION",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s15_p0",
+    "text": "## CONCLUSION\nPatients with very- high- normal serum phosphate had worse outcomes, it might be necessary to re- evaluate the definitions of the normal reference range for serum phosphate. After correction for potential confounders, hypophosphataemia and hyperphosphataemia at ICU admission were not the independent risk factors of 28 or 90- day mortality for general critically ill patients but were still a sign of worse clinical outcomes for ICU patients. It leads us to consider whether phosphate monitoring is not a necessary measure in ICU patients, at least we concluded that it might not be necessary. It also indicated that corrective phosphate treatment is regarded as a routine daily ICU patient care measure, rather than a rescue measure in emergency situations. After being stratified by sex, hypophosphataemia and hyperphosphataemia at ICU admission were not significantly associated with 28 or 90- day mortality for general critically ill patients. After being stratified by types of ICU, hyperphosphataemia at admission increased the risk of 28 or 90- day mortality among patients admitted to the MICU, which emphasises the potential importance of early diagnosis and treatment of hyperphosphataemia for the MICU patients' clinical outcomes. Contributors YC is the first author. YC: Responsible for designing research, data extraction, analysis and writing of the manuscript. ML: Statistician, responsible for data analysis. HX: Responsible for data analysis.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "CONCLUSION",
+      "page_number": 12,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s15_p1",
+    "text": "## CONCLUSION\nWZ: Responsible for designing research. QH: Responsible for data validation and revising the text for critical content. Funding This study was supported by (the Chengdu Science and Technology Bureau (No.2017FZ0058)) and (the Health Department of Sichuan Province (No.17PJ474)). Competing interests None declared. Patient consent for publication Not required. Ethics approval All the data in the study were extracted from the database named 'MIMIC III', which was approved by the review boards of the Massachusetts Institute of Technology and Beth Israel Deaconess Medical Centre. The requirement for individual patient consent was waived because the study did not impact clinical care, and all protected health information was deidentified. Provenance and peer review Not commissioned; externally peer reviewed. Data availability statement Data are available on reasonable request. Full data set available from the corresponding author at kk555888@ 126. com or the first author at chenyang19940626@ 126. com. However, the reanalysis of the full data needs to be approved by MIMIC III Institute. Supplemental material This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer- reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "CONCLUSION",
+      "page_number": 12,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s15_p2",
+    "text": "## CONCLUSION\nWhere the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise. Open access This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY- NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non- commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non- commercial. See: http:// creativecommons. org/ licenses/ by- nc/ 4. 0/.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "CONCLUSION",
+      "page_number": 12,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s16_p0",
+    "text": "## ORCID iD\nQing He http://  orcid.  org/  0000-  0002-  4803-  1813",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "ORCID iD",
+      "page_number": 12,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Chen_2021_s17_p0",
+    "text": "## REFERENCES\n1 Broman M, Wilsson AMJ, Hansson F, et al . Analysis of hypo- and hyperphosphatemia in an intensive care unit cohort. Anesth Analg 2017;124:1897-905. 2 Hernando N, Wagner CA. Mechanisms and regulation of intestinal phosphate absorption. Compr Physiol 2018;8:1065-90. 3 Koumakis E, Cormier C, Roux C, et al . The causes of hypo- and hyperphosphatemia in humans. Calcif Tissue Int 2021;108:41-73. 4 Suen H- ME, Pasvol G, Cunnington AJ. Clinical and laboratory features associated with serum phosphate concentrations in malaria and other febrile illnesses. Malar J 2020;19:85. 5 Christov M, Jüppner H. Phosphate homeostasis disorders. Best Pract Res Clin Endocrinol Metab 2018;32:685-706. 6 Geerse DA, Bindels AJ, Kuiper MA, et al . Treatment of hypophosphatemia in the intensive care unit: a review. Crit Care 2010;14:R147. 7 Bai W, Li J, Liu J. Serum phosphorus, cardiovascular and all- cause mortality in the general population: a meta- analysis. Clin Chim Acta 2016;461:76-82. 8 Wang L, Xiao C, Chen L, et al . Impact of hypophosphatemia on outcome of patients in intensive care unit: a retrospective cohort study. BMC Anesthesiol 2019;19:86. 9 Barash Y, Klang E, Soffer S, et al . Normal- range emergency department serum phosphorus levels and all- cause mortality. Postgrad Med J 2021;97:83-8. 10 Malberti F . Hyperphosphataemia: treatment options. Drugs 2013;73:673-88. 11 Kuo G, Lee C- C, Yang S- Y, et al . Hyperphosphatemia is associated with high mortality in severe burns.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "REFERENCES",
+      "page_number": 12,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s17_p1",
+    "text": "## REFERENCES\nPLoS One 2018;13:e0190978. 12 Marcucci G, Brandi ML. Congenital conditions of hypophosphatemia expressed in adults. Calcif Tissue Int 2021;108:91-103. 13 Chang WX, Xu N, Kumagai T, et al . The impact of normal range of serum phosphorus on the incidence of end- stage renal disease by a propensity score analysis. PLoS One 2016;11:e0154469. 14 Yoo KD, Kang S, Choi Y, et al . Sex, age, and the association of serum phosphorus with all- cause mortality in adults with normal kidney function. Am J Kidney Dis 2016;67:79-88. 15 Jang D- H, Jo YH, Lee JH, et al . Moderate to severe hyperphosphataemia as an independent prognostic factor for 28- day mortality in adult patients with sepsis. Emerg Med J 2020;37:355-61. 16 Candela N, Silva S, Georges B, et al . Short- and long- term renal outcomes following severe rhabdomyolysis: a French multicenter retrospective study of 387 patients. Ann Intensive Care 2020;10:27. 17 Zaidi H, Bader- El- Den M, McNicholas J. Using the National early warning score (NEWS/NEWS 2) in different intensive care units (ICUs) to predict the discharge location of patients. BMC Public Health 2019;19:1231. 18 Liu B, Cheng Y, Shen F , et al . [Hypophosphatemia is associated with poor prognosis of critically ill patients: a meta- analysis of 1 555 patients]. Zhonghua Wei Zhong Bing Ji Jiu Yi Xue 2018;30:34-40. 19 Miller CJ, Doepker BA, Springer AN, et al . Impact of serum phosphate in mechanically ventilated patients with severe sepsis and septic shock.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "REFERENCES",
+      "page_number": 12,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s17_p2",
+    "text": "## REFERENCES\nJ Intensive Care Med 2020;35:485-93. 20 Aronson D, Kapeliovich M, Hammerman H, et al . The relation between serum phosphorus levels and clinical outcomes after acute myocardial infarction. PLoS One 2013;8:e58348. 21 Dominguez JR, Kestenbaum B, Chonchol M, et al . Relationships between serum and urine phosphorus with all- cause and cardiovascular mortality: the osteoporotic fractures in men (MROS) study. Am J Kidney Dis 2013;61:555-63. 22 Haider DG, Lindner G, Wolzt M, et al . Hyperphosphatemia is an independent risk factor for mortality in critically ill patients: results from a cross- sectional study. PLoS One 2015;10:e0133426. 23 Naffaa ME, Mustafa M, Azzam M, et al . Serum inorganic phosphorus levels predict 30- day mortality in patients with community acquired pneumonia. BMC Infect Dis 2015;15:332. 24 Merhi B, Shireman T, Carpenter MA, et al . Serum phosphorus and risk of cardiovascular disease, all- cause mortality, or graft failure in kidney transplant recipients: an ancillary study of the FAVORIT trial cohort. Am J Kidney Dis 2017;70:377-85. 25 Chen Q, Zhang Y, Ding D, et al . Associations between serum calcium, phosphorus and mortality among patients with coronary heart disease. Eur J Nutr 2018;57:2457-67. 26 Bacchetta J, Bernardor J, Garnier C, et al . Hyperphosphatemia and chronic kidney disease: a major daily concern both in adults and in children. Calcif Tissue Int 2021;108:116-27. 27 Shor R, Halabe A, Rishver S, et al .",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "REFERENCES",
+      "page_number": 12,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Chen_2021_s17_p3",
+    "text": "## REFERENCES\nSevere hypophosphatemia in sepsis as a mortality predictor. Ann Clin Lab Sci 2006;36:67-72. 28 Suzuki S, Egi M, Schneider AG, et al . Hypophosphatemia in critically ill patients. J Crit Care 2013;28:536.e9-536.e19. 29 Campos- Obando N, Lahousse L, Brusselle G, et al . Serum phosphate levels are related to all- cause, cardiovascular and COPD mortality in men. Eur J Epidemiol 2018;33:859-71. 30 Johnson AEW, Pollard TJ, Shen L, et al . MIMIC- III, a freely accessible critical care database. Sci Data 2016;3:160035. 31 Feng M, McSparron JI, Kien DT, et al . Transthoracic echocardiography and mortality in sepsis: analysis of the MIMIC- III database. Intensive Care Med 2018;44:884-92.",
+    "metadata": {
+      "document_id": "Chen_2021",
+      "paper_id": "Chen_2021",
+      "year": 2021,
+      "section": "REFERENCES",
+      "page_number": 12,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  }
+]

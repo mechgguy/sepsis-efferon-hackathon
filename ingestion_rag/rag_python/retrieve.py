@@ -82,7 +82,7 @@ def retrieve(
     for i, chunk in enumerate(results, 1):
         rerank_score = chunk.get("_rerank_score")
         score_str = f", rerank_score={rerank_score:.4f}" if rerank_score is not None else ""
-        print(f"[{i}] {chunk['title']} (chunkIndex={chunk['chunkIndex']}, page={chunk['page_number']}, rerank_score=...)")
+        print(f"[{i}] {chunk['title']} (chunkId={chunk['chunkId']}, page={chunk['page_number']}, rerank_score=...)")
         print(f"    content: {chunk['compressedContent'][:200]}...")
         print()
 

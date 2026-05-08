@@ -18,22 +18,20 @@ from config import get_client, COLLECTION_NAME
 from embedder import Embedder
 from reranker import Reranker
 from weaviate.classes.query import MetadataQuery
-
+from ingestion_rag.rag_python.schema import RETRIEVE_PROPS, PROP_TO_CHUNK_KEY
 # ── Weaviate retrieval (returns list[dict], no print) ─────────────────────────
 
-_PROPS = ["chunkId", "title", "chunkIndex", "compressedContent", "pageNumber"]
+_PROPS = RETRIEVE_PROPS  
+
 
 
 def _to_record(obj) -> dict:
     p = obj.properties
-    return {
-        "compressedContent": p["compressedContent"],
-        "title": p.get("title", ""),
-        "chunkIndex": p.get("chunkIndex", 0),
-        "page_number": p.get("pageNumber", 0),  # ← add this
-        "_id": str(obj.uuid),
-        "_score": obj.metadata.score if obj.metadata else None,
-    }
+    record = {chunk_key: p.get(wv_key, 0 if wv_key == "pageNumber" else "")
+              for wv_key, chunk_key in PROP_TO_CHUNK_KEY.items()}
+    record["_id"] = str(obj.uuid)
+    record["_score"] = obj.metadata.score if obj.metadata else None
+    return record
 
 
 def retrieve_chunks(
@@ -79,6 +77,7 @@ def retrieve_chunks(
 
 # ── Prompt construction ───────────────────────────────────────────────────────
 
+
 SYSTEM_PROMPT = """You are a clinical evidence extraction assistant for a Sepsis Atlas.
 
 Your task: given retrieved text chunks from scientific papers and a clinical query,
@@ -110,6 +109,47 @@ Rules:
 - If no relevant data found, return empty array: []
 """
 
+SYSTEM_PROMPT= SYSTEM_PROMPT = """You are a clinical evidence extraction assistant supporting a sepsis registry analysis.
+
+CONTEXT:
+A clinical registry contains sepsis patients treated with hemoadsorption but has no control group.
+The goal is to estimate expected mortality for similar untreated patients using published literature.
+
+YOUR TASK:
+Extract structured evidence records from the retrieved chunks that can inform expected mortality estimation.
+Focus on:
+- Associations between clinical variables and mortality
+- Prognostic biomarkers (lactate, IL-6, lymphocytes, procalcitonin, etc.)
+- Severity scores (SOFA, APACHE II/III) and their mortality associations
+- Statistical modeling approaches used for mortality prediction
+- Cohort characteristics that allow comparability to a hemoadsorption registry
+
+Return ONLY a valid JSON array. No preamble, no markdown fences.
+
+Each record must follow this schema:
+{
+  "study":          "<Author Year or paper title>",
+  "population":     "<patient population: sepsis subtype, ICU setting, inclusion criteria>",
+  "sample_size":    "<N= ...>",
+  "predictor":      "<variable: biomarker, score, or clinical parameter>",
+  "outcome":        "<outcome definition e.g. 28-day mortality, ICU mortality>",
+  "timing":         "<when predictor was measured e.g. ICU admission, 24h, sequential>",
+  "method":         "<statistical method: logistic regression, Cox, ROC, AUROC, etc.>",
+  "effect_size":    "<OR/HR/AUC/cutoff with 95% CI if available>",
+  "performance":    "<sensitivity, specificity, p-value, AUC if available>",
+  "cohort_details": "<age, comorbidities, vasopressor use, ventilation — for comparability>",
+  "notes":          "<caveats, adjustments, exclusion criteria, or limitations>",
+  "source_anchor":  "<verbatim excerpt ≤30 words from source text supporting this record>",
+  "page":           "<page number from source chunk header>"
+}
+
+Rules:
+- Extract ONLY values explicitly stated in the source text. Never infer or hallucinate.
+- Use "not reported" for absent fields.
+- If a chunk cites another study's results, set "study" to that cited author/year.
+- Never report the same predictor+outcome+effect_size combination twice.
+- If no relevant data found, return [].
+"""
 
 def build_user_prompt(query: str, chunks: list[dict]) -> str:
     context_parts = []
@@ -131,13 +171,17 @@ def build_user_prompt(query: str, chunks: list[dict]) -> str:
 import requests
 
 def extract_records(query: str, chunks: list[dict]) -> list[dict]:
-    api_key = os.environ.get("OPENAI_API_KEY")
+    api_key = os.environ.get("OPENROUTER_API_KEY")
     if not api_key:
-        raise RuntimeError("OPENAI_API_KEY is not set.")
+        raise RuntimeError("OPENROUTER_API_KEY is not set.")
 
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(
+        api_key=api_key,
+        base_url="https://openrouter.ai/api/v1",
+    )
+
     completion = client.chat.completions.create(
-        model="gpt-4.1-mini",
+        model="google/gemini-2.5-pro",
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": build_user_prompt(query, chunks)},
@@ -145,7 +189,6 @@ def extract_records(query: str, chunks: list[dict]) -> list[dict]:
         temperature=0,
         max_tokens=4096,
     )
-
     raw = (completion.choices[0].message.content or "").strip()
 
 # REPLACE the fence-stripping block with:

@@ -1,0 +1,496 @@
+[
+  {
+    "id": "Cilloniz_2019_s0_p0",
+    "text": "## preamble\nArticle",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "preamble",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s1_p0",
+    "text": "## Risk and Prognostic Factors in Very Old Patients with Sepsis Secondary to Community-Acquired Pneumonia\nCatia Cill ó niz 1,2,3, * , y , Cristina Domined ò 4, y , Antonella Ielpo 5 , Miquel Ferrer 1,2,3 , Albert Gabarr ú s 1,2,3 , Denise Battaglini 6 , Jes ú s Bermejo-Martin 7 , Andrea Meli 8 , Carolina Garc í a-Vidal 9 , Adamanthia Liapikou 10 , Mervyn Singer 11 and Antoni Torres 1,2,3, * 1 Department of Pneumology, Hospital Clinic of Barcelona, 08036 Barcelona, Spain 2 August Pi i Sunyer Biomedical Research Institute-IDIBAPS, University of Barcelona, 08036 Barcelona, Spain 3 Biomedical Research Networking Centres in Respiratory Diseases (Ciberes), 28029 Madrid, Spain 4 Department of Anesthesiology and Intensive Care Medicine, Fondazione Policlinico Universitario A. Gemelli, Universit à Cattolica del Sacro Cuore, 00168 Rome, Italy 5 Departments of Medicine and Surgery, Respiratory Disease and Lung Function Unit, University of Parma, 43121 Parma, Italy 6 Department of Surgical Sciences and Integrated Diagnostic, Policlinico San Martino, University of Genova, 16126 Genova, Italy 7 Group for Biomedical Research in Sepsis (Bio Sepsis), Hospital Cl í nico Universitario de Valladolid / IECSCYL, Av.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "Risk and Prognostic Factors in Very Old Patients with Sepsis Secondary to Community-Acquired Pneumonia",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s1_p1",
+    "text": "## Risk and Prognostic Factors in Very Old Patients with Sepsis Secondary to Community-Acquired Pneumonia\nRam ó n y Cajal, 3, 47003 Valladolid, Spain 8 Department of Anesthesia and Intensive Care, University of Milan, 20122 Milan, Italy 9 Infectious Diseases Department, Hospital Clinic of Barcelona, 08036 Barcelona, Spain 10 Respiratory Department, Sotiria Chest Diseases Hospital, Mesogion 152, 11527 Athens, Greece 11 Bloomsbury Institute of Intensive Care Medicine, Division of Medicine, University College London, Cruciform Building, Gower St, London WC1E 6BT, UK Correspondence: catiacilloniz@yahoo.com (C.C.); atorres@clinic.cat (A.T.); Tel.: + 34-93-227-5779 (A.T.); Fax: + 34-93-227-9813 (A.T.) y These authors contributed equally to this study. Received: 14 May 2019; Accepted: 1 July 2019; Published: 2 July 2019 Abstract: Background : Little is known about risk and prognostic factors in very old patients developing sepsis secondary to community-acquired pneumonia (CAP). Methods : We conducted a retrospective observational study of data prospectively collected at the Hospital Clinic of Barcelona over a 13-year period. Consecutive patients hospitalized with CAP were included if they were very old ( 80 years) and divided into those with and without sepsis for comparison. Sepsis was diagnosed based on the Sepsis-3 criteria. The main clinical outcome was 30-day mortality. Results : Among the 4219 patients hospitalized with CAP during the study period, 1238 (29%) were very old.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "Risk and Prognostic Factors in Very Old Patients with Sepsis Secondary to Community-Acquired Pneumonia",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s1_p2",
+    "text": "## Risk and Prognostic Factors in Very Old Patients with Sepsis Secondary to Community-Acquired Pneumonia\nThe prevalence of sepsis in this age group was 71%. Male sex, chronic renal disease, and diabetes mellitus were independent risk factors for sepsis, while antibiotic therapy before admission was independently associated with a lower risk of sepsis. Thirty-day and intensive care unit (ICU) mortality did not di er between patients with and without sepsis. In CAP-sepsis group, chronic renal disease and neurological disease were independent risk factors for 30-day mortality. Conclusion : In very old patients hospitalized with CAP, in-hospital and 1-year mortality rates were increased if they developed sepsis. Antibiotic therapy before hospital admission was associated with a lower risk of sepsis. Keywords: sepsis; community-acquired pneumonia; very old; pneumonia /gid00001",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "Risk and Prognostic Factors in Very Old Patients with Sepsis Secondary to Community-Acquired Pneumonia",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s2_p0",
+    "text": "## 1. Introduction\nCommunity-acquired pneumonia (CAP) is a major health problem in the elderly, being associated with high rates of readmission, morbidity, and mortality [1-3]. In the elderly, CAP worsens pre-existing comorbidities, and these interact to impact upon the clinical evolution of infection. The number of people aged 80 years has increased rapidly in Europe [4]. Rates of intensive care unit (ICU) admission have also increased for patients in this age group [5,6] and now account for approximately 10% of all ICU admissions in Europe [7,8]. Sepsis is a frequent complication of CAP [9]. However, this is a multifactorial process that requires staging to ensure treatments that target the needs of the individual patient [10]. A recent multicenter study found that age was an independent risk factor for mortality in sepsis, with prompt therapy provided within the first six hours of resuscitation being associated with a mortality decrease in very elderly ( 80 years) patients [11]. In a Spanish multicenter cohort study of 4070 patients hospitalized with CAP, 38% presented with severe sepsis (i.e., organ dysfunction) [9], for which age 65 years, chronic obstructive pulmonary disease, renal disease, and alcohol abuse were independent risk factors. Conversely, prior antibiotic therapy and diabetes mellitus were protective. Despite the increased risk of infectious disease due to age-related vulnerability, there is a scarcity of data on sepsis in very old patients with CAP [12].",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "1. Introduction",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s2_p1",
+    "text": "## 1. Introduction\nWethus aimed to determine risk and prognosis factors associated with sepsis, as defined according to the Sepsis-3 criteria [10], in very old ( 80 years) patients hospitalized with CAP in comparison to their peers admitted without evidence of sepsis, and to investigate clinical outcomes.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "1. Introduction",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s3_p0",
+    "text": "## 2.1. Study Design and Patients\nThis was a retrospective observational study of prospectively collected data from the Hospital Clinic of Barcelona, Spain. We enrolled all consecutive adult patients with a diagnosis of CAP admitted to hospital via the emergency department between January 2005 and December 2017. We included patients from nursing homes, as we previously demonstrated that the microbial etiology in this population is similar to that of CAP arising in people living in their own homes [13]. Among all patients with CAP, we selected those aged 80 years and compared those with and without sepsis. We excluded patients with severe immunosuppression, such as human immunodeficiency viral infection, active solid or hematologic malignancy treated with chemotherapy, oral corticosteroid treatment with at least 20 mg prednisone (or equivalent) per day for at least two weeks, and treatment with other immunosuppressive drugs. We also excluded those with active tuberculosis or a confirmed alternative diagnosis. For publication purposes, the study was approved by the ethics committee of our institution (Comit é È tic d'Investigaci ó Cl í nica, register: 2009 / 5451). The need for written informed consent was waived because of the non-interventional study design.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "2.1. Study Design and Patients",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s4_p0",
+    "text": "## 2.2. Definitions\nVery old patients were defined as those aged 80 years and above [5]. Pneumonia (CAP) was defined as a new pulmonary infiltrate on chest X-ray during hospital admission with symptoms and signs of a lower respiratory tract infection. Severe CAP was diagnosed by the presence of at least one major or three minor criteria of the Infectious Disease Society of America / American Thoracic Society (IDSA / ATS) guidelines [14]. Polymicrobial pneumonia was defined as pneumonia due to more than one pathogen. Prior antibiotic treatment was defined as antibiotic intake during the week before hospital admission. The appropriateness of empiric antibiotic treatment was determined according to multidisciplinary guidelines for the management of CAP [15]. Sepsis was defined according to the criteria of the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) as the presence of pneumonia and an increase 2 points in the Sequential Organ Failure Assessment (SOFA) score [10]. The presence of sepsis was evaluated at hospital admission when diagnosing CAP. The presence of an acute respiratory distress syndrome (ARDS) was evaluated within the first 24 h of hospital admission based on the Berlin definition [16].",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "2.2. Definitions",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s5_p0",
+    "text": "## 2.3. Data Collection, Evaluation, and Microbiological Diagnosis\nDemographic variables, comorbidities, and physiologic parameters were collected in the Emergency Department within 24 h of admission. The Pneumonia Severity Index (PSI), CURB-65 score (i.e., confusion, urea nitrogen, respiratory rate, blood pressure, and age 65 years,) and SOFA score at admission were calculated [17-19]. During hospitalization, we recorded whether the patients had specific complications, including multilobar infiltration, pleural e usions, ARDS [16], septic shock [20], and acute renal failure [21]. Further details are reported elsewhere [22]. All surviving patients were visited or contacted by telephone 30 days after discharge, and the hospital records and the database of Catalunya Health Department reviewed at one year. The criteria for etiological diagnosis are described elsewhere [22,23] and in Supplementary Data.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "2.3. Data Collection, Evaluation, and Microbiological Diagnosis",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s6_p0",
+    "text": "## 2.4. Outcomes\nThe primary outcome was 30-day mortality. Secondary outcomes were in-hospital mortality, 1-year mortality, ICU admission, ICU mortality, and need for mechanical ventilation.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "2.4. Outcomes",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s7_p0",
+    "text": "## 2.5. Statistical Analysis\nNumbers and percentages are reported for categorical variables, medians and interquartile ranges (IQRs) for continuous variables with non-normal distributions, and means and standard deviations (SDs) for those continuous variables with a normal distribution. Categorical variables were compared using the 2 test or Fisher exact test, whereas continuous variables were compared using the t -test or nonparametric Mann-Whitney U test. Trends in associated factors were analyzed using the Mantel-Hansel test or linear regression for categorical and continuous variables, respectively. Logistic regression analyses [24] were used to examine associations between sepsis and risk factors. In the first step, each risk factor was tested individually. In the second step, all risk factors showing an association in the univariate model ( p < 0.10) were added to multivariable models. Finally, a backward stepwise selection ( p in < 0.05, p out > 0.10) was used to determine factors associated with sepsis [25]. The Hosmer-Lemeshow goodness-of-fit test was performed to assess the overall fit of the final model. Generalized linear model analyses [26] were then performed to determine the influence of the identified risk factors on 30-day mortality in patients with sepsis. Models were defined by a binomial probability distribution and a logit link function, using inverse probability of treatment weights [27] to account for biases due to observed confounders.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "2.5. Statistical Analysis",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s7_p1",
+    "text": "## 2.5. Statistical Analysis\nFirst, each risk factor was tested individually. Second, a propensity score was developed for patients with sepsis, irrespective of the outcome, by using multivariate logistic regression to predict the influence of 15 predetermined variables on the presence of sepsis. Variables were chosen for inclusion in the propensity score calculation based on previously described methods [28]. Variables associated with sepsis and outcome were included (e.g., gender, smoking status, alcohol consumption, influenza vaccine, pneumococcal vaccine, previous inhaled corticosteroids, previous systemic corticosteroids, previous antibiotic within a week of admission, chronic pulmonary disease, chronic cardiovascular disease, chronic renal disease, chronic liver disease, chronic neurological disease, diabetes mellitus, and nursing home residency). The propensity score then informed the weight in the inverse probability of treatment weighting. Finally, the weighting and year of admission were incorporated into the multivariable (weighted) logistic regression model of 30-day mortality. Risk factors that showed an association in the univariate analyses ( p < 0.10) were identified after a stepwise backward elimination procedure in which non-significant variables were dropped until no further improvement of the Akaike's Information Criterion was achieved [29]. Multi-collinearity was checked by calculating the variance inflation factor.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "2.5. Statistical Analysis",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s7_p2",
+    "text": "## 2.5. Statistical Analysis\nOdds ratios (ORs) and their 95%confidence intervals (CIs) were then calculated. The area under the receiver operating characteristic (ROC) curve was calculated for the ability to predict sepsis and 30-day mortality, using significant variables derived from the respective logistic regression models. To avoid confounding, patients with do-not-resuscitate (DNR) orders were not included in the evaluation of mortality outcome [30]. Possible overfitting and instability of the selection variables in the final model were measured by internal validation using ordinary nonparametric bootstrapping with 1000 bootstrap samples and bias-corrected accelerated 95% CIs [31]. A multiple imputation method [32] was sued for missing data in the multivariable analyses. Unless otherwise stated, the level of significance was two-tailed and set at 0.05. All analyses were performed using IBM SPSS Version 23.0 (IBM Corp., Armonk, New York, USA).",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "2.5. Statistical Analysis",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s8_p0",
+    "text": "## 3.1. Overall Population\nIn total, 4219 patients with CAP were admitted to our hospital during the study period, with 2981 excluded from the final analysis (Figure 1). The study population therefore comprised 1238 very old patients with CAP. Additional data regarding the di erences between old (age 65-79 years) and very old patients ( 80 years) are shown in Table S1, between patients from nursing homes and their own homes in Table S2, between those admitted and not admitted to ICU in Table S3, and between those with and without septic shock in Table S4. The rates of sepsis by three-year admission epochs are shown in Figure S1 Figure 1. Flow chart of the study population.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "3.1. Overall Population",
+      "page_number": 4,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s9_p0",
+    "text": "## 3.2. Comparison of Very Old Patients With and Without Sepsis\nOf the 1238 very old patients with CAP, 880 (71%) had sepsis. Table 1 summarizes the demographic and clinical characteristics of patients by the presence or absence of sepsis. Table 1. Characteristics of very old ( 80 years) patients by the presence or absence of sepsis. Percentages calculated with non-missing data only. a May have > 1 comorbid condition. b Stratified according to 30-day mortality risk for CAP: classes I-III ( 90 points) had low mortality risk while classes IV-V ( > 90 points) had the highest mortality risk. c Calculated only for patients with blood samples (215 patients in the no sepsis group and 594 patients in the sepsis group to calculate the percentages. Abbreviations: CAP, community-acquired pneumonia; IQR, interquartile range; PSI, Pneumonia Severity Index; SD, standard deviation; IQR inter-quartile range. Compared to the no-sepsis group, the sepsis group was more likely to be younger, male, have diabetes mellitus and chronic renal disease, and have had pneumonia in the last year. They were less likely to have received previous antibiotic therapy. At admission, an uncommon presentation of pneumonia was frequently observed in patients with and without sepsis (Table 1). However, a lower percentage of pleuritic pain and a higher rate of altered mental status were observed in septic patients. Moreover, the sepsis group had lower lymphocyte counts at admission.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "3.2. Comparison of Very Old Patients With and Without Sepsis",
+      "page_number": 4,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s9_p1",
+    "text": "## 3.2. Comparison of Very Old Patients With and Without Sepsis\nNotably, 61 patients (7%) presented with septic shock at admission. Ahigher percentage of patients in the sepsis group was classified as PSI risk classes IV-V, and more experienced a higher rate of severe CAP compared with the no-sepsis group. An etiologic diagnosis was achieved more often in the sepsis group (34% vs. 27%; p = 0.01). Figure S2 shows no significant di erence between the two groups in the distribution of identified pathogens. Seven cases (1%) of multidrug-resistant (MDR) pathogens were identified in the sepsis group (5 P. aeruginosa ; 1 P. aeruginosa , S. aureus , and S. pneumoniae ; and 1 caused by P. aeruginosa and influenza virus A) compared with one case (0.2%) of an MDR pathogen ( P. aeruginosa ) in the no-sepsis group. Data were available for empiric antibiotic treatment in 1224 (99%) patients. The most frequent regimens were ß-lactam plus macrolide (29%) or fluoroquinolone (24%). The sepsis group (26%) more often received fluoroquinolones plus ß-lactams than the no sepsis group (20%; p = 0.021). Inappropriate empiric treatment rates were comparable (3% and 4%; p = 0.57).",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "3.2. Comparison of Very Old Patients With and Without Sepsis",
+      "page_number": 4,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s10_p0",
+    "text": "## 3.3. Risk Factors for Sepsis\nThe univariate logistic regression analyses identified several variables that were significantly associated with the development of sepsis in very old patients with CAP (Table 2). Table 2. Significant risk factors for sepsis in the logistic regression analyses ( n = 1238). Data are shown as estimated ORs (95% CIs) of the explanatory variables in the sepsis group. OR is defined as the probability of being in the sepsis group divided by the probability of being in the no-sepsis group. The P -values are based on the null hypothesis that all ORs relating to an explanatory variable equal unity (no e ect). a The variables analyzed in the univariate analysis were as follows: gender, smoking status, alcohol consumption, influenza vaccine, pneumococcal vaccine, previous inhaled corticosteroids, previous systemic corticosteroids, previous antibiotic in last week, chronic pulmonary disease, chronic cardiovascular disease, chronic renal disease, chronic liver disease, diabetes mellitus, chronic neurologic disease, and nursing home residency. b Hosmer-Lemeshow goodness-of-fit test, p = 0.86. c Predictors from the model can be used to calculate the probability of sepsis by the following formula: Exp( β ) / (1 + Exp( β )), where β = 0.514 + 0.628 (in case of male) 0.344 (in case of previous antibiotic) + 0.734 (in case of acute renal failure) + 0.349 (in case of diabetes mellitus).",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "3.3. Risk Factors for Sepsis",
+      "page_number": 6,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s10_p1",
+    "text": "## 3.3. Risk Factors for Sepsis\nUsing this model, the probability of sepsis for patients without any of three risk factors and with the protective factor was 54%, and 90% for patients showing all three risk factors and without the protective factor. d The p -value corresponds to di erences between the three groups (never smoker, current smoker, or ex-smoker). Abbreviations: CI, confidence interval; OR, odds ratio. In multivariable analysis, male sex, diabetes mellitus, and chronic renal disease were risk factors for sepsis, while the only protective factor was previous antibiotic therapy. The area under the ROC curve was 0.62 (95% CI 0.59 to 0.65) for the predictive model of sepsis. Internal validation of the final model was conducted using a bootstrapping procedure with 1000 samples and demonstrated robust results: all variables remained significant with small 95% CIs around the original coe cients.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "3.3. Risk Factors for Sepsis",
+      "page_number": 6,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s11_p0",
+    "text": "## 3.4. Outcomes of Very Old Septic and Non-Septic Patients\nThirty-day and ICU mortality did not di er between the sepsis and no-sepsis groups (Table 3). Table 3. Clinical outcomes according to sepsis. a Calculated only for patients admitted to the ICU (17 patients in the no sepsis group and 119 patients in the sepsis group were used to calculate the percentages). b Patients who received initially non-invasive ventilation but needed subsequently intubation were included in the invasive mechanical ventilation group. Abbreviations: ICU, intensive care unit; IQR, interquartile range. However, in-hospital mortality and one-year mortality were significantly higher in the sepsis group who more frequently needed ICU admission, mechanical ventilation, and longer length of hospital stays.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "3.4. Outcomes of Very Old Septic and Non-Septic Patients",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s12_p0",
+    "text": "## 3.5. Factors Associated with 30-Day Mortality in Patients with Sepsis\nFor analysis of factors associated with 30-day mortality, we excluded the 61 patients with septic shock as previous studies have shown that septic shock was the main risk factor for mortality in patients with severe CAP [33,34]. We also excluded 207 patients from the sepsis group who had DNR orders and 68 with missing data regarding a DNR order (Table 4). In the propensity-adjusted multivariable analysis, chronic renal disease and neurologic disease were independently associated with increased 30-day mortality, while diabetes mellitus was independently associated with decreased 30-day mortality. The area under the ROC curve was 0.71 (95% CI 0.65-0.78) for the multivariable model of 30-day mortality. All variables remained significant after bootstrapping, with small 95% CIs around the original coe cients. Table 4. Significant risk factors for 30-day mortality in patients with sepsis in weighted logistic regression analyses ( n = 640). Data are shown as estimated ORs (95% CIs) of the explanatory variables in the 30-day mortality group. OR is defined as the probability of membership of the group 30-day mortality divided by the probability of membership of the non-30-day mortality group.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "3.5. Factors Associated with 30-Day Mortality in Patients with Sepsis",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s12_p1",
+    "text": "## 3.5. Factors Associated with 30-Day Mortality in Patients with Sepsis\nThe P -value is based on the null hypothesis that all ORs relating to an explanatory variable equal unity (no e ect). a The variables analyzed in the univariate analysis were: gender, smoking status, alcohol consumption, influenza vaccine, pneumococcal vaccine, previous inhaled corticosteroids, previous systemic corticosteroids, previous antibiotic in last week, chronic pulmonary disease, chronic cardiovascular disease, chronic renal disease, chronic liver disease, diabetes mellitus, neurological disease, nursing home residency, PSI risk class, C-reactive protein, lymphocytes, empiric antibiotic treatment, and appropriate empiric antibiotic treatment. b Summary statistics of the multivariable model: Pearson chi-square test, value / df = 0.82; AIC value = 163.06. Abbreviations: AIC, Akaike's Information Criterion; CI, confidence interval; OR, odds ratio; PSI, Pneumonia Severity Index.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "3.5. Factors Associated with 30-Day Mortality in Patients with Sepsis",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s13_p0",
+    "text": "## 4. Discussion\nTo the best of our knowledge, this is the first study to report on sepsis, as defined using the Sepsis-3 criteria [10], in very old patients with CAP, including the clinical characteristics of these patients and risk factors for sepsis in this age group. There are four main findings of our study. First, 71% of very old patients hospitalized with CAP presented with sepsis and 7% presented with septic shock according to the Sepsis-3 definitions. Second, male sex, chronic renal disease, and diabetes mellitus were independent risk factors for presenting with sepsis, whereas antibiotic therapy in the week prior was a protective factor. Third, both in-hospital and one-year mortality were higher in patients with sepsis than those without. Fourth, chronic renal and neurologic diseases were independently associated with increased 30-day mortality, whereas diabetes mellitus was associated with lower 30-day mortality. Aging is associated with an increased prevalence of chronic conditions. Age-related changes in the immune system increase susceptibility to infectious diseases and sepsis. In this study, sepsis a ected 71% of very old patients with CAP, 7% presented with septic shock, and 11% of those with sepsis required ICU admission. The prevalence of sepsis in our patients with CAP was almost double that previously reported by Montull et al. (38% of severe sepsis in patients with CAP) [9].",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "4. Discussion",
+      "page_number": 8,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s13_p1",
+    "text": "## 4. Discussion\nHowever, we used the current Sepsis-3 definition with a change in SOFA score 2; we included nursing home residents and focused on very old patients. In our study, we also observed an uncommon presentation of pneumonia in patients with and without sepsis. Interestingly, very old with sepsis presented less pleuritic pain and more altered mental status than patients without sepsis. These findings confirm the results of previous studies, which suggested that in elderly patients CAP may present without fever, cough or pleuritic pain but with altered mental status, a sudden decline in functional capacity, and worsening of previous comorbidities [2,35]. Physicians should be alert in the diagnosis of pneumonia in elderly patients in order to reduce complications associated with a delay in the start of the empiric antimicrobial therapy. Of note, a Greek study described four comorbidities that contribute to the development of sepsis in patients with CAP, namely diabetes mellitus, chronic heart failure, coronary heart disease, and dementia [36]. Our results supported the finding for diabetes mellitus but added chronic renal disease as a risk factor for sepsis. In addition, male sex was a risk factor; men generally have more chronic comorbidities than women, and these may a ect the integrity of host defenses to infection, thereby increasing morbidity and mortality rates. Men also exhibit a higher prevalence of CAP [37,38].",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "4. Discussion",
+      "page_number": 8,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s13_p2",
+    "text": "## 4. Discussion\nOur data indicated that prior antibiotic therapy was protective against sepsis in very old patients with CAP, supporting the findings of two previous studies in patients with CAP [9,39]. One study indicated that previous antibiotic therapy was associated with a lower prevalence of septic shock at hospital admission and a lower need for invasive ventilation [39]. The other study simply showed that prior antibiotic therapy was a protective factor in patients with CAP and sepsis [9]. These results indicate that early and appropriate antimicrobial treatment may be crucial in avoiding sepsis in very old patients with CAP. Of course, unmeasured confounders (e.g., patients with better family care are generally treated earlier, etc.) should always be considered. Moreover, dementia and other comorbidities may mask the clinical presentation of an infection, thus delaying antimicrobial administration [40]. Although there was no significant di erence in 30-day and ICU mortality rates between the two groups, patients with sepsis had higher in-hospital and 1-year mortality rates. This is in accordance with several studies reporting the burden of sepsis in the elderly population [6,9,11,38,41,42]. The mortality rate due to sepsis in the elderly has been reported to be 1.3-1.5 times higher than that in younger patients [43,44]. Together, these data highlight the need for prompt diagnosis and treatment in very old patients who develop sepsis.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "4. Discussion",
+      "page_number": 8,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s13_p3",
+    "text": "## 4. Discussion\nIn the multivariate analysis, chronic renal and neurological diseases were associated with an increased 30-day mortality in patients with CAP-related sepsis. This supports previous findings that the population-based prevalence of sepsis increases exponentially with age and number of comorbidities, and this, in turn, increases mortality risk. Diabetes mellitus was the only factor associated with a lower risk for 30-day mortality in patients with sepsis. The impact of diabetes mellitus on outcomes in patients with sepsis remains controversial. In a recent prospective cohort study from the Netherlands, mortality was compared in 241 diabetic and 863 non-diabetic patients with sepsis; no significant di erences were found in short or long-term outcomes, inflammatory biomarker levels, coagulation factors, or endothelial activation [45]. By contrast, a study of 1.5 million critically ill patients suggested that diabetes may have a protective e ect [46]. This may relate to higher tolerance of sustained levels of moderate hyperglycemia and greater adaptability to marked fluctuations in glycemia. Thus, patients without diabetes may be worse o for having a compromised immune response and an altered microvasculature, increasing the possibility of multiple organ dysfunction [47]. In our opinion, the most important strengths of this study are the large sample size, the prospective and consecutive data collection, and the focus on sepsis in very old patients with CAP.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "4. Discussion",
+      "page_number": 8,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s13_p4",
+    "text": "## 4. Discussion\nThe exclusion of patients with DNR orders was dictated by the previous finding that this can be an important confounder in patients with sepsis [30,48]. There are, however, some limitations that need to be addressed. The prolonged recruitment period may have a ected the results because patient care has evolved during this time. That said, the protocol for CAP management at our hospital has not changed substantially during this period. Second, we did not include data about dysphagia and aspiration pneumonia, which can be common in the very old. Third, data about the quality of life, frailty, and / or functional status were not recorded. Finally, because data were collected from a single academic teaching hospital in Spain, it may not be possible to extrapolate results to patients admitted to di erent hospitals or to other countries. Unlike previous reports, which defined sepsis according to the Sepsis-2 criteria, this is the first study investigating sepsis in very old CAP patients according to its last definition (Sepsis-3 criteria). Due to the high prevalence of sepsis worldwide, it is of pivotal importance to understand its global epidemiology especially in very old patients and to guide clinicians in the early recognition of patients at risk of developing it. Of course, prompt antibiotic therapy is required to improve outcomes.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "4. Discussion",
+      "page_number": 8,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s13_p5",
+    "text": "## 4. Discussion\nMoreover, our study suggests the potential benefit of previous antibiotic therapy to protect against sepsis: in very old patients with a clear suspicion of CAP, early initiation of antibiotics in the setting of primary cares should be encouraged.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "4. Discussion",
+      "page_number": 8,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s14_p0",
+    "text": "## 5. Conclusions\nIn conclusion, in very old patients with CAP who developed sepsis, both in-hospital and 1-year mortality are higher compared with their peers who have no sepsis. Antibiotic therapy given before admission was associated with a decreased risk of sepsis though this may be influenced by unmeasured confounders. Supplementary Materials: The following are available online at http: // www.mdpi.com / 2077-0383 / 8 / 7 / 961 / s1, Table S1: Characteristics and clinical outcomes by age group, Table S2: Characteristics and clinical outcomes of very old patients from nursing home and own home environments, Table S3: Characteristics and clinical outcomes of very old ICU and non-ICU patients, Table S4: Characteristics and clinical outcomes of very old patients with and without septic shock, Figure S1: Rate of sepsis by period, Figure S2:Microbial etiology of the study population. Author Contributions: Conception and design: C.C., C.D., C.G.-V., A.L., and A.T.; Acquisition, analysis or interpretation of data: C.C., C.D., C.G.-V., D.B., A.M., A.I., J.B.-M., M.F., A.G.; Drafting the manuscript for important intellectual content: C.C., C.D., M.F., C.G.-V., A.L., J.B.-M., A.T., M.S.; Statistical analysis: A.G.; Administrative, technical or material support: C.C., C.D., A.I., C.G.-V., D.B., A.M., A.G.; All authors reviewed, revised, and approved the manuscript for submission; Study supervision: C.C., M.S. and A.T.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "5. Conclusions",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s14_p1",
+    "text": "## 5. Conclusions\nAcknowledgments: The results of this study have not been published elsewhere. We are indebted to all medical and nursing colleagues for their assistance and cooperation in this study. Catia Cill ó niz is the recipient of a Postdoctoral Grant (Strategic plan for research and innovation in health-PERIS 2016-2020). Conflicts of Interest: The authors declare no conflict of interest.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "5. Conclusions",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s15_p0",
+    "text": "## References\nChalmers, J.; Campling, J.; Ellsbury, G.; Hawkey, P.M.; Madhava, H.; Slack, M. Community-acquired pneumonia in the United Kingdom: A call to action. Pneumonia (Nathan) 2017 , 9 , 15. [CrossRef] [PubMed] Cill ó niz, C.; Rodr í guez-Hurtado, D.; Torres, A. Characteristics and Management of Community-Acquired Pneumonia in the Era of Global Aging. Med. Sci. (Basel) 2018 , 6 , 35. [CrossRef] [PubMed] Fern á ndez-Sab é , N.; Carratal à , J.; Ros ó n, B.; Dorca, J.; Verdaguer, R.; Manresa, F.; Gudiol, F. Community-acquired pneumonia in very elderly patients: Causative organisms, clinical characteristics, and outcomes. Med. (Baltim.) 2003 , 82 , 159-169. [CrossRef] [PubMed] World Population Prospects: The 2017 Revision | Multimedia Library-United Nations Department of Economic and Social A airs. Available online: https: // www.un.org / development / desa / publications / world-populationprospects-the-2017-revision.html (accessed on 9 February 2018). Flaatten, H.; de Lange, D.W.; Artigas, A.; Bin, D.; Moreno, R.; Christensen, S.; Joynt, G.M.; Bagshaw, S.M.; Sprung, C.L.; Benoit, D.; et al. The status of intensive care medicine research and a future agenda for very old patients in the ICU. Intensiv. Care Med. 2017 , 43 , 1319-1328. [CrossRef] [PubMed] Bagshaw, S.M.; Webb, S.A.R.; Delaney, A.; George, C.; Pilcher, D.; Hart, G.K.; Bellomo, R. Very old patients admitted to intensive care in Australia and New Zealand: A multi-centre cohort analysis. Crit.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s15_p1",
+    "text": "## References\nCare 2009 , 13 , R45. [CrossRef] [PubMed] Muessig, J.M.; Masyuk, M.; Nia, A.M.; Franz, M.; Kabisch, B.; Kelm, M.; Jung, C. Are we ever too old? Characteristics and outcome of octogenarians admitted to a medical intensive care unit. Med. (Baltim.) 2017 , 96 , e7776. [CrossRef] [PubMed] Lerolle, N.; Trinquart, L.; Bornstain, C.; Tadi é , J.-M.; Imbert, A.; Diehl, J.-L.; Fagon, J.-Y.; Gu é rot, E. Increased intensity of treatment and decreased mortality in elderly patients in an intensive care unit over a decade. Crit. Care Med. 2010 , 38 , 59-64. [CrossRef] Montull, B.; Men é ndez, R.; Torres, A.; Reyes, S.; M é ndez, R.; Zalaca í n, R.; Capelastegui, A.; Rajas, O.; Border í as, L.; Martin-Villasclaras, J.; et al. Predictors of Severe Sepsis among Patients Hospitalized for Community-Acquired Pneumonia. PLoS ONE 2016 , 11 , e0145929. [CrossRef] Singer, M.; Deutschman, C.S.; Seymour, C.W.; Shankar-Hari, M.; Annane, D.; Bauer, M.; Bellomo, R.; Bernard, G.R.; Chiche, J.-D.; Coopersmith, C.M.; et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA 2016 , 315 , 801-810. [CrossRef] Martin-Loeches, I.; Guia, M.C.; Vallecoccia, M.S.; Suarez, D.; Ibarz, M.; Irazabal, M.; Ferrer, R.; Artigas, A. Risk factors for mortality in elderly and very elderly critically ill patients with sepsis: A prospective, observational, multicenter cohort study. Ann. Intensiv. Care 2019 , 9 , 26. [CrossRef] Canaday, D.H.; Jump, R.L.P.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s15_p2",
+    "text": "## References\nAging has unique e ects on the risks, presentation, diagnosis, treatment and prognosis of infectious diseases. Infect. Dis. Clin. N. Am. 2017 , 31 , xiii-xv. [CrossRef] Polverino, E.; Torres, A.; Menendez, R.; Cill ó niz, C.; Valles, J.M.; Capelastegui, A.; Marcos, M.A.; Alfageme, I.; Zalacain, R.; Almirall, J.; et al. Microbial aetiology of healthcare associated pneumonia in Spain: A prospective, multicentre, case-control study. Thorax 2013 , 68 , 1007-1014. [CrossRef] [PubMed] Mandell, L.A.; Wunderink, R.G.; Anzueto, A.; Bartlett, J.G.; Campbell, G.D.; Dean, N.C.; Dowell, S.F.; File, T.M.; Musher, D.M.; Niederman, M.S.; et al. Infectious Diseases Society of America / American Thoracic Society consensus guidelines on the management of community-acquired pneumonia in adults. Clin. Infect. Dis. 2007 , 44 (Suppl. 2), S27-S72. [CrossRef] [PubMed] Torres, A.; Barber á n, J.; Falguera, M.; Men é ndez, R.; Molina, J.; Olaechea, P.; Rodr í guez, A. Grupo de la Gu í a Multidisciplinar para el Manejo de la Neumon í a Adquirida en la Comunidad (Multidisciplinary guidelines for the management of community-acquired pneumonia). Med. Clin. (Barc.) 2013 , 140 , 223.e1-223.e19. ARDS Definition Task Force; Ranieri, V.M.; Rubenfeld, G.D.; Thompson, B.T.; Ferguson, N.D.; Caldwell, E.; Fan, E.; Camporota, L.; Slutsky, A.S. Acute respiratory distress syndrome: The Berlin Definition. JAMA 2012 , 307 , 2526-2533.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s15_p3",
+    "text": "## References\n[PubMed] Vincent, J.L.; Moreno, R.; Takala, J.; Willatts, S.; De Mendonça, A.; Bruining, H.; Reinhart, C.K.; Suter, P.M.; Thijs, L.G. The SOFA (Sepsis-related Organ Failure Assessment) score to describe organ dysfunction / failure. On behalf of the Working Group on Sepsis-Related Problems of the European Society of Intensive Care Medicine. Intensiv. Care Med. 1996 , 22 , 707-710. [CrossRef] Fine, M.J.; Auble, T.E.; Yealy, D.M.; Hanusa, B.H.; Weissfeld, L.A.; Singer, D.E.; Coley, C.M.; Marrie, T.J.; Kapoor, W.N. A prediction rule to identify low-risk patients with community-acquired pneumonia. N. Engl. J. Med. 1997 , 336 , 243-250. [CrossRef] Lim, W.S.; van der Eerden, M.M.; Laing, R.; Boersma, W.G.; Karalus, N.; Town, G.I.; Lewis, S.A.; Macfarlane, J.T. Defining community acquired pneumonia severity on presentation to hospital: An international derivation and validation study. Thorax 2003 , 58 , 377-382. [CrossRef] Rhodes, A.; Evans, L.E.; Alhazzani, W.; Levy, M.M.; Antonelli, M.; Ferrer, R.; Kumar, A.; Sevransky, J.E.; Sprung, C.L.; Nunnally, M.E.; et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016. Intensiv. Care Med. 2017 , 43 , 304-377. [CrossRef] Bellomo, R.; Ronco, C.; Kellum, J.A.; Mehta, R.L.; Palevsky, P.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s15_p4",
+    "text": "## References\nAcute Dialysis Quality Initiative workgroup Acute renal failure-definition, outcome measures, animal models, fluid therapy and information technology needs: The Second International Consensus Conference of the Acute Dialysis Quality Initiative (ADQI) Group. Crit. Care 2004 , 8 , R204-R212. [CrossRef] Cill ó niz, C.; Ewig, S.; Polverino, E.; Marcos, M.A.; Esquinas, C.; Gabarr ú s, A.; Mensa, J.; Torres, A. Microbial aetiology of community-acquired pneumonia and its relation to severity. Thorax 2011 , 66 , 340-346. [CrossRef] [PubMed] Cill ó niz, C.; Polverino, E.; Ewig, S.; Aliberti, S.; Gabarr ú s, A.; Men é ndez, R.; Mensa, J.; Blasi, F.; Torres, A. Impact of age and comorbidity on cause and outcome in community-acquired pneumonia. Chest 2013 , 144 , 999-1007. [CrossRef] Hosmer, D.W.; Lemesshow, S.T.J. Applied logistic regression. D. W. Hosmer and S.; Lemeshow, Wiley, New York, 1989. No. of pages: Xiii + 307. Price: £36.00. Stat. Med. 1991 , 10 , 1162-1163. Collett, D. Modelling Binary Data ; Chapman and Hall: London, UK, 1991; ISBN 0-412-38800-6. McCullagh, P.; Nelder, J.A. Generalized Linear Models , 2nd ed.; CRC Press: Boca Raton, FL, USA, 1989; ISBN 978-0-412-31760-6. Thoemmes, F.; Ong, A.D. A Primer on Inverse Probability of Treatment Weighting and Marginal Structural Models. Emerg. Adulthood 2016 , 4 , 40-59. [CrossRef] Brookhart, M.A.; Schneeweiss, S.; Rothman, K.J.; Glynn, R.J.; Avorn, J.; Stürmer, T. Variable selection for propensity score models. Am.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s15_p5",
+    "text": "## References\nJ. Epidemiol. 2006 , 163 , 1149-1156. [CrossRef] Multivariate Statistical Modelling Based on Generalized Linear Models | Ludwig Fahrmeir | Springer. Available online: https: // www.springer.com / us / book / 9780387951874 (accessed on 13 November 2018). Huang, C.-T.; Chuang, Y.-C.; Tsai, Y.-J.; Ko, W.-J.; Yu, C.-J. High Mortality in Severe Sepsis and Septic Shock Patients with Do-Not-Resuscitate Orders in East Asia. PLoS ONE 2016 , 11 , e0159501. [CrossRef] [PubMed] Efron, B.; Tibshirani, R.J. An Introduction to the Bootstrap ; CRC Press: Boca Raton, FL, USA, 1994; ISBN 978-0-412-04231-7. Sterne, J.A.C.; White, I.R.; Carlin, J.B.; Spratt, M.; Royston, P.; Kenward, M.G.; Wood, A.M.; Carpenter, J.R. Multiple imputation for missing data in epidemiological and clinical research: Potential and pitfalls. BMJ 2009 , 338 , b2393. [CrossRef] Valencia, M.; Badia, J.R.; Cavalcanti, M.; Ferrer, M.; Agust í , C.; Angrill, J.; Garc í a, E.; Mensa, J.; Niederman, M.S.; Torres, A. Pneumonia severity index class v patients with community-acquired pneumonia: Characteristics, outcomes, and value of severity scores. Chest 2007 , 132 , 515-522. [CrossRef] Ferrer, M.; Travierso, C.; Cilloniz, C.; Gabarrus, A.; Ranzani, O.T.; Polverino, E.; Liapikou, A.; Blasi, F.; Torres, A. Severe community-acquired pneumonia: Characteristics and prognostic factors in ventilated and non-ventilated patients. PLoS ONE 2018 , 13 , e0191721.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s15_p6",
+    "text": "## References\n[CrossRef] Simonetti, A.F.; Viasus, D.; Garcia-Vidal, C.; Carratal à , J. Management of community-acquired pneumonia in older adults. Adv. Infect. Dis. 2014 , 2 , 3-16. [CrossRef] Sinapidis, D.; Kosmas, V.; Vittoros, V.; Koutelidakis, I.M.; Pantazi, A.; Stefos, A.; Katsaros, K.E.; Akinosoglou, K.; Bristianou, M.; Toutouzas, K.; et al. Progression into sepsis: An individualized process varying by the interaction of comorbidities with the underlying infection. BMC Infect. Dis. 2018 , 18 , 242. [CrossRef] Torres, A.; Peetermans, W.E.; Viegi, G.; Blasi, F. Risk factors for community-acquired pneumonia in adults in Europe: A literature review. Thorax 2013 , 68 , 1057-1065. [CrossRef] [PubMed] Ochoa-Gondar, O.; Vila-C ó rcoles, A.; de Diego, C.; Arija, V.; Maxenchs, M.; Grive, M.; Martin, E.; Pinyol, J.L. EVAN-65 Study Group The burden of community-acquired pneumonia in the elderly: The Spanish EVAN-65 study. BMC Public Health 2008 , 8 , 222. [CrossRef] [PubMed] Amaro, R.; Sellar é s, J.; Polverino, E.; Cill ó niz, C.; Ferrer, M.; Fern á ndez-Barat, L.; Mensa, J.; Niederman, M.S.; Torres, A. Antibiotic therapy prior to hospital admission is associated with reduced septic shock and need for mechanical ventilation in patients with community-acquired pneumonia. J. Infect. 2017 , 74 , 442-449. [CrossRef] [PubMed] Filbin, M.R.; Lynch, J.; Gillingham, T.D.; Thorsen, J.E.; Pasakarnis, C.L.; Nepal, S.; Matsushima, M.; Rhee, C.; Heldt, T.; Reisner, A.T.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s15_p7",
+    "text": "## References\nPresenting Symptoms Independently Predict Mortality in Septic Shock: Importance of a Previously Unmeasured Confounder. Crit. Care Med. 2018 , 46 , 1592-1599. [CrossRef] [PubMed] Á lvaro-Meca, A.; Jim é nez-Sousa, M.A.; Micheloud, D.; S á nchez-Lopez, A.; Heredia-Rodr í guez, M.; Tamayo, E.; Resino, S. Group of Biomedical Research in Critical Care Medicine (BioCritic) Epidemiological trends of sepsis in the twenty-first century (2000-2013): An analysis of incidence, mortality, and associated costs in Spain. Popul. Health Metr. 2018 , 16 , 4. [CrossRef] [PubMed] Angus, D.C.; Linde-Zwirble, W.T.; Lidicker, J.; Clermont, G.; Carcillo, J.; Pinsky, M.R. Epidemiology of severe sepsis in the United States: Analysis of incidence, outcome, and associated costs of care. Crit. Care Med. 2001 , 29 , 1303-1310. [CrossRef] [PubMed] Roch, A.; Wiramus, S.; Pauly, V.; Forel, J.-M.; Guervilly, C.; Gainnier, M.; Papazian, L. Long-term outcome in medical patients aged 80 or over following admission to an intensive care unit. Crit. Care 2011 , 15 , R36. [CrossRef] [PubMed] Nasa, P.; Juneja, D.; Singh, O. Severe sepsis and septic shock in the elderly: An overview. World J. Crit. Care Med. 2012 , 1 , 23-30. Van Vught, L.A.; Scicluna, B.P.; Hoogendijk, A.J.; Wiewel, M.A.; Klein Klouwenberg, P.M.C.; Cremer, O.L.; Horn, J.; Nürnberg, P.; Bonten, M.M.J.; Schultz, M.J.; et al. Association of diabetes and diabetes treatment with the host response in critically ill sepsis patients. Crit.",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Cilloniz_2019_s15_p8",
+    "text": "## References\nCare 2016 , 20 , 252. [CrossRef] Graham, B.B.; Keniston, A.; Gajic, O.; Trillo Alvarez, C.A.; Medvedev, S.; Douglas, I.S. Diabetes mellitus does not adversely a ect outcomes from a critical illness. Crit. Care Med. 2010 , 38 , 16-24. [CrossRef] Krinsley, J.S. Moving closer to untangling a sweet web: Hyperglycemia, diabetic status, and mortality in the critically ill. Crit. Care Med. 2010 , 38 , 295-296. [CrossRef] [PubMed] Walkey, A.J.; Weinberg, J.; Wiener, R.S.; Cooke, C.R.; Lindenauer, P.K. Association of Do-Not-Resuscitate Orders and Hospital Mortality Rate Among Patients with Pneumonia. JAMA Intern. Med. 2016 , 176 , 97-104. [CrossRef] [PubMed] ' 2019 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http: // creativecommons.org / licenses / by / 4.0 / ).",
+    "metadata": {
+      "document_id": "Cilloniz_2019",
+      "paper_id": "Cilloniz_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  }
+]

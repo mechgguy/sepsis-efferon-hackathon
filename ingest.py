@@ -65,7 +65,8 @@ def _page_of(item) -> int:
         return 1
 
 
-def parse_pdf(pdf_path: str | Path) -> ParsedPaper:
+def parse_pdf(pdf_path: str | Path, converter=None) -> ParsedPaper:
+    converter = converter or _converter
     pdf_path = Path(pdf_path)
     cache_path = PARSED_CACHE_DIR / f"{pdf_path.stem}.json"
     pdf_doc = fitz.open(str(pdf_path))
@@ -82,7 +83,7 @@ def parse_pdf(pdf_path: str | Path) -> ParsedPaper:
             )
 
     print(f"  ⚙️  First-time parse for {pdf_path.name} (Loading weights...)")
-    result = _converter.convert(str(pdf_path))
+    result = converter.convert(str(pdf_path))
     doc = result.document
     print(f"  📄 Parsed {pdf_path.name}")
 

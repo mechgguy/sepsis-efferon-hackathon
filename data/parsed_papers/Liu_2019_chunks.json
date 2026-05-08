@@ -1,0 +1,483 @@
+[
+  {
+    "id": "Liu_2019_s0_p0",
+    "text": "## Prognostic accuracy of the serum lactate level, the SOFA score and the qSOFA score for mortality among adults with Sepsis\nZhiqiang Liu 1 † , Zibo Meng 1 † , Yongfeng Li 2 , Jingyuan Zhao 1 , Shihong Wu 1 , Shanmiao Gou 1* and Heshui Wu 1*",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Prognostic accuracy of the serum lactate level, the SOFA score and the qSOFA score for mortality among adults with Sepsis",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s1_p0",
+    "text": "## Abstract\nBackground: Sepsis is a common critical condition caused by the body ' s overwhelming response to certain infective agents. Many biomarkers, including the serum lactate level, have been used for sepsis diagnosis and guiding treatment. Recently, the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) recommended the Sequential Organ Failure Assessment (SOFA) and the quick SOFA (qSOFA) rather than lactate for screening sepsis and assess prognosis. Here, we aim to explore and compare the prognostic accuracy of the lactate level, the SOFA score and the qSOFA score for mortality in septic patients using the public Medical Information Mart for Intensive Care III database (MIMIC III). Methods: The baseline characteristics, laboratory test results and outcomes for sepsis patients were retrieved from MIMIC III. Survival was analysed by the Kaplan-Meier method. Univariate and multivariate analysis was performed to identify predictors of prognosis. Receiver operating characteristic curve (ROC) analysis was conducted to compare lactate with SOFA and qSOFA scores. Results: A total of 3713 cases were initially identified. The analysis cohort included 1865 patients. The 24-h average lactate levels and the worst scores during the first 24 h of ICU admission were collected. Patients in the higher lactate group had higher mortality than those in the lower lactate group. Lactate was an independent predictor of sepsis prognosis.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Abstract",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s1_p1",
+    "text": "## Abstract\nThe AUROC of lactate (AUROC, 0.664 [95% CI, 0.639 -0.689]) was significantly higher than that of qSOFA (AUROC, 0.547 [95% CI, 0.521 -0.574]), and it was similar to the AUROC of SOFA (AUROC, 0.686 [95% CI, 0. 661 -0.710]). But the timing of lactate relative to SOFA and qSOFA scores was inconsistent. Conclusion: Lactate is an independent prognostic predictor of mortality for patients with sepsis. It has superior discriminative power to qSOFA, and shows discriminative ability similar to that of SOFA. Keywords: Sepsis, Lactate, qSOFA, SOFA, Prognosis, MIMIC III",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Abstract",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s2_p0",
+    "text": "## Background\nSepsis is a life-threatening complication of infection and characterized by physiologic, pathologic, and biochemical abnormalities [1, 2]. It is the tenth-most-common cause of death globally [3] and the most common cause of death in patients with infections, especially when sepsis is not identified and treated promptly. Early treatment of sepsis improves patients ' mortality and outcome [1]. * Correspondence: shanmiaogou@hust.edu.cn; heshuiwu@hust.edu.cn † Zhiqiang Liu and Zibo Meng contributed equally to this work. 1 Department of Pancreatic Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430022, China Full list of author information is available at the end of the article Serum lactate level is a sensitive but nonspecific indicator of metabolic stress [4]. As a product of anaerobic glycolysis, lactate is increased during hypoxia, stress and many critical illnesses [5]. Recent research presents a positive association between higher levels of lactate and increased mortality [6]; the higher the lactate level, the worse the outcome [7]. Different lactate thresholds have been recommended in some studies as an early aggressive resuscitation predictor [7 -12]. Based on this, early identification of elevated serum lactate levels can potentially lead to early identification of patients who are in danger of poor outcomes.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Background",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s2_p1",
+    "text": "## Background\nSequential Organ Failure Assessment (SOFA) [13] and quick SOFA (qSOFA) [1, 14] were designed to measure organ dysfunction in patients admitted to intensive care units (ICU). We further explored the prognostic accuracy of the serum lactate level, the SOFA and the qSOFA in predicting mortality in patients with sepsis.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Background",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s3_p0",
+    "text": "## Data source\nThe data used in this study were collected from Medical Information Mart for Intensive Care III database version 1.4 (MIMIC III v1.4), a publicly available single-center critical care database. It includes information on 46,520 patients who were admitted to the ICU of Beth Israel Deaconess Medical Center in Boston, Massachusetts from 2001 to 2012 [15]. The database documents included charted events such as demographics, vital signs, laboratory tests, fluid balance and vital status. International Classification of Diseases, Ninth Revision (ICD-9) codes were also documented by hospital staff on patient discharge. Hourly physiologic data from bedside monitors validated by ICU nurses were recorded. Written evaluations of radiologic films by specialists covering in the corresponding time period were stored in the database. The documentation in the database was provided by clinicians, data scientists, information technology personnel and users [15, 16]. The project was approved by the institutional review boards of the Massachusetts Institute of Technology (MIT) and Beth Israel Deaconess Medical Center (BIDMC); there was no requirement for individual patient consent because unidentified health information of patients was used. The raw data were extracted using structure query language (SQL) with Navicat Premium version 12.0.28 and further processed with R software (version 3.4.3, CRAN).",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Data source",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s3_p1",
+    "text": "## Data source\nThe code that supports the MIMIC-III documentation and website is publicly available, and contributions from the community of users are encouraged (https://github.com/ MIT-LCP/mimic-website). The codes used to generate the descriptive statistics are included in a notebook that is available at: https://github.com/MIT-LCP/mimic-iiipaper/ [15].",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Data source",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s4_p0",
+    "text": "## Data extraction and management\nWe obtained the related information on patients who were diagnosed with ' sepsis ' , ' severe sepsis ' and ' septic shock ' on discharge. A total of 3713 sepsis patients were included. Variables with missing data are common in the MIMIC III database. We excluded patients with missing data (patients without documented lactate or main laboratory tests including hemoglobin, albumin, WBC, bilirubin, BUN, potassium, sodium, bicarbonate, Cr, platelet analyzed in Table 2 in first 24 h from ICU admission were excluded) and patients less than 18 years of age, 1865 patients in our cohort finally met the inclusion criteria in our cohort. The detailed process of data extraction is shown in Fig. 1. We collected the following data: baseline demographic information such as age, sex, weight, and ethnicity; clinical parameters including vital signs, hospital stay, ICU stay, and survival status; laboratory tests and scores on disease scoring systems including Sequential Organ Failure Assessment (SOFA) (Additional file 8: Table S1) [13], quick SOFA (qSOFA) Additional file 9: Table S2) [1, 14], and the Glasgow Coma Scale (GCS) [17]. We retrieved the SQL scripts from the github website (https://github.com/ MIT-LCP/mimic-code/tree/master/concepts/severityscores) and used them to calculate the severity scores.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Data extraction and management",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s4_p1",
+    "text": "## Data extraction and management\nThe SOFA, qSOFA and GCS scores of the patients were calculated based on the data obtained during the first 24 h of each patient ' s ICU ' s stay; the scores represent the worst scores during the first 24 h of ICU admission. The lactate level measured during the first 24 h of ICU admission was used in this study. If lactate was measured multiple times in the first 24 h, the average lactate level was used in our study.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Data extraction and management",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s5_p0",
+    "text": "## Statistical analysis\nLactate was divided into two groups based on the cut-off value (3.225 mmol/L) which was determined by receiver operating characteristic (ROC) curve analysis [18]. Lactate group 1 included patients with lactate < 3.225 mmol/L, and lactate group 2 included patients with lactate ≥ 3.225 mmol/L. Other continuous variables were categorized and divided into groups of equal size based on the number of patients. Normally and non-normally distributed continuous variables were summarized as the mean ± SD and as the median with interquartile range (IQR), respectively. The Shapiro-Wilk test and the Kruskal Wallis test were used to assess significant differences. Categorical variables were assessed using chi-square test or Fisher ' s exact test. Kaplan-Meier curves were analysed using log-rank tests. The Cox regression model was used to analyse the independent effects of various parameters on 30-day mortality. All the analyses were conducted using R software (version 3.4.3, CRAN), SPSS software (v20.0; IBM, Armonk, NY), MedCalc Statistical Software (v15.2.2; MedCalc Software bvba, Ostend, Belgium) and PASS software (v15; NCSS Statistical Software, Kaysville, Utah, USA); a P values< 0.05 represents statistical significance.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Statistical analysis",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s6_p0",
+    "text": "## Baseline characteristics and outcomes\nA total of 1865 sepsis patients are included in this study. The baseline characteristics, vital signs, laboratory parameters and outcomes of the patients are summarized in Table 1. The lactate levels of patients in between lactate group 1 and lactate group 2 differ significantly (median 2.05 mmol/L vs. 4.95 mmol/L, p < 0.001). Patients with lower lactate have better outcomes (30-day mortality, 33.88% vs. 59.23%; 90-day mortality, 43.57% vs.67.81%; 1-year mortality, 51.46% vs. 71.39%; in-hospital mortality, 34.99% vs. 60.80%; overall mortality, 60.12% vs. 77.97%) and lower SOFA scores (median 7 vs. 11, p < 0.001), and a lower proportion of these patients have qSOFA scores of 2 or more points (84.48% vs. 91.99%). In our cohort, lactate levels show no correlation with severe sepsis rate (96.05% vs. 94.13%, p = 0.057). However, a higher proportion of patients with higher lactate levels have septic shock (63.29%vs. 70.24%, p = 0.002).",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Baseline characteristics and outcomes",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s7_p0",
+    "text": "## Lactate is an independent prognostic predictor in sepsis patients\nSurvival analysis was conducted to explore the impact of lactate on prognosis. Notably, patients in the lower lactate group had better short-term and long-term survival rates. Patients in the higher lactate group had increased 30-day, 90-day, 1-year and in-hospital mortality (Fig. 2). Furthermore, we performed univariate analysis of baseline variables (age, sex, ethnicity, admission type, and ICU type) and laboratory tests (haemoglobin, albumin, WBC, bilirubin, BUN, potassium, sodium, bicarbonate, Cr, platelets, and lactate). Age, sex, admission type, ICU type, albumin, bilirubin, BUN, potassium, bicarbonate, Cr, platelets and lactate were analysed in the univariate analysis, and the factors significantly correlated with OS were adjusted for multivariate analysis. According to the results, lactate remained an independent prognostic factor for sepsis (Table 2). The Kaplan-Meier survival curves of patients with different lactate levels in different ICU types are shown in Additional file 1: Figure S1, Additional file 2: Figure S2, Additional file 3: Figure S3, Additional file 4: Figure S4. Additional file 5: Figure S5. The AUROC for qSOFA, SOFA, lactate and the AUROC for qSOFA, SOFA and lactate in different ICU types are shown in Additional file 6: Table S3 and Additional file 7: Table S4. SOFA is often used to evaluate organ dysfunction and is correlated with mortality [1].",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Lactate is an independent prognostic predictor in sepsis patients",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s7_p1",
+    "text": "## Lactate is an independent prognostic predictor in sepsis patients\nFigure 3 illustrates the relationship between lactate and qSOFA/SOFA score ( r = 0.084, p < 0.001; r = 0.430, p < 0.001, respectively) in patients with sepsis. Higher lactate levels correlate with higher qSOFA/SOFA scores.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Lactate is an independent prognostic predictor in sepsis patients",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s8_p0",
+    "text": "## Comparison of lactate to SOFA and qSOFA scores\nThe Sepsis-3 criteria recommended qSOFA based on its simple bedside criteria and its ability to facilitate prompt identification of suspected infectious adult patients who are likely to have poor outcomes [1]. Discrimination of 30-day mortality (Fig. 4; Table 3), which was assessed by the AUROC, was significantly higher for lactate (AUROC, 0.664) than for qSOFA (AUROC, 0.547). The discriminative power of lactate was similar to that of SOFA (AUROC, 0.686). Moreover, the same trends were observed for 90-day mortality, hospital mortality and 1-year mortality (Fig. 4; Table 3). Next, we selected the cut-off values of lactate, qSOFA, SOFA that were highly sensitive and specific in predicting short-term and long-term mortality, through ROC Table 1 Baseline characteristics, vital signs, laboratory parameters and outcomes of patients with sepsis Table 1 Baseline characteristics, vital signs, laboratory parameters and outcomes of patients with sepsis (Continued) ICU, intensive care unit; SICU, surgical intensive care unit; CCU, cardiac care unit; CSRU, cardiac surgery recovery unit; MICU, medical intensive care unit; TSICU, Trauma surgical intensive care unit; GCS, Glasgow Coma Scale; SBP, systolic blood pressure; DBP, diastolic blood pressure; MBP, mean blood pressure; HR, heart rate; RR, respiratory rate; T, temperature; WBC, white blood cell; BUN, blood urea nitrogen; Cr, creatinine.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Comparison of lactate to SOFA and qSOFA scores",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s8_p1",
+    "text": "## Comparison of lactate to SOFA and qSOFA scores\nP < 0.05 means significant different curve analysis. The sensitivities, specificities, positive/ negative predictive values and positive/negative likelihood ratios (LR+/ -) of lactate for mortality are shown in Table 4. The values of LR+/ -were partiallly consistent with the results reported in a previous study [19]. Table 2 Univariate and multivariate analysis of risk factors to 30-day mortality",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Comparison of lactate to SOFA and qSOFA scores",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s9_p0",
+    "text": "## Discussion\nMultiple studies have explored the association between lactate levels and prognosis in critically ill patients. Lower lactate levels, and even levels in the normal range, were reported to be related to lower severity of sepsis [12]. Wacharasint et al demonstrated that patients with lactate levels in the normal-range (between 1.4 and 2.3 mmol/L) had markedly increasing risk of organ failure and higher mortality compared with patients who had lactate levels less than 1.4 mmol/L in two cohorts [12]. Sepsis-3 recommended serum lactate level > 2 mmol/L as a major criterion for the clinically identification of septic shock [1]. A lactate concentration greater than 4 mmol/L was described as having a specificity of 96% in predicting hospital mortality in non-hypotensive patients [20]. A retrospective study that included 7155 ICU patients showed that a significant association between lactate concentration and increased hospital mortality was first detectable at the time weighted lactate concentration was greater than 0.75 mmol/L [7]. Lactate has also used to guide resuscitation efficacy [21]. At the same time, the use of qSOFA and SOFA has been endorsed by professional societies worldwide. Recently, Simpson raised concerns that reliance on qSOFA or SOFA criteria may lead to delayed diagnosis and intervention in cases of serious infection [22].",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Discussion",
+      "page_number": 6,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s9_p1",
+    "text": "## Discussion\nFurthermore, a systematic review and meta-analysis demonstrated that qSOFA was poorly sensitive and moderately specific for the risk of death [23]. Ho [24] found that qSOFA had modest mortality predictive ability in both septic and non-septic patients in a prospective study. When combined with lactate, qSOFA showed predictive ability comparable to that of SOFA. An observational PPV, Positive predictive value; NPV, Negative predictive value; LR+, Positive likelihood ratio; LR-, Negative likelihood ratio cohort study that included patients with infection who were admitted in the emergency department demonstrated poor performance of qSOFA in predicting mortality [25]. Therefore, we compared mortality prediction by serum lactate to mortality prediction by SOFA and qSOFA. First, we found that lactate was positively associated with qSOFA/SOFA scores (Fig. 3) and prognosis (Fig. 2). Next, lactate was shown to be an independent prognostic predictor by Cox regression model analysis (Table 2). Lactate showed superior prognostic accuracy for short-term and long-term mortality compared to qSOFA, and the predictive validity of lactate was similar to that of SOFA (Table 3). The AUROC of SOFA and of qSOFA combined with lactate was similar to the AUROC reported in a previous study in septic patients [24].",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Discussion",
+      "page_number": 6,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s9_p2",
+    "text": "## Discussion\nHowever, in our cohort, qSOFA showed a capacity to predict mortality in patients with an AUROC lower than that found in Ho ' s study [24]. qSOFA had far less sensitivity, but similar specificity to lactate and SOFA (Table 4). Combining lactate with qSOFA yielded a predictive ability close to that of the SOFA score alone (Table 3). Table 3 AUROC of lactate, qSOFA, SOFA for mortality Table 4 Diagnostic sensitivity, specificity, predictive values and positive/negative likelihood ratios of lactate, qSOFA, SOFA for mortality Some studies revealed that the qSOFA score is associated with hospital mortality and that it present higher prognostic accuracy than the SIRS score in adults with suspected infection [14, 26]. The task force of Sepsis-3 suggested using qSOFA to assess organ dysfunction due to its convenience, rapid performance and repeatability. Lactate was not included as an indicator of illness severity. However, a recent study suggested that lactate reduction in the first day of ICU admission is correlated with improved outcome of septic patients regardless of the haemodynamic status [27]. Our study revealed that the sensitivity of qSOFA was low, although it showed relatively high specificity. Lactate testing is a simple, inexpensive, and reasonably sensitive tool for predicting mortality and is more stable than qSOFA when sedation is used. Lactate levels correlated significantly with the SOFA scores. This is consistent with existing studies [28 -30].",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Discussion",
+      "page_number": 6,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s9_p3",
+    "text": "## Discussion\nHigh lactate can be considered a warning signal for organ dysfunction and is a signal for urgent medical intervention. In fact, high sensitivity may be superior to specificity in the context of fatal sepsis. Although lactate was reported to guide resuscitation efficacy [21], multicentre, randomized trials indicated that fluid resuscitation was not beneficial to septic shock patients with or without hyperlactataemia [31, 32]. Moreover, fluid resuscitation and lactate clearance might be harmful when hyperlactataemia is not caused by hypoperfusion [5]. However, high lactate levels should be interpreted in accordance with the patient ' s specific circumstances. Our study has several limitations. This study is not prospective but retrospective. The inherent bias of retrospective studies could not be avoided. Lactate demonstrated low sensitivity and moderate specificity for shortand long-term mortality in septic patients. Lactate alone would not be a good predictive test of mortality. Approximately half of the adult sepsis patients in the database were excluded due to lack of laboratory testing; the significant number of excluded patients may affect our conclusion. In addition, because the data were collected from different types of ICUs, the heterogeneity of treatment further complicates the interpretation of the results.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Discussion",
+      "page_number": 6,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s9_p4",
+    "text": "## Discussion\nPrevious studies have established that early lactate levels are associated with organ dysfunctions and mortality in the ICU and emergency departments [10, 33 -35]. Delays in lactate measurement are correlated with increased mortality of septic patients [36]. However, in our cohort, the time that elapsed between the first lactate measurement and the onset of sepsis was inconsistent, and the time at which the patient ' s lactate was measured in the first 24 h was also inconsistent. Although we used the 24-h average lactate levels to eliminate the bias, the levels might be influenced by resuscitation of the patients, and the average lactate levels may not reflect the true resuscitation state of the patients. Additionally, interventions that might affect SOFA scores, qSOFA scores and prognosis were not included in the study, and lack of these data may affect the analysis. It is difficult to assess the impact of the change in the definition of sepsis on our results due to the de-identification process of the data in the database. Prospective studies need to be conducted, and better outcome predictors need to be further explored.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Discussion",
+      "page_number": 6,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s10_p0",
+    "text": "## Conclusions\nIn addition to its simplicity and accuracy, lactate is a better prognostic factor than qSOFA and SOFA in adult patients with sepsis. Further study is needed given that this work is based on retrospective data and that the timing of lactate determination in this study may affect results obtained.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Conclusions",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s11_p0",
+    "text": "## Abbreviations\nAUCROC: Area under the receiver operating characteristic curve; BIDMC: Beth Israel Deaconess Medical Center; BUN: Blood urea nitrogen; CCU: Cardiac care unit; CI: Confidence interval; Cr: Creatinine; CSRU: Cardiac surgery recovery unit; DBP: Diastolic blood pressure; GCS: Glasgow Coma Scale; HR: Hazard ratio; ICU: Intensive care unit; IQR: Interquartile range; MBP: Mean blood pressure; MICU: Medical intensive care unit; MIMIC: Medical Information Mart for Intensive Care; MIT: Massachusetts Institute of Technology; N: Number; qSOFA: quick SOFA; ROC: Receiver operating curve; RR: Respiratory rate; SBP: Systolic blood pressure; Sepsis-3: The Third International Consensus Definitions for Sepsis and Septic Shock; SICU: Surgical intensive care unit; SOFA: Sequential Organ Failure Assessment; SPO2: Percutaneous oxygen saturation; SQL: Structure query language; TSICU: Trauma surgical intensive care unit; WBC: White blood cell",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Abbreviations",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s12_p0",
+    "text": "## Acknowledgements\nThe authors would like to thank MIMIC III program for access to the database.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Acknowledgements",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s13_p0",
+    "text": "## Funding\nThis work was supported by the National Natural Science Foundation of China [grant numbers 81472309, 81372261].",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Funding",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s14_p0",
+    "text": "## Availability of data and materials\nThe datasets analyzed during the current study are available in https:// github.com/MIT-LCP/mimic-code/tree/master/concepts/severityscores.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Availability of data and materials",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s15_p0",
+    "text": "## Authors ' contributions\nHSW and SMG: Conception and design of the Work. Final approval of the work. Corresponding authors. ZQL and ZBM: Analysis and Interpretation of the data, drafting of the work. YFL, JYZ and SHW: Analysis and interpretation of the data. Revising the work critically. All authors read and approved the final manuscript.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Authors ' contributions",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s16_p0",
+    "text": "## Ethics approval and consent to participate\nEthical consent was not required in this study, since the MIMIC III data were analyzed namelessly.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Ethics approval and consent to participate",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s17_p0",
+    "text": "## Consent for publication\nThe manuscript does not include individual person ' s data.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Consent for publication",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s18_p0",
+    "text": "## Competing interests\nThe authors declare that they have no competing interests.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Competing interests",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s19_p0",
+    "text": "## Publisher ' s Note\nSpringer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Publisher ' s Note",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s20_p0",
+    "text": "## Author details\n1 Department of Pancreatic Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430022, China. 2 Department of Gastrointestinal Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430022, China. Received: 25 October 2018 Accepted: 8 March 2019",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "Author details",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Liu_2019_s21_p0",
+    "text": "## References\nSinger M, Deutschman CS, Seymour CW, Shankar-Hari M, Annane D, Bauer M, et al. The third international consensus definitions for Sepsis and septic shock (Sepsis-3). JAMA. 2016;315(8):801 -10. Soong J, Soni N. Sepsis: recognition and treatment. Clin Med (Lond). 2012; 12(3):276 -80. Bengmark S. Pro- and synbiotics to prevent sepsis in major surgery and severe emergencies. Nutrients. 2012;4(2):91 -111. Kraut JA, Madias NE. Lactic acidosis. N Engl J Med. 2014;371(24):2309 -19. Gomez H, Kellum JA. Lactate in sepsis. JAMA. 2015;313(2):194 -5. Singer AJ, Taylor M, Domingo A, Ghazipura S, Khorasonchi A, Thode HC Jr, et al. Diagnostic characteristics of a clinical screening tool in combination with measuring bedside lactate level in emergency department patients with suspected sepsis. Acad Emerg Med. 2014;21(8):853 -7. Nichol AD, Egi M, Pettila V, Bellomo R, French C, Hart G, et al. Relative hyperlactatemia and hospital mortality in critically ill patients: a retrospective multi-Centre study. Crit Care. 2010;14(1):R25. Mikkelsen ME, Miltiades AN, Gaieski DF, Goyal M, Fuchs BD, Shah CV, et al. Serum lactate is associated with mortality in severe sepsis independent of organ failure and shock. Crit Care Med. 2009;37(5):1670 -7. Cardinal Fernandez PA, Olano E, Acosta C, Bertullo H, Albornoz H, Bagnulo H. Prognostic value of lactate clearance in the first 6 hours of intensive medicine course. Med Int. 2009;33(4):166 -70.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s21_p1",
+    "text": "## References\nJansen TC, van Bommel J, Schoonderbeek FJ, Sleeswijk Visser SJ, van der Klooster JM, Lima AP, et al. Early lactate-guided therapy in intensive care unit patients: a multicenter, open-label, randomized controlled trial. Am J Respir Crit Care Med. 2010;182(6):752 -61. Puskarich MA, Trzeciak S, Shapiro NI, Albers AB, Heffner AC, Kline JA, et al. Whole blood lactate kinetics in patients undergoing quantitative resuscitation for severe sepsis and septic shock. Chest. 2013;143(6):1548 -53. Wacharasint P, Nakada TA, Boyd JH, Russell JA, Walley KR. Normal-range blood lactate concentration in septic shock is prognostic and predictive. Shock. 2012;38(1):4 -10. Vincent JL, Moreno R, Takala J, Willatts S, De Mendonca A, Bruining H, et al. The SOFA (Sepsis-related organ failure assessment) score to describe organ dysfunction/failure. On behalf of the working group on Sepsis-related problems of the European Society of Intensive Care Medicine. Intensive Care Med. 1996;22(7):707 -10. Raith EP, Udy AA, Bailey M, McGloughlin S, MacIsaac C, Bellomo R, et al. Prognostic accuracy of the SOFA score, SIRS criteria, and qSOFA score for in-hospital mortality among adults with suspected infection admitted to the intensive care unit. JAMA. 2017;317(3):290 -300. Johnson AE, Pollard TJ, Shen L, Lehman LW, Feng M, Ghassemi M, et al. MIMIC-III, a freely accessible critical care database. Sci Data. 2016;3: 160035. Oweira H, Schmidt J, Mehrabi A, Kulaksiz H, Schneider P, Schob O, et al.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s21_p2",
+    "text": "## References\nComparison of three prognostic models for predicting cancer-specific survival among patients with gastrointestinal stromal tumors. Future oncology (London, England). 2018;14(4):379 -89. Teasdale G, Jennett B. Assessment of coma and impaired consciousness. A practical scale. Lancet. 1974;2(7872):81 -4. Habibzadeh F, Habibzadeh P, Yadollahie M. On determining the most appropriate test cut-off value: the case of tests with continuous results. Biochem Med (Zagreb). 2016;26(3):297 -307. Freund Y, Lemachatti N, Krastinova E, Van Laer M, Claessens YE, Avondo A, et al. Prognostic accuracy of Sepsis-3 criteria for in-hospital mortality among patients with suspected infection presenting to the emergency department. JAMA. 2017; 317(3):301 -8. Aduen J, Bernstein WK, Khastgir T, Miller J, Kerzner R, Bhatiani A, et al. The use and clinical importance of a substrate-specific electrode for rapid determination of blood lactate concentrations. JAMA. 1994;272(21):1678 -85. Jones AE, Shapiro NI, Trzeciak S, Arnold RC, Claremont HA, Kline JA, et al. Lactate clearance vs central venous oxygen saturation as goals of early sepsis therapy: a randomized clinical trial. JAMA. 2010;303(8):739 -46. Simpson SQ. New Sepsis criteria: a change we should not make. Chest. 2016;149(5):1117 -8. Fernando SM, Tran A, Taljaard M, Cheng W, Rochwerg B, Seely AJE, et al.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s21_p3",
+    "text": "## References\nPrognostic accuracy of the quick sequential organ failure assessment for mortality in patients with suspected infection: a systematic review and meta-analysis. Ann Intern Med. 2018;168(4):266 -75. Ho KM, Lan NS. Combining quick sequential organ failure assessment with plasma lactate concentration is comparable to standard sequential organ failure assessment score in predicting mortality of patients with and without suspected infection. J Crit Care. 2017;38:1 -5. Askim A, Moser F, Gustad LT, Stene H, Gundersen M, Asvold BO, et al. Poor performance of quick-SOFA (qSOFA) score in predicting severe sepsis and mortality - a prospective study of patients admitted with infection to the emergency department. Scand J Trauma Resusc Emerg Med. 2017;25(1):56. Rudd KE, Seymour CW, Aluisio AR, Augustin ME, Bagenda DS, Beane A, et al. Association of the Quick Sequential (Sepsis-related) organ failure assessment (qSOFA) score with excess hospital mortality in adults with suspected infection in low- and middle-income countries. JAMA. 2018;319(21):2202 -11. Jansen TC, van Bommel J, Mulder PG, Lima AP, van der Hoven B, Rommes JH, et al. Prognostic value of blood lactate levels: does the clinical diagnosis at admission matter? J Trauma. 2009;66(2):377 -85. Shapiro NI, Howell MD, Talmor D, Nathanson LA, Lisbon A, Wolfe RE, et al. Serum lactate as a predictor of mortality in emergency department patients with infection. Ann Emerg Med. 2005;45(5):524 -8.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s21_p4",
+    "text": "## References\nTrzeciak S, Dellinger RP, Chansky ME, Arnold RC, Schorr C, Milcarek B, et al. Serum lactate as a predictor of mortality in patients with infection. Intensive Care Med. 2007;33(6):970 -7. Jansen TC, van Bommel J, Woodward R, Mulder PG, Bakker J. Association between blood lactate levels, sequential organ failure assessment subscores, and 28-day mortality during early and late intensive care unit stay: a retrospective observational study. Crit Care Med. 2009;37(8):2369 -74. Pro CI, Yealy DM, Kellum JA, Huang DT, Barnato AE, Weissfeld LA, et al. A randomized trial of protocol-based care for early septic shock. N Engl J Med. 2014;370(18):1683 -93. Investigators A, Group ACT, Peake SL, Delaney A, Bailey M, Bellomo R, et al. Goal-directed resuscitation for patients with early septic shock. N Engl J Med. 2014;371(16):1496 -506. Scott HF, Brou L, Deakyne SJ, Kempe A, Fairclough DL, Bajaj L. Association between early lactate levels and 30-day mortality in clinically suspected Sepsis in children. JAMA Pediatr. 2017;171(3):249 -55. Scott HF, Donoghue AJ, Gaieski DF, Marchese RF, Mistry RD. The utility of early lactate testing in undifferentiated pediatric systemic inflammatory response syndrome. Acad Emerg Med. 2012;19(11):1276 -80. Rivers EP, Kruse JA, Jacobsen G, Shah K, Loomba M, Otero R, et al. The influence of early hemodynamic optimization on biomarker patterns of severe sepsis and septic shock. Crit Care Med. 2007;35(9):2016 -24.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Liu_2019_s21_p5",
+    "text": "## References\nHan X, Edelson DP, Snyder A, Pettit N, Sokol S, Barc C, et al. Implications of centers for Medicare & Medicaid Services Severe Sepsis and septic shock early management bundle and initial lactate measurement on the Management of Sepsis. Chest. 2018;154(2):302 -8.",
+    "metadata": {
+      "document_id": "Liu_2019",
+      "paper_id": "Liu_2019",
+      "year": 2019,
+      "section": "References",
+      "page_number": 9,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  }
+]

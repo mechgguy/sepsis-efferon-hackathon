@@ -8,22 +8,15 @@ from weaviate.util import generate_uuid5
 from config import get_client, COLLECTION_NAME
 from embedder import Embedder
 
-
+from schema import CHUNK_SCHEMA
+import os
+from pathlib import Path 
 def ensure_collection(client):
     if client.collections.exists(COLLECTION_NAME):
         return
     client.collections.create(
         name=COLLECTION_NAME,
-        properties=[
-            Property(name="chunkId",            data_type=DataType.TEXT),
-            Property(name="title",              data_type=DataType.TEXT),
-            Property(name="chunkIndex",         data_type=DataType.INT),
-            Property(name="chapterIndex",       data_type=DataType.INT),
-            Property(name="compressedContent",  data_type=DataType.TEXT),
-            Property(name="shortSummary",       data_type=DataType.TEXT),
-            Property(name="fullSummary",        data_type=DataType.TEXT),
-            Property(name="pageNumber",         data_type=DataType.INT),  # ← ADD THIS
-        ],
+        properties=[Property(name=k, data_type=v[0]) for k, v in CHUNK_SCHEMA.items()],
         vector_config=Configure.Vectors.self_provided(),
     )
 
@@ -45,28 +38,54 @@ def ingest(chunks_path: str):
         with collection.batch.dynamic() as batch:
             for chunk, vector in zip(chunks, vectors):
                 meta = chunk.get("metadata", {})
-                batch.add_object(
-                    uuid=generate_uuid5(chunk["id"]),
-                    properties={
-                        "chunkId": chunk["id"],
-                        "title": meta.get("section", meta.get("title", "")),  # both formats
-                        "chunkIndex": meta.get("section_index", meta.get("part_index", 0)),
-                        "chapterIndex": meta.get("part_index", 0),
-                        "compressedContent": chunk["text"],
-                        "pageNumber": meta.get("page_number", 0),  # only in new format
-                        "shortSummary": "",
-                        "fullSummary": "",
-                    },
-                    vector=vector,
-                )
+                props = {k: fn(meta, chunk) for k, (_, fn) in CHUNK_SCHEMA.items()}
+                batch.add_object(uuid=generate_uuid5(chunk["id"]), properties=props, vector=vector)
     finally:
         client.close()
 
     print(f"Ingested {len(chunks)} chunks in {time.time() - t0:.1f}s")
 
+def ingest_folder(folder: str):
+    paths = sorted(Path(folder).glob("*_chunks.json"))
+    if not paths:
+        raise FileNotFoundError(f"No *_chunks.json found in {folder}")
+    all_chunks = []
+    for p in paths:
+        with open(p, encoding="utf-8") as f:
+            all_chunks.extend(json.load(f))
+        print(f"  Loaded {p.name}")
+    print(f"Total chunks: {len(all_chunks)}")
+    ingest_chunks(all_chunks)
+
+def ingest_chunks(chunks: list[dict]):
+    print(f"Embedding {len(chunks)} chunks...")
+    t0 = time.time()
+    embedder = Embedder()
+    vectors = embedder.embed_batch([c["text"] for c in chunks])
+    client = get_client()
+    try:
+        ensure_collection(client)
+        collection = client.collections.get(COLLECTION_NAME)
+        with collection.batch.dynamic() as batch:
+            for chunk, vector in zip(chunks, vectors):
+                meta = chunk.get("metadata", {})
+                props = {k: fn(meta, chunk) for k, (_, fn) in CHUNK_SCHEMA.items()}
+                batch.add_object(uuid=generate_uuid5(chunk["id"]), properties=props, vector=vector)
+    finally:
+        client.close()
+    print(f"Ingested {len(chunks)} chunks in {time.time() - t0:.1f}s")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--chunks", required=True, help="Path to chunks JSON file")
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--chunks", help="Path to single chunks JSON file")
+    group.add_argument("--folder", help="Folder containing *_chunks.json files")
     args = parser.parse_args()
-    ingest(args.chunks)
+
+    if args.folder:
+        ingest_folder(args.folder)
+    else:
+        with open(args.chunks, encoding="utf-8") as f:
+            chunks = json.load(f)
+        ingest_chunks(chunks)

@@ -19,7 +19,7 @@ CACHE_DIR.mkdir(parents=True, exist_ok=True)
 client = instructor.from_openai(
     OpenAI(
         base_url="http://localhost:11434/v1",
-        api_key="ollama", 
+        api_key="ENTER API KEY HERE (NOT USED FOR OLLAMA)", 
     ),
     mode=instructor.Mode.JSON, # Crucial for structured output from local models
 )

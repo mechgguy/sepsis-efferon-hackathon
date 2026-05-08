@@ -1,0 +1,665 @@
+[
+  {
+    "id": "Li_2020_s0_p0",
+    "text": "## A risk score based on pediatric sequential organ failure assessment predicts 90-day mortality in children with Klebsiella pneumoniae bloodstream infection\nShuang Li 1 † , Jingxian Liu 2 † , Feng Chen 2 , Kang Cai 1 , Jintong Tan 3 , Wei Xie 4 , Rong Qian 5 , Xiaoqin Liu 6 , Wenhong Zhang 7 , Huimin Du 1* , Ying Liu 2* and Lisu Huang 1*",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "A risk score based on pediatric sequential organ failure assessment predicts 90-day mortality in children with Klebsiella pneumoniae bloodstream infection",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s1_p0",
+    "text": "## Abstract\nBackground: Klebsiella pneumoniae bloodstream infection (Kp-BSI) is a serious threat to pediatric patients. The objective of this study was to explore the risk factors, validate the prediction efficiency of pediatric Sequential Organ Failure Assessment (SOFA) and establish better early predictors of mortality in pediatric patients with Kp-BSI. Methods: All children diagnosed with Kp-BSI were included in this retrospective cohort study from January 2009 to June 2019. Basic characteristics, symptoms and physical examinations, treatments, laboratory statistics, and SOFA at the onset of Kp-BSI were recorded. The Cox proportional hazard model and receiver operating characteristic curves were used to assess the association between the variables and the 90-day mortality and their predictive value. DeLong ' s test of receiver operating characteristic curves and integrated discrimination improvement index were used to determine the improvement in predictive capacity of the modified SOFA models. A predictive score was developed using multivariate logistic regression. Results: Of the 146 children enrolled, 33 (22.6%) patients died within 90 days. Hospitalization in the last 6 months, intra-abdominal source of infection, presence of organ failure, and altered levels of blood biomarkers, including Creactive protein, albumin, and lactate were significant risk factors for 90-day mortality.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Abstract",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s1_p1",
+    "text": "## Abstract\nThe area under the curve (AUC) of SOFA for predicting 90-day mortality was 0.80 (95% CI 0.71 -0.89). Moreover, we found that a prediction model combining SOFA with two other parameters, namely hospitalization in the last 6 months and intraabdominal source of infection, was better at predicting mortality (AUC = 0.89, 95% CI 0.82 -0.96; sensitivity = 0.86; specificity = 0.84). According to this novel risk model, we defined three statistically different groups: low-risk, (Continued on next page) * Correspondence: donghuimin@xinhuamed.com.cn; liuying01@xinhuamed.com.cn; huanglisu@xinhuamed.com.cn Shuang Li and Jingxian Liu contributed equally to this work. 1 Department of Infectious Diseases, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, No. 1665, Kongjiang Road, Yangpu District, Shanghai 200092, China † 2 Division of Medical Microbiology, Department of Clinical Laboratory, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, No. 1665, Kongjiang Road, Yangpu District, Shanghai 200092, China Full list of author information is available at the end of the article © The Author(s).",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Abstract",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s1_p2",
+    "text": "## Abstract\n2020 Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data. (Continued from previous page) medium-risk and high-risk groups, with an observed 90-day mortality of 5.4, 35.7, and 72.0%, respectively. With reference to the low-risk patients, the medium-risk and high-risk groups had a higher mortality, with hazard ratios of 8.36 (95% CI 3.60 -27.83) and 20.27 (95% CI 7.47 -54.95), respectively.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Abstract",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s1_p3",
+    "text": "## Abstract\nConclusions: The modified SOFA may be better than the original score to predict 90-day mortality in pediatric patients with Kp-BSI. Future prospective studies are required to validate this novel scoring system in external cohorts. Keywords: Klebsiella pneumoniae , Children, Mortality, Risk score",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Abstract",
+      "page_number": 1,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s2_p0",
+    "text": "## Background\nInfections caused by Enterobacteriaceae , especially the carbapenem-resistant Enterobacteriaceae , which can cost up to $66,031 per patient for hospital treatments in the US [1], are currently considered an urgent threat to global public health. Klebsiella pneumoniae ( K. pneumoniae ), a member of the family Enterobacteriaceae , is an opportunistic pathogen mainly associated with nosocomial infections [2]. In addition to the increased healthcare expenditure, K. pneumoniae is associated with high mortality and prolonged hospital stays [3]. Compared with the overall mortality owing to pneumonia (0.65%) [4], the mortality caused by K. pneumoniae bloodstream infection (Kp-BSI) in young children is even higher, ranging from 12.3 to 26.6% in individual institutions [5, 6]. Notably, bloodstream infections by K. pneumoniae are more deadly than any other type of infection caused by this species of bacteria [7]. For this reason, instruments with high sensitivity and specificity for early prediction of survival may aid in the timely initiation of treatments and improve the outcome of patients with Kp-BSI. There have been several studies focused on the early prediction of mortality in children with Kp-BSI. It was reported that intensive care admission, severity of comorbidities, and carbapenem resistance may be independent predictors [5, 6, 8].",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Background",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s2_p1",
+    "text": "## Background\nThe mortality rate in patients with bloodstream infections due to carbapenem-resistant K. pneumoniae (CR-Kp) was found to be eight times higher than in those infected with carbapenem-susceptible strains [6]; in other studies, however, the results were inconsistent [5, 9]. Additionally, the clinical history, symptoms, and physical examinations were often ignored in these studies. Critical values of acute-phase reactants typically associated with infections, including the C-reactive protein and procalcitonin, are also used to predict mortality of patients with general sepsis, with a moderate predictive power [10]. However, the predictive capacity of these biomarkers in patients with Kp-BSI remains unknown. As Kp-BSI frequently leads to sepsis, the Sequential Organ Failure Assessment (SOFA) score is accepted as an indicator of mortality in patients with Kp-BSI [11]. However, few studies have validated the sensitivity and specificity of the SOFA score in predicting the mortality of patients with Kp-BSI; moreover, the organ-based SOFA sub-scores are not specific for K. pneumoniae infections. In pediatric patients with sepsis, the age-adapted SOFA score is a promising prognostic instrument [12], but it has not been validated in children with a specific type of infection. Overall, risk factors and early predictors of mortality in children with Kp-BSI have not been thoroughly investigated.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Background",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s2_p2",
+    "text": "## Background\nIn this study, we aimed to identify prognostic predictors of mortality and evaluate whether consecutive combination of pediatric SOFA score with clinical characteristics or biomarkers could improve the score ' s ability to predict mortality in a cohort of pediatric patients with Kp-BSI.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Background",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s3_p0",
+    "text": "## Study design\nThis was a 10-year retrospective cohort study conducted at Xinhua Hospital affiliated to Shanghai Jiao Tong University School of Medicine, a 3000-bed tertiary care university teaching hospital in Shanghai, China. Pediatric patients ( ≤ 18 years old) diagnosed with Kp-BSI between January 2009 and June 2019 were included in the study. Patients who were transferred from other hospitals were excluded. The primary outcome was the 90-day mortality after diagnosis of Kp-BSI; the 14- and 30-day mortality were also recorded. Discharged patients made routine visits to the clinic every month. Patient follow-up was performed retrospectively by phone interviews and by checking medical records. The study was approved by the ethics committee and the review board of Xinhua Hospital (ID: XHEC-C-2019-109) and complied with the ethical principles stated by the Declaration of Helsinki.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Study design",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s4_p0",
+    "text": "## Clinical data collection\nAll medical records of the enrolled patients were reviewed by a team of physicians from the microbiology department, the infectious diseases department, and the pediatric/neonatal intensive care unit. The following variables were collected from the medical charts: demographic characteristics (age, sex, admission year, and admission ward), birth status (preterm birth and cesarean delivery), the weight-for-age z-score (calculated using the Anthro software version 3.2.2) [13], comorbidities (congenital gastrointestinal anomalies, congenital heart diseases, and malignancies), probable source of infection, prior hospitalization in the last 6 months, invasive treatments before the onset of Kp-BSI (surgery, urinary catheterization, gastrointestinal decompression, sputum suction, and invasive ventilation), and levels of biomarkers (leukocyte counts, platelet counts, hemoglobin, procalcitonin, C-reactive protein, albumin, total bilirubin, creatinine, and lactate). The severity of organ failure was measured using SOFA score age-adapted for children [12]. The level of biomarkers and risk scores at the time of Kp-BSI onset were determined within 24 h after the index blood culture [14]. The definitive antimicrobial treatments, which defined as the agents used for the longest duration within the first week after the index blood culture [15], were recorded for children with CR-Kp bloodstream infection.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Clinical data collection",
+      "page_number": 2,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s5_p0",
+    "text": "## Definitions and methods of microbiology\nA case of bloodstream infection was defined as positive blood cultures from two separate venipuncture sites. A solitary blood culture was considered contaminated and excluded from the analysis [16]. Bloodstream infections were considered healthcare-associated in patients who stayed in the hospital for more than 48 h or fulfilled other published criteria [17]. K. pneumoniae isolates were identified by matrix-assisted laser desorption ionization time-of-flight mass spectrometry (MALDITOF MS, Bruker Daltonics, Bremen, Germany). The antibiotic susceptibilities of the isolates were determined using Vitek 2 automated system (BioMérieux, Marcy l ' Etoile, France), combined with a disk diffusion method. The results were interpreted according to the Clinical and Laboratory Standards Institute criteria [18]. Isolates resistant to at least one carbapenem were considered carbapenem-resistant. Polymicrobial bloodstream infections were defined as the isolation of more than one bacterial species from a set of blood culture bottles [19]. Intra-abdominal infection was broadly defined as localized or diffuse peritoneal inflammation caused by microorganisms. The source of the bloodstream infection and the specific infection sites were determined by two investigators according to the standard definitions by the Centers for Disease Control and Prevention [20].",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Definitions and methods of microbiology",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s6_p0",
+    "text": "## Statistical analysis\nContinuous variables with normal distribution were presented as mean ± standard deviation; non-normal variables were presented as median and interquartile range; and categorical variables were described as frequencies. Differences in continuous variables between survivors and non-survivors were compared using the Student ' s t -test or the nonparametric Mann-Whitney U test. Proportions were compared using the χ -squared test for large samples, and the Fisher ' s exact probability test for small samples. To estimate the association between patients ' clinical characteristics and mortality, we evaluated the hazard ratio (HR) and the 95% confidence interval (CI) using the Cox proportional hazard model. We grouped the levels of procalcitonin, C-reactive protein, and albumin within the interquartile range (between P25 and P75) for the regression analysis. We used a multivariate Cox regression adjusted for baseline characteristics (age, sex, admission year, and admission ward) to identify independent risk factors of mortality. Risk factors with P < 0.10 in the Cox analysis were introduced stepwise into the predictive model as additional components of the SOFA score. Receiver operating characteristic curves were analyzed and each respective area under the curve (AUC) was calculated to evaluate the discriminatory power of single parameters and combined models for prediction of mortality.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Statistical analysis",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s6_p1",
+    "text": "## Statistical analysis\nTo quantify the incremental value of the modified SOFA scores, we compared the predictive performance of the models using the DeLong ' s test [21] and the integrated discrimination improvement index [22]. An optimal score (Kp-specific SOFA) was established using the model reported by Sullivan et al. [23]. Three cut-off points of the risk score were selected to stratify patients at three-tiered risk corresponded to the observed mortality rates. The Kaplan-Meier curves and log-rank tests were used to compare survival between risk-stratified patients. A two-tailed P -value of less than 0.05 was considered statistically significant. The R software version 3.6.1 (http://www.R-project.org) and the EmpowerStats (www.empowerstats.com; X&Y Solutions, Inc., Boston, MA, USA) were used for all statistical analyses.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Statistical analysis",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s7_p0",
+    "text": "## Characteristics of the study population\nDuring the study period (January 2009 to June 2019) there were 50,000 estimated admissions per year in pediatric wards at Xinhua Hospital, and 154 (0.03%) patients were diagnosed with Kp-BSI. Eight (5.5%) patients were lost to follow-up; a total of 146 patients were included in this retrospective study. Overall, 20 (13.7%), 25 (17.1%), and 33 (22.6%) patients died within 14, 30, and 90 days from Kp-BSI onset, respectively. The median age of patients was 2.7 months (interquartile range: 1.0, 10.9 months, Table 1). Bloodstream infections were mainly secondary to pneumonia (50.0%), followed by intra-abdominal infection (20.5%) and indwelling central catheters (6.8%). Primary bacteremia occurred in 22.6% of patients (Table 2). Most of the KpBSI (84.9%) cases were healthcare-associated, and nearly half of the patients (48.6%) were infected with CR-Kp. The most common organ failure within 24 h from Kp- IQR interquartile range a Congenital gastrointestinal anomalies included esophageal atresia, intestinal atresia, anal atresia, and diaphragmatic hernia BSI onset was respiratory failure (63.0%), followed by hepatic failure (52.7%), coagulation disorder (39.7%), shock/ hypotension (29.5%), renal failure (22.6%), and altered mental status (15.1%). Only 11.6% of the patients had no organ failure at the time of Kp-BSI onset (Table 2).",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Characteristics of the study population",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s7_p1",
+    "text": "## Characteristics of the study population\nTable 1 Baseline characteristics of the survivors and the non-survivors in children with Klebsiella pneumoniae bloodstream infection during January 2009 to June 2019",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Characteristics of the study population",
+      "page_number": 3,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s8_p0",
+    "text": "## Risk factors associated with 90-day mortality in patients with Kp-BSI\nA total of 33 (22.6%) patients died within 90 days after the onset of Kp-BSI, and 113 (77.4%) were discharged from the hospital after reaching clinical stability. No significant differences in baseline characteristics (age, sex, admission year, and admission ward, weight-for-age z-score) were observed between survivors and nonsurvivors (Table 1). There were more patients with a history of preterm birth and a malignant disease as comorbidity among the non-survivor group compared to the survivor group. Non-survivors were characterized by a history of hospitalization in the last 6 months ( P < 0.01, Table 1). Before the onset of Kp-BSI, no differences in invasive procedures during hospitalization were observed between survivors and non-survivors (Table 2). Intra-abdominal sources of infection were more frequent among non-survivors (48.5%) than survivors (12.4%), while bloodstream infections of patients alive at day 90 were more likely to result from primary bacteremia. The prevalence of carbapenem-resistant strains in the survivors and the non-survivors was 44.2 and 63.6%, respectively. Compared to the survivors, the non-survivors had lower levels of serum albumin and platelet counts, and higher levels of C-reactive protein, procalcitonin, total bilirubin, creatinine, and lactate. Additionally, the median SOFA score of non-survivors was approximately 2-fold higher than that of survivors.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Risk factors associated with 90-day mortality in patients with Kp-BSI",
+      "page_number": 4,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s8_p1",
+    "text": "## Risk factors associated with 90-day mortality in patients with Kp-BSI\nThe increased number of organ failures at the onset of Kp-BSI was associated with a higher risk of mortality (Fig. 1). The proportion of non-survivors with abnormal function of at least three organ systems was 41.4% (24/58). After adjusting for age, sex, admission year and admission ward, patients were nearly twice as likely to die if they were born prematurely, and prior hospitalization in IQR interquartile range, SOFA sequential organ failure assessment a Laboratory examinations were performed within 24 h after the collection of blood culture samples the last 6 months was associated with a 2.4-fold increase in mortality (Table 3). For patients infected with K. pneumoniae from intra-abdominal sources, the risk of death was 6.8-fold higher compared to that of patients with primary bacteremia or catheter-related infections. Malignancies, carbapenem-resistant isolates, and respiratory failure were not significantly associated with mortality. Among the various types of organ failure, altered mental status was associated with the worst outcome (HR = 5.19, 95% CI 2.50 -10.77), followed by coagulation disorder (HR = 4.54, 95% CI 2.12 -9.72), hepatic failure (HR = 2.90, 95% CI 1.33 -6.35), shock/hypotension (HR = 2.41, 95% CI 1.21 -4.82), and renal failure (HR = 2.20, 95% CI 1.02 -4.73).",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Risk factors associated with 90-day mortality in patients with Kp-BSI",
+      "page_number": 4,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s8_p2",
+    "text": "## Risk factors associated with 90-day mortality in patients with Kp-BSI\nLow levels of albumin and high levels of sepsis-related biomarkers, including the C-reactive protein and lactate, were also significant risk factors for mortality (Table 3). Table 2 Mortality predictors at the onset of Klebsiella pneumoniae bloodstream infection",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Risk factors associated with 90-day mortality in patients with Kp-BSI",
+      "page_number": 4,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s9_p0",
+    "text": "## Antimicrobial treatments in patients infected with CR-Kp\nAmong the 71 patients with CR-Kp bloodstream infection, 40 (56.3%) received a carbapenem combined with another antibiotic as a definitive therapy, proven to be effective in vitro (including amikacin, fosfomycin, or polymyxin B), while the remainder received a high-dose extended or continuous infusion of a carbapenem. The mortality rate of patients receiving polymyxin B plus carbapenem or fosfomycin plus carbapenem was 19.4% (6/ 31), while that of patients treated with amikacin plus carbapenem and with carbapenem monotherapy was 44.4% (4/9) and 35.5% (11/31), respectively [see Table S1, Additional file 1]. Additionally, a subgroup analysis using Cox proportional hazards model showed no significant association between the type of definitive antimicrobial therapy and the 90-day mortality of patients with CR-Kp bloodstream infection [see Table S1, Additional file 1].",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Antimicrobial treatments in patients infected with CR-Kp",
+      "page_number": 6,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s10_p0",
+    "text": "## Development of a combined model on the basis of the SOFA score\nThe pediatric SOFA score had a moderate predictive power for 90-day mortality, with an AUC of 0.80 (95% CI 0.71 -0.89), along with a high sensitivity (0.84) and a low specificity (0.68). The predictive value of clinical characteristics and blood biomarkers was also evaluated. Each combination of SOFA with risk factors (including prior hospitalization, intra-abdominal source of infection, C-reactive protein, and albumin) improved the predictive performance of the model to different degrees [see Table S2, Additional file 1]. A modified SOFA model combining SOFA plus prior hospitalization and intra-abdominal source of infection was selected as the optimal multivariate predictive model (AUC = 0.89, 95% CI 0.82 -0.96; sensitivity = 0.86; specificity = 0.84; positive predictive value = 0.64; negative predictive value = 0.95), outperforming the original SOFA score (DeLong ' s test, P < 0.01, Fig. 2). According to the integrated discrimination improvement index, other combinations of SOFA with risk factors had no additional prognostic value over the selected model [see Table S3, Additional file 1].",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Development of a combined model on the basis of the SOFA score",
+      "page_number": 6,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s10_p1",
+    "text": "## Development of a combined model on the basis of the SOFA score\nThe final multivariate model (Logit [mortality] = -5.86 + 0.53 × [SOFA score] + 1.81 × [prior hospitalization, 0 or 1] + 1.83 × [intra-abdominal source, 0 or 1]) was used to develop a scoring system (Kp-specific SOFA) including: SOFA (original score), prior hospitalization (4 points) Table 3 Multivariate Cox proportional hazard regression results for risk factors of the 90-day mortality HR hazard ratio a Multivariate adjustment was made for age, sex, admission ward and admission year b Procalcitonin, C-reactive protein and albumin were categorized into three strata by the boundaries of interquartile range (P25 and P75) and intra-abdominal source (4 points). The mean estimated risk score for the study population was 8 ± 4 (range 0 -21). The observed risk of mortality and the estimated probabilities based on the Kp-specific SOFA for three risk strata (low, medium, and high) are shown in Table 4. The 90-day mortality rate was 5.4%, 35.7%, and 72.0% for low- (score 0 -8), medium- (score 9 -11), and highrisk (score ≥ 12) patients, respectively. Compared to the low-risk group, patients with mediumor high-risk scores were more likely to die (HR = 8.36, 95% CI 3.60 -27.83 for medium-risk and HR=20.27, 95% CI 7.47 -54.95 for high-risk; Table 4).",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Development of a combined model on the basis of the SOFA score",
+      "page_number": 6,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s10_p2",
+    "text": "## Development of a combined model on the basis of the SOFA score\nThis Kp-specific SOFA score was able to stratify patients into low-, medium-, and high-risk groups on the basis of the Kaplan-Meier survival curves (log-rank test, P < 0.01, Fig. 3).",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Development of a combined model on the basis of the SOFA score",
+      "page_number": 6,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s11_p0",
+    "text": "## Kp-specific SOFA in predicting 30-day mortality\nThe 30-day mortality rate was 17.1% (25/146). For predicting 30-day mortality, the AUC value of pediatric SOFA and Kp-specific SOFA was 0.79 and 0.85, respectively [see Figure S1, Additional file 1]. Three categories of risk were performed by Kaplan-Meier survival curves using the predetermined cut-off values, which demonstrated a significant difference in 30-day mortality among three strata by log-rank test ( P < 0.01) [see Figure S2, Additional file 1].",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Kp-specific SOFA in predicting 30-day mortality",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s12_p0",
+    "text": "## Discussion\nIn this 10-year retrospective study, we aimed to investigate the early predictors of mortality in patients with Kp-BSI. We found that a history of preterm birth, hospitalization in the last six months, intra-abdominal source of infection, organ failure, low serum albumin, and high levels of C-reactive protein and lactate, were independent risk factors for 90-day mortality. In particular, we demonstrate for the first time that combining two risk factors (prior history of hospitalization and intra-abdominal source of infection) with the pediatric SOFA score at the early onset of Kp-BSI has a satisfactory predictive power of 30- and 90-day mortality, with an AUC value of 0.85 and 0.89, respectively. Adding these two variables raised the score ' s specificity from 0.68 to 0.84 for predicting 90-day mortality. Moreover, this Kp-specific SOFA was also able to group patients by three mortality strata. Fig. 2 Receiver operating characteristic curves of the original SOFA score and the Kp-specific SOFA score for predicting 90-day mortality. The Kpspecific SOFA score was developed by multivariate regression (Logit [mortality] = -5.86 + 0.53 × [SOFA score] + 1.81 × [prior hospitalization, 0 or 1] + 1.83 × [intra-abdominal source, 0 or 1]). The difference in AUC values between the two models was significant according to the DeLong ' s test ( P < 0.01) In recent years, the global prevalence of K. pneumoniae has increased rapidly.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Discussion",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s12_p1",
+    "text": "## Discussion\nA multi-center study in the US reported a 3.8% point prevalence of K. pneumoniae [24]. In China, the prevalence of K. pneumoniae was found to be 12.0% among 244,843 clinical isolates, of which 19.1% were collected from the bloodstream [25]. The overall mortality reported in the literature for adult patients was as high as 29.3% [26]. In our pediatric study, the 90-day mortality was 22.6%, which was higher than that reported previously in a tertiary children ' s hospital in China (12.3%) [6]. The common presence of multiple organ failure at the onset of Kp-BSI in our study population might explain the high mortality rate. As K. pneumoniae is able to evade early innate immune reactions, it can cause systemic toxicity and result in multi-organ failure [27]. Septic shock and mechanical ventilation at the early stages of Kp-BSI are considered Table 4 Risk categories for the 90-day mortality after the onset of Klebsiella pneumoniae bloodstream infection HR hazard ratio strong risk factors for mortality [6, 28]. In our study, the respiratory tract was the most common organ to fail at the onset of Kp-BSI, but this was not associated with fatal outcomes. Altered mental status, coagulation disorder, hepatic failure, shock/hypotension, and renal failure were significantly associated with mortality.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Discussion",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s12_p2",
+    "text": "## Discussion\nWe demonstrated that the risk of mortality increased with high SOFA scores at Kp-BSI onset, thereby highlighting the importance of systematic evaluations of clinical parameters relevant to organ function at the early stages of infection. Fig. 3 Ninety-day survival probabilities at three risk categories (score ≤ 8, 9 -11 and ≥ 12) after the onset of Klebsiella pneumoniae bloodstream infection in children estimated by the Kaplan-Meier analysis (log-rank test, P <0.01) Apart from organ failure, there was a significant difference in mortality between patients withand patients withoutprior hospitalization in the last six months, though significant difference in the specific categories of comorbidity was not observed. Impaired host defense in children with severe underlying conditions is responsible for severe sepsis and poor prognosis [29]. Additionally, complicated intra-abdominal infections, including necrotizing enterocolitis, bacterial peritonitis, and intraabdominal sepsis associated with bowel perforation, are serious complications in premature babies and children recovering from surgery or with other serious conditions. The gastrointestinal system is considered critical for the host resistance to sepsis, with the bacterial translocation and microbiota disturbances in critically ill patients supporting the concept of impaired communication across the gut-organ axes [30, 31].",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Discussion",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s12_p3",
+    "text": "## Discussion\nMoreover, tissue damage caused by intra-abdominal sepsis can be a source of pro-inflammatory cytokines that induce distant organ failure [32]. Compromised gut-barrier functions also perturb the clearance of bacteria and endotoxins from the systemic circulation [33]. In this study, the intra-abdominal source of bloodstream infection was associated with the worst prognosis. However, the impact of the primary infection site on mortality in patients with Kp-BSI is controversial and needs to be investigated further [34, 35]. Additionally, we explored several biomarkers that have not been considered for SOFA sub-scores but have been commonly measured in the intensive care unit. The combination of serum albumin and C-reactive protein levels with SOFA also improved risk prediction of mortality. Albumin, which is exclusively synthesized by the liver and reflects the physiological response to injury and infection, has been identified as an independent predictor of mortality in patients with Kp-BSI [36]. On the other hand, C-reactive protein is an acute-phase reactant with prognostic significance in patients with infections [10], and its response to infection is determined by the invasive mechanisms as well as host predisposition [37]. Although the measurement of multiple biomarkers may improve the identification of patients at risk, it may increase the complexity and costs of the diagnostic processes.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Discussion",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s12_p4",
+    "text": "## Discussion\nMoreover, including the levels of C-reactive protein and albumin in the risk model added only a minimal advantage compared to the Kp-specific SOFA, as determined by the integrated discrimination improvement analysis. In this study, we validated the pediatric SOFA score updated in 2017 to prognosticate the outcomes of children with Kp-BSI, and determined its AUC value to be 0.80. This finding filled the knowledge gap on the prognostic value of SOFA when applied to specific infections. Based on this data, and to address the urgent need for research on prognostic factors in pediatric Kp-BSI, we developed a Kp-specific SOFA score with enhanced AUC value by adding two risk factors as sub-scores. The Kp-specific SOFA had a high negative predictive value (0.95), suggesting that if extensively applied in the clinical field, it may be a reasonable reference to rule out high-risk pediatric patients. Most of our study population consisted of patients with healthcare-associated infection and with different comorbidities, which was representative of children with Kp-BSI in clinical practice. Therefore, our results can be extrapolated to the pediatric population with Kp-BSI. Considering different etiologies beyond Kp-BSI, combination of risk factors with the SOFA score also may strengthen its predictive accuracy in identification of high-risk patients related to other sites of infection and with infections caused by other pathogens [38]. This study had some limitations.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Discussion",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s12_p5",
+    "text": "## Discussion\nFirst, this was a retrospective study and the recall bias might be a problem. Prospective validation was not conducted for the risk score derived from our study population. Nevertheless, the recall bias has been reduced as all 146 patients underwent regular follow-ups in this hospital, which included electronic medical records, for 90 days after the onset of Kp-BSI. Second, 48.6% of the children were infected by CR-Kp and received treatments including extended/continuous infusion of carbapenem and carbapenem plus amikacin, fosfomycin, or polymyxin B. However, it is generally accepted that the first-line treatment of CR-Kp infection is based on colistin or a novel cephalosporin/ β -lactamase inhibitor combination, ceftazidime-avibactam [39], which was not used in this study group. Considering the paucity of available data in pediatric population [40], the therapy used at our institution was adjusted on the basis of the severity of infection, the susceptibility profile of isolates, and pharmacokinetics to achieve adequate antibiotic serum concentrations. Treatment is a crucial part for patient prognosis, but we did not consider the antimicrobial therapy as a factor in our predictive model due to the inconsistency between the treatments in this retrospective cohort and the current standard. Third, this was a single-center study with a potential selection bias.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Discussion",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s12_p6",
+    "text": "## Discussion\nFuture multicenter studies are needed to better determine the clinical value of the Kp-specific SOFA at the early stages of Kp-BSI in children.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Discussion",
+      "page_number": 7,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s13_p0",
+    "text": "## Conclusion\nIn conclusion, hospitalization in the six months, intraabdominal source of infection and organ failure at the early onset of Kp-BSI were important factors determining the clinical outcomes of pediatric patients. The Kpspecific SOFA may offer a better predictive tool of 90-day mortality in children with Kp-BSI.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Conclusion",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s14_p0",
+    "text": "## Supplementary Information\nThe online version contains supplementary material available at https://doi. org/10.1186/s12879-020-05644-w. Additional file 1: Table S1. Antimicrobial therapy and 90-day mortality in 71 patients with bloodstream infection caused by carbapenemresistant Klebsiella pneumoniae . In patients with CR-Kp bloodstream infection, there was no significant association between the types of definitive antimicrobial therapy and mortality according to Cox proportional hazards model. Table S2. Predictive performance of the single predictors and the combined models for predicting 90-day mortality. The SOFA score achieved the best predictive performance among single predictors. Any combination of SOFA with risk factors (prior hospitalization, intraabdominal source of infection, levels C-reactive protein, and albumin) improved the predictive performance. Table S3. The added prognostic value of the predictive models as determined by the integrated discrimination improvement index. The combinations of other predictors had no additional prognostic value over the final model: SOFA + prior hospitalization + intra-abdominal source of infection. Figure S1. Receiver operating characteristic curves of the original SOFA score and the Kpspecific SOFA score for predicting 30-day mortality. Figure S2.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Supplementary Information",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s14_p1",
+    "text": "## Supplementary Information\nThirty-day survival probabilities at three risk categories (score ≤ 8, 9 -11 and ≥ 12) after the onset of Klebsiella pneumoniae bloodstream infection in children estimated by the Kaplan-Meier analysis (log-rank test, P < 0.01)",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Supplementary Information",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s15_p0",
+    "text": "## Abbreviations\nAUC: Area under the curve; CI: Confidence interval; CR-Kp: Carbapenemresistant Klebsiella pneumoniae ; HR: Hazard ratio; Kp-BSI: Klebsiella pneumoniae bloodstream infection; SOFA: Sequential Organ Failure Assessment",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Abbreviations",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s16_p0",
+    "text": "## Acknowledgements\nWe thank all participants and staffs of this study and the physicians at Xinhua Hospital affiliated to Shanghai Jiao Tong University School of Medicine.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Acknowledgements",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s17_p0",
+    "text": "## Authors ' contributions\nSL and JL contributed to the study design, statistical analysis and interpretation, and manuscript writing. FC, KC, JT, WX and HD contributed to clinical data collection, medical records review, and statistical interpretation, including quality control. RQ, XL and WZ contributed to the study design and the critical review of the manuscript for important intellectual content. HD, YL and LH had full access to all data in the study and contributed to the study design, data interpretation, and critical review of the manuscript. All authors read and approved the final manuscript.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Authors ' contributions",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s18_p0",
+    "text": "## Funding\nThis investigation was supported by the National Natural Science Foundation of China (No. 81874265), Shanghai Municipal Health Commission (No. 2017YQ033), Shanghai Municipal Human Resources and Social Security Bureau (No. 2018003), Medical and Industrial Cross Research Foundation of Shanghai Jiao Tong University (YG2017MS75), Shanghai Jiao Tong University School of Medicine (No.BYH20180206), Excellent Youth Talent Development Program of Xinhua Hospital (No.2016007), and Shanghai Science and Technology Commission (No.18411966600 and No.19410740800). The funding body had no role in the design of the study and collection, analysis, and interpretation of data and in writing the manuscript.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Funding",
+      "page_number": 10,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s19_p0",
+    "text": "## Availability of data and materials\nThe datasets analyzed during the current study are available from the corresponding author on reasonable request.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Availability of data and materials",
+      "page_number": 11,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s20_p0",
+    "text": "## Ethics approval and consent to participate\nEthical approval was granted from the ethics committees and review board of Xinhua Hospital affiliated to Shanghai Jiao Tong University School of Medicine (ID: XHEC-C-2019-109). The data of all cases was retrospectively collected, with removal of identifiable information. Administrative permissions to access the raw data were granted by the Department of Infectious Diseases, Department of Neonatal Medicine, Department of Pediatrics Intensive Care Unit and Department of Clinical Laboratory of Xinhua Hospital.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Ethics approval and consent to participate",
+      "page_number": 11,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s21_p0",
+    "text": "## Consent for publication\nNot applicable.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Consent for publication",
+      "page_number": 11,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s22_p0",
+    "text": "## Competing interests\nThe authors report no relationships that could be construed as a potential conflict of interest.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Competing interests",
+      "page_number": 11,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s23_p0",
+    "text": "## Author details\n1 Department of Infectious Diseases, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, No. 1665, Kongjiang Road, Yangpu District, Shanghai 200092, China. 2 Division of Medical Microbiology, Department of Clinical Laboratory, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, No. 1665, Kongjiang Road, Yangpu District, Shanghai 200092, China. 3 Department of Neonatal Medicine, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, No. 1665, Kongjiang Road, Yangpu District, Shanghai 200092, China. 4 Department of Pediatrics Intensive Care Unit, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, No. 1665, Kongjiang Road, Yangpu District, Shanghai 200092, China. 5 Department of Hospital Infection Management, Xinhua Hospital, Shanghai Jiao Tong University School of Medicine, No. 1665, Kongjiang Road, Yangpu District, Shanghai 200092, China. 6 The National Center for Register-based Research, Aarhus University, Fuglesangs Allé 26, 8210 Aarhus, Denmark. 7 Department of Infectious Diseases, Huashan Hospital, Fudan University, No. 12. Middle Urumqi Road, Jingan District, Shanghai 200040, China.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Author details",
+      "page_number": 11,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  },
+  {
+    "id": "Li_2020_s24_p0",
+    "text": "## References\nBartsch SM, McKinnell JA, Mueller LE, Miller LG, Gohil SK, Huang SS, Lee BY. Potential economic burden of carbapenem-resistant Enterobacteriaceae (CRE) in the United States. Clin Microbiol Infect. 2017;23(1):48.e9 -48.e16. https://doi.org/10.1016/j.cmi.2016.09.003. Endimiani A, Depasquale JM, Forero S, Perez F, Hujer AM, Roberts-Pollack D, Fiorella PD, Pickens N, Kitchel B, Casiano-Colon AE, et al. Emergence of blaKPC-containing Klebsiella pneumoniae in a long-term acute care hospital: a new challenge to our healthcare system. J Antimicrob Chemother. 2009; 64(5):1102 -10. https://doi.org/10.1093/jac/dkp327. Stewardson AJ, Marimuthu K, Sengupta S, Allignol A, El-Bouseary M, Carvalho MJ, Hassan B, Delgado-Ramirez MA, Arora A, Bagga R, et al. Effect of carbapenem resistance on outcomes of bloodstream infection caused by Enterobacteriaceae in low-income and middle-income countries (PANORAMA): a multinational prospective cohort study. Lancet Infect Dis. 2019;19(6):601 -10. https://doi.org/10.1016/S1473-3099(18)30792-8. McAllister DA, Liu L, Shi T, Chu Y, Reed C, Burrows J, Adeloye D, Rudan I, Black RE, Campbell H, et al. Global, regional, and national estimates of pneumonia morbidity and mortality in children younger than 5 years between 2000 and 2015: a systematic analysis. Lancet Glob Health. 2019; 7(1):e47 -57. https://doi.org/10.1016/S2214-109X(18)30408-X. Buys H, Muloiwa R, Bamford C, Eley B.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "References",
+      "page_number": 11,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s24_p1",
+    "text": "## References\nKlebsiella pneumoniae bloodstream infections at a South African children ' s hospital 2006-2011, a cross-sectional study. BMC Infect Dis. 2016;16(1):570. https://doi.org/10.1186/s12879-016-1919-y. Zhang Y, Guo LY, Song WQ, Wang Y, Dong F, Liu G. Risk factors for carbapenem-resistant K. pneumoniae bloodstream infection and predictors of mortality in Chinese paediatric patients. BMC Infect Dis. 2018;18(1):248. https://doi.org/10.1186/s12879-018-3160-3. Capone A, Giannella M, Fortini D, Giordano A, Meledandri M, Ballardini M, Venditti M, Bordi E, Capozzi D, Balice MP, et al. High rate of colistin resistance among patients with carbapenem-resistant Klebsiella pneumoniae infection accounts for an excess of mortality. Clin Microbiol Infect. 2013; 19(1):E23 -30. https://doi.org/10.1111/1469-0691.12070. Nabarro LEB, Shankar C, Pragasam AK, Mathew G, Jeyaseelan V, Veeraraghavan B, Verghese VP. Clinical and bacterial risk factors for mortality in children with Carbapenem-resistant Enterobacteriaceae bloodstream infections in India. Pediatr Infect Dis J. 2017;36(6):e161 -6. https://doi.org/10. 1097/INF.0000000000001499. Saleem AF, Qamar FN, Shahzad H, Qadir M, Zaidi AK. Trends in antibiotic susceptibility and incidence of late-onset Klebsiella pneumoniae neonatal sepsis over a six-year period in a neonatal intensive care unit in Karachi, Pakistan. Int J Infect Dis. 2013;17(11):e961 -5. https://doi.org/10.1016/j.ijid. 2013.04.007.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "References",
+      "page_number": 11,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s24_p2",
+    "text": "## References\nBrodska H, Valenta J, Pelinkova K, Stach Z, Sachl R, Balik M, Zima T, Drabek T. Diagnostic and prognostic value of presepsin vs. established biomarkers in critically ill patients with sepsis or systemic inflammatory response syndrome. Clin Chem Lab Med. 2018;56(4):658 -68. https://doi.org/10.1515/ cclm-2017-0839. Kim D, Park BY, Choi MH, Yoon EJ, Lee H, Lee KJ, Park YS, Shin JH, Uh Y, Shin KS, et al. Antimicrobial resistance and virulence factors of Klebsiella pneumoniae affecting 30 day mortality in patients with bloodstream infection. J Antimicrob Chemother. 2019;74(1):190 -9. https://doi.org/10. 1093/jac/dky397. Matics TJ, Sanchez-Pinto LN. Adaptation and validation of a pediatric sequential organ failure assessment score and evaluation of the sepsis-3 definitions in critically ill children. JAMA Pediatr. 2017;171(10):e172352. https://doi.org/10.1001/jamapediatrics.2017.2352. World Health Organization. Child growth standards. https://www.who.int/ childgrowth/. Accessed 1 Dec 2019. Ha YE, Kang CI, Joo EJ, Joung MK, Chung DR, Peck KR, Lee NY, Song JH. Usefulness of C-reactive protein for evaluating clinical outcomes in cirrhotic patients with bacteremia. Korean J Intern Med. 2011;26(2):195 -200. https:// doi.org/10.3904/kjim.2011.26.2.195. Gomez-Simmonds A, Nelson B, Eiras DP, Loo A, Jenkins SG, Whittier S, Calfee DP, Satlin MJ, Kubin CJ, Furuya EY. Combination regimens for treatment of Carbapenem-resistant Klebsiella pneumoniae bloodstream infections.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "References",
+      "page_number": 11,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s24_p3",
+    "text": "## References\nAntimicrob Agents Chemother. 2016;60(6):3601 -7. https://doi. org/10.1128/AAC.03007-15. Lamy B, Dargere S, Arendrup MC, Parienti JJ, Tattevin P. How to optimize the use of blood cultures for the diagnosis of bloodstream infections? A state-of-the art. Front Microbiol. 2016;7:697. https://doi.org/10.3389/fmicb. 2016.00697. Friedman ND, Kaye KS, Stout JE, McGarry SA, Trivette SL, Briggs JP, Lamm W, Clark C, MacFarquhar J, Walton AL, et al. Health care-associated bloodstream infections in adults: a reason to change the accepted definition of community-acquired infections. Ann Intern Med. 2002;137(10):791 -7. https://doi.org/10.7326/0003-4819-137-10-200211190-00007. Clinical and Laboratory Standards Institute. Performance standards for antimicrobial susceptibility testing: supplement M100. 29th ed. Wayne: Clinical and Laboratory Standards Institute; 2019. Pammi M, Zhong D, Johnson Y, Revell P, Versalovic J. Polymicrobial bloodstream infections in the neonatal intensive care unit are associated with increased mortality: a case-control study. BMC Infect Dis. 2014;14:390. https://doi.org/10.1186/1471-2334-14-390. Frequently asked questions: bloodstream infection events. https://www.cdc. gov/nhsn/faqs/faq-bsi.html. Accessed 1 Dec 2019. DeLong ER, DeLong DM, Clarke-Pearson DL. Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach. Biometrics. 1988;44(3):837 -45. https://doi.org/10. 2307/2531595.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "References",
+      "page_number": 11,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s24_p4",
+    "text": "## References\nPencina MJ, D ' Agostino RB Sr, D'Agostino RB Jr, Vasan RS. Evaluating the added predictive ability of a new marker: from area under the ROC curve to reclassification and beyond. Stat Med. 2008;27(2):157 -72. https://doi.org/10. 1002/sim.2929. Sullivan LM, Massaro JM, D ' Agostino RB Sr. Presentation of multivariate data for clinical use: the Framingham study risk score functions. Stat Med. 2004; 23(10):1631 -60. https://doi.org/10.1002/sim.1742. Johnson JK, Wilson LE, Zhao L, Richards K, Thom KA, Harris AD. Maryland multidrug-resistant organism prevention C: point prevalence of Klebsiella pneumoniae carbapenemase-producing Enterobacteriaceae in Maryland. Infect Control Hosp Epidemiol. 2014;35(4):443 -5. https:// doi.org/10.1086/675610. Hu F, Guo Y, Yang Y, Zheng Y, Wu S, Jiang X, Zhu D, Wang F. China antimicrobial surveillance network study G: resistance reported from China antimicrobial surveillance network (CHINET) in 2018. Eur J Clin Microbiol Infect Dis. 2019;38(12):2275 -81. https://doi.org/10.1007/s10096019-03673-1. GiVi TISC, Bertolini G, Nattino G, Tascini C, Poole D, Viaggi B, Carrara G, Rossi C, Crespi D, Mondini M, et al. Mortality attributable to different Klebsiella susceptibility patterns and to the coverage of empirical antibiotic therapy: a cohort study on patients admitted to the ICU with infection. Intensive Care Med. 2018;44(10):1709 -19. https://doi.org/10. 1007/s00134-018-5360-0. Bengoechea JA, Sa Pessoa J.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "References",
+      "page_number": 11,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s24_p5",
+    "text": "## References\nKlebsiella pneumoniae infection biology: living to counteract host defences. FEMS Microbiol Rev. 2019;43(2):123 -44. https:// doi.org/10.1093/femsre/fuy043. Xu M, Fu Y, Kong H, Chen X, Chen Y, Li L, Yang Q. Bloodstream infections caused by Klebsiella pneumoniae : prevalence of blaKPC, virulence factors and their impacts on clinical outcome. BMC Infect Dis. 2018;18(1):358. https://doi.org/10.1186/s12879-018-3263-x. Dhainaut JF, Claessens YE, Janes J, Nelson DR. Underlying disorders and their impact on the host response to infection. Clin Infect Dis. 2005;41(Suppl 7):S481 -9. https://doi.org/10.1086/432001. Hsu CR, Chang IW, Hsieh PF, Lin TL, Liu PY, Huang CH, Li KT, Wang JT. A novel role for the Klebsiella pneumoniae sap (sensitivity to antimicrobial peptides) transporter in intestinal cell interactions, innate immune responses, liver abscess, and virulence. J Infect Dis. 2019;219(8):1294 -306. https://doi.org/10.1093/infdis/jiy615. Deshmukh HS, Liu Y, Menkiti OR, Mei J, Dai N, O'Leary CE, Oliver PM, Kolls JK, Weiser JN, Worthen GS. The microbiota regulates neutrophil homeostasis and host resistance to Escherichia coli K1 sepsis in neonatal mice. Nat Med. 2014;20(5):524 -30. https://doi.org/10.1038/nm.3542. Cavriani G, Domingos HV, Soares AL, Trezena AG, Ligeiro-Oliveira AP, Oliveira-Filho RM, Sudo-Hayashi LS, Tavares de Lima W. Lymphatic system as a path underlying the spread of lung and gut injury after intestinal ischemia/reperfusion in rats. Shock.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "References",
+      "page_number": 11,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s24_p6",
+    "text": "## References\n2005;23(4):330 -6. https://doi.org/10. 1097/01.shk.0000157303.76749.9b. Fay KT, Ford ML, Coopersmith CM. The intestinal microenvironment in sepsis. Biochim Biophys Acta Mol basis Dis. 2017;1863(10 Pt B):2574 -83. https://doi.org/10.1016/j.bbadis.2017.03.005. Tian L, Tan R, Chen Y, Sun J, Liu J, Qu H, Wang X. Epidemiology of Klebsiella pneumoniae bloodstream infections in a teaching hospital: factors related to the carbapenem resistance and patient mortality. Antimicrob Resist Infect Control. 2016;5:48. https://doi.org/10.1186/ s13756-016-0145-0. Falcone M, Bassetti M, Tiseo G, Giordano C, Nencini E, Russo A, Graziano E, Tagliaferri E, Leonildi A, Barnini S, et al. Time to appropriate antibiotic therapy is a predictor of outcome in patients with bloodstream infection caused by KPC-producing Klebsiella pneumoniae . Crit Care. 2020;24(1):29. https://doi.org/10.1186/s13054-020-2742-9. Pan H, Lou Y, Zeng L, Wang L, Zhang J, Yu W, Qiu Y. Infections caused by Carbapenemase-producing Klebsiella pneumoniae : microbiological characteristics and risk factors. Microb Drug Resist. 2019;25(2):287 -96. https://doi.org/10.1089/mdr.2018.0339. Abe R, Oda S, Sadahiro T, Nakamura M, Hirayama Y, Tateishi Y, Shinozaki K, Hirasawa H. Gram-negative bacteremia induces greater magnitude of inflammatory response than gram-positive bacteremia. Crit Care. 2010;14(2): R27. https://doi.org/10.1186/cc8898. Simpson SQ. New sepsis criteria: a change we should not make. Chest.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "References",
+      "page_number": 11,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s24_p7",
+    "text": "## References\n2016;149(5):1117 -8. https://doi.org/10.1016/j.chest.2016.02.653. Hawkey PM, Warren RE, Livermore DM, McNulty AM, Enoch DA, Otter JA, Wilson APR. Treatment of infections caused by multidrug-resistant gram-negative bacteria: report of the British Society for Antimicrobial Chemotherapy/Healthcare Infection Society/British Infection Association Joint Working Party. J Antimicrob Chemother. 2018;73(suppl_3):iii2 -iii78. https://doi.org/10.1093/jac/dky027. Chiotos K, Hayes M, Gerber JS, Tamma PD. Treatment of Carbapenemresistant Enterobacteriaceae infections in children. J Pediatr Infect Dis Soc. 2020;9(1):56 -66. https://doi.org/10.1093/jpids/piz085.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "References",
+      "page_number": 11,
+      "chunk_type": "section",
+      "split_strategy": "sentence"
+    }
+  },
+  {
+    "id": "Li_2020_s25_p0",
+    "text": "## Publisher ' s Note\nSpringer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+    "metadata": {
+      "document_id": "Li_2020",
+      "paper_id": "Li_2020",
+      "year": 2020,
+      "section": "Publisher ' s Note",
+      "page_number": 12,
+      "chunk_type": "section",
+      "split_strategy": "heading"
+    }
+  }
+]
