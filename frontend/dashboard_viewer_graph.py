@@ -14,7 +14,6 @@ st.set_page_config(page_title="Sepsis Global Attribute Atlas", layout="wide")
 # --- PATH CONFIG ---
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 TEXT_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "data", "parsed_papers"))
-# TEXT_DIR = os.path.join(os.getcwd(), "../data/parsed_papers/")
 
 # --- ATTRIBUTE DISCOVERY LOGIC ---
 DOMAIN_MAP = {
@@ -34,67 +33,6 @@ def extract_attributes(text):
                 found.append({"Domain": domain, "Attribute": kw.capitalize()})
     return found
 
-# --- DATA LOADING (UPDATED FOR YOUR JSON STRUCTURE) ---
-# @st.cache_data
-# def load_raw_text_data():
-#     all_sections = []
-#     all_attributes = []
-#     all_links = [] 
-    
-#     if not os.path.exists(TEXT_DIR):
-#         return pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
-
-#     files = glob.glob(os.path.join(TEXT_DIR, "*.json"))
-#     for f_path in files:
-#         try:
-#             with open(f_path, "r", encoding="utf-8") as f:
-#                 data = json.load(f)
-#                 # Your JSON is a list of chunks
-#                 for chunk in data:
-#                     content = chunk.get("text", "")
-#                     metadata = chunk.get("metadata", {})
-                    
-#                     paper_id = metadata.get("paper_id", "Unknown")
-#                     heading = metadata.get("section", "Untitled")
-#                     # FIX: Access page_number from metadata
-#                     page_num = metadata.get("page_number", "N/A")
-
-#                     all_sections.append({
-#                         "paper_id": paper_id, 
-#                         "heading": heading, 
-#                         "text": content,
-#                         "page": page_num
-#                     })
-                    
-#                     found = extract_attributes(content)
-#                     unique_attrs_in_sec = list({item["Attribute"] for item in found})
-                    
-#                     for item in found:
-#                         all_attributes.append({
-#                             "paper_id": paper_id,
-#                             "Domain": item["Domain"],
-#                             "Attribute": item["Attribute"],
-#                             "Section": heading,
-#                             "Page": page_num
-#                         })
-                    
-#                     for i in range(len(unique_attrs_in_sec)):
-#                         for j in range(i + 1, len(unique_attrs_in_sec)):
-#                             all_links.append({
-#                                 "source": unique_attrs_in_sec[i],
-#                                 "target": unique_attrs_in_sec[j],
-#                                 "paper_id": paper_id
-#                             })
-#         except Exception as e:
-#             st.error(f"Error processing {f_path}: {e}")
-#             continue
-
-#     df_text = pd.DataFrame(all_sections)
-#     df_attr = pd.DataFrame(all_attributes)
-#     # Ensure paper_id column exists even if empty to prevent KeyError
-#     df_links = pd.DataFrame(all_links, columns=['source', 'target', 'paper_id'])
-    
-#     return df_text, df_attr, df_links
 @st.cache_data
 def load_raw_text_data():
     all_sections = []
@@ -109,17 +47,12 @@ def load_raw_text_data():
         try:
             with open(f_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                
-                # FIX: If 'data' is a string, parse it again into a list
                 if isinstance(data, str):
                     data = json.loads(data)
-                
-                # Check if data is indeed a list of chunks as shown in your example
                 if not isinstance(data, list):
                     continue
 
                 for chunk in data:
-                    # Defensive check: if chunk itself is a string, skip or parse
                     if isinstance(chunk, str):
                         continue
                         
@@ -157,7 +90,6 @@ def load_raw_text_data():
                                 "paper_id": paper_id
                             })
         except Exception as e:
-            # We print to console so it doesn't clutter the Streamlit UI too much
             print(f"Error processing {f_path}: {e}")
             continue
 
@@ -178,7 +110,6 @@ else:
         paper_list = sorted(df_text['paper_id'].unique())
         selected_papers = st.multiselect("Active Papers", paper_list, default=paper_list)
 
-    # Filtered DataFrames
     f_text = df_text[df_text['paper_id'].isin(selected_papers)]
     f_attr = df_attr[df_attr['paper_id'].isin(selected_papers)]
     f_links = df_links[df_links['paper_id'].isin(selected_papers)] if not df_links.empty else pd.DataFrame(columns=['source', 'target', 'paper_id'])
@@ -187,79 +118,70 @@ else:
         "📊 Attribute Analytics", "🔍 Traceability", "🧠 Explainability & Graph", "🤝 Cross-Study Consensus", "📖 Literature Atlas"
     ])
 
-    # --- TAB: TRACEABILITY (PAGE NUMBERS FIXED HERE) ---
+    # --- TAB: TRACEABILITY ---
     with tab_search:
         st.subheader("📋 Extracted Clinical Variables & Evidence")
+        st.info("This registry maps discovered clinical variables back to their exact location in the source literature. Use the search bar to find specific evidence for biomarkers or scores.")
         
         search_var = st.text_input("🔍 Search Variable Name", placeholder="e.g., Lactate")
-        
         display_df = f_attr.copy()
         if search_var:
             display_df = display_df[display_df['Attribute'].str.contains(search_var, case=False, na=False)]
 
-        # Formatting the table for Traceability with Page Numbers
         registry_table = display_df.rename(columns={
             "Attribute": "Variable",
             "paper_id": "Source Paper",
             "Section": "Section Heading",
-            "Page": "Pg #" # This matches the column name we created in load_raw_text_data
+            "Page": "Pg #"
         })
 
         st.dataframe(
             registry_table[['Domain', 'Variable', 'Source Paper', 'Pg #', 'Section Heading']],
-            width='stretch',
+            use_container_width=True,
             hide_index=True,
             column_config={
-                "Pg #": st.column_config.NumberColumn("Pg #", format="%d"), # Formats as integer
+                "Pg #": st.column_config.NumberColumn("Pg #", format="%d"),
                 "Variable": st.column_config.TextColumn("Variable", width="medium"),
                 "Source Paper": st.column_config.TextColumn("Source Paper", width="medium"),
                 "Section Heading": st.column_config.TextColumn("Evidence Context", width="large"),
             }
         )
 
-    # --- TAB: ANALYTICS (STACKED) ---
+    # --- TAB: ANALYTICS ---
     with tab_viz:
         st.subheader("🎯 Clinical Attribute Coverage")
+        st.write("This sunburst chart shows the hierarchy of clinical data. **Inner rings** represent broad domains (e.g., Biomarkers), **middle rings** show specific attributes, and **outer rings** identify the source papers contributing to that data point.")
         fig_sun = px.sunburst(f_attr, path=['Domain', 'Attribute', 'paper_id'], color='Domain', template="plotly_dark")
         fig_sun.update_layout(height=700)
-        st.plotly_chart(fig_sun, width='stretch')
+        st.plotly_chart(fig_sun, use_container_width=True)
 
         st.divider()
         st.subheader("📊 Information Density")
+        st.write("This chart tracks how many clinical variables were extracted per paper. High-density bars indicate 'feature-rich' studies that are likely central to sepsis benchmarking.")
         density = f_attr.groupby(['paper_id', 'Domain']).size().reset_index(name='Mention Count')
         fig_bar = px.bar(density, x='Mention Count', y='paper_id', color='Domain', orientation='h', template="plotly_dark")
         fig_bar.update_layout(height=max(400, len(selected_papers) * 30))
-        st.plotly_chart(fig_bar, width='stretch')
+        st.plotly_chart(fig_bar, use_container_width=True)
 
     # --- TAB: EXPLAINABILITY ---
     with tab_explain:
         c1, c2 = st.columns(2)
         with c1:
             st.write("**Attribute Consensus Matrix**")
+            st.caption("Heatmap showing the frequency of attribute mentions across papers. Bright spots highlight high-consensus variables used across the entire study corpus.")
             if not f_attr.empty:
                 matrix_data = f_attr.groupby(['Attribute', 'paper_id']).size().unstack(fill_value=0)
                 fig_heat = px.imshow(matrix_data, color_continuous_scale="Viridis", aspect="auto")
-                # fig_heat.update_layout(yaxis=dict(tickmode='linear', dtick=1, automargin=True), height=800)
                 truncated_paper_ids = [pid[:30] + '...' if len(pid) > 30 else pid for pid in matrix_data.columns]
                 fig_heat.update_layout(
-                    xaxis=dict(
-                        tickmode='array',
-                        tickvals=list(range(len(matrix_data.columns))),
-                        ticktext=truncated_paper_ids,
-                        tickangle=45,
-                        automargin=True
-                    ),
-                    yaxis=dict(
-                        tickmode='linear',
-                        dtick=1,
-                        automargin=True
-                    ),
-                    height=800,
-                    margin=dict(l=150, b=150) # Increased bottom margin for truncated labels
-)
-                st.plotly_chart(fig_heat, width='stretch')
+                    xaxis=dict(tickmode='array', tickvals=list(range(len(matrix_data.columns))), ticktext=truncated_paper_ids, tickangle=45, automargin=True),
+                    yaxis=dict(tickmode='linear', dtick=1, automargin=True),
+                    height=800, margin=dict(l=150, b=150)
+                )
+                st.plotly_chart(fig_heat, use_container_width=True)
         with c2:
             st.write("**Clinical Relationship Graph**")
+            st.caption("Network analysis of 'Co-occurrence'. Nodes (variables) are linked if they appear in the same section, revealing how biomarkers like Lactate relate to Outcomes like Mortality.")
             if not f_links.empty:
                 edge_df = f_links.groupby(['source', 'target']).size().reset_index(name='weight')
                 G = nx.from_pandas_edgelist(edge_df, 'source', 'target', ['weight'])
@@ -274,21 +196,24 @@ else:
                                         mode='markers+text', text=list(G.nodes()), textposition="top center",
                                         marker=dict(size=12, color='skyblue'))
                 fig_graph = go.Figure(data=[edge_trace, node_trace], layout=go.Layout(showlegend=False, height=800, xaxis_visible=False, yaxis_visible=False))
-                st.plotly_chart(fig_graph, width='stretch')
+                st.plotly_chart(fig_graph, use_container_width=True)
 
     # --- TAB: CONSENSUS CLOUD ---
     with tab_consensus:
         st.subheader("🤝 Cross-Study Consensus Cloud")
+        st.write("A 'Clinical Importance' map. **Larger, brighter bubbles** represent attributes mentioned most frequently across the highest number of unique studies.")
         if not f_attr.empty:
             consensus_df = f_attr.groupby('Attribute').agg({'paper_id': 'nunique', 'Attribute': 'count'}).rename(columns={'paper_id': 'Study_Count', 'Attribute': 'Total_Mentions'}).reset_index()
             consensus_df['x_pos'] = np.linspace(0, 10, len(consensus_df))
             consensus_df['y_pos'] = np.random.uniform(2, 5, len(consensus_df))
             fig_cloud = px.scatter(consensus_df, x='x_pos', y='y_pos', size='Total_Mentions', color='Total_Mentions', text='Attribute', size_max=60, hover_data=['Study_Count'], template="plotly_dark")
             fig_cloud.update_layout(showlegend=False, height=600, xaxis_visible=False, yaxis_visible=False)
-            st.plotly_chart(fig_cloud, width='stretch')
+            st.plotly_chart(fig_cloud, use_container_width=True)
 
     # --- TAB: ATLAS ---
     with tab_atlas:
+        st.subheader("📖 Literature Atlas")
+        st.info("The original source of truth. Select a paper and section to read the raw text and verify the extracted metadata.")
         paper_choice = st.selectbox("Select Paper", sorted(f_text['paper_id'].unique()))
         paper_content = f_text[f_text['paper_id'] == paper_choice]
         l, r = st.columns([1, 3])
