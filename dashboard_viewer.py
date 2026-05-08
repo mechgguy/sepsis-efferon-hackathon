@@ -7,8 +7,8 @@ import os
 st.set_page_config(page_title="Sepsis Atlas", layout="wide")
 
 # --- PATH CONFIG ---
-# RESULTS_DIR = os.path.join(os.getcwd(), "./data/parsed_papers/")
-RESULTS_DIR = os.path.join(os.getcwd(), "./data/mortality_counterfactuals/")
+RESULTS_DIR = os.path.join(os.getcwd(), "./data/parsed_papers/")
+# RESULTS_DIR = os.path.join(os.getcwd(), "./data/mortality_counterfactuals/")
 
 st.title("🏥 Sepsis Biomarker Atlas")
 
